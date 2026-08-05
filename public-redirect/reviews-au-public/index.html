@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#122d30">
+  <link rel="icon" href="data:,">
+  <title>Australia Review Intelligence — Lifely Watchtower</title>
+  <meta name="description" content="Australia-only review score, trend, complaint, and praise intelligence from Lifely Watchtower.">
+<link rel="stylesheet" href="watchtower-shell.css">
+<script src="watchtower-shell.js" defer></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --navy: #122d30;
+      --navy-2: #1d4245;
+      --cream: #f6f3ec;
+      --paper: #fffdf8;
+      --ink: #173336;
+      --muted: #617476;
+      --line: #dce2dc;
+      --sage: #dce9df;
+      --sage-strong: #567c63;
+      --teal: #2e6c6e;
+      --rose: #f2dfdc;
+      --rose-strong: #a8564c;
+      --amber: #f1e6c9;
+      --shadow: 0 18px 48px rgba(18,45,48,.08);
+      --radius: 22px;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at 8% 8%, rgba(220,233,223,.72), transparent 26rem),
+        var(--cream);
+      font-family: "DM Sans", sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
+    button, select { font: inherit; }
+    button:focus-visible, select:focus-visible, a:focus-visible { outline: 3px solid rgba(46,108,110,.3); outline-offset: 2px; }
+    .topbar {
+      position: sticky; top: 0; z-index: 20;
+      display: flex; align-items: center; justify-content: space-between; gap: 20px;
+      min-height: 64px; padding: 10px clamp(18px, 4vw, 52px);
+      color: #fff; background: rgba(18,45,48,.96); backdrop-filter: blur(12px);
+      border-bottom: 1px solid rgba(255,255,255,.1);
+    }
+    .brand { display: flex; align-items: center; gap: 11px; color: #fff; text-decoration: none; font-weight: 700; }
+    .brand-mark { display: grid; place-items: center; width: 34px; height: 34px; border-radius: 10px; background: var(--sage); color: var(--navy); font-family: "Fraunces", serif; font-size: 17px; }
+    .nav { display: flex; gap: 6px; overflow-x: auto; scrollbar-width: none; }
+    .nav a { color: rgba(255,255,255,.72); text-decoration: none; font-size: 13px; font-weight: 600; white-space: nowrap; padding: 8px 10px; border-radius: 9px; }
+    .nav a:hover, .nav a.active { color: #fff; background: rgba(255,255,255,.11); }
+    main { width: min(1420px, calc(100% - 32px)); margin: 0 auto; padding: 44px 0 72px; }
+    .hero { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: end; gap: 24px; margin-bottom: 30px; }
+    .eyebrow { margin: 0 0 8px; color: var(--teal); font-size: 12px; font-weight: 700; letter-spacing: .13em; text-transform: uppercase; }
+    h1, h2, h3 { margin-top: 0; }
+    h1 { margin-bottom: 10px; color: var(--navy); font-family: "Fraunces", serif; font-size: clamp(34px, 5vw, 64px); line-height: .98; letter-spacing: -.04em; }
+    .hero-copy { max-width: 720px; color: var(--muted); font-size: 16px; line-height: 1.7; margin: 0; }
+    .updated { display: flex; align-items: center; gap: 9px; color: var(--muted); font-size: 12px; white-space: nowrap; }
+    .pulse { width: 8px; height: 8px; border-radius: 50%; background: #42a16b; box-shadow: 0 0 0 5px rgba(66,161,107,.13); }
+    .section { margin-top: 32px; }
+    .section-head { display: flex; align-items: end; justify-content: space-between; gap: 18px; margin-bottom: 15px; }
+    .section-head h2 { margin-bottom: 4px; font-family: "Fraunces", serif; font-size: clamp(24px, 3vw, 34px); letter-spacing: -.025em; }
+    .section-head p { color: var(--muted); margin: 0; font-size: 13px; line-height: 1.5; }
+    .source-grid { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 12px; }
+    .source-card { position: relative; min-height: 184px; padding: 20px; border: 1px solid var(--line); border-radius: 18px; background: rgba(255,253,248,.88); box-shadow: 0 8px 26px rgba(18,45,48,.045); overflow: hidden; }
+    .source-card::before { content: ""; position: absolute; inset: 0 auto 0 0; width: 4px; background: var(--source-color); }
+    .source-card-top { display: flex; justify-content: space-between; gap: 10px; }
+    .platform { color: var(--muted); font-size: 11px; font-weight: 700; letter-spacing: .07em; text-transform: uppercase; }
+    .source-card h3 { margin: 4px 0 14px; font-size: 15px; line-height: 1.25; }
+    .source-link { color: var(--teal); text-decoration: none; font-size: 18px; line-height: 1; }
+    .score-row { display: flex; align-items: baseline; gap: 8px; }
+    .score { color: var(--navy); font-family: "Fraunces", serif; font-size: 42px; line-height: 1; }
+    .out-of { color: var(--muted); font-size: 12px; }
+    .delta { margin-left: auto; font-size: 11px; font-weight: 700; padding: 4px 7px; border-radius: 999px; background: var(--sage); color: var(--sage-strong); }
+    .delta.down { background: var(--rose); color: var(--rose-strong); }
+    .delta.flat { background: #ecece7; color: var(--muted); }
+    .card-meta { display: flex; justify-content: space-between; gap: 12px; margin-top: 13px; padding-top: 12px; border-top: 1px solid var(--line); color: var(--muted); font-size: 11px; }
+    .panel { border: 1px solid var(--line); border-radius: var(--radius); background: var(--paper); box-shadow: var(--shadow); overflow: hidden; }
+    .trend-shell { padding: clamp(18px, 3vw, 30px); }
+    .controls { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 14px; align-items: center; padding-bottom: 20px; border-bottom: 1px solid var(--line); }
+    .source-tabs-wrap { min-width: 0; }
+    .source-tabs { display: flex; gap: 7px; overflow-x: auto; padding: 2px; scrollbar-width: thin; }
+    .source-swipe-hint { display: none; margin: 5px 2px 0; color: var(--muted); font-size: 10px; font-weight: 700; }
+    .trend-filters { display: flex; align-items: center; gap: 8px; }
+    .region-select { min-height: 42px; max-width: 190px; border: 1px solid var(--line); border-radius: 11px; background: #fff; color: var(--ink); padding: 0 34px 0 11px; font-size: 12px; font-weight: 700; }
+    .region-select:disabled { color: var(--muted); background: #f0f1ed; }
+    .source-tab, .toggle-btn, .period-btn {
+      border: 1px solid var(--line); background: #fff; color: var(--muted); cursor: pointer; border-radius: 11px; font-weight: 700;
+    }
+    .source-tab { display: flex; align-items: center; gap: 7px; min-height: 38px; padding: 8px 11px; font-size: 12px; white-space: nowrap; }
+    .source-dot { width: 7px; height: 7px; border-radius: 50%; background: var(--dot); }
+    .source-tab.active { color: #fff; border-color: var(--navy); background: var(--navy); }
+    .toggle { display: inline-grid; grid-template-columns: 1fr 1fr; padding: 3px; border: 1px solid var(--line); border-radius: 12px; background: #f0f1ed; }
+    .toggle-btn { border: 0; min-width: 78px; min-height: 34px; background: transparent; font-size: 12px; }
+    .toggle-btn.active { color: var(--navy); background: #fff; box-shadow: 0 3px 10px rgba(18,45,48,.08); }
+    .period-toolbar { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin: 20px 0; }
+    .period-title strong { display: block; color: var(--navy); font-family: "Fraunces", serif; font-size: 22px; }
+    .period-title span { color: var(--muted); font-size: 11px; }
+    .period-nav { display: flex; align-items: center; gap: 7px; }
+    .period-btn { width: 36px; height: 36px; font-size: 18px; }
+    .period-btn:disabled { opacity: .35; cursor: default; }
+    .period-select { min-height: 36px; width: 250px; max-width: 42vw; border: 1px solid var(--line); border-radius: 10px; background: #fff; color: var(--ink); padding: 0 34px 0 10px; font-size: 12px; font-weight: 600; }
+    .summary-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; }
+    .summary-stat { padding: 15px; background: #f4f4ef; border-radius: 14px; }
+    .summary-stat .label { color: var(--muted); font-size: 10px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
+    .summary-stat .value { display: block; margin-top: 4px; color: var(--navy); font-family: "Fraunces", serif; font-size: 28px; }
+    .summary-stat .sub { display: block; margin-top: 2px; color: var(--muted); font-size: 10px; line-height: 1.35; }
+    .trend-window { margin-top: 24px; }
+    .chart-head { display: flex; justify-content: space-between; gap: 14px; align-items: center; margin-bottom: 9px; color: var(--muted); font-size: 11px; }
+    .trend-bars { display: grid; grid-template-columns: repeat(12, minmax(48px, 1fr)); gap: 7px; align-items: end; height: 230px; padding: 24px 6px 4px; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); background: repeating-linear-gradient(to bottom, transparent 0, transparent 48px, rgba(220,226,220,.7) 49px, transparent 50px); overflow-x: auto; }
+    .bar-cell { position: relative; display: grid; grid-template-rows: minmax(0, 1fr) 36px; align-items: end; height: 100%; border: 0; background: transparent; padding: 0; cursor: pointer; color: inherit; min-width: 46px; }
+    .bar-track { display: flex; align-items: end; justify-content: center; height: 100%; }
+    .bar { position: relative; width: min(32px, 72%); min-height: 2px; border-radius: 8px 8px 3px 3px; background: var(--bar-color); opacity: .68; transition: transform .18s ease, opacity .18s ease; }
+    .bar-cell:hover .bar, .bar-cell.active .bar { opacity: 1; transform: translateY(-2px); }
+    .bar-cell.active .bar { box-shadow: 0 0 0 3px rgba(18,45,48,.13); }
+    .bar-value { position: absolute; top: -18px; left: 50%; transform: translateX(-50%); color: var(--ink); font-size: 10px; font-weight: 700; }
+    .bar-count { position: absolute; left: 50%; bottom: 4px; transform: translateX(-50%); color: rgba(255,255,255,.94); font-size: 9px; font-weight: 700; }
+    .bar-label { align-self: center; color: var(--muted); font-size: 9px; font-weight: 600; line-height: 1.15; text-align: center; }
+    .empty-bar { align-self: end; margin-bottom: 6px; color: #a7b1ad; font-size: 9px; writing-mode: vertical-rl; transform: rotate(180deg); }
+    .distribution { display: grid; grid-template-columns: 150px minmax(0, 1fr); gap: 20px; align-items: start; margin-top: 24px; padding-top: 22px; border-top: 1px solid var(--line); }
+    .distribution h3 { margin-bottom: 5px; font-size: 15px; }
+    .distribution p { margin: 0; color: var(--muted); font-size: 11px; line-height: 1.5; }
+    .star-rows { display: grid; gap: 7px; }
+    .star-row { display: grid; grid-template-columns: 32px minmax(0, 1fr) 34px; align-items: center; gap: 10px; font-size: 11px; }
+    .star-label { font-weight: 700; text-align: right; }
+    .star-track { height: 9px; overflow: hidden; border-radius: 999px; background: #e8e9e4; }
+    .star-fill { height: 100%; min-width: 0; border-radius: inherit; background: linear-gradient(90deg, #d7b454, #e0c46c); }
+    .star-count { color: var(--muted); font-weight: 700; }
+    .coverage-note { display: grid; grid-template-columns: 22px minmax(0, 1fr); gap: 10px; margin-top: 20px; padding: 13px 14px; border: 1px solid #e4e0d0; border-radius: 13px; background: #fbf7e9; color: #726746; font-size: 11px; line-height: 1.55; }
+    .analysis-panel { padding: clamp(18px, 3vw, 30px); }
+    .analysis-kicker { margin-bottom: 4px; color: var(--teal); font-size: 11px; font-weight: 700; letter-spacing: .09em; text-transform: uppercase; }
+    .analysis-title { margin-bottom: 7px; font-family: "Fraunces", serif; font-size: clamp(24px, 3vw, 34px); letter-spacing: -.025em; }
+    .analysis-sub { margin: 0 0 22px; color: var(--muted); font-size: 12px; }
+    .analysis-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+    .analysis-col { border-radius: 17px; padding: 19px; }
+    .analysis-col.complaints { background: linear-gradient(145deg, #fff9f8, var(--rose)); }
+    .analysis-col.positive { background: linear-gradient(145deg, #f9fcf8, var(--sage)); }
+    .analysis-col-head { display: flex; justify-content: space-between; align-items: start; gap: 10px; margin-bottom: 14px; }
+    .analysis-col h3 { margin-bottom: 3px; font-size: 16px; }
+    .analysis-col-head p { color: var(--muted); font-size: 10px; margin: 0; }
+    .count-pill { flex: none; border-radius: 999px; padding: 5px 9px; background: rgba(255,255,255,.75); color: var(--ink); font-size: 10px; font-weight: 700; }
+    .theme-list { display: grid; gap: 10px; }
+    .theme-card { padding: 14px; border: 1px solid rgba(23,51,54,.09); border-radius: 13px; background: rgba(255,255,255,.72); }
+    .theme-top { display: flex; justify-content: space-between; gap: 12px; align-items: start; }
+    .theme-card h4 { margin: 0; font-size: 13px; line-height: 1.35; }
+    .theme-stats { flex: none; color: var(--muted); font-size: 10px; font-weight: 700; text-align: right; }
+    .theme-delta { display: inline-block; margin-left: 4px; color: var(--sage-strong); }
+    .theme-delta.up-bad { color: var(--rose-strong); }
+    .review-quote { margin: 10px 0 0; padding: 9px 10px; border-left: 3px solid rgba(23,51,54,.17); color: #4e6364; font-size: 10px; line-height: 1.5; }
+    .review-quote a { color: var(--teal); text-decoration: none; font-weight: 700; }
+    .action { margin: 9px 0 0; color: #465c5d; font-size: 10px; line-height: 1.5; }
+    .action strong { color: var(--navy); }
+    .empty-state { padding: 24px 12px; text-align: center; color: var(--muted); font-size: 11px; line-height: 1.6; }
+    .delivery-module { margin-top: 24px; padding-top: 24px; border-top: 1px solid var(--line); }
+    .delivery-head { display: flex; align-items: end; justify-content: space-between; gap: 18px; margin-bottom: 16px; }
+    .delivery-head h3 { margin-bottom: 4px; font-family: "Fraunces", serif; font-size: 22px; }
+    .delivery-head p { max-width: 780px; margin: 0; color: var(--muted); font-size: 11px; line-height: 1.55; }
+    .delivery-scope { flex: none; padding: 7px 10px; border-radius: 999px; color: var(--teal); background: rgba(220,233,223,.7); font-size: 10px; font-weight: 700; }
+    .delivery-control-stack { display: grid; gap: 10px; }
+    .delivery-control-row { display: flex; align-items: center; gap: 8px; min-width: 0; }
+    .delivery-control-label { width: 58px; flex: none; color: var(--muted); font-size: 10px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; }
+    .delivery-pills { display: flex; gap: 6px; min-width: 0; overflow-x: auto; scrollbar-width: thin; padding: 1px; }
+    .delivery-pill { min-height: 34px; display: inline-flex; align-items: center; padding: 7px 10px; border: 1px solid var(--line); border-radius: 10px; color: var(--muted); background: #fff; cursor: pointer; font-size: 11px; font-weight: 700; line-height: 1; white-space: nowrap; }
+    .delivery-pill.active { color: #fff; border-color: var(--navy); background: var(--navy); }
+    .delivery-pill:disabled { cursor: default; opacity: 1; }
+    .delivery-time-controls { display: grid; grid-template-columns: auto minmax(150px, 220px); align-items: center; gap: 8px; }
+    .delivery-period-select { min-height: 34px; border: 1px solid var(--line); border-radius: 10px; color: var(--ink); background: #fff; padding: 0 30px 0 10px; font-size: 11px; font-weight: 600; }
+    .delivery-summary { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 9px; margin-top: 16px; }
+    .delivery-stat { min-width: 0; padding: 13px; border: 1px solid var(--line); border-radius: 13px; background: #f7f6f1; }
+    .delivery-stat span { display: block; color: var(--muted); font-size: 9px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; }
+    .delivery-stat strong { display: block; margin-top: 4px; color: var(--navy); font-family: "Fraunces", serif; font-size: 24px; line-height: 1.1; overflow-wrap: anywhere; }
+    .delivery-stat small { display: block; margin-top: 3px; color: var(--muted); font-size: 9px; line-height: 1.35; }
+    .delivery-data-grid { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(280px, .8fr); gap: 12px; margin-top: 12px; }
+    .delivery-box { padding: 16px; border: 1px solid var(--line); border-radius: 15px; background: #fff; }
+    .delivery-box-head { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; margin-bottom: 12px; }
+    .delivery-box-head h4 { margin: 0; font-size: 13px; }
+    .delivery-box-head span { color: var(--muted); font-size: 9px; }
+    .reason-trend-box { margin-top: 12px; }
+    .reason-trend-intro { margin: -4px 0 12px; color: var(--muted); font-size: 9px; line-height: 1.5; }
+    .reason-trend-legend { display: flex; align-items: start; gap: 8px; margin-bottom: 12px; }
+    .reason-trend-chips { display: flex; flex: 1; flex-wrap: wrap; gap: 6px; min-width: 0; }
+    .reason-trend-chip { display: inline-flex; align-items: center; gap: 6px; min-height: 30px; padding: 6px 8px; border: 1px solid var(--line); border-radius: 9px; color: var(--muted); background: #fff; cursor: pointer; font-size: 9px; font-weight: 700; line-height: 1.2; text-align: left; }
+    .reason-trend-chip::before { content: ""; width: 8px; height: 8px; flex: none; border-radius: 50%; background: var(--reason-color); opacity: .25; }
+    .reason-trend-chip.active { color: var(--ink); border-color: color-mix(in srgb, var(--reason-color) 48%, var(--line)); background: color-mix(in srgb, var(--reason-color) 8%, #fff); }
+    .reason-trend-chip.active::before { opacity: 1; }
+    .reason-trend-actions { display: flex; gap: 5px; margin-left: auto; }
+    .reason-trend-action { min-height: 30px; padding: 5px 8px; border: 1px solid var(--line); border-radius: 9px; color: var(--teal); background: #fff; cursor: pointer; font-size: 9px; font-weight: 700; }
+    .reason-trend-scroll { position: relative; width: 100%; overflow-x: auto; overscroll-behavior-inline: contain; }
+    .reason-trend-swipe { display: none; margin: -4px 0 7px; color: var(--teal); font-size: 9px; font-weight: 700; text-align: right; }
+    .reason-trend-tooltip { position: absolute; z-index: 5; min-width: 148px; max-width: 230px; padding: 9px 11px; border: 1px solid rgba(255,255,255,.16); border-radius: 10px; color: #fff; background: rgba(18,45,48,.97); box-shadow: 0 10px 28px rgba(18,45,48,.24); pointer-events: none; transform: translate(-50%, calc(-100% - 10px)); }
+    .reason-trend-tooltip[hidden] { display: none; }
+    .reason-trend-tooltip[data-side="below"] { transform: translate(-50%, 10px); }
+    .reason-trend-tooltip::after { content: ""; position: absolute; left: 50%; bottom: -5px; width: 9px; height: 9px; background: rgba(18,45,48,.97); transform: translateX(-50%) rotate(45deg); }
+    .reason-trend-tooltip[data-side="below"]::after { top: -5px; bottom: auto; }
+    .reason-trend-tooltip strong, .reason-trend-tooltip span, .reason-trend-tooltip b { display: block; }
+    .reason-trend-tooltip strong { font-size: 10px; line-height: 1.35; }
+    .reason-trend-tooltip span { margin-top: 3px; color: rgba(255,255,255,.7); font-size: 9px; }
+    .reason-trend-tooltip b { margin-top: 5px; color: #dce9df; font-family: "Fraunces", serif; font-size: 17px; line-height: 1; }
+    .reason-trend-chart { display: block; width: 100%; min-width: 620px; height: auto; }
+    .reason-trend-grid { stroke: #e4e7e2; stroke-width: 1; }
+    .reason-trend-axis { fill: var(--muted); font-family: "DM Sans", sans-serif; font-size: 10px; font-weight: 600; }
+    .reason-trend-line { fill: none; stroke-width: 2.5; stroke-linejoin: round; stroke-linecap: round; }
+    .reason-trend-point { cursor: pointer; stroke: #fff; stroke-width: 2; }
+    .reason-trend-focus { fill: rgba(220,233,223,.42); }
+    .reason-trend-empty { padding: 42px 12px; color: var(--muted); font-size: 10px; text-align: center; }
+    .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
+    .complaint-type-list { display: grid; gap: 9px; }
+    .complaint-type-row { display: grid; grid-template-columns: minmax(130px, 1.25fr) minmax(90px, 1fr) 42px; align-items: center; gap: 9px; }
+    .complaint-type-label { color: var(--ink); font-size: 10px; line-height: 1.25; }
+    .complaint-type-track { height: 10px; border-radius: 999px; background: #e6e7e1; overflow: hidden; }
+    .complaint-type-fill { height: 100%; border-radius: inherit; background: linear-gradient(90deg, #984a42, #cf7469); }
+    .complaint-type-count { color: var(--ink); font-size: 10px; font-weight: 700; text-align: right; }
+    .profile-compare { display: grid; gap: 8px; }
+    .profile-box { width: 100%; display: grid; grid-template-columns: minmax(0, 1fr) 48px; align-items: center; gap: 10px; padding: 12px; border: 1px solid var(--line); border-radius: 12px; color: var(--ink); background: #faf9f5; cursor: pointer; text-align: left; }
+    .profile-box.active { border-color: var(--teal); box-shadow: 0 0 0 2px rgba(46,108,110,.1); }
+    .profile-box span { display: block; min-width: 0; font-size: 10px; font-weight: 700; overflow-wrap: anywhere; }
+    .profile-box small { display: block; margin-top: 3px; color: var(--muted); font-size: 9px; }
+    .profile-box strong { color: var(--navy); font-family: "Fraunces", serif; font-size: 25px; text-align: right; }
+    .delivery-evidence { margin-top: 12px; }
+    .delivery-cases { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 9px; }
+    .delivery-case { padding: 13px; border: 1px solid var(--line); border-radius: 13px; background: #fff; }
+    .delivery-case-meta { display: flex; flex-wrap: wrap; gap: 5px; margin-bottom: 7px; color: var(--muted); font-size: 9px; font-weight: 700; }
+    .delivery-case-badge { padding: 3px 6px; border-radius: 999px; background: var(--rose); color: var(--rose-strong); }
+    .delivery-case h5 { margin: 0; font-size: 11px; line-height: 1.35; }
+    .delivery-case p { margin: 7px 0 0; color: #526667; font-size: 9px; line-height: 1.65; }
+    .delivery-case a { display: inline-block; margin-top: 8px; color: var(--teal); text-decoration: none; font-size: 9px; font-weight: 700; }
+    .delivery-method { margin: 12px 0 0; color: var(--muted); font-size: 9px; line-height: 1.55; }
+    .coverage-grid { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 10px; }
+    .coverage-card { padding: 17px; border: 1px solid var(--line); border-radius: 15px; background: rgba(255,253,248,.8); }
+    .coverage-card h3 { margin-bottom: 10px; font-size: 13px; }
+    .coverage-date { display: block; color: var(--navy); font-family: "Fraunces", serif; font-size: 20px; }
+    .coverage-meta { display: block; margin: 4px 0 10px; color: var(--muted); font-size: 10px; }
+    .coverage-limit { margin: 0; color: var(--muted); font-size: 10px; line-height: 1.5; }
+    .method { display: grid; grid-template-columns: 1.2fr 1fr 1fr; gap: 1px; border: 1px solid var(--line); border-radius: 16px; overflow: hidden; background: var(--line); }
+    .method-item { padding: 18px; background: var(--paper); }
+    .method-item strong { display: block; margin-bottom: 5px; font-size: 12px; }
+    .method-item span { color: var(--muted); font-size: 10px; line-height: 1.55; }
+    .error { padding: 22px; border: 1px solid #dca9a2; border-radius: 16px; background: #fff1ef; color: #78352e; }
+    footer { margin-top: 44px; padding-top: 20px; border-top: 1px solid var(--line); display: flex; justify-content: space-between; gap: 20px; color: var(--muted); font-size: 10px; }
+    @media (max-width: 1120px) {
+      .source-grid, .coverage-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+      .trend-bars { grid-template-columns: repeat(12, minmax(54px, 1fr)); }
+    }
+    @media (max-width: 820px) {
+      .nav { display: none; }
+      main { width: min(100% - 22px, 1420px); padding-top: 26px; }
+      .hero { grid-template-columns: 1fr; }
+      .updated { justify-self: start; }
+      .source-grid, .coverage-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .controls { grid-template-columns: 1fr; }
+      .source-tabs { scrollbar-width: auto; padding-right: 28px; mask-image: linear-gradient(to right, #000 0, #000 calc(100% - 24px), transparent 100%); }
+      .source-swipe-hint { display: block; }
+      .trend-filters { justify-self: start; flex-wrap: wrap; }
+      .toggle { justify-self: start; }
+      .summary-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .analysis-grid { grid-template-columns: 1fr; }
+      .delivery-data-grid { grid-template-columns: 1fr; }
+      .method { grid-template-columns: 1fr; }
+      .distribution { grid-template-columns: 1fr; }
+    }
+    @media (max-width: 520px) {
+      .source-grid, .coverage-grid { grid-template-columns: 1fr; }
+      .source-link { font-size: 24px; min-width: 36px; min-height: 36px; text-align: center; }
+      .period-toolbar { align-items: start; flex-direction: column; }
+      .period-nav { width: 100%; }
+      .period-btn { width: 44px; height: 44px; }
+      .period-select { flex: 1; width: auto; max-width: none; min-width: 0; min-height: 44px; }
+      .trend-filters { width: 100%; }
+      .toggle { flex: 1; }
+      .region-select { flex: 1; min-width: 0; min-height: 44px; }
+      .summary-grid { grid-template-columns: 1fr 1fr; }
+      .summary-stat { padding: 12px; }
+      .summary-stat .label, .summary-stat .sub { font-size: 11px; }
+      .summary-stat .value { font-size: 23px; }
+      .trend-bars { height: 220px; grid-template-columns: repeat(12, 58px); }
+      .bar-value, .bar-count, .bar-label { font-size: 11px; }
+      .star-row { grid-template-columns: 38px minmax(0, 1fr) 38px; font-size: 12px; }
+      .theme-card h4 { font-size: 14px; }
+      .review-quote, .action, .coverage-limit, .method-item span { font-size: 12px; line-height: 1.65; }
+      .coverage-note, .coverage-meta, .analysis-col-head p { font-size: 12px; }
+      .analysis-title { line-height: 1.18; }
+      .delivery-head { align-items: start; flex-direction: column; }
+      .delivery-control-row { align-items: start; flex-direction: column; }
+      .delivery-control-label { width: auto; }
+      .delivery-pills { width: 100%; }
+      .delivery-time-controls { width: 100%; grid-template-columns: 1fr; }
+      .delivery-summary { grid-template-columns: 1fr; }
+      .delivery-cases { grid-template-columns: 1fr; }
+      .complaint-type-row { grid-template-columns: minmax(115px, 1.2fr) minmax(70px, 1fr) 34px; }
+      .reason-trend-legend { display: grid; gap: 8px; }
+      .reason-trend-chips { flex-wrap: nowrap; overflow-x: auto; padding-bottom: 4px; scrollbar-width: thin; }
+      .reason-trend-chip { flex: none; white-space: nowrap; }
+      .reason-trend-actions { order: -1; width: 100%; margin-left: 0; }
+      .reason-trend-action { flex: 1; }
+      .reason-trend-swipe { display: block; }
+      .reason-trend-line { stroke-width: 3.5; }
+      .delivery-case h5 { font-size: 13px; }
+      .delivery-case p, .delivery-case a, .delivery-method { font-size: 11px; }
+      footer { flex-direction: column; }
+    }
+    @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } * { transition: none !important; } }
+  </style>
+</head>
+<body>
+  <header class="wt-header">
+    <div class="wt-header__top">
+      <div class="wt-header__main">
+        <a class="wt-brand-lockup" href="./" aria-label="Lifely Watchtower home"><span class="wt-brand-mark" aria-hidden="true">W</span><span class="wt-brand-copy"><span class="wt-brand-name">Lifely Watchtower</span><span class="wt-brand-context">Business command centre</span></span></a>
+        <span class="wt-header__divider" aria-hidden="true"></span>
+        <div class="wt-page-identity"><h1 class="wt-page-title">Review Intelligence</h1><p class="wt-page-subtitle">Rating movement, review volume, complaint signals, and praise—kept source by source.</p></div>
+      </div>
+      <div class="wt-header__aside"><div class="wt-status"><span id="lastUpdated">Loading verified review data…</span></div></div>
+    </div>
+    <nav class="wt-nav" aria-label="Watchtower dashboards"><div class="wt-nav__inner">
+      <a href="https://lifely-report.onrender.com/launch/watchtower?path=%2Fheatmap%2F" class="wt-nav-link">Revenue</a><a href="https://lifely-report.onrender.com/launch/watchtower?path=%2Fheatmap%2Fforex.html" class="wt-nav-link">Forex</a><a href="./" class="wt-nav-link" aria-current="page">Reviews</a><a href="https://lifely-report.onrender.com/launch/watchtower?path=%2Fheatmap%2Finventory.html" class="wt-nav-link">Inventory</a><a href="https://lifely-report.onrender.com/launch/watchtower?path=%2Fheatmap%2Funit-economics.html" class="wt-nav-link">Unit Economics</a><a href="https://lifely-report.onrender.com/launch/watchtower?path=%2Fheatmap%2Fc-suite-kpi.html" class="wt-nav-link">C-Suite</a><a href="https://lifely-report.onrender.com/launch/watchtower?path=%2Fheatmap%2Foperations-kpi.html" class="wt-nav-link">Operations</a><a href="https://lifely-report.onrender.com/launch/watchtower?path=%2Fsignal-room%2F" class="wt-nav-link">Signal Room</a><a href="https://lifely-report.onrender.com" target="_blank" rel="noopener noreferrer" class="wt-nav-link wt-nav-link--external">Lifely Report ↗</a>
+    </div></nav>
+  </header>
+  <main>
+    <div id="app">
+      <div class="panel error" hidden id="errorState">Review data could not be loaded. The page has not substituted estimated values.</div>
+
+      <section class="section" aria-labelledby="current-title">
+        <div class="section-head">
+          <div><h2 id="current-title">Current source score</h2><p>Captured Australian score and review count from the verified history.</p></div>
+        </div>
+        <div class="source-grid" id="sourceGrid"></div>
+      </section>
+
+      <section class="section" aria-labelledby="trend-title">
+        <div class="section-head">
+          <div><h2 id="trend-title">Weekly &amp; monthly trend</h2><p>Choose one review site. Period scores are calculated only from dated reviews received in that period.</p></div>
+        </div>
+        <div class="panel trend-shell">
+          <div class="controls">
+            <div class="source-tabs-wrap"><div class="source-tabs" id="sourceTabs" role="tablist" aria-label="Review source"></div><span class="source-swipe-hint">Swipe to view all five sources →</span></div>
+            <div class="trend-filters">
+              <div class="toggle" aria-label="Trend cadence">
+                <button class="toggle-btn active" type="button" data-cadence="weekly">Week</button>
+                <button class="toggle-btn" type="button" data-cadence="monthly">Month</button>
+              </div>
+              <select class="region-select" id="regionSelect" aria-label="Review region" disabled><option value="AU">Australia only</option></select>
+            </div>
+          </div>
+          <div class="period-toolbar">
+            <div class="period-title"><strong id="selectedPeriodLabel">—</strong><span id="selectedSourceLabel">—</span></div>
+            <div class="period-nav">
+              <button class="period-btn" type="button" id="periodPrev" aria-label="Previous period">‹</button>
+              <select class="period-select" id="periodSelect" aria-label="Select review period"></select>
+              <button class="period-btn" type="button" id="periodNext" aria-label="Next period">›</button>
+            </div>
+          </div>
+          <div class="summary-grid" id="periodSummary"></div>
+          <div class="trend-window">
+            <div class="chart-head"><span id="chartRange">12-period window</span><span>Bar height = average stars · number in bar = review count</span></div>
+            <div class="trend-bars" id="trendBars" aria-label="Review score trend chart"></div>
+          </div>
+          <div class="distribution">
+            <div><h3>Star distribution</h3><p>Exact count of dated reviews received in the selected period.</p></div>
+            <div class="star-rows" id="starRows"></div>
+          </div>
+          <div class="coverage-note" id="coverageNote"><span>ⓘ</span><span>Loading coverage…</span></div>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="analysisTitle">
+        <div class="panel analysis-panel">
+          <div class="analysis-kicker">Source-specific analysis</div>
+          <h2 class="analysis-title" id="analysisTitle">Complaint and positive themes</h2>
+          <p class="analysis-sub" id="analysisSub">Themes are grouped from real review text in the selected source and period.</p>
+          <div class="analysis-grid">
+            <div class="analysis-col complaints">
+              <div class="analysis-col-head"><div><h3>Complaints to act on</h3><p>Only 1–2 star reviews</p></div><span class="count-pill" id="complaintCount">0 low-star</span></div>
+              <div class="theme-list" id="complaintThemes"></div>
+            </div>
+            <div class="analysis-col positive">
+              <div class="analysis-col-head"><div><h3>What customers valued</h3><p>Only 4–5 star reviews</p></div><span class="count-pill" id="positiveCount">0 positive</span></div>
+              <div class="theme-list" id="positiveThemes"></div>
+            </div>
+          </div>
+          <div class="delivery-module" id="deliveryModule" hidden>
+            <div class="delivery-head">
+              <div><h3>Regional non-5★ analysis</h3><p>Interactive Trustpilot dataset for every verified 1–4★ review attributed to Australia—not only delivery complaints. Filter by direct profile and month or quarter.</p></div>
+              <span class="delivery-scope" id="deliveryScope">Jan–Jul 2026</span>
+            </div>
+            <div class="delivery-control-stack">
+              <div class="delivery-control-row"><span class="delivery-control-label">Region</span><div class="delivery-pills" id="deliveryRegions"></div></div>
+              <div class="delivery-control-row"><span class="delivery-control-label">Profile</span><div class="delivery-pills" id="deliveryProfiles"></div></div>
+              <div class="delivery-control-row"><span class="delivery-control-label">Period</span><div class="delivery-time-controls"><div class="toggle" aria-label="Non-5-star review cadence"><button class="toggle-btn active" type="button" data-delivery-cadence="monthly">Month</button><button class="toggle-btn" type="button" data-delivery-cadence="quarterly">Quarter</button></div><select class="delivery-period-select" id="deliveryPeriod" aria-label="Select non-5-star review period"></select></div></div>
+            </div>
+            <div class="delivery-summary" id="deliverySummary"></div>
+            <div class="delivery-box reason-trend-box">
+              <div class="delivery-box-head"><h4>Complaint reason trend</h4><span id="deliveryTrendContext"></span></div>
+              <p class="reason-trend-intro">Primary reason count across the full timeline for the selected region and profile. The period dropdown filters the summary, breakdown and evidence—not this trend. Select reasons to compare; click a chart point to filter the sections below.</p>
+              <div class="reason-trend-legend" id="deliveryTrendLegend"></div>
+              <div class="reason-trend-swipe">Swipe chart to see the full timeline →</div>
+              <div class="reason-trend-scroll" id="deliveryTrendChart"></div>
+              <div class="sr-only" id="deliveryTrendTable" aria-live="polite"></div>
+            </div>
+            <div class="delivery-data-grid">
+              <div class="delivery-box"><div class="delivery-box-head"><h4>Reason breakdown</h4><span id="deliveryTypeContext"></span></div><div class="complaint-type-list" id="deliveryTypes"></div></div>
+              <div class="delivery-box"><div class="delivery-box-head"><h4>Direct-profile comparison</h4><span>Same region + period</span></div><div class="profile-compare" id="deliveryProfileCompare"></div></div>
+            </div>
+            <div class="delivery-box delivery-evidence"><div class="delivery-box-head"><h4>Latest matching reviews</h4><span id="deliveryEvidenceCount"></span></div><div class="delivery-cases" id="deliveryCases"></div></div>
+            <p class="delivery-method" id="deliveryMethod"></p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="coverage-title">
+        <div class="section-head"><div><h2 id="coverage-title">Verified history coverage</h2><p>Every source has a different recoverable boundary. Gaps are shown, never estimated.</p></div></div>
+        <div class="coverage-grid" id="coverageGrid"></div>
+      </section>
+
+      <section class="section" aria-labelledby="method-title">
+        <div class="section-head"><div><h2 id="method-title">How to read this</h2></div></div>
+        <div class="method">
+          <div class="method-item"><strong>Captured AU score ≠ global platform score</strong><span>Weekly/monthly bars average source-attributed Australian reviews received in that period. The current cards use the same captured AU history, not global platform totals.</span></div>
+          <div class="method-item"><strong>Weeks run Monday–Sunday</strong><span>The current week and month are labelled partial until they close. Zero-review periods stay visible as “No reviews”.</span></div>
+          <div class="method-item"><strong>No synthetic history</strong><span>If a platform or API does not expose older dated reviews, Watchtower marks the boundary rather than estimating scores or star counts.</span></div>
+        </div>
+      </section>
+    </div>
+
+    <footer><span>Watchtower Review Intelligence · read-only review sources</span><span id="methodFooter">Verified source data only</span></footer>
+  </main>
+<script>
+(() => {
+  const state = { data: null, sourceKey: null, cadence: 'weekly', regionKey: 'AU', periodKey: null, deliveryData: null, deliveryRegion: 'AU', deliveryProfile: 'lifely.com.au', deliveryCadence: 'monthly', deliveryPeriod: 'ALL', deliveryTrendReasons: null, deliveryTrendLegendExpanded: false };
+  const $ = (id) => document.getElementById(id);
+  const esc = (value) => String(value ?? '').replace(/[&<>'"]/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[char]));
+  const fmtNum = (value) => value == null ? '—' : new Intl.NumberFormat('en-AU').format(value);
+  const fmtDate = (value, opts = {}) => {
+    if (!value) return 'Unavailable';
+    const date = new Date(value);
+    if (Number.isNaN(date.getTime())) return value;
+    return new Intl.DateTimeFormat('en-AU', { day: 'numeric', month: 'short', year: opts.short ? undefined : 'numeric', timeZone: 'UTC' }).format(date);
+  };
+  const trend = () => state.data.period_trends.find(item => item.key === state.sourceKey);
+  const activeSeries = () => trend()?.regions?.find(item => item.key === 'AU');
+  const activeRegionLabel = () => 'Australia';
+  const periods = () => (activeSeries()?.[state.cadence] || []);
+  const selectedIndex = () => Math.max(0, periods().findIndex(item => item.key === state.periodKey));
+  const selectedPeriod = () => periods().find(item => item.key === state.periodKey) || periods().at(-1);
+  const sourceCard = () => state.data.sources.find(item => item.key === state.sourceKey);
+  const deltaLabel = (value) => value == null ? 'No prior' : value > 0 ? `+${value.toFixed(1)}` : value < 0 ? value.toFixed(1) : 'No change';
+  const shortPeriodLabel = (period) => state.cadence === 'monthly' ? period.label.split(' ')[0] + ' ’' + period.key.slice(2,4) : period.start.slice(5).replace('-', '/');
+  const deliverySources = { trustpilot_lifely: 'lifely.com.au', trustpilot_littlelifely: 'littlelifely.com' };
+  const deliveryMonthLabel = (value) => new Intl.DateTimeFormat('en-AU', { month: 'short', year: 'numeric', timeZone: 'UTC' }).format(new Date(`${value}-01T00:00:00Z`));
+  const deliveryReasonColors = ['#984a42','#2e6c6e','#c17b34','#6d5aa8','#4f7e54','#b04e79','#397a9e','#8b6b3f','#6f7772','#a66022','#3f668d','#7d4e73','#495a93'];
+
+  function renderSourceCards() {
+    $('sourceGrid').innerHTML = state.data.sources.map(source => {
+      const deltaClass = source.score_delta < 0 ? 'down' : source.score_delta > 0 ? '' : 'flat';
+      const historyStart = source.history_first_review_at ? fmtDate(source.history_first_review_at) : 'Unavailable';
+      return `<article class="source-card" style="--source-color:${esc(source.color)}">
+        <div class="source-card-top"><div><div class="platform">${esc(source.platform)} · Australia only</div><h3>${esc(source.label)}</h3></div><a class="source-link" href="${esc(source.url)}" target="_blank" rel="noopener" aria-label="Open ${esc(source.label)}">↗</a></div>
+        <div class="score-row"><span class="score">${source.score == null ? '—' : Number(source.score).toFixed(1)}</span><span class="out-of">/ 5</span><span class="delta flat" title="Captured Australian review history only">AU only</span></div>
+        <div class="card-meta"><span>${fmtNum(source.total_reviews)} captured AU reviews</span><span>history from ${esc(historyStart)}</span></div>
+      </article>`;
+    }).join('');
+  }
+
+  function renderTabs() {
+    $('sourceTabs').innerHTML = state.data.period_trends.map(source => {
+      const card = state.data.sources.find(item => item.key === source.key);
+      return `<button type="button" class="source-tab ${source.key === state.sourceKey ? 'active' : ''}" role="tab" aria-selected="${source.key === state.sourceKey}" data-source="${esc(source.key)}"><span class="source-dot" style="--dot:${esc(card?.color || '#2e6c6e')}"></span>${esc(source.label)}</button>`;
+    }).join('');
+    $('sourceTabs').querySelectorAll('[data-source]').forEach(button => button.addEventListener('click', () => {
+      state.sourceKey = button.dataset.source;
+      state.regionKey = 'AU';
+      state.periodKey = periods().at(-1)?.key || null;
+      if (deliverySources[state.sourceKey]) state.deliveryProfile = deliverySources[state.sourceKey];
+      renderAllDynamic();
+    }));
+  }
+
+  function renderRegionControl() {
+    state.regionKey = 'AU';
+    const select = $('regionSelect');
+    select.innerHTML = '<option value="AU">Australia only</option>';
+    select.value = 'AU';
+    select.disabled = true;
+  }
+
+  function periodOptionLabel(period) {
+    if (state.cadence === 'monthly') return period.label;
+    const start = new Date(period.start + 'T00:00:00Z');
+    const end = new Date(period.end + 'T00:00:00Z');
+    const day = value => value.getUTCDate();
+    const month = value => value.toLocaleString('en-AU', { month: 'short', timeZone: 'UTC' });
+    return start.getUTCMonth() === end.getUTCMonth()
+      ? `${day(start)}–${day(end)} ${month(end)} ${end.getUTCFullYear()}`
+      : `${day(start)} ${month(start)}–${day(end)} ${month(end)} ${end.getUTCFullYear()}`;
+  }
+
+  function renderPeriodControls() {
+    const rows = periods();
+    if (!rows.length) return;
+    if (!rows.some(item => item.key === state.periodKey)) state.periodKey = rows.at(-1).key;
+    const current = selectedPeriod();
+    const idx = selectedIndex();
+    $('selectedPeriodLabel').textContent = current.label + (current.is_partial ? ' · partial' : '');
+    $('selectedSourceLabel').textContent = `${trend().label} · ${activeRegionLabel()} · ${state.cadence === 'weekly' ? 'Monday–Sunday' : 'calendar month'}`;
+    $('periodSelect').innerHTML = rows.slice().reverse().map(period => `<option value="${esc(period.key)}" ${period.key === state.periodKey ? 'selected' : ''}>${esc(periodOptionLabel(period))}${period.is_partial ? ' · partial' : ''}${period.review_count === 0 ? ' · 0 reviews' : ''}</option>`).join('');
+    $('periodPrev').disabled = idx <= 0;
+    $('periodNext').disabled = idx >= rows.length - 1;
+  }
+
+  function renderSummary() {
+    const period = selectedPeriod();
+    const source = sourceCard();
+    const average = period.average_score == null ? '—' : period.average_score.toFixed(2);
+    const historyRecords = state.regionKey === 'all' ? source.history_records : (activeSeries()?.records || 0);
+    $('periodSummary').innerHTML = [
+      ['Average stars', average, period.review_count ? 'Reviews received in period' : 'No dated reviews in period'],
+      ['Reviews received', fmtNum(period.review_count), period.is_partial ? 'Partial period' : 'Closed period'],
+      ['1–2 star', fmtNum(period.low_star_count), period.review_count ? `${Math.round(period.low_star_count / period.review_count * 100)}% of period reviews` : 'No denominator'],
+      [state.regionKey === 'all' ? 'Captured history' : 'Region records · all history', fmtNum(historyRecords), state.regionKey === 'all' ? (source.history_first_review_at ? `From ${fmtDate(source.history_first_review_at)}` : 'Start unavailable') : activeRegionLabel()],
+    ].map(([label, value, sub]) => `<div class="summary-stat"><span class="label">${esc(label)}</span><span class="value">${esc(value)}</span><span class="sub">${esc(sub)}</span></div>`).join('');
+  }
+
+  function renderChart() {
+    const rows = periods();
+    const idx = selectedIndex();
+    const start = Math.max(0, idx - 11);
+    const windowRows = rows.slice(start, idx + 1);
+    const color = sourceCard()?.color || '#2e6c6e';
+    $('chartRange').textContent = windowRows.length ? `${windowRows[0].label} → ${windowRows.at(-1).label}` : 'No verified periods';
+    $('trendBars').innerHTML = windowRows.map(period => {
+      const active = period.key === state.periodKey ? 'active' : '';
+      if (period.average_score == null) {
+        return `<button class="bar-cell ${active}" type="button" data-period="${esc(period.key)}" aria-label="${esc(period.label)}: no reviews"><span class="bar-track"><span class="empty-bar">No reviews</span></span><span class="bar-label">${esc(shortPeriodLabel(period))}</span></button>`;
+      }
+      const height = Math.max(8, period.average_score / 5 * 100);
+      return `<button class="bar-cell ${active}" type="button" data-period="${esc(period.key)}" aria-label="${esc(period.label)}: ${period.average_score.toFixed(2)} stars from ${period.review_count} reviews"><span class="bar-track"><span class="bar" style="height:${height}%;--bar-color:${esc(color)}"><span class="bar-value">${period.average_score.toFixed(1)}</span><span class="bar-count">${period.review_count}</span></span></span><span class="bar-label">${esc(shortPeriodLabel(period))}</span></button>`;
+    }).join('');
+    $('trendBars').querySelectorAll('[data-period]').forEach(button => button.addEventListener('click', () => { state.periodKey = button.dataset.period; renderAllDynamic(false); }));
+  }
+
+  function renderDistribution() {
+    const period = selectedPeriod();
+    const max = Math.max(1, ...Object.values(period.stars));
+    $('starRows').innerHTML = [5,4,3,2,1].map(star => {
+      const count = period.stars[String(star)] || 0;
+      const width = count ? Math.max(2, count / max * 100) : 0;
+      return `<div class="star-row"><span class="star-label">${star}★</span><span class="star-track"><span class="star-fill" style="width:${width}%"></span></span><span class="star-count">${fmtNum(count)}</span></div>`;
+    }).join('');
+  }
+
+  function renderCoverageNote() {
+    const source = sourceCard();
+    const first = source.history_first_review_at ? fmtDate(source.history_first_review_at) : 'unavailable';
+    const regional = source.region_records
+      ? `${fmtNum(source.region_records)} of ${fmtNum(source.history_records)} records include a source-provided region; ${fmtNum(source.region_unavailable_records)} remain region unavailable.`
+      : `${source.region_source || 'This source does not provide a public review-region field.'}`;
+    const selected = state.regionKey === 'all' ? '' : ` Showing ${esc(activeRegionLabel())} only.`;
+    $('coverageNote').innerHTML = `<span>ⓘ</span><span><strong>${esc(source.label)} coverage:</strong> ${fmtNum(source.history_records)} dated reviews from ${esc(first)}. ${esc(regional)}${selected} ${esc(source.history_limitation || 'Older unavailable periods are not estimated.')}</span>`;
+  }
+
+  function renderThemeList(targetId, themes, type) {
+    const target = $(targetId);
+    if (!themes.length) {
+      target.innerHTML = `<div class="empty-state">No ${type === 'complaint' ? '1–2 star complaint themes' : '4–5 star positive themes'} are available for this source and period.</div>`;
+      return;
+    }
+    target.innerHTML = themes.map(theme => {
+      const delta = theme.delta_vs_previous;
+      const deltaText = delta > 0 ? `+${delta} vs prior` : delta < 0 ? `${delta} vs prior` : 'same as prior';
+      const deltaClass = type === 'complaint' && delta > 0 ? 'up-bad' : '';
+      const quote = theme.example?.text ? `<blockquote class="review-quote">“${esc(theme.example.text)}”${theme.example.url ? ` <a href="${esc(theme.example.url)}" target="_blank" rel="noopener">Source ↗</a>` : ''}</blockquote>` : '';
+      const action = type === 'complaint' && theme.recommended_action ? `<p class="action"><strong>Action:</strong> ${esc(theme.recommended_action)}</p>` : '';
+      return `<article class="theme-card"><div class="theme-top"><h4>${esc(theme.label)}</h4><div class="theme-stats">${theme.count} · ${theme.share.toFixed(0)}%<span class="theme-delta ${deltaClass}">${esc(deltaText)}</span></div></div>${quote}${action}</article>`;
+    }).join('');
+  }
+
+  function renderAnalysis() {
+    const period = selectedPeriod();
+    const source = sourceCard();
+    const regionText = state.regionKey === 'all' ? '' : ` · ${activeRegionLabel()}`;
+    $('analysisTitle').textContent = `${source.label}${regionText} · ${period.label}`;
+    $('analysisSub').textContent = period.review_count ? `Based on ${period.review_count} dated review${period.review_count === 1 ? '' : 's'} from this site${state.regionKey === 'all' ? '' : ' and region'} only. Theme counts compare with the immediately preceding ${state.cadence === 'weekly' ? 'week' : 'month'}.` : `No dated reviews were received from this site${state.regionKey === 'all' ? '' : ' and region'} in the selected ${state.cadence === 'weekly' ? 'week' : 'month'}; no themes are inferred.`;
+    $('complaintCount').textContent = `${period.low_star_count} low-star`;
+    $('positiveCount').textContent = `${period.positive_count} positive`;
+    renderThemeList('complaintThemes', period.complaint_themes, 'complaint');
+    renderThemeList('positiveThemes', period.positive_themes, 'positive');
+  }
+
+  function deliveryFiltered({ ignoreRegion = false, ignoreProfile = false } = {}) {
+    const rows = state.deliveryData?.records || [];
+    return rows.filter(row => {
+      if (!ignoreRegion && state.deliveryRegion !== 'ALL' && row.region !== state.deliveryRegion) return false;
+      if (!ignoreProfile && state.deliveryProfile !== 'combined' && row.profile !== state.deliveryProfile) return false;
+      if (state.deliveryPeriod !== 'ALL') {
+        const key = state.deliveryCadence === 'monthly' ? row.month : row.quarter;
+        if (key !== state.deliveryPeriod) return false;
+      }
+      return true;
+    });
+  }
+
+  function deliveryPeriodKeys() {
+    const keys = [...new Set((state.deliveryData?.records || []).map(row => state.deliveryCadence === 'monthly' ? row.month : row.quarter))];
+    return state.deliveryCadence === 'monthly'
+      ? keys.sort()
+      : keys.sort((a,b) => ['Q1','Q2','Q3 MTD'].indexOf(a) - ['Q1','Q2','Q3 MTD'].indexOf(b));
+  }
+
+  function deliveryTrendRows() {
+    return (state.deliveryData?.records || []).filter(row => {
+      if (state.deliveryRegion !== 'ALL' && row.region !== state.deliveryRegion) return false;
+      if (state.deliveryProfile !== 'combined' && row.profile !== state.deliveryProfile) return false;
+      return true;
+    });
+  }
+
+  function defaultDeliveryTrendReasons(rows, limit = 5) {
+    const categories = Object.keys(state.deliveryData.category_labels);
+    return categories
+      .map(key => [key, rows.filter(row => row.category === key).length])
+      .sort((a,b) => b[1] - a[1] || categories.indexOf(a[0]) - categories.indexOf(b[0]))
+      .filter(([,count]) => count > 0)
+      .slice(0, limit)
+      .map(([key]) => key);
+  }
+
+  function renderDeliveryTrend() {
+    const data = state.deliveryData;
+    const rows = deliveryTrendRows();
+    const periods = deliveryPeriodKeys();
+    const categories = Object.keys(data.category_labels);
+    if (!Array.isArray(state.deliveryTrendReasons)) state.deliveryTrendReasons = defaultDeliveryTrendReasons(rows);
+    state.deliveryTrendReasons = state.deliveryTrendReasons.filter(key => categories.includes(key));
+    if (!state.deliveryTrendReasons.length && rows.length) state.deliveryTrendReasons = defaultDeliveryTrendReasons(rows, 1);
+
+    const periodLabel = key => state.deliveryCadence === 'monthly' ? deliveryMonthLabel(key).replace(' 2026','') : key;
+    const tooltipPeriodLabel = key => state.deliveryCadence === 'monthly' ? deliveryMonthLabel(key) : key;
+    const contextProfile = state.deliveryProfile === 'combined' ? 'Both profiles' : state.deliveryProfile;
+    $('deliveryTrendContext').textContent = `${state.deliveryCadence === 'monthly' ? 'Monthly' : 'Quarterly'} · ${state.deliveryRegion === 'ALL' ? 'All regions' : state.deliveryRegion} · ${contextProfile}`;
+    const legendCategories = state.deliveryTrendLegendExpanded ? categories : categories.filter(key => state.deliveryTrendReasons.includes(key));
+    const legendChips = legendCategories.map(key => {
+      const index = categories.indexOf(key);
+      const active = state.deliveryTrendReasons.includes(key);
+      return `<button type="button" class="reason-trend-chip ${active ? 'active' : ''}" style="--reason-color:${deliveryReasonColors[index]}" data-trend-reason="${esc(key)}" aria-pressed="${active}">${esc(data.category_labels[key])}</button>`;
+    }).join('');
+    $('deliveryTrendLegend').innerHTML = `<span class="reason-trend-chips">${legendChips}</span><span class="reason-trend-actions"><button type="button" class="reason-trend-action" data-trend-preset="choose">${state.deliveryTrendLegendExpanded ? 'Done' : 'Choose reasons'}</button><button type="button" class="reason-trend-action" data-trend-preset="top">Top 5</button><button type="button" class="reason-trend-action" data-trend-preset="all">All lines</button></span>`;
+
+    const series = state.deliveryTrendReasons.map(key => ({
+      key,
+      label: data.category_labels[key],
+      color: deliveryReasonColors[categories.indexOf(key)],
+      values: periods.map(period => rows.filter(row => row.category === key && (state.deliveryCadence === 'monthly' ? row.month : row.quarter) === period).length),
+    }));
+    const maxValue = Math.max(1, ...series.flatMap(item => item.values));
+    const yMax = maxValue <= 4 ? maxValue : maxValue <= 10 ? maxValue + 1 : Math.ceil(maxValue / 5) * 5;
+    const width = 900, height = 330, left = 46, right = 18, top = 18, bottom = 50;
+    const plotWidth = width - left - right, plotHeight = height - top - bottom;
+    const x = index => periods.length <= 1 ? left + plotWidth / 2 : left + index * plotWidth / (periods.length - 1);
+    const y = value => top + plotHeight - value / yMax * plotHeight;
+    const tickCount = Math.min(5, yMax);
+    const ticks = [...new Set(Array.from({length: tickCount + 1}, (_,index) => Math.round(index * yMax / tickCount)))];
+    const activeIndex = state.deliveryPeriod === 'ALL' ? -1 : periods.indexOf(state.deliveryPeriod);
+
+    if (!rows.length || !series.length) {
+      $('deliveryTrendChart').innerHTML = `<div class="reason-trend-empty">No non-5★ reviews match this region and profile.</div>`;
+      $('deliveryTrendTable').textContent = 'No matching reason trend data.';
+    } else {
+      const focus = activeIndex >= 0 ? `<rect class="reason-trend-focus" x="${Math.max(left, x(activeIndex) - 28)}" y="${top}" width="${Math.min(56, width - right - Math.max(left, x(activeIndex) - 28))}" height="${plotHeight}" rx="8"/>` : '';
+      const grid = ticks.map(value => `<line class="reason-trend-grid" x1="${left}" y1="${y(value)}" x2="${width-right}" y2="${y(value)}"/><text class="reason-trend-axis" x="${left-10}" y="${y(value)+3}" text-anchor="end">${value}</text>`).join('');
+      const xLabels = periods.map((period,index) => `<text class="reason-trend-axis" x="${x(index)}" y="${height-20}" text-anchor="middle">${esc(periodLabel(period))}</text>`).join('');
+      const lines = series.map(item => {
+        const points = item.values.map((value,index) => `${x(index)},${y(value)}`).join(' ');
+        const circles = item.values.map((value,index) => `<circle class="reason-trend-point" cx="${x(index)}" cy="${y(value)}" r="${activeIndex === index ? 5.5 : 4}" fill="${item.color}" data-trend-period="${esc(periods[index])}" data-trend-period-label="${esc(tooltipPeriodLabel(periods[index]))}" data-trend-reason-label="${esc(item.label)}" data-trend-count="${value}" tabindex="0" role="button" aria-label="${esc(item.label)}, ${esc(periodLabel(periods[index]))}: ${value} review${value === 1 ? '' : 's'}"></circle>`).join('');
+        return `<polyline class="reason-trend-line" points="${points}" stroke="${item.color}"/>${circles}`;
+      }).join('');
+      $('deliveryTrendChart').innerHTML = `<svg class="reason-trend-chart" viewBox="0 0 ${width} ${height}" role="img" aria-label="Complaint reason trend" aria-describedby="deliveryTrendSvgDesc"><desc id="deliveryTrendSvgDesc">${esc(series.map(item => item.label).join(', '))}, shown by ${state.deliveryCadence === 'monthly' ? 'month' : 'quarter'}.</desc>${focus}${grid}${xLabels}${lines}</svg><div class="reason-trend-tooltip" id="deliveryTrendTooltip" role="status" hidden></div>`;
+      $('deliveryTrendTable').textContent = series.map(item => `${item.label}: ${periods.map((period,index) => `${periodLabel(period)} ${item.values[index]}`).join(', ')}`).join('. ');
+    }
+
+    $('deliveryTrendLegend').querySelectorAll('[data-trend-reason]').forEach(button => button.addEventListener('click', () => {
+      const key = button.dataset.trendReason;
+      state.deliveryTrendReasons = state.deliveryTrendReasons.includes(key)
+        ? state.deliveryTrendReasons.filter(item => item !== key)
+        : [...state.deliveryTrendReasons, key];
+      renderDeliveryTrend();
+    }));
+    $('deliveryTrendLegend').querySelector('[data-trend-preset="top"]').addEventListener('click', () => { state.deliveryTrendReasons = defaultDeliveryTrendReasons(rows); renderDeliveryTrend(); });
+    $('deliveryTrendLegend').querySelector('[data-trend-preset="all"]').addEventListener('click', () => { state.deliveryTrendReasons = categories.filter(key => rows.some(row => row.category === key)); renderDeliveryTrend(); });
+    $('deliveryTrendLegend').querySelector('[data-trend-preset="choose"]').addEventListener('click', () => { state.deliveryTrendLegendExpanded = !state.deliveryTrendLegendExpanded; renderDeliveryTrend(); });
+    const trendChart = $('deliveryTrendChart');
+    const trendTooltip = $('deliveryTrendTooltip');
+    const showTrendTooltip = point => {
+      if (!trendTooltip) return;
+      const count = Number(point.dataset.trendCount || 0);
+      trendTooltip.innerHTML = `<strong>${esc(point.dataset.trendReasonLabel)}</strong><span>${esc(point.dataset.trendPeriodLabel)}</span><b>${count} review${count === 1 ? '' : 's'}</b>`;
+      trendTooltip.hidden = false;
+      trendTooltip.dataset.side = '';
+      const chartRect = trendChart.getBoundingClientRect();
+      const pointRect = point.getBoundingClientRect();
+      const pointX = pointRect.left - chartRect.left + trendChart.scrollLeft + pointRect.width / 2;
+      const pointY = pointRect.top - chartRect.top + trendChart.scrollTop + pointRect.height / 2;
+      const halfWidth = trendTooltip.offsetWidth / 2;
+      const clampedX = Math.max(halfWidth + 6, Math.min(trendChart.scrollWidth - halfWidth - 6, pointX));
+      trendTooltip.style.left = `${clampedX}px`;
+      trendTooltip.style.top = `${pointY}px`;
+      if (pointY < trendTooltip.offsetHeight + 18) trendTooltip.dataset.side = 'below';
+    };
+    const hideTrendTooltip = () => { if (trendTooltip) trendTooltip.hidden = true; };
+    trendChart.querySelectorAll('[data-trend-period]').forEach(point => {
+      const selectPeriod = () => { state.deliveryPeriod = point.dataset.trendPeriod; renderRegionalDelivery(); };
+      point.addEventListener('mouseenter', () => showTrendTooltip(point));
+      point.addEventListener('mousemove', () => showTrendTooltip(point));
+      point.addEventListener('mouseleave', hideTrendTooltip);
+      point.addEventListener('focus', () => showTrendTooltip(point));
+      point.addEventListener('blur', hideTrendTooltip);
+      point.addEventListener('click', selectPeriod);
+      point.addEventListener('keydown', event => { if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); selectPeriod(); } });
+    });
+  }
+
+  function renderRegionalDelivery() {
+    const module = $('deliveryModule');
+    const supported = Boolean(deliverySources[state.sourceKey] && state.deliveryData?.records?.length);
+    module.hidden = !supported;
+    if (!supported) return;
+    const data = state.deliveryData;
+    const rows = deliveryFiltered();
+    const regions = ['AU'];
+    state.deliveryRegion = 'AU';
+    const regionBase = deliveryFiltered({ ignoreRegion: true });
+    const regionCount = region => region === 'ALL' ? regionBase.length : regionBase.filter(row => row.region === region).length;
+    $('deliveryRegions').innerHTML = regions.map(region => `<button type="button" class="delivery-pill ${region === state.deliveryRegion ? 'active' : ''}" data-delivery-region="${esc(region)}" aria-pressed="true" disabled>Australia only · ${regionCount(region)}</button>`).join('');
+
+    const profileBase = deliveryFiltered({ ignoreProfile: true });
+    const profiles = [['combined','Combined'],['lifely.com.au','lifely.com.au'],['littlelifely.com','littlelifely.com']];
+    const profileCount = profile => profile === 'combined' ? profileBase.length : profileBase.filter(row => row.profile === profile).length;
+    $('deliveryProfiles').innerHTML = profiles.map(([profile,label]) => `<button type="button" class="delivery-pill ${profile === state.deliveryProfile ? 'active' : ''}" data-delivery-profile="${esc(profile)}" aria-pressed="${profile === state.deliveryProfile}">${esc(label)} · ${profileCount(profile)}</button>`).join('');
+
+    document.querySelectorAll('[data-delivery-cadence]').forEach(button => button.classList.toggle('active', button.dataset.deliveryCadence === state.deliveryCadence));
+    const periodKeys = deliveryPeriodKeys();
+    if (state.deliveryPeriod !== 'ALL' && !periodKeys.includes(state.deliveryPeriod)) state.deliveryPeriod = 'ALL';
+    $('deliveryPeriod').innerHTML = `<option value="ALL">All available periods</option>` + periodKeys.map(key => `<option value="${esc(key)}" ${key === state.deliveryPeriod ? 'selected' : ''}>${esc(state.deliveryCadence === 'monthly' ? deliveryMonthLabel(key) + (key === data.coverage.partial_period ? ' · partial' : '') : key)}</option>`).join('');
+
+    const oneStar = rows.filter(row => row.rating === 1).length;
+    const categories = Object.keys(data.category_labels);
+    const typeCounts = categories.map(key => [key, rows.filter(row => row.category === key).length]).sort((a,b) => b[1] - a[1]);
+    const populatedTypes = typeCounts.filter(([,count]) => count > 0);
+    const leading = populatedTypes[0]?.[1] ? data.category_labels[populatedTypes[0][0]] : 'No reviews';
+    const sourceLabel = state.deliveryProfile === 'combined' ? 'Both Trustpilot profiles' : state.deliveryProfile;
+    const periodLabel = state.deliveryPeriod === 'ALL' ? 'Jan–14 Jul 2026' : state.deliveryCadence === 'monthly' ? deliveryMonthLabel(state.deliveryPeriod) + (state.deliveryPeriod === data.coverage.partial_period ? ' · partial' : '') : state.deliveryPeriod;
+    const deliveryRelated = rows.filter(row => row.delivery_related).length;
+    $('deliveryScope').textContent = `Through ${fmtDate(data.coverage.through)} · ${data.totals.reviews} reviews`;
+    $('deliverySummary').innerHTML = [
+      ['Non-5★ reviews', fmtNum(rows.length), `${state.deliveryRegion === 'ALL' ? 'Australia' : state.deliveryRegion} · ${periodLabel}`],
+      ['1★ reviews', fmtNum(oneStar), rows.length ? `${Math.round(oneStar / rows.length * 100)}% of matching reviews` : 'No denominator'],
+      ['Dominant reason', leading, populatedTypes[0]?.[1] ? `${populatedTypes[0][1]} matching reviews` : 'No matching reviews'],
+      ['Delivery-related', fmtNum(deliveryRelated), rows.length ? `${Math.round(deliveryRelated / rows.length * 100)}% · other reasons ${rows.length - deliveryRelated}` : 'No denominator'],
+      ['Selected profile', sourceLabel, `${profileCount('lifely.com.au')} Lifely · ${profileCount('littlelifely.com')} Little Lifely`],
+    ].map(([label,value,sub]) => `<div class="delivery-stat"><span>${esc(label)}</span><strong>${esc(value)}</strong><small>${esc(sub)}</small></div>`).join('');
+
+    renderDeliveryTrend();
+
+    const maxType = Math.max(1, ...populatedTypes.map(([,count]) => count));
+    $('deliveryTypeContext').textContent = `${state.deliveryRegion === 'ALL' ? 'All regions' : state.deliveryRegion} · ${periodLabel}`;
+    $('deliveryTypes').innerHTML = populatedTypes.length ? populatedTypes.map(([key,count]) => `<div class="complaint-type-row"><span class="complaint-type-label">${esc(data.category_labels[key])}</span><span class="complaint-type-track"><span class="complaint-type-fill" style="width:${count / maxType * 100}%"></span></span><span class="complaint-type-count">${count}${rows.length ? ` · ${Math.round(count / rows.length * 100)}%` : ''}</span></div>`).join('') : `<div class="empty-state">No non-5★ reviews match these filters.</div>`;
+
+    const comparisonRows = deliveryFiltered({ ignoreProfile: true });
+    $('deliveryProfileCompare').innerHTML = [['lifely.com.au','Lifely Trustpilot'],['littlelifely.com','Little Lifely Trustpilot']].map(([profile,label]) => {
+      const count = comparisonRows.filter(row => row.profile === profile).length;
+      const share = comparisonRows.length ? Math.round(count / comparisonRows.length * 100) : 0;
+      return `<button type="button" class="profile-box ${state.deliveryProfile === profile ? 'active' : ''}" data-delivery-profile="${esc(profile)}"><span>${esc(label)}<small>${share}% of direct-profile non-5★ reviews</small></span><strong>${count}</strong></button>`;
+    }).join('');
+
+    $('deliveryEvidenceCount').textContent = `${rows.length} matching · showing newest ${Math.min(rows.length, 6)}`;
+    $('deliveryCases').innerHTML = rows.length ? rows.slice(0,6).map(row => `<article class="delivery-case"><div class="delivery-case-meta"><span class="delivery-case-badge">${row.rating}★</span><span>${esc(row.region)}</span><span>·</span><span>${esc(fmtDate(row.published_date, {short:true}))}</span><span>·</span><span>${esc(row.profile)}</span></div><h5>${esc(row.title)}</h5><p>${esc(row.excerpt)}</p><a href="${esc(row.url)}" target="_blank" rel="noopener">Open verified Trustpilot review ↗</a></article>`).join('') : `<div class="empty-state">No verified non-5★ reviews match these filters.</div>`;
+    $('deliveryMethod').textContent = `${data.coverage.scope} ${(data.coverage.limitations || []).join(' ')}`;
+
+    $('deliveryRegions').querySelectorAll('[data-delivery-region]').forEach(button => button.addEventListener('click', () => { state.deliveryRegion = button.dataset.deliveryRegion; renderRegionalDelivery(); }));
+    document.querySelectorAll('[data-delivery-profile]').forEach(button => button.addEventListener('click', () => { state.deliveryProfile = button.dataset.deliveryProfile; renderRegionalDelivery(); }));
+  }
+
+  function renderCoverageGrid() {
+    $('coverageGrid').innerHTML = state.data.period_trends.map(source => {
+      const c = source.coverage || {};
+      const regionLine = c.region_records ? `${fmtNum(c.region_records)} region-tagged · ${fmtNum(c.region_unavailable_records)} unavailable` : 'Regional breakdown unavailable';
+      return `<article class="coverage-card"><h3>${esc(source.label)}</h3><span class="coverage-date">${c.first_review_at ? fmtDate(c.first_review_at) : 'Unavailable'}</span><span class="coverage-meta">${fmtNum(c.records)} captured reviews · latest ${c.last_review_at ? fmtDate(c.last_review_at) : 'unavailable'}<br>${esc(regionLine)}</span><p class="coverage-limit">${esc(c.limitation || 'No older verified review records are available.')}</p></article>`;
+    }).join('');
+  }
+
+  function renderAllDynamic(rebuildTabs = true) {
+    if (rebuildTabs) renderTabs();
+    document.querySelectorAll('[data-cadence]').forEach(button => button.classList.toggle('active', button.dataset.cadence === state.cadence));
+    renderRegionControl();
+    renderPeriodControls();
+    renderSummary();
+    renderChart();
+    renderDistribution();
+    renderCoverageNote();
+    renderAnalysis();
+    renderRegionalDelivery();
+  }
+
+  async function init() {
+    try {
+      const response = await fetch('reviews.json', { cache: 'no-store' });
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+      const data = await response.json();
+      if (!Array.isArray(data.sources) || !Array.isArray(data.period_trends)) throw new Error('Review data shape is incomplete');
+      state.data = data;
+      try {
+        const deliveryResponse = await fetch('regional-non5-reviews.json', { cache: 'no-store' });
+        if (deliveryResponse.ok) {
+          const deliveryData = await deliveryResponse.json();
+          if (Array.isArray(deliveryData.records)) state.deliveryData = deliveryData;
+        }
+      } catch (deliveryError) {
+        console.warn('Regional non-5-star review data is unavailable', deliveryError);
+      }
+      state.sourceKey = data.period_trends[0]?.key;
+      state.regionKey = 'AU';
+      if (deliverySources[state.sourceKey]) state.deliveryProfile = deliverySources[state.sourceKey];
+      state.periodKey = data.period_trends[0]?.weekly?.at(-1)?.key || null;
+      $('lastUpdated').textContent = `Updated ${fmtDate(data.last_updated)} · verified data only`;
+      $('methodFooter').textContent = data.metric_definition || 'Verified source data only';
+      renderSourceCards();
+      renderCoverageGrid();
+      renderAllDynamic();
+
+      document.querySelectorAll('[data-cadence]').forEach(button => button.addEventListener('click', () => {
+        state.cadence = button.dataset.cadence;
+        state.periodKey = periods().at(-1)?.key || null;
+        renderAllDynamic(false);
+      }));
+      $('regionSelect').addEventListener('change', event => {
+        state.regionKey = event.target.value;
+        state.periodKey = periods().at(-1)?.key || null;
+        renderAllDynamic(false);
+      });
+      $('periodSelect').addEventListener('change', event => { state.periodKey = event.target.value; renderAllDynamic(false); });
+      $('periodPrev').addEventListener('click', () => { const idx = selectedIndex(); if (idx > 0) { state.periodKey = periods()[idx - 1].key; renderAllDynamic(false); } });
+      $('periodNext').addEventListener('click', () => { const idx = selectedIndex(); if (idx < periods().length - 1) { state.periodKey = periods()[idx + 1].key; renderAllDynamic(false); } });
+      document.querySelectorAll('[data-delivery-cadence]').forEach(button => button.addEventListener('click', () => { state.deliveryCadence = button.dataset.deliveryCadence; state.deliveryPeriod = 'ALL'; renderRegionalDelivery(); }));
+      $('deliveryPeriod').addEventListener('change', event => { state.deliveryPeriod = event.target.value; renderRegionalDelivery(); });
+    } catch (error) {
+      $('errorState').hidden = false;
+      $('errorState').textContent = `Review data could not be loaded (${error.message}). No values were estimated.`;
+      console.error(error);
+    }
+  }
+  init();
+})();
+</script>
+</body>
+</html>
