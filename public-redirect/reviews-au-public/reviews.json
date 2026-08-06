@@ -5,7 +5,7 @@
     "label": "Australia only",
     "rule": "Includes only source-attributed Australian reviews. Unknown and non-Australian records are excluded."
   },
-  "last_updated": "2026-08-04T06:00:02Z",
+  "last_updated": "2026-08-06T09:42:34Z",
   "metric_definition": "Captured AU review history only. Scores are calculated from dated, source-attributed Australian reviews and are not global platform scores.",
   "sources": [
     {
@@ -14,19 +14,19 @@
       "platform": "Trustpilot",
       "label": "Lifely Trustpilot",
       "url": "https://www.trustpilot.com/review/lifely.com.au",
-      "score": 3.98,
-      "total_reviews": 186,
+      "score": 3.93,
+      "total_reviews": 195,
       "score_delta": null,
       "review_delta": null,
       "to_next_0_1_est_reviews": null,
       "source_note": "Captured Australian review history only.",
       "color": "#00a76f",
-      "history_records": 186,
+      "history_records": 195,
       "history_first_review_at": "2026-03-30T03:09:17Z",
-      "history_last_review_at": "2026-08-03T07:09:55Z",
+      "history_last_review_at": "2026-08-06T08:09:01Z",
       "history_method": "AU-only derivative of the verified Watchtower review history",
       "history_limitation": "Only records with a defensible Australian country/state attribution are included; unknown and non-Australian records are excluded.",
-      "region_records": 186,
+      "region_records": 195,
       "region_unavailable_records": 0,
       "region_source": "Public reviewer country supplied by Trustpilot."
     },
@@ -58,7 +58,7 @@
       "platform": "Trustpilot",
       "label": "Cushie Trustpilot",
       "url": "https://www.trustpilot.com/review/cushiehome.com",
-      "score": 4.74,
+      "score": 4.65,
       "total_reviews": 46,
       "score_delta": null,
       "review_delta": null,
@@ -128,12 +128,12 @@
         "brand": "Lifely",
         "platform": "Trustpilot",
         "label": "Lifely Trustpilot",
-        "records": 186,
+        "records": 195,
         "first_review_at": "2026-03-30T03:09:17Z",
-        "last_review_at": "2026-08-03T07:09:55Z",
+        "last_review_at": "2026-08-06T08:09:01Z",
         "method": "AU-only derivative of the verified Watchtower review history",
         "limitation": "Only records with a defensible Australian country/state attribution are included; unknown and non-Australian records are excluded.",
-        "region_records": 186,
+        "region_records": 195,
         "region_unavailable_records": 0,
         "region_source": "Public reviewer country supplied by Trustpilot."
       },
@@ -1146,13 +1146,13 @@
           "end": "2026-06-21",
           "is_partial": false,
           "review_count": 14,
-          "average_score": 3.86,
+          "average_score": 3.93,
           "stars": {
             "1": 2,
             "2": 1,
             "3": 1,
-            "4": 3,
-            "5": 7
+            "4": 2,
+            "5": 8
           },
           "low_star_count": 3,
           "positive_count": 10,
@@ -1197,7 +1197,7 @@
               "previous_count": 3,
               "delta_vs_previous": 2,
               "example": {
-                "rating": 4,
+                "rating": 5,
                 "date": "2026-06-17T09:58:07Z",
                 "text": "We love our lifely bed for our boy! We love our lifely bed for our 2 and a half year old! Great service, quality and even a discount prior to purchasing. We have also recommended this to other friends and family due to the comfort and safety along with it. Our son is wild and having the cushion cov…",
                 "url": "https://www.trustpilot.com/reviews/6a32538fd2cb0cb03dccef66"
@@ -1450,7 +1450,7 @@
               "example": {
                 "rating": 1,
                 "date": "2026-07-07T02:33:05Z",
-                "text": "Missing parts 7 weeks and counting Ordered lounge in May received 2 parts and missing 1 for over 7 weeks. If you take full payment then supply full lounge. Ive requested a refund and collection on 6 July, after sending 7 follow up emails since May. Let see what happens, ill update once I hear back…",
+                "text": "Missing parts 7 weeks and counting Upate 24 Jul still no resoloution. Two times waited for pick up for them to cancel at the laat minute. Im suspicious these ate tactics to stretch out the process yet keep my money. Ordered lounge in May received 2 parts and missing 1 for over 7 weeks. If you take…",
                 "url": "https://www.trustpilot.com/reviews/6a4c49410e387307d73512d6"
               },
               "recommended_action": "Use a named low-star rescue owner, a clear first-response window, and a close-the-loop update after resolution."
@@ -1745,25 +1745,25 @@
           "start": "2026-08-03",
           "end": "2026-08-09",
           "is_partial": true,
-          "review_count": 2,
-          "average_score": 3.0,
+          "review_count": 11,
+          "average_score": 2.91,
           "stars": {
-            "1": 1,
-            "2": 0,
-            "3": 0,
+            "1": 4,
+            "2": 1,
+            "3": 2,
             "4": 0,
-            "5": 1
+            "5": 4
           },
-          "low_star_count": 1,
-          "positive_count": 1,
+          "low_star_count": 5,
+          "positive_count": 4,
           "complaint_themes": [
             {
               "theme": "support_response_resolution",
               "label": "Support response / resolution loop",
-              "count": 1,
-              "share": 100.0,
+              "count": 3,
+              "share": 60.0,
               "previous_count": 0,
-              "delta_vs_previous": 1,
+              "delta_vs_previous": 3,
               "example": {
                 "rating": 1,
                 "date": "2026-08-03T03:26:14Z",
@@ -1771,16 +1771,31 @@
                 "url": "https://www.trustpilot.com/reviews/6a6fee3646578e57205ae200"
               },
               "recommended_action": "Use a named low-star rescue owner, a clear first-response window, and a close-the-loop update after resolution."
+            },
+            {
+              "theme": "delivery_delay_tracking",
+              "label": "Delivery delays / tracking clarity",
+              "count": 2,
+              "share": 40.0,
+              "previous_count": 0,
+              "delta_vs_previous": 2,
+              "example": {
+                "rating": 1,
+                "date": "2026-08-04T12:17:07Z",
+                "text": "Delivery experience TERRIBLE. The product is amazing yes but the shipping experience from the team that collects and ships the product was the worst customer experience I have ever had and there reviews say the same from over 1000 people. Definitely need a new transport partnership.",
+                "url": "https://www.trustpilot.com/reviews/6a71bc23888c07c6b959b542"
+              },
+              "recommended_action": "Tighten proactive ETA communication before customers need to chase, and distinguish preorder delays from courier delays."
             }
           ],
           "positive_themes": [
             {
               "theme": "comfort_product_love",
               "label": "Comfort and product feel",
-              "count": 1,
+              "count": 4,
               "share": 100.0,
               "previous_count": 1,
-              "delta_vs_previous": 0,
+              "delta_vs_previous": 3,
               "example": {
                 "rating": 5,
                 "date": "2026-08-03T07:09:55Z",
@@ -2109,13 +2124,13 @@
           "end": "2026-06-30",
           "is_partial": false,
           "review_count": 54,
-          "average_score": 3.48,
+          "average_score": 3.5,
           "stars": {
             "1": 16,
             "2": 2,
             "3": 4,
-            "4": 4,
-            "5": 28
+            "4": 3,
+            "5": 29
           },
           "low_star_count": 18,
           "positive_count": 32,
@@ -2369,25 +2384,25 @@
           "start": "2026-08-01",
           "end": "2026-08-31",
           "is_partial": true,
-          "review_count": 4,
-          "average_score": 3.5,
+          "review_count": 13,
+          "average_score": 3.08,
           "stars": {
-            "1": 1,
-            "2": 0,
-            "3": 1,
+            "1": 4,
+            "2": 1,
+            "3": 3,
             "4": 0,
-            "5": 2
+            "5": 5
           },
-          "low_star_count": 1,
-          "positive_count": 2,
+          "low_star_count": 5,
+          "positive_count": 5,
           "complaint_themes": [
             {
               "theme": "support_response_resolution",
               "label": "Support response / resolution loop",
-              "count": 1,
-              "share": 100.0,
+              "count": 3,
+              "share": 60.0,
               "previous_count": 4,
-              "delta_vs_previous": -3,
+              "delta_vs_previous": -1,
               "example": {
                 "rating": 1,
                 "date": "2026-08-03T03:26:14Z",
@@ -2395,14 +2410,43 @@
                 "url": "https://www.trustpilot.com/reviews/6a6fee3646578e57205ae200"
               },
               "recommended_action": "Use a named low-star rescue owner, a clear first-response window, and a close-the-loop update after resolution."
+            },
+            {
+              "theme": "delivery_delay_tracking",
+              "label": "Delivery delays / tracking clarity",
+              "count": 2,
+              "share": 40.0,
+              "previous_count": 0,
+              "delta_vs_previous": 2,
+              "example": {
+                "rating": 1,
+                "date": "2026-08-04T12:17:07Z",
+                "text": "Delivery experience TERRIBLE. The product is amazing yes but the shipping experience from the team that collects and ships the product was the worst customer experience I have ever had and there reviews say the same from over 1000 people. Definitely need a new transport partnership.",
+                "url": "https://www.trustpilot.com/reviews/6a71bc23888c07c6b959b542"
+              },
+              "recommended_action": "Tighten proactive ETA communication before customers need to chase, and distinguish preorder delays from courier delays."
             }
           ],
           "positive_themes": [
             {
+              "theme": "comfort_product_love",
+              "label": "Comfort and product feel",
+              "count": 4,
+              "share": 80.0,
+              "previous_count": 16,
+              "delta_vs_previous": -12,
+              "example": {
+                "rating": 5,
+                "date": "2026-08-03T07:09:55Z",
+                "text": "The product looks exactly like the… The product looks exactly like the reference images. Absolutely love the design.",
+                "url": "https://www.trustpilot.com/reviews/6a7022a372a966d2208af2f7"
+              }
+            },
+            {
               "theme": "service_recovery",
               "label": "Helpful service / recovery",
               "count": 1,
-              "share": 50.0,
+              "share": 20.0,
               "previous_count": 6,
               "delta_vs_previous": -5,
               "example": {
@@ -2410,20 +2454,6 @@
                 "date": "2026-08-01T11:27:50Z",
                 "text": "Helpful Helpful! Thank you to Craig for all his support with my constant change of minds! Craig went above and beyond to make me a happy customer x",
                 "url": "https://www.trustpilot.com/reviews/6a6dbc160aa369a5a0a51ab4"
-              }
-            },
-            {
-              "theme": "comfort_product_love",
-              "label": "Comfort and product feel",
-              "count": 1,
-              "share": 50.0,
-              "previous_count": 16,
-              "delta_vs_previous": -15,
-              "example": {
-                "rating": 5,
-                "date": "2026-08-03T07:09:55Z",
-                "text": "The product looks exactly like the… The product looks exactly like the reference images. Absolutely love the design.",
-                "url": "https://www.trustpilot.com/reviews/6a7022a372a966d2208af2f7"
               }
             }
           ]
@@ -2433,7 +2463,7 @@
         {
           "key": "AU",
           "label": "Australia",
-          "records": 186,
+          "records": 195,
           "weekly": [
             {
               "key": "2026-03-30",
@@ -3443,13 +3473,13 @@
               "end": "2026-06-21",
               "is_partial": false,
               "review_count": 14,
-              "average_score": 3.86,
+              "average_score": 3.93,
               "stars": {
                 "1": 2,
                 "2": 1,
                 "3": 1,
-                "4": 3,
-                "5": 7
+                "4": 2,
+                "5": 8
               },
               "low_star_count": 3,
               "positive_count": 10,
@@ -3494,7 +3524,7 @@
                   "previous_count": 3,
                   "delta_vs_previous": 2,
                   "example": {
-                    "rating": 4,
+                    "rating": 5,
                     "date": "2026-06-17T09:58:07Z",
                     "text": "We love our lifely bed for our boy! We love our lifely bed for our 2 and a half year old! Great service, quality and even a discount prior to purchasing. We have also recommended this to other friends and family due to the comfort and safety along with it. Our son is wild and having the cushion cov…",
                     "url": "https://www.trustpilot.com/reviews/6a32538fd2cb0cb03dccef66"
@@ -3747,7 +3777,7 @@
                   "example": {
                     "rating": 1,
                     "date": "2026-07-07T02:33:05Z",
-                    "text": "Missing parts 7 weeks and counting Ordered lounge in May received 2 parts and missing 1 for over 7 weeks. If you take full payment then supply full lounge. Ive requested a refund and collection on 6 July, after sending 7 follow up emails since May. Let see what happens, ill update once I hear back…",
+                    "text": "Missing parts 7 weeks and counting Upate 24 Jul still no resoloution. Two times waited for pick up for them to cancel at the laat minute. Im suspicious these ate tactics to stretch out the process yet keep my money. Ordered lounge in May received 2 parts and missing 1 for over 7 weeks. If you take…",
                     "url": "https://www.trustpilot.com/reviews/6a4c49410e387307d73512d6"
                   },
                   "recommended_action": "Use a named low-star rescue owner, a clear first-response window, and a close-the-loop update after resolution."
@@ -4042,25 +4072,25 @@
               "start": "2026-08-03",
               "end": "2026-08-09",
               "is_partial": true,
-              "review_count": 2,
-              "average_score": 3.0,
+              "review_count": 11,
+              "average_score": 2.91,
               "stars": {
-                "1": 1,
-                "2": 0,
-                "3": 0,
+                "1": 4,
+                "2": 1,
+                "3": 2,
                 "4": 0,
-                "5": 1
+                "5": 4
               },
-              "low_star_count": 1,
-              "positive_count": 1,
+              "low_star_count": 5,
+              "positive_count": 4,
               "complaint_themes": [
                 {
                   "theme": "support_response_resolution",
                   "label": "Support response / resolution loop",
-                  "count": 1,
-                  "share": 100.0,
+                  "count": 3,
+                  "share": 60.0,
                   "previous_count": 0,
-                  "delta_vs_previous": 1,
+                  "delta_vs_previous": 3,
                   "example": {
                     "rating": 1,
                     "date": "2026-08-03T03:26:14Z",
@@ -4068,16 +4098,31 @@
                     "url": "https://www.trustpilot.com/reviews/6a6fee3646578e57205ae200"
                   },
                   "recommended_action": "Use a named low-star rescue owner, a clear first-response window, and a close-the-loop update after resolution."
+                },
+                {
+                  "theme": "delivery_delay_tracking",
+                  "label": "Delivery delays / tracking clarity",
+                  "count": 2,
+                  "share": 40.0,
+                  "previous_count": 0,
+                  "delta_vs_previous": 2,
+                  "example": {
+                    "rating": 1,
+                    "date": "2026-08-04T12:17:07Z",
+                    "text": "Delivery experience TERRIBLE. The product is amazing yes but the shipping experience from the team that collects and ships the product was the worst customer experience I have ever had and there reviews say the same from over 1000 people. Definitely need a new transport partnership.",
+                    "url": "https://www.trustpilot.com/reviews/6a71bc23888c07c6b959b542"
+                  },
+                  "recommended_action": "Tighten proactive ETA communication before customers need to chase, and distinguish preorder delays from courier delays."
                 }
               ],
               "positive_themes": [
                 {
                   "theme": "comfort_product_love",
                   "label": "Comfort and product feel",
-                  "count": 1,
+                  "count": 4,
                   "share": 100.0,
                   "previous_count": 1,
-                  "delta_vs_previous": 0,
+                  "delta_vs_previous": 3,
                   "example": {
                     "rating": 5,
                     "date": "2026-08-03T07:09:55Z",
@@ -4406,13 +4451,13 @@
               "end": "2026-06-30",
               "is_partial": false,
               "review_count": 54,
-              "average_score": 3.48,
+              "average_score": 3.5,
               "stars": {
                 "1": 16,
                 "2": 2,
                 "3": 4,
-                "4": 4,
-                "5": 28
+                "4": 3,
+                "5": 29
               },
               "low_star_count": 18,
               "positive_count": 32,
@@ -4666,25 +4711,25 @@
               "start": "2026-08-01",
               "end": "2026-08-31",
               "is_partial": true,
-              "review_count": 4,
-              "average_score": 3.5,
+              "review_count": 13,
+              "average_score": 3.08,
               "stars": {
-                "1": 1,
-                "2": 0,
-                "3": 1,
+                "1": 4,
+                "2": 1,
+                "3": 3,
                 "4": 0,
-                "5": 2
+                "5": 5
               },
-              "low_star_count": 1,
-              "positive_count": 2,
+              "low_star_count": 5,
+              "positive_count": 5,
               "complaint_themes": [
                 {
                   "theme": "support_response_resolution",
                   "label": "Support response / resolution loop",
-                  "count": 1,
-                  "share": 100.0,
+                  "count": 3,
+                  "share": 60.0,
                   "previous_count": 4,
-                  "delta_vs_previous": -3,
+                  "delta_vs_previous": -1,
                   "example": {
                     "rating": 1,
                     "date": "2026-08-03T03:26:14Z",
@@ -4692,14 +4737,43 @@
                     "url": "https://www.trustpilot.com/reviews/6a6fee3646578e57205ae200"
                   },
                   "recommended_action": "Use a named low-star rescue owner, a clear first-response window, and a close-the-loop update after resolution."
+                },
+                {
+                  "theme": "delivery_delay_tracking",
+                  "label": "Delivery delays / tracking clarity",
+                  "count": 2,
+                  "share": 40.0,
+                  "previous_count": 0,
+                  "delta_vs_previous": 2,
+                  "example": {
+                    "rating": 1,
+                    "date": "2026-08-04T12:17:07Z",
+                    "text": "Delivery experience TERRIBLE. The product is amazing yes but the shipping experience from the team that collects and ships the product was the worst customer experience I have ever had and there reviews say the same from over 1000 people. Definitely need a new transport partnership.",
+                    "url": "https://www.trustpilot.com/reviews/6a71bc23888c07c6b959b542"
+                  },
+                  "recommended_action": "Tighten proactive ETA communication before customers need to chase, and distinguish preorder delays from courier delays."
                 }
               ],
               "positive_themes": [
                 {
+                  "theme": "comfort_product_love",
+                  "label": "Comfort and product feel",
+                  "count": 4,
+                  "share": 80.0,
+                  "previous_count": 16,
+                  "delta_vs_previous": -12,
+                  "example": {
+                    "rating": 5,
+                    "date": "2026-08-03T07:09:55Z",
+                    "text": "The product looks exactly like the… The product looks exactly like the reference images. Absolutely love the design.",
+                    "url": "https://www.trustpilot.com/reviews/6a7022a372a966d2208af2f7"
+                  }
+                },
+                {
                   "theme": "service_recovery",
                   "label": "Helpful service / recovery",
                   "count": 1,
-                  "share": 50.0,
+                  "share": 20.0,
                   "previous_count": 6,
                   "delta_vs_previous": -5,
                   "example": {
@@ -4707,20 +4781,6 @@
                     "date": "2026-08-01T11:27:50Z",
                     "text": "Helpful Helpful! Thank you to Craig for all his support with my constant change of minds! Craig went above and beyond to make me a happy customer x",
                     "url": "https://www.trustpilot.com/reviews/6a6dbc160aa369a5a0a51ab4"
-                  }
-                },
-                {
-                  "theme": "comfort_product_love",
-                  "label": "Comfort and product feel",
-                  "count": 1,
-                  "share": 50.0,
-                  "previous_count": 16,
-                  "delta_vs_previous": -15,
-                  "example": {
-                    "rating": 5,
-                    "date": "2026-08-03T07:09:55Z",
-                    "text": "The product looks exactly like the… The product looks exactly like the reference images. Absolutely love the design.",
-                    "url": "https://www.trustpilot.com/reviews/6a7022a372a966d2208af2f7"
                   }
                 }
               ]
@@ -6099,22 +6159,22 @@
           "end": "2026-06-14",
           "is_partial": false,
           "review_count": 37,
-          "average_score": 4.7,
+          "average_score": 4.59,
           "stars": {
-            "1": 1,
+            "1": 2,
             "2": 0,
             "3": 0,
             "4": 7,
-            "5": 29
+            "5": 28
           },
-          "low_star_count": 1,
-          "positive_count": 36,
+          "low_star_count": 2,
+          "positive_count": 35,
           "complaint_themes": [
             {
               "theme": "delivery_delay_tracking",
               "label": "Delivery delays / tracking clarity",
               "count": 1,
-              "share": 100.0,
+              "share": 50.0,
               "previous_count": 0,
               "delta_vs_previous": 1,
               "example": {
@@ -6124,16 +6184,31 @@
                 "url": "https://www.trustpilot.com/reviews/6a27b44de7e95771f8e2c6c7"
               },
               "recommended_action": "Tighten proactive ETA communication before customers need to chase, and distinguish preorder delays from courier delays."
+            },
+            {
+              "theme": "comfort_fit_expectation",
+              "label": "Comfort / fit expectation gap",
+              "count": 1,
+              "share": 50.0,
+              "previous_count": 0,
+              "delta_vs_previous": 1,
+              "example": {
+                "rating": 1,
+                "date": "2026-06-14T01:29:25Z",
+                "text": "Poor customer service - lies to get you to write reviews Updated review - whilst the products are good, customer service is extremely poor. They sent an email asking for a review and if completed they will gift you a free bookcase. However once I completed the review, I followed up 3 times, only to…",
+                "url": "https://www.trustpilot.com/reviews/6a2de7d5aeb4c7919f6c15f6"
+              },
+              "recommended_action": "Strengthen firmness, fit, dimensions-in-context, and intended-use guidance beside review proof on the PDP."
             }
           ],
           "positive_themes": [
             {
               "theme": "comfort_product_love",
               "label": "Comfort and product feel",
-              "count": 24,
-              "share": 66.7,
+              "count": 23,
+              "share": 65.7,
               "previous_count": 0,
-              "delta_vs_previous": 24,
+              "delta_vs_previous": 23,
               "example": {
                 "rating": 5,
                 "date": "2026-06-09T07:26:13Z",
@@ -6145,7 +6220,7 @@
               "theme": "shipping_positive",
               "label": "Fast or clear delivery",
               "count": 5,
-              "share": 13.9,
+              "share": 14.3,
               "previous_count": 0,
               "delta_vs_previous": 5,
               "example": {
@@ -6159,7 +6234,7 @@
               "theme": "service_recovery",
               "label": "Helpful service / recovery",
               "count": 3,
-              "share": 8.3,
+              "share": 8.6,
               "previous_count": 0,
               "delta_vs_previous": 3,
               "example": {
@@ -6173,7 +6248,7 @@
               "theme": "easy_setup_conversion",
               "label": "Easy setup / quick transform",
               "count": 3,
-              "share": 8.3,
+              "share": 8.6,
               "previous_count": 0,
               "delta_vs_previous": 3,
               "example": {
@@ -6209,8 +6284,8 @@
               "label": "Comfort and product feel",
               "count": 5,
               "share": 71.4,
-              "previous_count": 24,
-              "delta_vs_previous": -19,
+              "previous_count": 23,
+              "delta_vs_previous": -18,
               "example": {
                 "rating": 5,
                 "date": "2026-06-15T12:55:44Z",
@@ -6412,22 +6487,22 @@
           "end": "2026-06-30",
           "is_partial": false,
           "review_count": 46,
-          "average_score": 4.74,
+          "average_score": 4.65,
           "stars": {
-            "1": 1,
+            "1": 2,
             "2": 0,
             "3": 0,
             "4": 8,
-            "5": 37
+            "5": 36
           },
-          "low_star_count": 1,
-          "positive_count": 45,
+          "low_star_count": 2,
+          "positive_count": 44,
           "complaint_themes": [
             {
               "theme": "delivery_delay_tracking",
               "label": "Delivery delays / tracking clarity",
               "count": 1,
-              "share": 100.0,
+              "share": 50.0,
               "previous_count": 0,
               "delta_vs_previous": 1,
               "example": {
@@ -6437,16 +6512,31 @@
                 "url": "https://www.trustpilot.com/reviews/6a27b44de7e95771f8e2c6c7"
               },
               "recommended_action": "Tighten proactive ETA communication before customers need to chase, and distinguish preorder delays from courier delays."
+            },
+            {
+              "theme": "comfort_fit_expectation",
+              "label": "Comfort / fit expectation gap",
+              "count": 1,
+              "share": 50.0,
+              "previous_count": 0,
+              "delta_vs_previous": 1,
+              "example": {
+                "rating": 1,
+                "date": "2026-06-14T01:29:25Z",
+                "text": "Poor customer service - lies to get you to write reviews Updated review - whilst the products are good, customer service is extremely poor. They sent an email asking for a review and if completed they will gift you a free bookcase. However once I completed the review, I followed up 3 times, only to…",
+                "url": "https://www.trustpilot.com/reviews/6a2de7d5aeb4c7919f6c15f6"
+              },
+              "recommended_action": "Strengthen firmness, fit, dimensions-in-context, and intended-use guidance beside review proof on the PDP."
             }
           ],
           "positive_themes": [
             {
               "theme": "comfort_product_love",
               "label": "Comfort and product feel",
-              "count": 31,
-              "share": 68.9,
+              "count": 30,
+              "share": 68.2,
               "previous_count": 0,
-              "delta_vs_previous": 31,
+              "delta_vs_previous": 30,
               "example": {
                 "rating": 5,
                 "date": "2026-06-09T07:26:13Z",
@@ -6458,7 +6548,7 @@
               "theme": "shipping_positive",
               "label": "Fast or clear delivery",
               "count": 6,
-              "share": 13.3,
+              "share": 13.6,
               "previous_count": 0,
               "delta_vs_previous": 6,
               "example": {
@@ -6472,7 +6562,7 @@
               "theme": "service_recovery",
               "label": "Helpful service / recovery",
               "count": 4,
-              "share": 8.9,
+              "share": 9.1,
               "previous_count": 0,
               "delta_vs_previous": 4,
               "example": {
@@ -6486,7 +6576,7 @@
               "theme": "easy_setup_conversion",
               "label": "Easy setup / quick transform",
               "count": 3,
-              "share": 6.7,
+              "share": 6.8,
               "previous_count": 0,
               "delta_vs_previous": 3,
               "example": {
@@ -6552,22 +6642,22 @@
               "end": "2026-06-14",
               "is_partial": false,
               "review_count": 37,
-              "average_score": 4.7,
+              "average_score": 4.59,
               "stars": {
-                "1": 1,
+                "1": 2,
                 "2": 0,
                 "3": 0,
                 "4": 7,
-                "5": 29
+                "5": 28
               },
-              "low_star_count": 1,
-              "positive_count": 36,
+              "low_star_count": 2,
+              "positive_count": 35,
               "complaint_themes": [
                 {
                   "theme": "delivery_delay_tracking",
                   "label": "Delivery delays / tracking clarity",
                   "count": 1,
-                  "share": 100.0,
+                  "share": 50.0,
                   "previous_count": 0,
                   "delta_vs_previous": 1,
                   "example": {
@@ -6577,16 +6667,31 @@
                     "url": "https://www.trustpilot.com/reviews/6a27b44de7e95771f8e2c6c7"
                   },
                   "recommended_action": "Tighten proactive ETA communication before customers need to chase, and distinguish preorder delays from courier delays."
+                },
+                {
+                  "theme": "comfort_fit_expectation",
+                  "label": "Comfort / fit expectation gap",
+                  "count": 1,
+                  "share": 50.0,
+                  "previous_count": 0,
+                  "delta_vs_previous": 1,
+                  "example": {
+                    "rating": 1,
+                    "date": "2026-06-14T01:29:25Z",
+                    "text": "Poor customer service - lies to get you to write reviews Updated review - whilst the products are good, customer service is extremely poor. They sent an email asking for a review and if completed they will gift you a free bookcase. However once I completed the review, I followed up 3 times, only to…",
+                    "url": "https://www.trustpilot.com/reviews/6a2de7d5aeb4c7919f6c15f6"
+                  },
+                  "recommended_action": "Strengthen firmness, fit, dimensions-in-context, and intended-use guidance beside review proof on the PDP."
                 }
               ],
               "positive_themes": [
                 {
                   "theme": "comfort_product_love",
                   "label": "Comfort and product feel",
-                  "count": 24,
-                  "share": 66.7,
+                  "count": 23,
+                  "share": 65.7,
                   "previous_count": 0,
-                  "delta_vs_previous": 24,
+                  "delta_vs_previous": 23,
                   "example": {
                     "rating": 5,
                     "date": "2026-06-09T07:26:13Z",
@@ -6598,7 +6703,7 @@
                   "theme": "shipping_positive",
                   "label": "Fast or clear delivery",
                   "count": 5,
-                  "share": 13.9,
+                  "share": 14.3,
                   "previous_count": 0,
                   "delta_vs_previous": 5,
                   "example": {
@@ -6612,7 +6717,7 @@
                   "theme": "service_recovery",
                   "label": "Helpful service / recovery",
                   "count": 3,
-                  "share": 8.3,
+                  "share": 8.6,
                   "previous_count": 0,
                   "delta_vs_previous": 3,
                   "example": {
@@ -6626,7 +6731,7 @@
                   "theme": "easy_setup_conversion",
                   "label": "Easy setup / quick transform",
                   "count": 3,
-                  "share": 8.3,
+                  "share": 8.6,
                   "previous_count": 0,
                   "delta_vs_previous": 3,
                   "example": {
@@ -6662,8 +6767,8 @@
                   "label": "Comfort and product feel",
                   "count": 5,
                   "share": 71.4,
-                  "previous_count": 24,
-                  "delta_vs_previous": -19,
+                  "previous_count": 23,
+                  "delta_vs_previous": -18,
                   "example": {
                     "rating": 5,
                     "date": "2026-06-15T12:55:44Z",
@@ -6865,22 +6970,22 @@
               "end": "2026-06-30",
               "is_partial": false,
               "review_count": 46,
-              "average_score": 4.74,
+              "average_score": 4.65,
               "stars": {
-                "1": 1,
+                "1": 2,
                 "2": 0,
                 "3": 0,
                 "4": 8,
-                "5": 37
+                "5": 36
               },
-              "low_star_count": 1,
-              "positive_count": 45,
+              "low_star_count": 2,
+              "positive_count": 44,
               "complaint_themes": [
                 {
                   "theme": "delivery_delay_tracking",
                   "label": "Delivery delays / tracking clarity",
                   "count": 1,
-                  "share": 100.0,
+                  "share": 50.0,
                   "previous_count": 0,
                   "delta_vs_previous": 1,
                   "example": {
@@ -6890,16 +6995,31 @@
                     "url": "https://www.trustpilot.com/reviews/6a27b44de7e95771f8e2c6c7"
                   },
                   "recommended_action": "Tighten proactive ETA communication before customers need to chase, and distinguish preorder delays from courier delays."
+                },
+                {
+                  "theme": "comfort_fit_expectation",
+                  "label": "Comfort / fit expectation gap",
+                  "count": 1,
+                  "share": 50.0,
+                  "previous_count": 0,
+                  "delta_vs_previous": 1,
+                  "example": {
+                    "rating": 1,
+                    "date": "2026-06-14T01:29:25Z",
+                    "text": "Poor customer service - lies to get you to write reviews Updated review - whilst the products are good, customer service is extremely poor. They sent an email asking for a review and if completed they will gift you a free bookcase. However once I completed the review, I followed up 3 times, only to…",
+                    "url": "https://www.trustpilot.com/reviews/6a2de7d5aeb4c7919f6c15f6"
+                  },
+                  "recommended_action": "Strengthen firmness, fit, dimensions-in-context, and intended-use guidance beside review proof on the PDP."
                 }
               ],
               "positive_themes": [
                 {
                   "theme": "comfort_product_love",
                   "label": "Comfort and product feel",
-                  "count": 31,
-                  "share": 68.9,
+                  "count": 30,
+                  "share": 68.2,
                   "previous_count": 0,
-                  "delta_vs_previous": 31,
+                  "delta_vs_previous": 30,
                   "example": {
                     "rating": 5,
                     "date": "2026-06-09T07:26:13Z",
@@ -6911,7 +7031,7 @@
                   "theme": "shipping_positive",
                   "label": "Fast or clear delivery",
                   "count": 6,
-                  "share": 13.3,
+                  "share": 13.6,
                   "previous_count": 0,
                   "delta_vs_previous": 6,
                   "example": {
@@ -6925,7 +7045,7 @@
                   "theme": "service_recovery",
                   "label": "Helpful service / recovery",
                   "count": 4,
-                  "share": 8.9,
+                  "share": 9.1,
                   "previous_count": 0,
                   "delta_vs_previous": 4,
                   "example": {
@@ -6939,7 +7059,7 @@
                   "theme": "easy_setup_conversion",
                   "label": "Easy setup / quick transform",
                   "count": 3,
-                  "share": 6.7,
+                  "share": 6.8,
                   "previous_count": 0,
                   "delta_vs_previous": 3,
                   "example": {
@@ -7054,7 +7174,7 @@
               "example": {
                 "rating": 5,
                 "date": "2024-02-04T02:48:33Z",
-                "text": "Smooth and uncomplicated ordering and delivery, all within 5 days. Great furniture, poor delivery service – The quality of the furniture is lovely and all of the products look and feel like excellent quality. Also great value for money. However, and this is a big however, the courier/freight servic…",
+                "text": "Smooth and uncomplicated ordering and delivery, all within 5 days. Amazing communication – Quick easy to communicate with got back to me with every email I sent. My item was on back order but they found one in the warehouse and got it sent early!! Very happy with staff communication. Will definitel…",
                 "url": "https://www.productreview.com.au/listings/lifely?page=10"
               },
               "share": 50.0,
@@ -7679,7 +7799,7 @@
               "example": {
                 "rating": 5,
                 "date": "2024-06-02T10:27:03Z",
-                "text": "Excellent service, excellent product Great online shopping store – All round great shopping experience. Website, delivery and product all excellent. Delivery was 4 business days from order and I’m in country Victoria. Even though the delivery label had my address in complete, leaving off the street…",
+                "text": "Excellent service, excellent product Courier company delivery – I had a good experience dealing with lifely. My only issue was the courier company. After I requested for the beds to be left in a safe place which there is easy access down the side of the house to the front door, only to find when I…",
                 "url": "https://www.productreview.com.au/listings/lifely?page=9"
               },
               "share": 66.7,
@@ -7728,7 +7848,7 @@
               "example": {
                 "rating": 5,
                 "date": "2024-06-04T12:44:36Z",
-                "text": "Sound sleep Great online shopping store – All round great shopping experience. Website, delivery and product all excellent. Delivery was 4 business days from order and I’m in country Victoria. Even though the delivery label had my address in complete, leaving off the street name, the delivery drive…",
+                "text": "Sound sleep Courier company delivery – I had a good experience dealing with lifely. My only issue was the courier company. After I requested for the beds to be left in a safe place which there is easy access down the side of the house to the front door, only to find when I got home that the beds ha…",
                 "url": "https://www.productreview.com.au/listings/lifely?page=9"
               },
               "share": 75.0,
@@ -7798,7 +7918,7 @@
                 "rating": 5,
                 "date": "2024-06-21T04:37:41Z",
                 "text": "Courier company delivery Courier company delivery – I had a good experience dealing with lifely. My only issue was the courier company. After I requested for the beds to be left in a safe place which there is easy access down the side of the house to the front door, only to find when I got home tha…",
-                "url": "https://www.productreview.com.au/listings/lifely?page=8"
+                "url": "https://www.productreview.com.au/listings/lifely?page=9"
               },
               "share": 100.0,
               "delta_vs_previous": 2
@@ -8758,7 +8878,7 @@
                 "rating": 1,
                 "date": "2025-01-03T01:25:06Z",
                 "text": "Terrible Customer support and Worst Delivery service Terrible Customer support and Worst Delivery service – My wife and I purchased 2 items from Lifely mid October. Both items were pre-orders (I ordered a table and my wife order a console). I received confirmation of the table immediately. My wife…",
-                "url": "https://www.productreview.com.au/listings/lifely?page=6"
+                "url": "https://www.productreview.com.au/listings/lifely?page=7"
               },
               "recommended_action": "Tighten proactive ETA communication before customers need to chase, and distinguish preorder delays from courier delays.",
               "share": 50.0,
@@ -8869,32 +8989,18 @@
           ],
           "positive_themes": [
             {
-              "theme": "comfort_product_love",
-              "label": "Comfort and product feel",
-              "count": 1,
+              "theme": "shipping_positive",
+              "label": "Fast or clear delivery",
+              "count": 2,
               "previous_count": 0,
               "example": {
                 "rating": 5,
                 "date": "2025-01-16T00:52:45Z",
-                "text": "Great product Worst Custoner Service and Online Shopping Experience – After reading the comments, I agree with those that rated Lifely with 1 star. There is definitely a problem with the company. I have experienced the most frustrating online shopping from this company. I received my desk without t…",
+                "text": "Great product Terrible – I ordered a Mattress and base set trying to get a delivery date no one on live chat on reply’s to email I have tried calling several times and just get hung up on saying no is here to take call don’t deal with this company More Lifely 1y Hi Danielle H, Thank you for reporti…",
                 "url": "https://www.productreview.com.au/listings/lifely?page=6"
               },
-              "share": 50.0,
-              "delta_vs_previous": 1
-            },
-            {
-              "theme": "shipping_positive",
-              "label": "Fast or clear delivery",
-              "count": 1,
-              "previous_count": 0,
-              "example": {
-                "rating": 5,
-                "date": "2025-01-15T05:40:38Z",
-                "text": "Great range, good prices and fast delivery. Great range, good prices and fast delivery – Lovely design and quality product. One of the holes in the assembly process wasn't correct but otherwise perfect. Due to a glitch a second repeat order was processed that I hadn't ordered or paid for, so I just…",
-                "url": "https://www.productreview.com.au/listings/lifely?page=6"
-              },
-              "share": 50.0,
-              "delta_vs_previous": 1
+              "share": 100.0,
+              "delta_vs_previous": 2
             }
           ]
         },
@@ -9568,14 +9674,14 @@
               "delta_vs_previous": 1
             },
             {
-              "theme": "service_recovery",
-              "label": "Helpful service / recovery",
+              "theme": "shipping_positive",
+              "label": "Fast or clear delivery",
               "count": 1,
               "previous_count": 0,
               "example": {
                 "rating": 5,
                 "date": "2025-05-10T02:11:45Z",
-                "text": "I have ordered a bed from lifely, it was dispatched on the 30th of June. However the courier still saying the order is not picked up yet. I have tried to contact Lifely through chat bots and emails. So far it has been days without replies - the customer service does not existing except for the AI.…",
+                "text": "Love the Tv unit I bought, it was perfect to my space and very satisfied with the product,just want to mentioned there are lot i want to order but delivery fee is too much. Each item there is a delivery fee which is not good if we want to order more from you Show reply Keven R. 5 posts 1y Verified…",
                 "url": "https://www.productreview.com.au/listings/lifely?page=4"
               },
               "share": 50.0,
@@ -10202,7 +10308,7 @@
               "example": {
                 "rating": 5,
                 "date": "2025-09-07T01:06:13Z",
-                "text": "Absolutely thrilled with my new mattress! I've never slept better! It's so incredibly comfortable—truly the best mattress I've ever had. No more back aches or stiff necks. I wake up feeling refreshed and ready to take on the day. Highly recommend! Show reply Follow-up 9mo · I’m very happy with my m…",
+                "text": "Absolutely thrilled with my new mattress! I've never slept better! It's so incredibly comfortable—truly the best mattress I've ever had. No more back aches or stiff necks. I wake up feeling refreshed and ready to take on the day. Highly recommend! Show reply Follow-up 10mo · I’m very happy with my…",
                 "url": "https://www.productreview.com.au/listings/lifely"
               },
               "share": 33.3,
@@ -10309,14 +10415,14 @@
           ],
           "positive_themes": [
             {
-              "theme": "service_recovery",
-              "label": "Helpful service / recovery",
+              "theme": "shipping_positive",
+              "label": "Fast or clear delivery",
               "count": 1,
               "previous_count": 0,
               "example": {
                 "rating": 5,
                 "date": "2025-09-19T20:30:25Z",
-                "text": "I am extremely disappointed with Lifely’s customer service. After delivery, I contacted them regarding a serious incident where my dad sustained fractured ribs when the handle on one of their boxes broke. I even provided video evidence and hospital papers to support the claim. Despite this, it has…",
+                "text": "Product arrived very quickly and the look and feel is exactly as shown and described. It came with a power tool which was extremely convenient value addition. Great job! Show reply Montana M. QLD 11mo Vote More I am extremely disappointed with Lifely’s customer service. After delivery, I contacted…",
                 "url": "https://www.productreview.com.au/listings/lifely?page=3"
               },
               "share": 100.0,
@@ -10766,17 +10872,16 @@
           "complaint_themes": [],
           "positive_themes": [
             {
-              "theme": "other",
-              "label": "Other feedback",
+              "theme": "shipping_positive",
+              "label": "Fast or clear delivery",
               "count": 1,
               "previous_count": 0,
               "example": {
                 "rating": 5,
                 "date": "2025-12-15T20:05:17Z",
-                "text": "We were really excited about the lifely radiant natural mattress (queen). However after unboxing and setting it up we noticed a significant sag into the centre of the bed. When sleeping on one side you feel like you are lying on a diagonal and going to roll into the middle of the bed. We gave it a…",
+                "text": "Been waiting more than a month and the product still hasn’t arrived. It is stuck in processing and they have very little to no communication with us. I have no confidence that it is going to arrive More Lifely 3d Hi! We'd love to look into this for you. Could you please … Read more Ask the reviewer…",
                 "url": "https://www.productreview.com.au/listings/lifely"
               },
-              "recommended_action": "Review the underlying comments and create a new recurring theme if this pattern repeats.",
               "share": 100.0,
               "delta_vs_previous": 1
             }
@@ -10838,14 +10943,14 @@
           ],
           "positive_themes": [
             {
-              "theme": "shipping_positive",
-              "label": "Fast or clear delivery",
+              "theme": "comfort_product_love",
+              "label": "Comfort and product feel",
               "count": 1,
               "previous_count": 0,
               "example": {
                 "rating": 4,
                 "date": "2026-01-04T06:17:00Z",
-                "text": "Do not bother ordering. I order the Pistachio Double Little Lifely bed with mattress. First there was no tracking when the eventual date rolled around, then they told me they didn't send it because they were waiting on the mattress, now they've told me they have the mattress but no bed! Absolutely…",
+                "text": "I actually wrote a (what I thought to be) helpful review for people who are on the fence about purchasing their Little Lifely Bed and they have actually not approved/deleted the review. I would not recommend this company. At least for this product (I haven’t purchased any of their others and don’t…",
                 "url": "https://www.productreview.com.au/listings/lifely?page=2"
               },
               "share": 100.0,
@@ -11055,7 +11160,7 @@
               "example": {
                 "rating": 1,
                 "date": "2026-02-09T10:50:03Z",
-                "text": "Brooke NSW 2 posts 5mo Verified Vote ( 1 ) More Ordered a toddler bed 14 December, due to Arrive mid January. Apparently it was shipped a week ago but It’s currently feb 8th and I’m still waiting. Countless emails back and forth through their very slow customer service, mattress I ordered with it i…",
+                "text": "Brooke NSW 2 posts 6mo Verified Vote ( 1 ) More Ordered a toddler bed 14 December, due to Arrive mid January. Apparently it was shipped a week ago but It’s currently feb 8th and I’m still waiting. Countless emails back and forth through their very slow customer service, mattress I ordered with it i…",
                 "url": "https://www.productreview.com.au/listings/lifely?page=2"
               },
               "recommended_action": "Use a named low-star rescue owner, a clear first-response window, and a close-the-loop update after resolution.",
@@ -11331,17 +11436,16 @@
               "delta_vs_previous": 2
             },
             {
-              "theme": "other",
-              "label": "Other feedback",
+              "theme": "shipping_positive",
+              "label": "Fast or clear delivery",
               "count": 1,
               "previous_count": 0,
               "example": {
                 "rating": 5,
                 "date": "2026-04-08T08:01:15Z",
-                "text": "We were really excited about the lifely radiant natural mattress (queen). However after unboxing and setting it up we noticed a significant sag into the centre of the bed. When sleeping on one side you feel like you are lying on a diagonal and going to roll into the middle of the bed. We gave it a…",
+                "text": "Been waiting more than a month and the product still hasn’t arrived. It is stuck in processing and they have very little to no communication with us. I have no confidence that it is going to arrive More Lifely 3d Hi! We'd love to look into this for you. Could you please … Read more Ask the reviewer…",
                 "url": "https://www.productreview.com.au/listings/lifely"
               },
-              "recommended_action": "Review the underlying comments and create a new recurring theme if this pattern repeats.",
               "share": 33.3,
               "delta_vs_previous": 1
             }
@@ -11869,7 +11973,7 @@
               "example": {
                 "rating": 5,
                 "date": "2024-02-04T02:48:33Z",
-                "text": "Smooth and uncomplicated ordering and delivery, all within 5 days. Great furniture, poor delivery service – The quality of the furniture is lovely and all of the products look and feel like excellent quality. Also great value for money. However, and this is a big however, the courier/freight servic…",
+                "text": "Smooth and uncomplicated ordering and delivery, all within 5 days. Amazing communication – Quick easy to communicate with got back to me with every email I sent. My item was on back order but they found one in the warehouse and got it sent early!! Very happy with staff communication. Will definitel…",
                 "url": "https://www.productreview.com.au/listings/lifely?page=10"
               },
               "share": 50.0,
@@ -12076,7 +12180,7 @@
               "example": {
                 "rating": 5,
                 "date": "2024-05-24T09:25:19Z",
-                "text": "Excellent Service Great online shopping store – All round great shopping experience. Website, delivery and product all excellent. Delivery was 4 business days from order and I’m in country Victoria. Even though the delivery label had my address in complete, leaving off the street name, the delivery…",
+                "text": "Excellent Service Courier company delivery – I had a good experience dealing with lifely. My only issue was the courier company. After I requested for the beds to be left in a safe place which there is easy access down the side of the house to the front door, only to find when I got home that the b…",
                 "url": "https://www.productreview.com.au/listings/lifely?page=9"
               },
               "share": 62.5,
@@ -12552,7 +12656,7 @@
                 "rating": 1,
                 "date": "2025-01-03T01:25:06Z",
                 "text": "Terrible Customer support and Worst Delivery service Terrible Customer support and Worst Delivery service – My wife and I purchased 2 items from Lifely mid October. Both items were pre-orders (I ordered a table and my wife order a console). I received confirmation of the table immediately. My wife…",
-                "url": "https://www.productreview.com.au/listings/lifely?page=6"
+                "url": "https://www.productreview.com.au/listings/lifely?page=7"
               },
               "recommended_action": "Tighten proactive ETA communication before customers need to chase, and distinguish preorder delays from courier delays.",
               "share": 20.0,
@@ -12576,32 +12680,18 @@
           ],
           "positive_themes": [
             {
-              "theme": "comfort_product_love",
-              "label": "Comfort and product feel",
-              "count": 1,
-              "previous_count": 0,
-              "example": {
-                "rating": 5,
-                "date": "2025-01-16T00:52:45Z",
-                "text": "Great product Worst Custoner Service and Online Shopping Experience – After reading the comments, I agree with those that rated Lifely with 1 star. There is definitely a problem with the company. I have experienced the most frustrating online shopping from this company. I received my desk without t…",
-                "url": "https://www.productreview.com.au/listings/lifely?page=6"
-              },
-              "share": 33.3,
-              "delta_vs_previous": 1
-            },
-            {
               "theme": "shipping_positive",
               "label": "Fast or clear delivery",
-              "count": 1,
+              "count": 2,
               "previous_count": 1,
               "example": {
                 "rating": 5,
-                "date": "2025-01-15T05:40:38Z",
-                "text": "Great range, good prices and fast delivery. Great range, good prices and fast delivery – Lovely design and quality product. One of the holes in the assembly process wasn't correct but otherwise perfect. Due to a glitch a second repeat order was processed that I hadn't ordered or paid for, so I just…",
+                "date": "2025-01-16T00:52:45Z",
+                "text": "Great product Terrible – I ordered a Mattress and base set trying to get a delivery date no one on live chat on reply’s to email I have tried calling several times and just get hung up on saying no is here to take call don’t deal with this company More Lifely 1y Hi Danielle H, Thank you for reporti…",
                 "url": "https://www.productreview.com.au/listings/lifely?page=6"
               },
-              "share": 33.3,
-              "delta_vs_previous": 0
+              "share": 66.7,
+              "delta_vs_previous": 1
             },
             {
               "theme": "service_recovery",
@@ -12893,18 +12983,32 @@
               "delta_vs_previous": 2
             },
             {
-              "theme": "service_recovery",
-              "label": "Helpful service / recovery",
-              "count": 2,
+              "theme": "shipping_positive",
+              "label": "Fast or clear delivery",
+              "count": 1,
               "previous_count": 0,
               "example": {
                 "rating": 5,
                 "date": "2025-05-10T02:11:45Z",
+                "text": "Love the Tv unit I bought, it was perfect to my space and very satisfied with the product,just want to mentioned there are lot i want to order but delivery fee is too much. Each item there is a delivery fee which is not good if we want to order more from you Show reply Keven R. 5 posts 1y Verified…",
+                "url": "https://www.productreview.com.au/listings/lifely?page=4"
+              },
+              "share": 25.0,
+              "delta_vs_previous": 1
+            },
+            {
+              "theme": "service_recovery",
+              "label": "Helpful service / recovery",
+              "count": 1,
+              "previous_count": 0,
+              "example": {
+                "rating": 4,
+                "date": "2025-05-23T07:20:27Z",
                 "text": "I have ordered a bed from lifely, it was dispatched on the 30th of June. However the courier still saying the order is not picked up yet. I have tried to contact Lifely through chat bots and emails. So far it has been days without replies - the customer service does not existing except for the AI.…",
                 "url": "https://www.productreview.com.au/listings/lifely?page=4"
               },
-              "share": 50.0,
-              "delta_vs_previous": 2
+              "share": 25.0,
+              "delta_vs_previous": 1
             }
           ]
         },
@@ -12947,7 +13051,7 @@
               "theme": "shipping_positive",
               "label": "Fast or clear delivery",
               "count": 1,
-              "previous_count": 0,
+              "previous_count": 1,
               "example": {
                 "rating": 4,
                 "date": "2025-06-05T00:37:26Z",
@@ -12955,7 +13059,7 @@
                 "url": "https://www.productreview.com.au/listings/lifely?page=4"
               },
               "share": 100.0,
-              "delta_vs_previous": 1
+              "delta_vs_previous": 0
             }
           ]
         },
@@ -13212,6 +13316,20 @@
           ],
           "positive_themes": [
             {
+              "theme": "shipping_positive",
+              "label": "Fast or clear delivery",
+              "count": 3,
+              "previous_count": 2,
+              "example": {
+                "rating": 5,
+                "date": "2025-09-27T01:46:36Z",
+                "text": "Do not bother ordering. I order the Pistachio Double Little Lifely bed with mattress. First there was no tracking when the eventual date rolled around, then they told me they didn't send it because they were waiting on the mattress, now they've told me they have the mattress but no bed! Absolutely…",
+                "url": "https://www.productreview.com.au/listings/lifely?page=2"
+              },
+              "share": 42.9,
+              "delta_vs_previous": 1
+            },
+            {
               "theme": "comfort_product_love",
               "label": "Comfort and product feel",
               "count": 2,
@@ -13226,20 +13344,6 @@
               "delta_vs_previous": 0
             },
             {
-              "theme": "shipping_positive",
-              "label": "Fast or clear delivery",
-              "count": 2,
-              "previous_count": 2,
-              "example": {
-                "rating": 5,
-                "date": "2025-09-27T01:46:36Z",
-                "text": "Do not bother ordering. I order the Pistachio Double Little Lifely bed with mattress. First there was no tracking when the eventual date rolled around, then they told me they didn't send it because they were waiting on the mattress, now they've told me they have the mattress but no bed! Absolutely…",
-                "url": "https://www.productreview.com.au/listings/lifely?page=2"
-              },
-              "share": 28.6,
-              "delta_vs_previous": 0
-            },
-            {
               "theme": "easy_setup_conversion",
               "label": "Easy setup / quick transform",
               "count": 1,
@@ -13248,20 +13352,6 @@
                 "rating": 5,
                 "date": "2025-09-07T19:41:59Z",
                 "text": "After having a look at the range of mattresses, we bought a 'Green Tea' mattress for our daughter. Arrived when it was expected; was easy to assemble She's loving it so far. I'd definitely consider buying another mattress from Lifely. Show reply",
-                "url": "https://www.productreview.com.au/listings/lifely?page=3"
-              },
-              "share": 14.3,
-              "delta_vs_previous": 1
-            },
-            {
-              "theme": "service_recovery",
-              "label": "Helpful service / recovery",
-              "count": 1,
-              "previous_count": 0,
-              "example": {
-                "rating": 5,
-                "date": "2025-09-19T20:30:25Z",
-                "text": "I am extremely disappointed with Lifely’s customer service. After delivery, I contacted them regarding a serious incident where my dad sustained fractured ribs when the handle on one of their boxes broke. I even provided video evidence and hospital papers to support the claim. Despite this, it has…",
                 "url": "https://www.productreview.com.au/listings/lifely?page=3"
               },
               "share": 14.3,
@@ -13433,17 +13523,16 @@
           ],
           "positive_themes": [
             {
-              "theme": "other",
-              "label": "Other feedback",
+              "theme": "shipping_positive",
+              "label": "Fast or clear delivery",
               "count": 1,
               "previous_count": 0,
               "example": {
                 "rating": 5,
                 "date": "2025-12-15T20:05:17Z",
-                "text": "We were really excited about the lifely radiant natural mattress (queen). However after unboxing and setting it up we noticed a significant sag into the centre of the bed. When sleeping on one side you feel like you are lying on a diagonal and going to roll into the middle of the bed. We gave it a…",
+                "text": "Been waiting more than a month and the product still hasn’t arrived. It is stuck in processing and they have very little to no communication with us. I have no confidence that it is going to arrive More Lifely 3d Hi! We'd love to look into this for you. Could you please … Read more Ask the reviewer…",
                 "url": "https://www.productreview.com.au/listings/lifely"
               },
-              "recommended_action": "Review the underlying comments and create a new recurring theme if this pattern repeats.",
               "share": 100.0,
               "delta_vs_previous": 1
             }
@@ -13485,23 +13574,9 @@
           ],
           "positive_themes": [
             {
-              "theme": "shipping_positive",
-              "label": "Fast or clear delivery",
-              "count": 2,
-              "previous_count": 0,
-              "example": {
-                "rating": 5,
-                "date": "2026-01-05T03:31:44Z",
-                "text": "Our first purchase from Lifely went really well. We bought the Ballico Bed with the big ball-shaped wooden legs. The bed arrived quickly and safely in two packages. We had known that it would require assembly that could easily challenge marriages (read the reviews), so we made sure that hubby had i…",
-                "url": "https://www.productreview.com.au/listings/lifely?page=2"
-              },
-              "share": 66.7,
-              "delta_vs_previous": 2
-            },
-            {
               "theme": "comfort_product_love",
               "label": "Comfort and product feel",
-              "count": 1,
+              "count": 2,
               "previous_count": 0,
               "example": {
                 "rating": 4,
@@ -13509,8 +13584,22 @@
                 "text": "Ordered the Hank console, everything arrived super quickly and with great communication. The marble top was super heavy but wrapped up very well. The quality was great and the item looks great in the space we needed it for. Instructions were clear even for someone whom hates flat packs.",
                 "url": "https://www.productreview.com.au/listings/lifely?page=2"
               },
+              "share": 66.7,
+              "delta_vs_previous": 2
+            },
+            {
+              "theme": "shipping_positive",
+              "label": "Fast or clear delivery",
+              "count": 1,
+              "previous_count": 1,
+              "example": {
+                "rating": 5,
+                "date": "2026-01-05T03:31:44Z",
+                "text": "Our first purchase from Lifely went really well. We bought the Ballico Bed with the big ball-shaped wooden legs. The bed arrived quickly and safely in two packages. We had known that it would require assembly that could easily challenge marriages (read the reviews), so we made sure that hubby had i…",
+                "url": "https://www.productreview.com.au/listings/lifely?page=2"
+              },
               "share": 33.3,
-              "delta_vs_previous": 1
+              "delta_vs_previous": 0
             }
           ]
         },
@@ -13555,7 +13644,7 @@
               "example": {
                 "rating": 1,
                 "date": "2026-02-09T10:50:03Z",
-                "text": "Brooke NSW 2 posts 5mo Verified Vote ( 1 ) More Ordered a toddler bed 14 December, due to Arrive mid January. Apparently it was shipped a week ago but It’s currently feb 8th and I’m still waiting. Countless emails back and forth through their very slow customer service, mattress I ordered with it i…",
+                "text": "Brooke NSW 2 posts 6mo Verified Vote ( 1 ) More Ordered a toddler bed 14 December, due to Arrive mid January. Apparently it was shipped a week ago but It’s currently feb 8th and I’m still waiting. Countless emails back and forth through their very slow customer service, mattress I ordered with it i…",
                 "url": "https://www.productreview.com.au/listings/lifely?page=2"
               },
               "recommended_action": "Use a named low-star rescue owner, a clear first-response window, and a close-the-loop update after resolution.",
@@ -13712,7 +13801,7 @@
             {
               "theme": "shipping_positive",
               "label": "Fast or clear delivery",
-              "count": 1,
+              "count": 2,
               "previous_count": 0,
               "example": {
                 "rating": 5,
@@ -13720,23 +13809,8 @@
                 "text": "We love my son’s new lifely bed, our bedrooms are hard to find the right bed to fit the layout but the single bed is perfect. Relatively easy to put together, only had trouble with the corners for the zipper but everything else was able to be done by one person. Excellent customer service from Crai…",
                 "url": "https://www.productreview.com.au/listings/lifely"
               },
-              "share": 25.0,
-              "delta_vs_previous": 1
-            },
-            {
-              "theme": "other",
-              "label": "Other feedback",
-              "count": 1,
-              "previous_count": 0,
-              "example": {
-                "rating": 5,
-                "date": "2026-04-08T08:01:15Z",
-                "text": "We were really excited about the lifely radiant natural mattress (queen). However after unboxing and setting it up we noticed a significant sag into the centre of the bed. When sleeping on one side you feel like you are lying on a diagonal and going to roll into the middle of the bed. We gave it a…",
-                "url": "https://www.productreview.com.au/listings/lifely"
-              },
-              "recommended_action": "Review the underlying comments and create a new recurring theme if this pattern repeats.",
-              "share": 25.0,
-              "delta_vs_previous": 1
+              "share": 50.0,
+              "delta_vs_previous": 2
             }
           ]
         },
@@ -13946,7 +14020,7 @@
                   "example": {
                     "rating": 5,
                     "date": "2024-02-04T02:48:33Z",
-                    "text": "Smooth and uncomplicated ordering and delivery, all within 5 days. Great furniture, poor delivery service – The quality of the furniture is lovely and all of the products look and feel like excellent quality. Also great value for money. However, and this is a big however, the courier/freight servic…",
+                    "text": "Smooth and uncomplicated ordering and delivery, all within 5 days. Amazing communication – Quick easy to communicate with got back to me with every email I sent. My item was on back order but they found one in the warehouse and got it sent early!! Very happy with staff communication. Will definitel…",
                     "url": "https://www.productreview.com.au/listings/lifely?page=10"
                   },
                   "share": 50.0,
@@ -14571,7 +14645,7 @@
                   "example": {
                     "rating": 5,
                     "date": "2024-06-02T10:27:03Z",
-                    "text": "Excellent service, excellent product Great online shopping store – All round great shopping experience. Website, delivery and product all excellent. Delivery was 4 business days from order and I’m in country Victoria. Even though the delivery label had my address in complete, leaving off the street…",
+                    "text": "Excellent service, excellent product Courier company delivery – I had a good experience dealing with lifely. My only issue was the courier company. After I requested for the beds to be left in a safe place which there is easy access down the side of the house to the front door, only to find when I…",
                     "url": "https://www.productreview.com.au/listings/lifely?page=9"
                   },
                   "share": 66.7,
@@ -14620,7 +14694,7 @@
                   "example": {
                     "rating": 5,
                     "date": "2024-06-04T12:44:36Z",
-                    "text": "Sound sleep Great online shopping store – All round great shopping experience. Website, delivery and product all excellent. Delivery was 4 business days from order and I’m in country Victoria. Even though the delivery label had my address in complete, leaving off the street name, the delivery drive…",
+                    "text": "Sound sleep Courier company delivery – I had a good experience dealing with lifely. My only issue was the courier company. After I requested for the beds to be left in a safe place which there is easy access down the side of the house to the front door, only to find when I got home that the beds ha…",
                     "url": "https://www.productreview.com.au/listings/lifely?page=9"
                   },
                   "share": 75.0,
@@ -14690,7 +14764,7 @@
                     "rating": 5,
                     "date": "2024-06-21T04:37:41Z",
                     "text": "Courier company delivery Courier company delivery – I had a good experience dealing with lifely. My only issue was the courier company. After I requested for the beds to be left in a safe place which there is easy access down the side of the house to the front door, only to find when I got home tha…",
-                    "url": "https://www.productreview.com.au/listings/lifely?page=8"
+                    "url": "https://www.productreview.com.au/listings/lifely?page=9"
                   },
                   "share": 100.0,
                   "delta_vs_previous": 2
@@ -15650,7 +15724,7 @@
                     "rating": 1,
                     "date": "2025-01-03T01:25:06Z",
                     "text": "Terrible Customer support and Worst Delivery service Terrible Customer support and Worst Delivery service – My wife and I purchased 2 items from Lifely mid October. Both items were pre-orders (I ordered a table and my wife order a console). I received confirmation of the table immediately. My wife…",
-                    "url": "https://www.productreview.com.au/listings/lifely?page=6"
+                    "url": "https://www.productreview.com.au/listings/lifely?page=7"
                   },
                   "recommended_action": "Tighten proactive ETA communication before customers need to chase, and distinguish preorder delays from courier delays.",
                   "share": 50.0,
@@ -15761,32 +15835,18 @@
               ],
               "positive_themes": [
                 {
-                  "theme": "comfort_product_love",
-                  "label": "Comfort and product feel",
-                  "count": 1,
+                  "theme": "shipping_positive",
+                  "label": "Fast or clear delivery",
+                  "count": 2,
                   "previous_count": 0,
                   "example": {
                     "rating": 5,
                     "date": "2025-01-16T00:52:45Z",
-                    "text": "Great product Worst Custoner Service and Online Shopping Experience – After reading the comments, I agree with those that rated Lifely with 1 star. There is definitely a problem with the company. I have experienced the most frustrating online shopping from this company. I received my desk without t…",
+                    "text": "Great product Terrible – I ordered a Mattress and base set trying to get a delivery date no one on live chat on reply’s to email I have tried calling several times and just get hung up on saying no is here to take call don’t deal with this company More Lifely 1y Hi Danielle H, Thank you for reporti…",
                     "url": "https://www.productreview.com.au/listings/lifely?page=6"
                   },
-                  "share": 50.0,
-                  "delta_vs_previous": 1
-                },
-                {
-                  "theme": "shipping_positive",
-                  "label": "Fast or clear delivery",
-                  "count": 1,
-                  "previous_count": 0,
-                  "example": {
-                    "rating": 5,
-                    "date": "2025-01-15T05:40:38Z",
-                    "text": "Great range, good prices and fast delivery. Great range, good prices and fast delivery – Lovely design and quality product. One of the holes in the assembly process wasn't correct but otherwise perfect. Due to a glitch a second repeat order was processed that I hadn't ordered or paid for, so I just…",
-                    "url": "https://www.productreview.com.au/listings/lifely?page=6"
-                  },
-                  "share": 50.0,
-                  "delta_vs_previous": 1
+                  "share": 100.0,
+                  "delta_vs_previous": 2
                 }
               ]
             },
@@ -16460,14 +16520,14 @@
                   "delta_vs_previous": 1
                 },
                 {
-                  "theme": "service_recovery",
-                  "label": "Helpful service / recovery",
+                  "theme": "shipping_positive",
+                  "label": "Fast or clear delivery",
                   "count": 1,
                   "previous_count": 0,
                   "example": {
                     "rating": 5,
                     "date": "2025-05-10T02:11:45Z",
-                    "text": "I have ordered a bed from lifely, it was dispatched on the 30th of June. However the courier still saying the order is not picked up yet. I have tried to contact Lifely through chat bots and emails. So far it has been days without replies - the customer service does not existing except for the AI.…",
+                    "text": "Love the Tv unit I bought, it was perfect to my space and very satisfied with the product,just want to mentioned there are lot i want to order but delivery fee is too much. Each item there is a delivery fee which is not good if we want to order more from you Show reply Keven R. 5 posts 1y Verified…",
                     "url": "https://www.productreview.com.au/listings/lifely?page=4"
                   },
                   "share": 50.0,
@@ -17094,7 +17154,7 @@
                   "example": {
                     "rating": 5,
                     "date": "2025-09-07T01:06:13Z",
-                    "text": "Absolutely thrilled with my new mattress! I've never slept better! It's so incredibly comfortable—truly the best mattress I've ever had. No more back aches or stiff necks. I wake up feeling refreshed and ready to take on the day. Highly recommend! Show reply Follow-up 9mo · I’m very happy with my m…",
+                    "text": "Absolutely thrilled with my new mattress! I've never slept better! It's so incredibly comfortable—truly the best mattress I've ever had. No more back aches or stiff necks. I wake up feeling refreshed and ready to take on the day. Highly recommend! Show reply Follow-up 10mo · I’m very happy with my…",
                     "url": "https://www.productreview.com.au/listings/lifely"
                   },
                   "share": 33.3,
@@ -17201,14 +17261,14 @@
               ],
               "positive_themes": [
                 {
-                  "theme": "service_recovery",
-                  "label": "Helpful service / recovery",
+                  "theme": "shipping_positive",
+                  "label": "Fast or clear delivery",
                   "count": 1,
                   "previous_count": 0,
                   "example": {
                     "rating": 5,
                     "date": "2025-09-19T20:30:25Z",
-                    "text": "I am extremely disappointed with Lifely’s customer service. After delivery, I contacted them regarding a serious incident where my dad sustained fractured ribs when the handle on one of their boxes broke. I even provided video evidence and hospital papers to support the claim. Despite this, it has…",
+                    "text": "Product arrived very quickly and the look and feel is exactly as shown and described. It came with a power tool which was extremely convenient value addition. Great job! Show reply Montana M. QLD 11mo Vote More I am extremely disappointed with Lifely’s customer service. After delivery, I contacted…",
                     "url": "https://www.productreview.com.au/listings/lifely?page=3"
                   },
                   "share": 100.0,
@@ -17658,17 +17718,16 @@
               "complaint_themes": [],
               "positive_themes": [
                 {
-                  "theme": "other",
-                  "label": "Other feedback",
+                  "theme": "shipping_positive",
+                  "label": "Fast or clear delivery",
                   "count": 1,
                   "previous_count": 0,
                   "example": {
                     "rating": 5,
                     "date": "2025-12-15T20:05:17Z",
-                    "text": "We were really excited about the lifely radiant natural mattress (queen). However after unboxing and setting it up we noticed a significant sag into the centre of the bed. When sleeping on one side you feel like you are lying on a diagonal and going to roll into the middle of the bed. We gave it a…",
+                    "text": "Been waiting more than a month and the product still hasn’t arrived. It is stuck in processing and they have very little to no communication with us. I have no confidence that it is going to arrive More Lifely 3d Hi! We'd love to look into this for you. Could you please … Read more Ask the reviewer…",
                     "url": "https://www.productreview.com.au/listings/lifely"
                   },
-                  "recommended_action": "Review the underlying comments and create a new recurring theme if this pattern repeats.",
                   "share": 100.0,
                   "delta_vs_previous": 1
                 }
@@ -17730,14 +17789,14 @@
               ],
               "positive_themes": [
                 {
-                  "theme": "shipping_positive",
-                  "label": "Fast or clear delivery",
+                  "theme": "comfort_product_love",
+                  "label": "Comfort and product feel",
                   "count": 1,
                   "previous_count": 0,
                   "example": {
                     "rating": 4,
                     "date": "2026-01-04T06:17:00Z",
-                    "text": "Do not bother ordering. I order the Pistachio Double Little Lifely bed with mattress. First there was no tracking when the eventual date rolled around, then they told me they didn't send it because they were waiting on the mattress, now they've told me they have the mattress but no bed! Absolutely…",
+                    "text": "I actually wrote a (what I thought to be) helpful review for people who are on the fence about purchasing their Little Lifely Bed and they have actually not approved/deleted the review. I would not recommend this company. At least for this product (I haven’t purchased any of their others and don’t…",
                     "url": "https://www.productreview.com.au/listings/lifely?page=2"
                   },
                   "share": 100.0,
@@ -17947,7 +18006,7 @@
                   "example": {
                     "rating": 1,
                     "date": "2026-02-09T10:50:03Z",
-                    "text": "Brooke NSW 2 posts 5mo Verified Vote ( 1 ) More Ordered a toddler bed 14 December, due to Arrive mid January. Apparently it was shipped a week ago but It’s currently feb 8th and I’m still waiting. Countless emails back and forth through their very slow customer service, mattress I ordered with it i…",
+                    "text": "Brooke NSW 2 posts 6mo Verified Vote ( 1 ) More Ordered a toddler bed 14 December, due to Arrive mid January. Apparently it was shipped a week ago but It’s currently feb 8th and I’m still waiting. Countless emails back and forth through their very slow customer service, mattress I ordered with it i…",
                     "url": "https://www.productreview.com.au/listings/lifely?page=2"
                   },
                   "recommended_action": "Use a named low-star rescue owner, a clear first-response window, and a close-the-loop update after resolution.",
@@ -18223,17 +18282,16 @@
                   "delta_vs_previous": 2
                 },
                 {
-                  "theme": "other",
-                  "label": "Other feedback",
+                  "theme": "shipping_positive",
+                  "label": "Fast or clear delivery",
                   "count": 1,
                   "previous_count": 0,
                   "example": {
                     "rating": 5,
                     "date": "2026-04-08T08:01:15Z",
-                    "text": "We were really excited about the lifely radiant natural mattress (queen). However after unboxing and setting it up we noticed a significant sag into the centre of the bed. When sleeping on one side you feel like you are lying on a diagonal and going to roll into the middle of the bed. We gave it a…",
+                    "text": "Been waiting more than a month and the product still hasn’t arrived. It is stuck in processing and they have very little to no communication with us. I have no confidence that it is going to arrive More Lifely 3d Hi! We'd love to look into this for you. Could you please … Read more Ask the reviewer…",
                     "url": "https://www.productreview.com.au/listings/lifely"
                   },
-                  "recommended_action": "Review the underlying comments and create a new recurring theme if this pattern repeats.",
                   "share": 33.3,
                   "delta_vs_previous": 1
                 }
@@ -18761,7 +18819,7 @@
                   "example": {
                     "rating": 5,
                     "date": "2024-02-04T02:48:33Z",
-                    "text": "Smooth and uncomplicated ordering and delivery, all within 5 days. Great furniture, poor delivery service – The quality of the furniture is lovely and all of the products look and feel like excellent quality. Also great value for money. However, and this is a big however, the courier/freight servic…",
+                    "text": "Smooth and uncomplicated ordering and delivery, all within 5 days. Amazing communication – Quick easy to communicate with got back to me with every email I sent. My item was on back order but they found one in the warehouse and got it sent early!! Very happy with staff communication. Will definitel…",
                     "url": "https://www.productreview.com.au/listings/lifely?page=10"
                   },
                   "share": 50.0,
@@ -18968,7 +19026,7 @@
                   "example": {
                     "rating": 5,
                     "date": "2024-05-24T09:25:19Z",
-                    "text": "Excellent Service Great online shopping store – All round great shopping experience. Website, delivery and product all excellent. Delivery was 4 business days from order and I’m in country Victoria. Even though the delivery label had my address in complete, leaving off the street name, the delivery…",
+                    "text": "Excellent Service Courier company delivery – I had a good experience dealing with lifely. My only issue was the courier company. After I requested for the beds to be left in a safe place which there is easy access down the side of the house to the front door, only to find when I got home that the b…",
                     "url": "https://www.productreview.com.au/listings/lifely?page=9"
                   },
                   "share": 62.5,
@@ -19444,7 +19502,7 @@
                     "rating": 1,
                     "date": "2025-01-03T01:25:06Z",
                     "text": "Terrible Customer support and Worst Delivery service Terrible Customer support and Worst Delivery service – My wife and I purchased 2 items from Lifely mid October. Both items were pre-orders (I ordered a table and my wife order a console). I received confirmation of the table immediately. My wife…",
-                    "url": "https://www.productreview.com.au/listings/lifely?page=6"
+                    "url": "https://www.productreview.com.au/listings/lifely?page=7"
                   },
                   "recommended_action": "Tighten proactive ETA communication before customers need to chase, and distinguish preorder delays from courier delays.",
                   "share": 20.0,
@@ -19468,32 +19526,18 @@
               ],
               "positive_themes": [
                 {
-                  "theme": "comfort_product_love",
-                  "label": "Comfort and product feel",
-                  "count": 1,
-                  "previous_count": 0,
-                  "example": {
-                    "rating": 5,
-                    "date": "2025-01-16T00:52:45Z",
-                    "text": "Great product Worst Custoner Service and Online Shopping Experience – After reading the comments, I agree with those that rated Lifely with 1 star. There is definitely a problem with the company. I have experienced the most frustrating online shopping from this company. I received my desk without t…",
-                    "url": "https://www.productreview.com.au/listings/lifely?page=6"
-                  },
-                  "share": 33.3,
-                  "delta_vs_previous": 1
-                },
-                {
                   "theme": "shipping_positive",
                   "label": "Fast or clear delivery",
-                  "count": 1,
+                  "count": 2,
                   "previous_count": 1,
                   "example": {
                     "rating": 5,
-                    "date": "2025-01-15T05:40:38Z",
-                    "text": "Great range, good prices and fast delivery. Great range, good prices and fast delivery – Lovely design and quality product. One of the holes in the assembly process wasn't correct but otherwise perfect. Due to a glitch a second repeat order was processed that I hadn't ordered or paid for, so I just…",
+                    "date": "2025-01-16T00:52:45Z",
+                    "text": "Great product Terrible – I ordered a Mattress and base set trying to get a delivery date no one on live chat on reply’s to email I have tried calling several times and just get hung up on saying no is here to take call don’t deal with this company More Lifely 1y Hi Danielle H, Thank you for reporti…",
                     "url": "https://www.productreview.com.au/listings/lifely?page=6"
                   },
-                  "share": 33.3,
-                  "delta_vs_previous": 0
+                  "share": 66.7,
+                  "delta_vs_previous": 1
                 },
                 {
                   "theme": "service_recovery",
@@ -19785,18 +19829,32 @@
                   "delta_vs_previous": 2
                 },
                 {
-                  "theme": "service_recovery",
-                  "label": "Helpful service / recovery",
-                  "count": 2,
+                  "theme": "shipping_positive",
+                  "label": "Fast or clear delivery",
+                  "count": 1,
                   "previous_count": 0,
                   "example": {
                     "rating": 5,
                     "date": "2025-05-10T02:11:45Z",
+                    "text": "Love the Tv unit I bought, it was perfect to my space and very satisfied with the product,just want to mentioned there are lot i want to order but delivery fee is too much. Each item there is a delivery fee which is not good if we want to order more from you Show reply Keven R. 5 posts 1y Verified…",
+                    "url": "https://www.productreview.com.au/listings/lifely?page=4"
+                  },
+                  "share": 25.0,
+                  "delta_vs_previous": 1
+                },
+                {
+                  "theme": "service_recovery",
+                  "label": "Helpful service / recovery",
+                  "count": 1,
+                  "previous_count": 0,
+                  "example": {
+                    "rating": 4,
+                    "date": "2025-05-23T07:20:27Z",
                     "text": "I have ordered a bed from lifely, it was dispatched on the 30th of June. However the courier still saying the order is not picked up yet. I have tried to contact Lifely through chat bots and emails. So far it has been days without replies - the customer service does not existing except for the AI.…",
                     "url": "https://www.productreview.com.au/listings/lifely?page=4"
                   },
-                  "share": 50.0,
-                  "delta_vs_previous": 2
+                  "share": 25.0,
+                  "delta_vs_previous": 1
                 }
               ]
             },
@@ -19839,7 +19897,7 @@
                   "theme": "shipping_positive",
                   "label": "Fast or clear delivery",
                   "count": 1,
-                  "previous_count": 0,
+                  "previous_count": 1,
                   "example": {
                     "rating": 4,
                     "date": "2025-06-05T00:37:26Z",
@@ -19847,7 +19905,7 @@
                     "url": "https://www.productreview.com.au/listings/lifely?page=4"
                   },
                   "share": 100.0,
-                  "delta_vs_previous": 1
+                  "delta_vs_previous": 0
                 }
               ]
             },
@@ -20104,6 +20162,20 @@
               ],
               "positive_themes": [
                 {
+                  "theme": "shipping_positive",
+                  "label": "Fast or clear delivery",
+                  "count": 3,
+                  "previous_count": 2,
+                  "example": {
+                    "rating": 5,
+                    "date": "2025-09-27T01:46:36Z",
+                    "text": "Do not bother ordering. I order the Pistachio Double Little Lifely bed with mattress. First there was no tracking when the eventual date rolled around, then they told me they didn't send it because they were waiting on the mattress, now they've told me they have the mattress but no bed! Absolutely…",
+                    "url": "https://www.productreview.com.au/listings/lifely?page=2"
+                  },
+                  "share": 42.9,
+                  "delta_vs_previous": 1
+                },
+                {
                   "theme": "comfort_product_love",
                   "label": "Comfort and product feel",
                   "count": 2,
@@ -20118,20 +20190,6 @@
                   "delta_vs_previous": 0
                 },
                 {
-                  "theme": "shipping_positive",
-                  "label": "Fast or clear delivery",
-                  "count": 2,
-                  "previous_count": 2,
-                  "example": {
-                    "rating": 5,
-                    "date": "2025-09-27T01:46:36Z",
-                    "text": "Do not bother ordering. I order the Pistachio Double Little Lifely bed with mattress. First there was no tracking when the eventual date rolled around, then they told me they didn't send it because they were waiting on the mattress, now they've told me they have the mattress but no bed! Absolutely…",
-                    "url": "https://www.productreview.com.au/listings/lifely?page=2"
-                  },
-                  "share": 28.6,
-                  "delta_vs_previous": 0
-                },
-                {
                   "theme": "easy_setup_conversion",
                   "label": "Easy setup / quick transform",
                   "count": 1,
@@ -20140,20 +20198,6 @@
                     "rating": 5,
                     "date": "2025-09-07T19:41:59Z",
                     "text": "After having a look at the range of mattresses, we bought a 'Green Tea' mattress for our daughter. Arrived when it was expected; was easy to assemble She's loving it so far. I'd definitely consider buying another mattress from Lifely. Show reply",
-                    "url": "https://www.productreview.com.au/listings/lifely?page=3"
-                  },
-                  "share": 14.3,
-                  "delta_vs_previous": 1
-                },
-                {
-                  "theme": "service_recovery",
-                  "label": "Helpful service / recovery",
-                  "count": 1,
-                  "previous_count": 0,
-                  "example": {
-                    "rating": 5,
-                    "date": "2025-09-19T20:30:25Z",
-                    "text": "I am extremely disappointed with Lifely’s customer service. After delivery, I contacted them regarding a serious incident where my dad sustained fractured ribs when the handle on one of their boxes broke. I even provided video evidence and hospital papers to support the claim. Despite this, it has…",
                     "url": "https://www.productreview.com.au/listings/lifely?page=3"
                   },
                   "share": 14.3,
@@ -20325,17 +20369,16 @@
               ],
               "positive_themes": [
                 {
-                  "theme": "other",
-                  "label": "Other feedback",
+                  "theme": "shipping_positive",
+                  "label": "Fast or clear delivery",
                   "count": 1,
                   "previous_count": 0,
                   "example": {
                     "rating": 5,
                     "date": "2025-12-15T20:05:17Z",
-                    "text": "We were really excited about the lifely radiant natural mattress (queen). However after unboxing and setting it up we noticed a significant sag into the centre of the bed. When sleeping on one side you feel like you are lying on a diagonal and going to roll into the middle of the bed. We gave it a…",
+                    "text": "Been waiting more than a month and the product still hasn’t arrived. It is stuck in processing and they have very little to no communication with us. I have no confidence that it is going to arrive More Lifely 3d Hi! We'd love to look into this for you. Could you please … Read more Ask the reviewer…",
                     "url": "https://www.productreview.com.au/listings/lifely"
                   },
-                  "recommended_action": "Review the underlying comments and create a new recurring theme if this pattern repeats.",
                   "share": 100.0,
                   "delta_vs_previous": 1
                 }
@@ -20377,23 +20420,9 @@
               ],
               "positive_themes": [
                 {
-                  "theme": "shipping_positive",
-                  "label": "Fast or clear delivery",
-                  "count": 2,
-                  "previous_count": 0,
-                  "example": {
-                    "rating": 5,
-                    "date": "2026-01-05T03:31:44Z",
-                    "text": "Our first purchase from Lifely went really well. We bought the Ballico Bed with the big ball-shaped wooden legs. The bed arrived quickly and safely in two packages. We had known that it would require assembly that could easily challenge marriages (read the reviews), so we made sure that hubby had i…",
-                    "url": "https://www.productreview.com.au/listings/lifely?page=2"
-                  },
-                  "share": 66.7,
-                  "delta_vs_previous": 2
-                },
-                {
                   "theme": "comfort_product_love",
                   "label": "Comfort and product feel",
-                  "count": 1,
+                  "count": 2,
                   "previous_count": 0,
                   "example": {
                     "rating": 4,
@@ -20401,8 +20430,22 @@
                     "text": "Ordered the Hank console, everything arrived super quickly and with great communication. The marble top was super heavy but wrapped up very well. The quality was great and the item looks great in the space we needed it for. Instructions were clear even for someone whom hates flat packs.",
                     "url": "https://www.productreview.com.au/listings/lifely?page=2"
                   },
+                  "share": 66.7,
+                  "delta_vs_previous": 2
+                },
+                {
+                  "theme": "shipping_positive",
+                  "label": "Fast or clear delivery",
+                  "count": 1,
+                  "previous_count": 1,
+                  "example": {
+                    "rating": 5,
+                    "date": "2026-01-05T03:31:44Z",
+                    "text": "Our first purchase from Lifely went really well. We bought the Ballico Bed with the big ball-shaped wooden legs. The bed arrived quickly and safely in two packages. We had known that it would require assembly that could easily challenge marriages (read the reviews), so we made sure that hubby had i…",
+                    "url": "https://www.productreview.com.au/listings/lifely?page=2"
+                  },
                   "share": 33.3,
-                  "delta_vs_previous": 1
+                  "delta_vs_previous": 0
                 }
               ]
             },
@@ -20447,7 +20490,7 @@
                   "example": {
                     "rating": 1,
                     "date": "2026-02-09T10:50:03Z",
-                    "text": "Brooke NSW 2 posts 5mo Verified Vote ( 1 ) More Ordered a toddler bed 14 December, due to Arrive mid January. Apparently it was shipped a week ago but It’s currently feb 8th and I’m still waiting. Countless emails back and forth through their very slow customer service, mattress I ordered with it i…",
+                    "text": "Brooke NSW 2 posts 6mo Verified Vote ( 1 ) More Ordered a toddler bed 14 December, due to Arrive mid January. Apparently it was shipped a week ago but It’s currently feb 8th and I’m still waiting. Countless emails back and forth through their very slow customer service, mattress I ordered with it i…",
                     "url": "https://www.productreview.com.au/listings/lifely?page=2"
                   },
                   "recommended_action": "Use a named low-star rescue owner, a clear first-response window, and a close-the-loop update after resolution.",
@@ -20604,7 +20647,7 @@
                 {
                   "theme": "shipping_positive",
                   "label": "Fast or clear delivery",
-                  "count": 1,
+                  "count": 2,
                   "previous_count": 0,
                   "example": {
                     "rating": 5,
@@ -20612,23 +20655,8 @@
                     "text": "We love my son’s new lifely bed, our bedrooms are hard to find the right bed to fit the layout but the single bed is perfect. Relatively easy to put together, only had trouble with the corners for the zipper but everything else was able to be done by one person. Excellent customer service from Crai…",
                     "url": "https://www.productreview.com.au/listings/lifely"
                   },
-                  "share": 25.0,
-                  "delta_vs_previous": 1
-                },
-                {
-                  "theme": "other",
-                  "label": "Other feedback",
-                  "count": 1,
-                  "previous_count": 0,
-                  "example": {
-                    "rating": 5,
-                    "date": "2026-04-08T08:01:15Z",
-                    "text": "We were really excited about the lifely radiant natural mattress (queen). However after unboxing and setting it up we noticed a significant sag into the centre of the bed. When sleeping on one side you feel like you are lying on a diagonal and going to roll into the middle of the bed. We gave it a…",
-                    "url": "https://www.productreview.com.au/listings/lifely"
-                  },
-                  "recommended_action": "Review the underlying comments and create a new recurring theme if this pattern repeats.",
-                  "share": 25.0,
-                  "delta_vs_previous": 1
+                  "share": 50.0,
+                  "delta_vs_previous": 2
                 }
               ]
             },
@@ -28674,12 +28702,12 @@
       "brand": "Lifely",
       "platform": "Trustpilot",
       "label": "Lifely Trustpilot",
-      "records": 186,
+      "records": 195,
       "first_review_at": "2026-03-30T03:09:17Z",
-      "last_review_at": "2026-08-03T07:09:55Z",
+      "last_review_at": "2026-08-06T08:09:01Z",
       "method": "AU-only derivative of the verified Watchtower review history",
       "limitation": "Only records with a defensible Australian country/state attribution are included; unknown and non-Australian records are excluded.",
-      "region_records": 186,
+      "region_records": 195,
       "region_unavailable_records": 0,
       "region_source": "Public reviewer country supplied by Trustpilot."
     },
