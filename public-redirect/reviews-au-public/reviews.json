@@ -5,7 +5,7 @@
     "label": "Australia only",
     "rule": "Includes only source-attributed Australian reviews. Unknown and non-Australian records are excluded."
   },
-  "last_updated": "2026-08-14T06:02:27Z",
+  "last_updated": "2026-08-15T06:01:24Z",
   "metric_definition": "Captured AU review history only. Scores are calculated from dated, source-attributed Australian reviews and are not global platform scores.",
   "sources": [
     {
@@ -12218,7 +12218,7 @@
               "example": {
                 "rating": 1,
                 "date": "2026-08-01T18:41:21Z",
-                "text": "ProductReview review by Matthew Been waiting more than a month and the product still hasn’t arrived. It is stuck in processing and they have very little to no communication with us. I have no confidence that it is going to arrive More Lifely 1w Hi! We'd love to look into this for you. Could you ple…",
+                "text": "ProductReview review by Matthew Been waiting more than a month and the product still hasn’t arrived. It is stuck in processing and they have very little to no communication with us. I have no confidence that it is going to arrive More Lifely 2w Hi! We'd love to look into this for you. Could you ple…",
                 "url": "https://www.productreview.com.au/listings/lifely"
               },
               "recommended_action": "Tighten proactive ETA communication before customers need to chase, and distinguish preorder delays from courier delays.",
@@ -14360,7 +14360,7 @@
               "example": {
                 "rating": 1,
                 "date": "2026-08-01T18:41:21Z",
-                "text": "ProductReview review by Matthew Been waiting more than a month and the product still hasn’t arrived. It is stuck in processing and they have very little to no communication with us. I have no confidence that it is going to arrive More Lifely 1w Hi! We'd love to look into this for you. Could you ple…",
+                "text": "ProductReview review by Matthew Been waiting more than a month and the product still hasn’t arrived. It is stuck in processing and they have very little to no communication with us. I have no confidence that it is going to arrive More Lifely 2w Hi! We'd love to look into this for you. Could you ple…",
                 "url": "https://www.productreview.com.au/listings/lifely"
               },
               "recommended_action": "Tighten proactive ETA communication before customers need to chase, and distinguish preorder delays from courier delays.",
@@ -19112,7 +19112,7 @@
                   "example": {
                     "rating": 1,
                     "date": "2026-08-01T18:41:21Z",
-                    "text": "ProductReview review by Matthew Been waiting more than a month and the product still hasn’t arrived. It is stuck in processing and they have very little to no communication with us. I have no confidence that it is going to arrive More Lifely 1w Hi! We'd love to look into this for you. Could you ple…",
+                    "text": "ProductReview review by Matthew Been waiting more than a month and the product still hasn’t arrived. It is stuck in processing and they have very little to no communication with us. I have no confidence that it is going to arrive More Lifely 2w Hi! We'd love to look into this for you. Could you ple…",
                     "url": "https://www.productreview.com.au/listings/lifely"
                   },
                   "recommended_action": "Tighten proactive ETA communication before customers need to chase, and distinguish preorder delays from courier delays.",
@@ -21254,7 +21254,7 @@
                   "example": {
                     "rating": 1,
                     "date": "2026-08-01T18:41:21Z",
-                    "text": "ProductReview review by Matthew Been waiting more than a month and the product still hasn’t arrived. It is stuck in processing and they have very little to no communication with us. I have no confidence that it is going to arrive More Lifely 1w Hi! We'd love to look into this for you. Could you ple…",
+                    "text": "ProductReview review by Matthew Been waiting more than a month and the product still hasn’t arrived. It is stuck in processing and they have very little to no communication with us. I have no confidence that it is going to arrive More Lifely 2w Hi! We'd love to look into this for you. Could you ple…",
                     "url": "https://www.productreview.com.au/listings/lifely"
                   },
                   "recommended_action": "Tighten proactive ETA communication before customers need to chase, and distinguish preorder delays from courier delays.",
