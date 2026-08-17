@@ -5,7 +5,7 @@
     "label": "Australia only",
     "rule": "Includes only source-attributed Australian reviews. Unknown and non-Australian records are excluded."
   },
-  "last_updated": "2026-08-16T06:01:45Z",
+  "last_updated": "2026-08-17T06:01:17Z",
   "metric_definition": "Captured AU review history only. Scores are calculated from dated, source-attributed Australian reviews and are not global platform scores.",
   "sources": [
     {
@@ -1838,7 +1838,7 @@
           "label": "10 Aug–16 Aug 2026",
           "start": "2026-08-10",
           "end": "2026-08-16",
-          "is_partial": true,
+          "is_partial": false,
           "review_count": 8,
           "average_score": 4.5,
           "stars": {
@@ -1911,6 +1911,26 @@
               }
             }
           ]
+        },
+        {
+          "key": "2026-08-17",
+          "label": "17 Aug–23 Aug 2026",
+          "start": "2026-08-17",
+          "end": "2026-08-23",
+          "is_partial": true,
+          "review_count": 0,
+          "average_score": null,
+          "stars": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0
+          },
+          "low_star_count": 0,
+          "positive_count": 0,
+          "complaint_themes": [],
+          "positive_themes": []
         }
       ],
       "monthly": [
@@ -4300,7 +4320,7 @@
               "label": "10 Aug–16 Aug 2026",
               "start": "2026-08-10",
               "end": "2026-08-16",
-              "is_partial": true,
+              "is_partial": false,
               "review_count": 8,
               "average_score": 4.5,
               "stars": {
@@ -4373,6 +4393,26 @@
                   }
                 }
               ]
+            },
+            {
+              "key": "2026-08-17",
+              "label": "17 Aug–23 Aug 2026",
+              "start": "2026-08-17",
+              "end": "2026-08-23",
+              "is_partial": true,
+              "review_count": 0,
+              "average_score": null,
+              "stars": {
+                "1": 0,
+                "2": 0,
+                "3": 0,
+                "4": 0,
+                "5": 0
+              },
+              "low_star_count": 0,
+              "positive_count": 0,
+              "complaint_themes": [],
+              "positive_themes": []
             }
           ],
           "monthly": [
@@ -5527,6 +5567,26 @@
           "label": "10 Aug–16 Aug 2026",
           "start": "2026-08-10",
           "end": "2026-08-16",
+          "is_partial": false,
+          "review_count": 0,
+          "average_score": null,
+          "stars": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0
+          },
+          "low_star_count": 0,
+          "positive_count": 0,
+          "complaint_themes": [],
+          "positive_themes": []
+        },
+        {
+          "key": "2026-08-17",
+          "label": "17 Aug–23 Aug 2026",
+          "start": "2026-08-17",
+          "end": "2026-08-23",
           "is_partial": true,
           "review_count": 0,
           "average_score": null,
@@ -6212,6 +6272,26 @@
               "label": "10 Aug–16 Aug 2026",
               "start": "2026-08-10",
               "end": "2026-08-16",
+              "is_partial": false,
+              "review_count": 0,
+              "average_score": null,
+              "stars": {
+                "1": 0,
+                "2": 0,
+                "3": 0,
+                "4": 0,
+                "5": 0
+              },
+              "low_star_count": 0,
+              "positive_count": 0,
+              "complaint_themes": [],
+              "positive_themes": []
+            },
+            {
+              "key": "2026-08-17",
+              "label": "17 Aug–23 Aug 2026",
+              "start": "2026-08-17",
+              "end": "2026-08-23",
               "is_partial": true,
               "review_count": 0,
               "average_score": null,
@@ -6793,6 +6873,26 @@
           "label": "10 Aug–16 Aug 2026",
           "start": "2026-08-10",
           "end": "2026-08-16",
+          "is_partial": false,
+          "review_count": 0,
+          "average_score": null,
+          "stars": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0
+          },
+          "low_star_count": 0,
+          "positive_count": 0,
+          "complaint_themes": [],
+          "positive_themes": []
+        },
+        {
+          "key": "2026-08-17",
+          "label": "17 Aug–23 Aug 2026",
+          "start": "2026-08-17",
+          "end": "2026-08-23",
           "is_partial": true,
           "review_count": 0,
           "average_score": null,
@@ -7296,6 +7396,26 @@
               "label": "10 Aug–16 Aug 2026",
               "start": "2026-08-10",
               "end": "2026-08-16",
+              "is_partial": false,
+              "review_count": 0,
+              "average_score": null,
+              "stars": {
+                "1": 0,
+                "2": 0,
+                "3": 0,
+                "4": 0,
+                "5": 0
+              },
+              "low_star_count": 0,
+              "positive_count": 0,
+              "complaint_themes": [],
+              "positive_themes": []
+            },
+            {
+              "key": "2026-08-17",
+              "label": "17 Aug–23 Aug 2026",
+              "start": "2026-08-17",
+              "end": "2026-08-23",
               "is_partial": true,
               "review_count": 0,
               "average_score": null,
@@ -12253,6 +12373,26 @@
           "label": "10 Aug–16 Aug 2026",
           "start": "2026-08-10",
           "end": "2026-08-16",
+          "is_partial": false,
+          "review_count": 0,
+          "average_score": null,
+          "stars": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0
+          },
+          "low_star_count": 0,
+          "positive_count": 0,
+          "complaint_themes": [],
+          "positive_themes": []
+        },
+        {
+          "key": "2026-08-17",
+          "label": "17 Aug–23 Aug 2026",
+          "start": "2026-08-17",
+          "end": "2026-08-23",
           "is_partial": true,
           "review_count": 0,
           "average_score": null,
@@ -19147,6 +19287,26 @@
               "label": "10 Aug–16 Aug 2026",
               "start": "2026-08-10",
               "end": "2026-08-16",
+              "is_partial": false,
+              "review_count": 0,
+              "average_score": null,
+              "stars": {
+                "1": 0,
+                "2": 0,
+                "3": 0,
+                "4": 0,
+                "5": 0
+              },
+              "low_star_count": 0,
+              "positive_count": 0,
+              "complaint_themes": [],
+              "positive_themes": []
+            },
+            {
+              "key": "2026-08-17",
+              "label": "17 Aug–23 Aug 2026",
+              "start": "2026-08-17",
+              "end": "2026-08-23",
               "is_partial": true,
               "review_count": 0,
               "average_score": null,
@@ -24451,6 +24611,26 @@
           "label": "10 Aug–16 Aug 2026",
           "start": "2026-08-10",
           "end": "2026-08-16",
+          "is_partial": false,
+          "review_count": 0,
+          "average_score": null,
+          "stars": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0
+          },
+          "low_star_count": 0,
+          "positive_count": 0,
+          "complaint_themes": [],
+          "positive_themes": []
+        },
+        {
+          "key": "2026-08-17",
+          "label": "17 Aug–23 Aug 2026",
+          "start": "2026-08-17",
+          "end": "2026-08-23",
           "is_partial": true,
           "review_count": 0,
           "average_score": null,
@@ -28400,6 +28580,26 @@
               "label": "10 Aug–16 Aug 2026",
               "start": "2026-08-10",
               "end": "2026-08-16",
+              "is_partial": false,
+              "review_count": 0,
+              "average_score": null,
+              "stars": {
+                "1": 0,
+                "2": 0,
+                "3": 0,
+                "4": 0,
+                "5": 0
+              },
+              "low_star_count": 0,
+              "positive_count": 0,
+              "complaint_themes": [],
+              "positive_themes": []
+            },
+            {
+              "key": "2026-08-17",
+              "label": "17 Aug–23 Aug 2026",
+              "start": "2026-08-17",
+              "end": "2026-08-23",
               "is_partial": true,
               "review_count": 0,
               "average_score": null,
