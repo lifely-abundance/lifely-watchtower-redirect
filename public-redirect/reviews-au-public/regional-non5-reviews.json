@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "analysis_type": "public_au_non5_review_analysis",
-  "generated_at": "2026-07-15T16:30:56+00:00",
+  "generated_at": "2026-08-19T06:01:24+00:00",
   "coverage": {
-    "from": "2026-01-01",
-    "through": "2026-07-14",
-    "partial_month": "2026-07",
+    "from": "2026-01-02",
+    "through": "2026-08-18",
+    "partial_month": "2026-08",
     "profiles": [
       "lifely.com.au",
       "littlelifely.com"
@@ -17,7 +17,10 @@
     "limitations": [
       "Reviewer country is source-provided and is not order destination.",
       "Records without a source-provided Australian country are excluded."
-    ]
+    ],
+    "latest_non5_review": "2026-08-18",
+    "partial_period": "2026-08",
+    "source_checked_at": "2026-08-19T06:01:24Z"
   },
   "category_labels": {
     "delivery_delay_preorder_stock": "Delivery delay / preorder / stock promise",
@@ -41,33 +44,241 @@
     "wrong_missing_incomplete_order"
   ],
   "totals": {
-    "reviews": 74,
+    "reviews": 90,
     "ratings": {
-      "1": 40,
-      "2": 13,
-      "3": 7,
-      "4": 14
+      "1": 48,
+      "2": 15,
+      "3": 11,
+      "4": 16
     },
     "profiles": {
-      "lifely.com.au": 71,
+      "lifely.com.au": 87,
       "littlelifely.com": 3
     },
     "categories": {
       "assembly_instructions_hardware": 2,
-      "comfort_design_fit_usability": 8,
-      "courier_tracking_delivery_handling": 11,
+      "comfort_design_fit_usability": 10,
+      "courier_tracking_delivery_handling": 18,
       "customer_service_communication": 1,
       "damaged_on_arrival": 4,
-      "delivery_delay_preorder_stock": 16,
+      "delivery_delay_preorder_stock": 18,
       "no_explicit_complaint": 6,
       "price_value_expectation": 1,
-      "product_quality_defect_durability": 5,
-      "return_refund_cancellation_warranty": 5,
+      "product_quality_defect_durability": 7,
+      "return_refund_cancellation_warranty": 7,
       "website_ordering_payment_promotion": 2,
-      "wrong_missing_incomplete_order": 13
+      "wrong_missing_incomplete_order": 14
     }
   },
   "records": [
+    {
+      "region": "AU",
+      "profile": "lifely.com.au",
+      "month": "2026-08",
+      "quarter": "Q3 MTD",
+      "published_date": "2026-08-18",
+      "rating": 4,
+      "category": "courier_tracking_delivery_handling",
+      "delivery_related": true,
+      "title": "Delivery Issues",
+      "excerpt": "We are very happy with the product, however we were completely in the dark when the delivery was going to be made. We followed up a number of times, but only told 'its on its way' over the course of a fortnight. We tried to track it through the recommended app SHOP, but was no better, and just showed that it was 'on its' way' Then one morning when no-one was home, it arrived without warning. This may be an issue for",
+      "url": "https://www.trustpilot.com/reviews/6a83e487c45413f9e42a8775"
+    },
+    {
+      "region": "AU",
+      "profile": "lifely.com.au",
+      "month": "2026-08",
+      "quarter": "Q3 MTD",
+      "published_date": "2026-08-12",
+      "rating": 1,
+      "category": "courier_tracking_delivery_handling",
+      "delivery_related": true,
+      "title": "We are NOT happy purchasers. Do yourself a favour and find another couch.",
+      "excerpt": "We are not happy purchasers. I was very clear when ordering that the couch was being delivered to a property we didn’t live in and that I required 3-4 hours notice of delivery. Apparently this was just too hard. Received a delivery notice that it would be delivered on the Friday with no time frame. What do they think happens- people just sit around and wait at home for delivery? We organised someone to be there (at o",
+      "url": "https://www.trustpilot.com/reviews/6a7b9cfa853078ac3a1d699e"
+    },
+    {
+      "region": "AU",
+      "profile": "lifely.com.au",
+      "month": "2026-08",
+      "quarter": "Q3 MTD",
+      "published_date": "2026-08-06",
+      "rating": 2,
+      "category": "product_quality_defect_durability",
+      "delivery_related": false,
+      "title": "Their customer skills and response to…",
+      "excerpt": "Their customer skills and response to me following up on the product I preordered was great.However ,for the price,the quality was similar to something I’d order from cheap websites.",
+      "url": "https://www.trustpilot.com/reviews/6a73e195ce23073eebd6e6b3"
+    },
+    {
+      "region": "AU",
+      "profile": "lifely.com.au",
+      "month": "2026-08",
+      "quarter": "Q3 MTD",
+      "published_date": "2026-08-06",
+      "rating": 1,
+      "category": "courier_tracking_delivery_handling",
+      "delivery_related": true,
+      "title": "The delivery method and company you use…",
+      "excerpt": "The delivery method and company you use is an absolute disaster and made the process of buying from Lifely one that I never want to experience again. The delivery company incorrectly advised of a delivery date, they stated they were delivering on a Saturday and as the package would not be safe. This caused me to cancel a trip away and there was no way of contacting them to tell them not to deliver the item. They then",
+      "url": "https://www.trustpilot.com/reviews/6a73e0c2ae7c85172b0c6f3f"
+    },
+    {
+      "region": "AU",
+      "profile": "lifely.com.au",
+      "month": "2026-08",
+      "quarter": "Q3 MTD",
+      "published_date": "2026-08-06",
+      "rating": 4,
+      "category": "return_refund_cancellation_warranty",
+      "delivery_related": false,
+      "title": "Excellent customer service, not the best refund policy",
+      "excerpt": "Update: Lifely have a great customer support team and even their AI support response was better than what you get from large providers like Telstra or AGL Still not a fan of the the refund policy, 30 days standard for store credit minus 15% and delivery and pickup fees, but they will give you a refund if the item is faulty upon arrival. If you are not interested in more than 1 item a store credit might not work for y",
+      "url": "https://www.trustpilot.com/reviews/6a73e042b21615819921e1fa"
+    },
+    {
+      "region": "AU",
+      "profile": "lifely.com.au",
+      "month": "2026-08",
+      "quarter": "Q3 MTD",
+      "published_date": "2026-08-06",
+      "rating": 1,
+      "category": "courier_tracking_delivery_handling",
+      "delivery_related": true,
+      "title": "Never received my order and Customer Service dont care!",
+      "excerpt": "I would not recommend this company. After spending over $700, I never received my chair. Despite multiple attempts to resolve the issue with customer service, I was given excuses and empty assurances instead of a solution. No replacement tracking was ever provided, and I was left without the product or a refund. After weeks of chasing updates with no meaningful resolution, I had no choice but to organise a chargeback",
+      "url": "https://www.trustpilot.com/reviews/6a73dc615f1af0ffba190725"
+    },
+    {
+      "region": "AU",
+      "profile": "lifely.com.au",
+      "month": "2026-08",
+      "quarter": "Q3 MTD",
+      "published_date": "2026-08-05",
+      "rating": 3,
+      "category": "comfort_design_fit_usability",
+      "delivery_related": false,
+      "title": "Thankfully my daughter loves it",
+      "excerpt": "Bed still looks super cute by the cover is ill fitting. customer service haven’t been much help and I’ve given up chasing them for assistance. Thankfully, my daughter still loves the bed so I guess I should be happy with that. It’s only three stars because I’ve had a very negative customer experience.",
+      "url": "https://www.trustpilot.com/reviews/6a72baad6e1cd910305c5aa8"
+    },
+    {
+      "region": "AU",
+      "profile": "lifely.com.au",
+      "month": "2026-08",
+      "quarter": "Q3 MTD",
+      "published_date": "2026-08-04",
+      "rating": 1,
+      "category": "courier_tracking_delivery_handling",
+      "delivery_related": true,
+      "title": "Delivery experience TERRIBLE.",
+      "excerpt": "The product is amazing yes but the shipping experience from the team that collects and ships the product was the worst customer experience I have ever had and there reviews say the same from over 1000 people. Definitely need a new transport partnership.",
+      "url": "https://www.trustpilot.com/reviews/6a71bc23888c07c6b959b542"
+    },
+    {
+      "region": "AU",
+      "profile": "lifely.com.au",
+      "month": "2026-08",
+      "quarter": "Q3 MTD",
+      "published_date": "2026-08-03",
+      "rating": 1,
+      "category": "courier_tracking_delivery_handling",
+      "delivery_related": true,
+      "title": "Bit rude to send a survey when my $700…",
+      "excerpt": "Bit rude to send a survey when my $700 WFH chair hasn't even been delivered and I have been in constant emails daily to find it, apparently been sitting in my town's depot, don't know which one for 10 days now...",
+      "url": "https://www.trustpilot.com/reviews/6a6fee3646578e57205ae200"
+    },
+    {
+      "region": "AU",
+      "profile": "lifely.com.au",
+      "month": "2026-08",
+      "quarter": "Q3 MTD",
+      "published_date": "2026-08-02",
+      "rating": 3,
+      "category": "courier_tracking_delivery_handling",
+      "delivery_related": true,
+      "title": "Delivery time slot not good not impressed",
+      "excerpt": "Delivery time poor",
+      "url": "https://www.trustpilot.com/reviews/6a6e7900b6ada89f55b5a7dc"
+    },
+    {
+      "region": "AU",
+      "profile": "lifely.com.au",
+      "month": "2026-07",
+      "quarter": "Q3 MTD",
+      "published_date": "2026-07-31",
+      "rating": 1,
+      "category": "product_quality_defect_durability",
+      "delivery_related": false,
+      "title": "Ordered the Cam Adjustable Desk and…",
+      "excerpt": "Ordered the Cam Adjustable Desk and after not even 1 month of use, it is already peeling. Also the desk has no pre-drilled holes for me to attach the piece with the adjustable buttons. It's honestly just a super cheap, poorly designed and executed desk.",
+      "url": "https://www.trustpilot.com/reviews/6a6bf551f687415f9fc94331"
+    },
+    {
+      "region": "AU",
+      "profile": "lifely.com.au",
+      "month": "2026-07",
+      "quarter": "Q3 MTD",
+      "published_date": "2026-07-31",
+      "rating": 3,
+      "category": "delivery_delay_preorder_stock",
+      "delivery_related": true,
+      "title": "patience is a virtue definitely needed",
+      "excerpt": "Waiting period 2 long Delivery of goods all OK Delivery guy even brought into my bedroom for me otherwise it would still be outside till I found sum1s help lol",
+      "url": "https://www.trustpilot.com/reviews/6a6bd17ae92c7da9eaab7698"
+    },
+    {
+      "region": "AU",
+      "profile": "lifely.com.au",
+      "month": "2026-07",
+      "quarter": "Q3 MTD",
+      "published_date": "2026-07-29",
+      "rating": 3,
+      "category": "comfort_design_fit_usability",
+      "delivery_related": false,
+      "title": "I am a little disappointed by my…",
+      "excerpt": "I am a little disappointed by my purchase. I was really excited by the concept of a soft floor bed, especially with a co-sleeping toddler. I got a double to help transition him. My son does indeed absolutely love his bed and it's been great in the sense of getting him excited to sleep in his own bed. He jumps, he plays and the softness helps make it feel safe. However, I found the set up of it a little difficult and",
+      "url": "https://www.trustpilot.com/reviews/6a696a90cf21c473b8d648d6"
+    },
+    {
+      "region": "AU",
+      "profile": "lifely.com.au",
+      "month": "2026-07",
+      "quarter": "Q3 MTD",
+      "published_date": "2026-07-24",
+      "rating": 1,
+      "category": "wrong_missing_incomplete_order",
+      "delivery_related": true,
+      "title": "Missing part and customer service",
+      "excerpt": "Our bed arrived and has a missing piece. I’ve spent my whole week trying to follow up with different people. The only way I’ve been able to get some sort of a response is through the online chat. I have all the parts for a bed except for the leg and now unable to use to bed. It’s been a week and I still have no outcome or timeline on when this will be resolved. Extremely frustrating and annoying, not to mention how d",
+      "url": "https://www.trustpilot.com/reviews/6a630514ab3e971cee910711"
+    },
+    {
+      "region": "AU",
+      "profile": "lifely.com.au",
+      "month": "2026-07",
+      "quarter": "Q3 MTD",
+      "published_date": "2026-07-23",
+      "rating": 2,
+      "category": "delivery_delay_preorder_stock",
+      "delivery_related": true,
+      "title": "Frustrating & Misleading",
+      "excerpt": "We purchased the Lifely Modular Washable Sofa – 7 Seater U-Sectional + Ottoman because we specifically wanted the Brownzite Brown colourway, and the website stated it would ship within a few days. After ordering and following up about shipping, we were told it was actually on pre-order. This was not advertised upon purchasing. We then waited only to be told the Brownzite Brown colourway had been discontinued and our",
+      "url": "https://www.trustpilot.com/reviews/6a619eebbfff5ca8663ecccc"
+    },
+    {
+      "region": "AU",
+      "profile": "lifely.com.au",
+      "month": "2026-07",
+      "quarter": "Q3 MTD",
+      "published_date": "2026-07-20",
+      "rating": 1,
+      "category": "return_refund_cancellation_warranty",
+      "delivery_related": false,
+      "title": "Misleading advertising of furniture",
+      "excerpt": "Misleading advertising of furniture. Paid $700 for only 1 unit of a couch to be delivered, they said it's sold separately but it doesn't say that anywhere when purchasing or has photos of the individual piece your getting. When trying to return the item for a refund, it took 3 attempts no communication and getting increasingly frustrated (I was home 2 of the 3 attempts without any contact). I asked to speak with mana",
+      "url": "https://www.trustpilot.com/reviews/6a5dbbbdb2c60b5f2bccf9c8"
+    },
     {
       "region": "AU",
       "profile": "lifely.com.au",
@@ -130,7 +341,7 @@
       "category": "wrong_missing_incomplete_order",
       "delivery_related": true,
       "title": "Missing parts 7 weeks and counting",
-      "excerpt": "Ordered lounge in May received 2 parts and missing 1 for over 7 weeks. If you take full payment then supply full lounge. Ive requested a refund and collection on 6 July, after sending 7 follow up emails since May. Let see what happens, ill update once I hear back from a human, they use AI responses to emails. Very disappointing",
+      "excerpt": "Upate 24 Jul still no resoloution. Two times waited for pick up for them to cancel at the laat minute. Im suspicious these ate tactics to stretch out the process yet keep my money. Ordered lounge in May received 2 parts and missing 1 for over 7 weeks. If you take full payment then supply full lounge. Ive requested a refund and collection on 6 July, after sending 7 follow up emails since May. Let see what happens, ill",
       "url": "https://www.trustpilot.com/reviews/6a4c49410e387307d73512d6"
     },
     {

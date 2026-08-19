@@ -5,7 +5,7 @@
     "label": "Australia only",
     "rule": "Includes only source-attributed Australian reviews. Unknown and non-Australian records are excluded."
   },
-  "last_updated": "2026-08-18T06:01:28Z",
+  "last_updated": "2026-08-19T06:01:24Z",
   "metric_definition": "Captured AU review history only. Scores are calculated from dated, source-attributed Australian reviews and are not global platform scores.",
   "sources": [
     {
@@ -15,18 +15,18 @@
       "label": "Lifely Trustpilot",
       "url": "https://www.trustpilot.com/review/lifely.com.au",
       "score": 4.0,
-      "total_reviews": 210,
+      "total_reviews": 211,
       "score_delta": null,
       "review_delta": null,
       "to_next_0_1_est_reviews": null,
       "source_note": "Captured Australian review history only.",
       "color": "#00a76f",
-      "history_records": 210,
+      "history_records": 211,
       "history_first_review_at": "2026-03-30T03:09:17Z",
-      "history_last_review_at": "2026-08-18T03:00:06Z",
+      "history_last_review_at": "2026-08-18T06:50:15Z",
       "history_method": "AU-only derivative of the verified Watchtower review history",
       "history_limitation": "Only records with a defensible Australian country/state attribution are included; unknown and non-Australian records are excluded.",
-      "region_records": 210,
+      "region_records": 211,
       "region_unavailable_records": 0,
       "region_source": "Public reviewer country supplied by Trustpilot."
     },
@@ -128,12 +128,12 @@
         "brand": "Lifely",
         "platform": "Trustpilot",
         "label": "Lifely Trustpilot",
-        "records": 210,
+        "records": 211,
         "first_review_at": "2026-03-30T03:09:17Z",
-        "last_review_at": "2026-08-18T03:00:06Z",
+        "last_review_at": "2026-08-18T06:50:15Z",
         "method": "AU-only derivative of the verified Watchtower review history",
         "limitation": "Only records with a defensible Australian country/state attribution are included; unknown and non-Australian records are excluded.",
-        "region_records": 210,
+        "region_records": 211,
         "region_unavailable_records": 0,
         "region_source": "Public reviewer country supplied by Trustpilot."
       },
@@ -1918,24 +1918,24 @@
           "start": "2026-08-17",
           "end": "2026-08-23",
           "is_partial": true,
-          "review_count": 4,
-          "average_score": 5.0,
+          "review_count": 5,
+          "average_score": 4.8,
           "stars": {
             "1": 0,
             "2": 0,
             "3": 0,
-            "4": 0,
+            "4": 1,
             "5": 4
           },
           "low_star_count": 0,
-          "positive_count": 4,
+          "positive_count": 5,
           "complaint_themes": [],
           "positive_themes": [
             {
               "theme": "comfort_product_love",
               "label": "Comfort and product feel",
               "count": 2,
-              "share": 50.0,
+              "share": 40.0,
               "previous_count": 4,
               "delta_vs_previous": -2,
               "example": {
@@ -1949,7 +1949,7 @@
               "theme": "easy_setup_conversion",
               "label": "Easy setup / quick transform",
               "count": 1,
-              "share": 25.0,
+              "share": 20.0,
               "previous_count": 0,
               "delta_vs_previous": 1,
               "example": {
@@ -1963,7 +1963,7 @@
               "theme": "service_recovery",
               "label": "Helpful service / recovery",
               "count": 1,
-              "share": 25.0,
+              "share": 20.0,
               "previous_count": 2,
               "delta_vs_previous": -1,
               "example": {
@@ -1971,6 +1971,20 @@
                 "date": "2026-08-18T03:00:06Z",
                 "text": "Very happy with my purchase Very happy with my purchase. I was a little concerned when I proceeded with a pre-order and didn’t hear about any progress. The customer service I received over Facebook and email made everything a seamless experience in the end and I received my order in the quoted time…",
                 "url": "https://www.trustpilot.com/reviews/6a83ae96824cec3f6f831766"
+              }
+            },
+            {
+              "theme": "shipping_positive",
+              "label": "Fast or clear delivery",
+              "count": 1,
+              "share": 20.0,
+              "previous_count": 1,
+              "delta_vs_previous": 0,
+              "example": {
+                "rating": 4,
+                "date": "2026-08-18T06:50:15Z",
+                "text": "Delivery Issues We are very happy with the product, however we were completely in the dark when the delivery was going to be made. We followed up a number of times, but only told 'its on its way' over the course of a fortnight. We tried to track it through the recommended app SHOP, but was no bette…",
+                "url": "https://www.trustpilot.com/reviews/6a83e487c45413f9e42a8775"
               }
             }
           ]
@@ -2554,17 +2568,17 @@
           "start": "2026-08-01",
           "end": "2026-08-31",
           "is_partial": true,
-          "review_count": 28,
+          "review_count": 29,
           "average_score": 4.0,
           "stars": {
             "1": 5,
             "2": 1,
             "3": 2,
-            "4": 1,
+            "4": 2,
             "5": 19
           },
           "low_star_count": 6,
-          "positive_count": 20,
+          "positive_count": 21,
           "complaint_themes": [
             {
               "theme": "support_response_resolution",
@@ -2602,7 +2616,7 @@
               "theme": "comfort_product_love",
               "label": "Comfort and product feel",
               "count": 11,
-              "share": 55.0,
+              "share": 52.4,
               "previous_count": 16,
               "delta_vs_previous": -5,
               "example": {
@@ -2616,7 +2630,7 @@
               "theme": "service_recovery",
               "label": "Helpful service / recovery",
               "count": 6,
-              "share": 30.0,
+              "share": 28.6,
               "previous_count": 6,
               "delta_vs_previous": 0,
               "example": {
@@ -2630,7 +2644,7 @@
               "theme": "easy_setup_conversion",
               "label": "Easy setup / quick transform",
               "count": 2,
-              "share": 10.0,
+              "share": 9.5,
               "previous_count": 7,
               "delta_vs_previous": -5,
               "example": {
@@ -2643,10 +2657,10 @@
             {
               "theme": "shipping_positive",
               "label": "Fast or clear delivery",
-              "count": 1,
-              "share": 5.0,
+              "count": 2,
+              "share": 9.5,
               "previous_count": 5,
-              "delta_vs_previous": -4,
+              "delta_vs_previous": -3,
               "example": {
                 "rating": 5,
                 "date": "2026-08-12T09:46:56Z",
@@ -2661,7 +2675,7 @@
         {
           "key": "AU",
           "label": "Australia",
-          "records": 210,
+          "records": 211,
           "weekly": [
             {
               "key": "2026-03-30",
@@ -4443,24 +4457,24 @@
               "start": "2026-08-17",
               "end": "2026-08-23",
               "is_partial": true,
-              "review_count": 4,
-              "average_score": 5.0,
+              "review_count": 5,
+              "average_score": 4.8,
               "stars": {
                 "1": 0,
                 "2": 0,
                 "3": 0,
-                "4": 0,
+                "4": 1,
                 "5": 4
               },
               "low_star_count": 0,
-              "positive_count": 4,
+              "positive_count": 5,
               "complaint_themes": [],
               "positive_themes": [
                 {
                   "theme": "comfort_product_love",
                   "label": "Comfort and product feel",
                   "count": 2,
-                  "share": 50.0,
+                  "share": 40.0,
                   "previous_count": 4,
                   "delta_vs_previous": -2,
                   "example": {
@@ -4474,7 +4488,7 @@
                   "theme": "easy_setup_conversion",
                   "label": "Easy setup / quick transform",
                   "count": 1,
-                  "share": 25.0,
+                  "share": 20.0,
                   "previous_count": 0,
                   "delta_vs_previous": 1,
                   "example": {
@@ -4488,7 +4502,7 @@
                   "theme": "service_recovery",
                   "label": "Helpful service / recovery",
                   "count": 1,
-                  "share": 25.0,
+                  "share": 20.0,
                   "previous_count": 2,
                   "delta_vs_previous": -1,
                   "example": {
@@ -4496,6 +4510,20 @@
                     "date": "2026-08-18T03:00:06Z",
                     "text": "Very happy with my purchase Very happy with my purchase. I was a little concerned when I proceeded with a pre-order and didn’t hear about any progress. The customer service I received over Facebook and email made everything a seamless experience in the end and I received my order in the quoted time…",
                     "url": "https://www.trustpilot.com/reviews/6a83ae96824cec3f6f831766"
+                  }
+                },
+                {
+                  "theme": "shipping_positive",
+                  "label": "Fast or clear delivery",
+                  "count": 1,
+                  "share": 20.0,
+                  "previous_count": 1,
+                  "delta_vs_previous": 0,
+                  "example": {
+                    "rating": 4,
+                    "date": "2026-08-18T06:50:15Z",
+                    "text": "Delivery Issues We are very happy with the product, however we were completely in the dark when the delivery was going to be made. We followed up a number of times, but only told 'its on its way' over the course of a fortnight. We tried to track it through the recommended app SHOP, but was no bette…",
+                    "url": "https://www.trustpilot.com/reviews/6a83e487c45413f9e42a8775"
                   }
                 }
               ]
@@ -5079,17 +5107,17 @@
               "start": "2026-08-01",
               "end": "2026-08-31",
               "is_partial": true,
-              "review_count": 28,
+              "review_count": 29,
               "average_score": 4.0,
               "stars": {
                 "1": 5,
                 "2": 1,
                 "3": 2,
-                "4": 1,
+                "4": 2,
                 "5": 19
               },
               "low_star_count": 6,
-              "positive_count": 20,
+              "positive_count": 21,
               "complaint_themes": [
                 {
                   "theme": "support_response_resolution",
@@ -5127,7 +5155,7 @@
                   "theme": "comfort_product_love",
                   "label": "Comfort and product feel",
                   "count": 11,
-                  "share": 55.0,
+                  "share": 52.4,
                   "previous_count": 16,
                   "delta_vs_previous": -5,
                   "example": {
@@ -5141,7 +5169,7 @@
                   "theme": "service_recovery",
                   "label": "Helpful service / recovery",
                   "count": 6,
-                  "share": 30.0,
+                  "share": 28.6,
                   "previous_count": 6,
                   "delta_vs_previous": 0,
                   "example": {
@@ -5155,7 +5183,7 @@
                   "theme": "easy_setup_conversion",
                   "label": "Easy setup / quick transform",
                   "count": 2,
-                  "share": 10.0,
+                  "share": 9.5,
                   "previous_count": 7,
                   "delta_vs_previous": -5,
                   "example": {
@@ -5168,10 +5196,10 @@
                 {
                   "theme": "shipping_positive",
                   "label": "Fast or clear delivery",
-                  "count": 1,
-                  "share": 5.0,
+                  "count": 2,
+                  "share": 9.5,
                   "previous_count": 5,
-                  "delta_vs_previous": -4,
+                  "delta_vs_previous": -3,
                   "example": {
                     "rating": 5,
                     "date": "2026-08-12T09:46:56Z",
@@ -29474,12 +29502,12 @@
       "brand": "Lifely",
       "platform": "Trustpilot",
       "label": "Lifely Trustpilot",
-      "records": 210,
+      "records": 211,
       "first_review_at": "2026-03-30T03:09:17Z",
-      "last_review_at": "2026-08-18T03:00:06Z",
+      "last_review_at": "2026-08-18T06:50:15Z",
       "method": "AU-only derivative of the verified Watchtower review history",
       "limitation": "Only records with a defensible Australian country/state attribution are included; unknown and non-Australian records are excluded.",
-      "region_records": 210,
+      "region_records": 211,
       "region_unavailable_records": 0,
       "region_source": "Public reviewer country supplied by Trustpilot."
     },

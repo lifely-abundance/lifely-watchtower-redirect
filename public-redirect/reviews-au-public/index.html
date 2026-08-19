@@ -608,7 +608,7 @@
     const keys = [...new Set((state.deliveryData?.records || []).map(row => state.deliveryCadence === 'monthly' ? row.month : row.quarter))];
     return state.deliveryCadence === 'monthly'
       ? keys.sort()
-      : keys.sort((a,b) => ['Q1','Q2','Q3 MTD'].indexOf(a) - ['Q1','Q2','Q3 MTD'].indexOf(b));
+      : keys.sort((a,b) => Number((a.match(/Q(\d)/) || [0, 0])[1]) - Number((b.match(/Q(\d)/) || [0, 0])[1]));
   }
 
   function deliveryTrendRows() {
@@ -744,7 +744,8 @@
     document.querySelectorAll('[data-delivery-cadence]').forEach(button => button.classList.toggle('active', button.dataset.deliveryCadence === state.deliveryCadence));
     const periodKeys = deliveryPeriodKeys();
     if (state.deliveryPeriod !== 'ALL' && !periodKeys.includes(state.deliveryPeriod)) state.deliveryPeriod = 'ALL';
-    $('deliveryPeriod').innerHTML = `<option value="ALL">All available periods</option>` + periodKeys.map(key => `<option value="${esc(key)}" ${key === state.deliveryPeriod ? 'selected' : ''}>${esc(state.deliveryCadence === 'monthly' ? deliveryMonthLabel(key) + (key === data.coverage.partial_period ? ' · partial' : '') : key)}</option>`).join('');
+    const partialPeriod = data.coverage.partial_period || data.coverage.partial_month;
+    $('deliveryPeriod').innerHTML = `<option value="ALL">All available periods</option>` + periodKeys.map(key => `<option value="${esc(key)}" ${key === state.deliveryPeriod ? 'selected' : ''}>${esc(state.deliveryCadence === 'monthly' ? deliveryMonthLabel(key) + (key === partialPeriod ? ' · partial' : '') : key)}</option>`).join('');
 
     const oneStar = rows.filter(row => row.rating === 1).length;
     const categories = Object.keys(data.category_labels);
@@ -752,7 +753,8 @@
     const populatedTypes = typeCounts.filter(([,count]) => count > 0);
     const leading = populatedTypes[0]?.[1] ? data.category_labels[populatedTypes[0][0]] : 'No reviews';
     const sourceLabel = state.deliveryProfile === 'combined' ? 'Both Trustpilot profiles' : state.deliveryProfile;
-    const periodLabel = state.deliveryPeriod === 'ALL' ? 'Jan–14 Jul 2026' : state.deliveryCadence === 'monthly' ? deliveryMonthLabel(state.deliveryPeriod) + (state.deliveryPeriod === data.coverage.partial_period ? ' · partial' : '') : state.deliveryPeriod;
+    const allPeriodLabel = `${fmtDate(data.coverage.from, {short:true})}–${fmtDate(data.coverage.through)}`;
+    const periodLabel = state.deliveryPeriod === 'ALL' ? allPeriodLabel : state.deliveryCadence === 'monthly' ? deliveryMonthLabel(state.deliveryPeriod) + (state.deliveryPeriod === partialPeriod ? ' · partial' : '') : state.deliveryPeriod;
     const deliveryRelated = rows.filter(row => row.delivery_related).length;
     $('deliveryScope').textContent = `Through ${fmtDate(data.coverage.through)} · ${data.totals.reviews} reviews`;
     $('deliverySummary').innerHTML = [
