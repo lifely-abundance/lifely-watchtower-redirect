@@ -5,7 +5,7 @@
     "label": "Australia only",
     "rule": "Includes only source-attributed Australian reviews. Unknown and non-Australian records are excluded."
   },
-  "last_updated": "2026-08-19T06:01:24Z",
+  "last_updated": "2026-08-20T06:01:19Z",
   "metric_definition": "Captured AU review history only. Scores are calculated from dated, source-attributed Australian reviews and are not global platform scores.",
   "sources": [
     {
@@ -15,18 +15,18 @@
       "label": "Lifely Trustpilot",
       "url": "https://www.trustpilot.com/review/lifely.com.au",
       "score": 4.0,
-      "total_reviews": 211,
+      "total_reviews": 212,
       "score_delta": null,
       "review_delta": null,
       "to_next_0_1_est_reviews": null,
       "source_note": "Captured Australian review history only.",
       "color": "#00a76f",
-      "history_records": 211,
+      "history_records": 212,
       "history_first_review_at": "2026-03-30T03:09:17Z",
-      "history_last_review_at": "2026-08-18T06:50:15Z",
+      "history_last_review_at": "2026-08-19T07:54:59Z",
       "history_method": "AU-only derivative of the verified Watchtower review history",
       "history_limitation": "Only records with a defensible Australian country/state attribution are included; unknown and non-Australian records are excluded.",
-      "region_records": 211,
+      "region_records": 212,
       "region_unavailable_records": 0,
       "region_source": "Public reviewer country supplied by Trustpilot."
     },
@@ -128,12 +128,12 @@
         "brand": "Lifely",
         "platform": "Trustpilot",
         "label": "Lifely Trustpilot",
-        "records": 211,
+        "records": 212,
         "first_review_at": "2026-03-30T03:09:17Z",
-        "last_review_at": "2026-08-18T06:50:15Z",
+        "last_review_at": "2026-08-19T07:54:59Z",
         "method": "AU-only derivative of the verified Watchtower review history",
         "limitation": "Only records with a defensible Australian country/state attribution are included; unknown and non-Australian records are excluded.",
-        "region_records": 211,
+        "region_records": 212,
         "region_unavailable_records": 0,
         "region_source": "Public reviewer country supplied by Trustpilot."
       },
@@ -1918,26 +1918,26 @@
           "start": "2026-08-17",
           "end": "2026-08-23",
           "is_partial": true,
-          "review_count": 5,
-          "average_score": 4.8,
+          "review_count": 6,
+          "average_score": 4.83,
           "stars": {
             "1": 0,
             "2": 0,
             "3": 0,
             "4": 1,
-            "5": 4
+            "5": 5
           },
           "low_star_count": 0,
-          "positive_count": 5,
+          "positive_count": 6,
           "complaint_themes": [],
           "positive_themes": [
             {
               "theme": "comfort_product_love",
               "label": "Comfort and product feel",
-              "count": 2,
-              "share": 40.0,
+              "count": 3,
+              "share": 50.0,
               "previous_count": 4,
-              "delta_vs_previous": -2,
+              "delta_vs_previous": -1,
               "example": {
                 "rating": 5,
                 "date": "2026-08-17T11:39:44Z",
@@ -1949,7 +1949,7 @@
               "theme": "easy_setup_conversion",
               "label": "Easy setup / quick transform",
               "count": 1,
-              "share": 20.0,
+              "share": 16.7,
               "previous_count": 0,
               "delta_vs_previous": 1,
               "example": {
@@ -1963,7 +1963,7 @@
               "theme": "service_recovery",
               "label": "Helpful service / recovery",
               "count": 1,
-              "share": 20.0,
+              "share": 16.7,
               "previous_count": 2,
               "delta_vs_previous": -1,
               "example": {
@@ -1977,7 +1977,7 @@
               "theme": "shipping_positive",
               "label": "Fast or clear delivery",
               "count": 1,
-              "share": 20.0,
+              "share": 16.7,
               "previous_count": 1,
               "delta_vs_previous": 0,
               "example": {
@@ -2568,17 +2568,17 @@
           "start": "2026-08-01",
           "end": "2026-08-31",
           "is_partial": true,
-          "review_count": 29,
-          "average_score": 4.0,
+          "review_count": 30,
+          "average_score": 4.03,
           "stars": {
             "1": 5,
             "2": 1,
             "3": 2,
             "4": 2,
-            "5": 19
+            "5": 20
           },
           "low_star_count": 6,
-          "positive_count": 21,
+          "positive_count": 22,
           "complaint_themes": [
             {
               "theme": "support_response_resolution",
@@ -2615,10 +2615,10 @@
             {
               "theme": "comfort_product_love",
               "label": "Comfort and product feel",
-              "count": 11,
-              "share": 52.4,
+              "count": 12,
+              "share": 54.5,
               "previous_count": 16,
-              "delta_vs_previous": -5,
+              "delta_vs_previous": -4,
               "example": {
                 "rating": 5,
                 "date": "2026-08-03T07:09:55Z",
@@ -2630,7 +2630,7 @@
               "theme": "service_recovery",
               "label": "Helpful service / recovery",
               "count": 6,
-              "share": 28.6,
+              "share": 27.3,
               "previous_count": 6,
               "delta_vs_previous": 0,
               "example": {
@@ -2644,7 +2644,7 @@
               "theme": "easy_setup_conversion",
               "label": "Easy setup / quick transform",
               "count": 2,
-              "share": 9.5,
+              "share": 9.1,
               "previous_count": 7,
               "delta_vs_previous": -5,
               "example": {
@@ -2658,7 +2658,7 @@
               "theme": "shipping_positive",
               "label": "Fast or clear delivery",
               "count": 2,
-              "share": 9.5,
+              "share": 9.1,
               "previous_count": 5,
               "delta_vs_previous": -3,
               "example": {
@@ -2675,7 +2675,7 @@
         {
           "key": "AU",
           "label": "Australia",
-          "records": 211,
+          "records": 212,
           "weekly": [
             {
               "key": "2026-03-30",
@@ -4457,26 +4457,26 @@
               "start": "2026-08-17",
               "end": "2026-08-23",
               "is_partial": true,
-              "review_count": 5,
-              "average_score": 4.8,
+              "review_count": 6,
+              "average_score": 4.83,
               "stars": {
                 "1": 0,
                 "2": 0,
                 "3": 0,
                 "4": 1,
-                "5": 4
+                "5": 5
               },
               "low_star_count": 0,
-              "positive_count": 5,
+              "positive_count": 6,
               "complaint_themes": [],
               "positive_themes": [
                 {
                   "theme": "comfort_product_love",
                   "label": "Comfort and product feel",
-                  "count": 2,
-                  "share": 40.0,
+                  "count": 3,
+                  "share": 50.0,
                   "previous_count": 4,
-                  "delta_vs_previous": -2,
+                  "delta_vs_previous": -1,
                   "example": {
                     "rating": 5,
                     "date": "2026-08-17T11:39:44Z",
@@ -4488,7 +4488,7 @@
                   "theme": "easy_setup_conversion",
                   "label": "Easy setup / quick transform",
                   "count": 1,
-                  "share": 20.0,
+                  "share": 16.7,
                   "previous_count": 0,
                   "delta_vs_previous": 1,
                   "example": {
@@ -4502,7 +4502,7 @@
                   "theme": "service_recovery",
                   "label": "Helpful service / recovery",
                   "count": 1,
-                  "share": 20.0,
+                  "share": 16.7,
                   "previous_count": 2,
                   "delta_vs_previous": -1,
                   "example": {
@@ -4516,7 +4516,7 @@
                   "theme": "shipping_positive",
                   "label": "Fast or clear delivery",
                   "count": 1,
-                  "share": 20.0,
+                  "share": 16.7,
                   "previous_count": 1,
                   "delta_vs_previous": 0,
                   "example": {
@@ -5107,17 +5107,17 @@
               "start": "2026-08-01",
               "end": "2026-08-31",
               "is_partial": true,
-              "review_count": 29,
-              "average_score": 4.0,
+              "review_count": 30,
+              "average_score": 4.03,
               "stars": {
                 "1": 5,
                 "2": 1,
                 "3": 2,
                 "4": 2,
-                "5": 19
+                "5": 20
               },
               "low_star_count": 6,
-              "positive_count": 21,
+              "positive_count": 22,
               "complaint_themes": [
                 {
                   "theme": "support_response_resolution",
@@ -5154,10 +5154,10 @@
                 {
                   "theme": "comfort_product_love",
                   "label": "Comfort and product feel",
-                  "count": 11,
-                  "share": 52.4,
+                  "count": 12,
+                  "share": 54.5,
                   "previous_count": 16,
-                  "delta_vs_previous": -5,
+                  "delta_vs_previous": -4,
                   "example": {
                     "rating": 5,
                     "date": "2026-08-03T07:09:55Z",
@@ -5169,7 +5169,7 @@
                   "theme": "service_recovery",
                   "label": "Helpful service / recovery",
                   "count": 6,
-                  "share": 28.6,
+                  "share": 27.3,
                   "previous_count": 6,
                   "delta_vs_previous": 0,
                   "example": {
@@ -5183,7 +5183,7 @@
                   "theme": "easy_setup_conversion",
                   "label": "Easy setup / quick transform",
                   "count": 2,
-                  "share": 9.5,
+                  "share": 9.1,
                   "previous_count": 7,
                   "delta_vs_previous": -5,
                   "example": {
@@ -5197,7 +5197,7 @@
                   "theme": "shipping_positive",
                   "label": "Fast or clear delivery",
                   "count": 2,
-                  "share": 9.5,
+                  "share": 9.1,
                   "previous_count": 5,
                   "delta_vs_previous": -3,
                   "example": {
@@ -9575,16 +9575,30 @@
             {
               "theme": "shipping_positive",
               "label": "Fast or clear delivery",
-              "count": 2,
+              "count": 1,
+              "previous_count": 0,
+              "example": {
+                "rating": 5,
+                "date": "2025-01-15T05:40:38Z",
+                "text": "Great range, good prices and fast delivery. Great range, good prices and fast delivery – Lovely design and quality product. One of the holes in the assembly process wasn't correct but otherwise perfect. Due to a glitch a second repeat order was processed that I hadn't ordered or paid for, so I just…",
+                "url": "https://www.productreview.com.au/listings/lifely?page=6"
+              },
+              "share": 50.0,
+              "delta_vs_previous": 1
+            },
+            {
+              "theme": "service_recovery",
+              "label": "Helpful service / recovery",
+              "count": 1,
               "previous_count": 0,
               "example": {
                 "rating": 5,
                 "date": "2025-01-16T00:52:45Z",
-                "text": "Great product Terrible – I ordered a Mattress and base set trying to get a delivery date no one on live chat on reply’s to email I have tried calling several times and just get hung up on saying no is here to take call don’t deal with this company More Lifely 1y Hi Danielle H, Thank you for reporti…",
+                "text": "Great product Broken furniture. No customer service – Avoid this company. Their products are poor quality and they have no customer service. I received a broken item and I am not able to get any support so now I am stuck with the broken item More Lifely 2y We’re really sorry to hear about your expe…",
                 "url": "https://www.productreview.com.au/listings/lifely?page=6"
               },
-              "share": 100.0,
-              "delta_vs_previous": 2
+              "share": 50.0,
+              "delta_vs_previous": 1
             }
           ]
         },
@@ -13332,23 +13346,9 @@
           ],
           "positive_themes": [
             {
-              "theme": "shipping_positive",
-              "label": "Fast or clear delivery",
-              "count": 2,
-              "previous_count": 1,
-              "example": {
-                "rating": 5,
-                "date": "2025-01-16T00:52:45Z",
-                "text": "Great product Terrible – I ordered a Mattress and base set trying to get a delivery date no one on live chat on reply’s to email I have tried calling several times and just get hung up on saying no is here to take call don’t deal with this company More Lifely 1y Hi Danielle H, Thank you for reporti…",
-                "url": "https://www.productreview.com.au/listings/lifely?page=6"
-              },
-              "share": 66.7,
-              "delta_vs_previous": 1
-            },
-            {
               "theme": "service_recovery",
               "label": "Helpful service / recovery",
-              "count": 1,
+              "count": 2,
               "previous_count": 0,
               "example": {
                 "rating": 5,
@@ -13356,8 +13356,22 @@
                 "text": "Very Helpful Customer Service Very Helpful Customer Service – I ordered a mattress from Lifely and after 10 months of use the mattress became a bit too soft to sleep on. Lifely was very helpful in helping me get a refund of the mattress. Suraya from the customer service helped resolve the matter qu…",
                 "url": "https://www.productreview.com.au/listings/lifely?page=6"
               },
+              "share": 66.7,
+              "delta_vs_previous": 2
+            },
+            {
+              "theme": "shipping_positive",
+              "label": "Fast or clear delivery",
+              "count": 1,
+              "previous_count": 1,
+              "example": {
+                "rating": 5,
+                "date": "2025-01-15T05:40:38Z",
+                "text": "Great range, good prices and fast delivery. Great range, good prices and fast delivery – Lovely design and quality product. One of the holes in the assembly process wasn't correct but otherwise perfect. Due to a glitch a second repeat order was processed that I hadn't ordered or paid for, so I just…",
+                "url": "https://www.productreview.com.au/listings/lifely?page=6"
+              },
               "share": 33.3,
-              "delta_vs_previous": 1
+              "delta_vs_previous": 0
             }
           ]
         },
@@ -16489,16 +16503,30 @@
                 {
                   "theme": "shipping_positive",
                   "label": "Fast or clear delivery",
-                  "count": 2,
+                  "count": 1,
+                  "previous_count": 0,
+                  "example": {
+                    "rating": 5,
+                    "date": "2025-01-15T05:40:38Z",
+                    "text": "Great range, good prices and fast delivery. Great range, good prices and fast delivery – Lovely design and quality product. One of the holes in the assembly process wasn't correct but otherwise perfect. Due to a glitch a second repeat order was processed that I hadn't ordered or paid for, so I just…",
+                    "url": "https://www.productreview.com.au/listings/lifely?page=6"
+                  },
+                  "share": 50.0,
+                  "delta_vs_previous": 1
+                },
+                {
+                  "theme": "service_recovery",
+                  "label": "Helpful service / recovery",
+                  "count": 1,
                   "previous_count": 0,
                   "example": {
                     "rating": 5,
                     "date": "2025-01-16T00:52:45Z",
-                    "text": "Great product Terrible – I ordered a Mattress and base set trying to get a delivery date no one on live chat on reply’s to email I have tried calling several times and just get hung up on saying no is here to take call don’t deal with this company More Lifely 1y Hi Danielle H, Thank you for reporti…",
+                    "text": "Great product Broken furniture. No customer service – Avoid this company. Their products are poor quality and they have no customer service. I received a broken item and I am not able to get any support so now I am stuck with the broken item More Lifely 2y We’re really sorry to hear about your expe…",
                     "url": "https://www.productreview.com.au/listings/lifely?page=6"
                   },
-                  "share": 100.0,
-                  "delta_vs_previous": 2
+                  "share": 50.0,
+                  "delta_vs_previous": 1
                 }
               ]
             },
@@ -20246,23 +20274,9 @@
               ],
               "positive_themes": [
                 {
-                  "theme": "shipping_positive",
-                  "label": "Fast or clear delivery",
-                  "count": 2,
-                  "previous_count": 1,
-                  "example": {
-                    "rating": 5,
-                    "date": "2025-01-16T00:52:45Z",
-                    "text": "Great product Terrible – I ordered a Mattress and base set trying to get a delivery date no one on live chat on reply’s to email I have tried calling several times and just get hung up on saying no is here to take call don’t deal with this company More Lifely 1y Hi Danielle H, Thank you for reporti…",
-                    "url": "https://www.productreview.com.au/listings/lifely?page=6"
-                  },
-                  "share": 66.7,
-                  "delta_vs_previous": 1
-                },
-                {
                   "theme": "service_recovery",
                   "label": "Helpful service / recovery",
-                  "count": 1,
+                  "count": 2,
                   "previous_count": 0,
                   "example": {
                     "rating": 5,
@@ -20270,8 +20284,22 @@
                     "text": "Very Helpful Customer Service Very Helpful Customer Service – I ordered a mattress from Lifely and after 10 months of use the mattress became a bit too soft to sleep on. Lifely was very helpful in helping me get a refund of the mattress. Suraya from the customer service helped resolve the matter qu…",
                     "url": "https://www.productreview.com.au/listings/lifely?page=6"
                   },
+                  "share": 66.7,
+                  "delta_vs_previous": 2
+                },
+                {
+                  "theme": "shipping_positive",
+                  "label": "Fast or clear delivery",
+                  "count": 1,
+                  "previous_count": 1,
+                  "example": {
+                    "rating": 5,
+                    "date": "2025-01-15T05:40:38Z",
+                    "text": "Great range, good prices and fast delivery. Great range, good prices and fast delivery – Lovely design and quality product. One of the holes in the assembly process wasn't correct but otherwise perfect. Due to a glitch a second repeat order was processed that I hadn't ordered or paid for, so I just…",
+                    "url": "https://www.productreview.com.au/listings/lifely?page=6"
+                  },
                   "share": 33.3,
-                  "delta_vs_previous": 1
+                  "delta_vs_previous": 0
                 }
               ]
             },
@@ -29502,12 +29530,12 @@
       "brand": "Lifely",
       "platform": "Trustpilot",
       "label": "Lifely Trustpilot",
-      "records": 211,
+      "records": 212,
       "first_review_at": "2026-03-30T03:09:17Z",
-      "last_review_at": "2026-08-18T06:50:15Z",
+      "last_review_at": "2026-08-19T07:54:59Z",
       "method": "AU-only derivative of the verified Watchtower review history",
       "limitation": "Only records with a defensible Australian country/state attribution are included; unknown and non-Australian records are excluded.",
-      "region_records": 211,
+      "region_records": 212,
       "region_unavailable_records": 0,
       "region_source": "Public reviewer country supplied by Trustpilot."
     },
