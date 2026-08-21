@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "analysis_type": "public_au_non5_review_analysis",
-  "generated_at": "2026-08-20T06:01:20+00:00",
+  "generated_at": "2026-08-21T06:01:15+00:00",
   "coverage": {
     "from": "2026-01-02",
-    "through": "2026-08-19",
+    "through": "2026-08-21",
     "partial_month": "2026-08",
     "profiles": [
       "lifely.com.au",
@@ -18,9 +18,9 @@
       "Reviewer country is source-provided and is not order destination.",
       "Records without a source-provided Australian country are excluded."
     ],
-    "latest_non5_review": "2026-08-18",
+    "latest_non5_review": "2026-08-21",
     "partial_period": "2026-08",
-    "source_checked_at": "2026-08-20T06:01:19Z"
+    "source_checked_at": "2026-08-21T06:01:15Z"
   },
   "category_labels": {
     "delivery_delay_preorder_stock": "Delivery delay / preorder / stock promise",
@@ -44,21 +44,21 @@
     "wrong_missing_incomplete_order"
   ],
   "totals": {
-    "reviews": 90,
+    "reviews": 91,
     "ratings": {
       "1": 48,
       "2": 15,
-      "3": 11,
+      "3": 12,
       "4": 16
     },
     "profiles": {
-      "lifely.com.au": 87,
+      "lifely.com.au": 88,
       "littlelifely.com": 3
     },
     "categories": {
       "assembly_instructions_hardware": 2,
       "comfort_design_fit_usability": 10,
-      "courier_tracking_delivery_handling": 18,
+      "courier_tracking_delivery_handling": 19,
       "customer_service_communication": 1,
       "damaged_on_arrival": 4,
       "delivery_delay_preorder_stock": 18,
@@ -71,6 +71,19 @@
     }
   },
   "records": [
+    {
+      "region": "AU",
+      "profile": "lifely.com.au",
+      "month": "2026-08",
+      "quarter": "Q3 MTD",
+      "published_date": "2026-08-21",
+      "rating": 3,
+      "category": "courier_tracking_delivery_handling",
+      "delivery_related": true,
+      "title": "Not particularly satisfied but not completely dissatisfied either",
+      "excerpt": "Product arrived without notification - tracking still had the item at the warehouse for dispatch. Nowhere did it say what box the instructions and accessories were in - so we opened all the boxes first and initially couldn’t find the instructions. The predrilled holes were not really very helpful, and they were only a few mm deep - the included ‘screwdriver’ was virtually impossible to use and we had to stop until we",
+      "url": "https://www.trustpilot.com/reviews/6a87800151c435a657e09ea1"
+    },
     {
       "region": "AU",
       "profile": "lifely.com.au",
