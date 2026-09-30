@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "analysis_type": "public_au_non5_review_analysis",
-  "generated_at": "2026-09-29T06:13:41+00:00",
+  "generated_at": "2026-09-30T06:12:33+00:00",
   "coverage": {
     "from": "2026-01-02",
-    "through": "2026-09-29",
+    "through": "2026-09-30",
     "partial_month": "2026-09",
     "profiles": [
       "lifely.com.au",
@@ -20,7 +20,7 @@
     ],
     "latest_non5_review": "2026-09-29",
     "partial_period": "2026-09",
-    "source_checked_at": "2026-09-29T06:13:41Z"
+    "source_checked_at": "2026-09-30T06:12:32Z"
   },
   "category_labels": {
     "delivery_delay_preorder_stock": "Delivery delay / preorder / stock promise",
@@ -44,15 +44,15 @@
     "wrong_missing_incomplete_order"
   ],
   "totals": {
-    "reviews": 116,
+    "reviews": 117,
     "ratings": {
-      "1": 59,
+      "1": 60,
       "2": 16,
       "3": 16,
       "4": 25
     },
     "profiles": {
-      "lifely.com.au": 109,
+      "lifely.com.au": 110,
       "littlelifely.com": 7
     },
     "categories": {
@@ -65,12 +65,25 @@
       "no_explicit_complaint": 10,
       "price_value_expectation": 1,
       "product_quality_defect_durability": 10,
-      "return_refund_cancellation_warranty": 8,
+      "return_refund_cancellation_warranty": 9,
       "website_ordering_payment_promotion": 3,
       "wrong_missing_incomplete_order": 14
     }
   },
   "records": [
+    {
+      "region": "AU",
+      "profile": "lifely.com.au",
+      "month": "2026-09",
+      "quarter": "Q3 MTD",
+      "published_date": "2026-09-29",
+      "rating": 1,
+      "category": "return_refund_cancellation_warranty",
+      "delivery_related": false,
+      "title": "ABSOLUTELY SHOCKING",
+      "excerpt": "ABSOLUTELY SHOCKING. After purchasing my item 17/07 being advised my item would ship 27/08 - I knew I was purchasing on pre order and was fine with this. Come 25/08 I received an email advising my order had been delayed to 15/09. 15/09 rolls around and no update, I had to reach out a few days later to see what was going on, to be told my item would ship 23/09. It is now 29/09 and I am no closer to getting any answer.",
+      "url": "https://www.trustpilot.com/reviews/6abb3d8bd5471ac4603dbe53"
+    },
     {
       "region": "AU",
       "profile": "littlelifely.com",
