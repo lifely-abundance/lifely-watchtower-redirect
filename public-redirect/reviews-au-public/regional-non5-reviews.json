@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "analysis_type": "public_au_non5_review_analysis",
-  "generated_at": "2026-10-01T06:13:27+00:00",
+  "generated_at": "2026-10-02T06:14:34+00:00",
   "coverage": {
     "from": "2026-01-02",
-    "through": "2026-10-01",
+    "through": "2026-10-02",
     "partial_month": "2026-10",
     "profiles": [
       "lifely.com.au",
@@ -18,9 +18,9 @@
       "Reviewer country is source-provided and is not order destination.",
       "Records without a source-provided Australian country are excluded."
     ],
-    "latest_non5_review": "2026-09-29",
+    "latest_non5_review": "2026-10-01",
     "partial_period": "2026-10",
-    "source_checked_at": "2026-10-01T06:13:27Z"
+    "source_checked_at": "2026-10-02T06:14:34Z"
   },
   "category_labels": {
     "delivery_delay_preorder_stock": "Delivery delay / preorder / stock promise",
@@ -44,15 +44,15 @@
     "wrong_missing_incomplete_order"
   ],
   "totals": {
-    "reviews": 117,
+    "reviews": 118,
     "ratings": {
       "1": 60,
-      "2": 16,
+      "2": 17,
       "3": 16,
       "4": 25
     },
     "profiles": {
-      "lifely.com.au": 110,
+      "lifely.com.au": 111,
       "littlelifely.com": 7
     },
     "categories": {
@@ -65,12 +65,25 @@
       "no_explicit_complaint": 10,
       "price_value_expectation": 1,
       "product_quality_defect_durability": 10,
-      "return_refund_cancellation_warranty": 9,
+      "return_refund_cancellation_warranty": 10,
       "website_ordering_payment_promotion": 3,
       "wrong_missing_incomplete_order": 14
     }
   },
   "records": [
+    {
+      "region": "AU",
+      "profile": "lifely.com.au",
+      "month": "2026-10",
+      "quarter": "Q4 MTD",
+      "published_date": "2026-10-01",
+      "rating": 2,
+      "category": "return_refund_cancellation_warranty",
+      "delivery_related": false,
+      "title": "I think i am going to return it",
+      "excerpt": "I think i am going to return it. I dont like that the headrest keeps slipping out the more I recline.",
+      "url": "https://www.trustpilot.com/reviews/6abdebc521841814d704fdd5"
+    },
     {
       "region": "AU",
       "profile": "lifely.com.au",

@@ -5,7 +5,7 @@
     "label": "Australia only",
     "rule": "Includes only source-attributed Australian reviews. Unknown and non-Australian records are excluded."
   },
-  "last_updated": "2026-10-01T06:13:27Z",
+  "last_updated": "2026-10-02T06:14:34Z",
   "metric_definition": "Captured AU review history only. Scores are calculated from dated, source-attributed Australian reviews and are not global platform scores.",
   "sources": [
     {
@@ -15,18 +15,18 @@
       "label": "Lifely Trustpilot",
       "url": "https://www.trustpilot.com/review/lifely.com.au",
       "score": 4.02,
-      "total_reviews": 282,
+      "total_reviews": 284,
       "score_delta": null,
       "review_delta": null,
       "to_next_0_1_est_reviews": null,
       "source_note": "Captured Australian review history only.",
       "color": "#00a76f",
-      "history_records": 282,
+      "history_records": 284,
       "history_first_review_at": "2026-03-30T03:09:17Z",
-      "history_last_review_at": "2026-09-30T08:25:23Z",
+      "history_last_review_at": "2026-10-02T03:23:40Z",
       "history_method": "AU-only derivative of the verified Watchtower review history",
       "history_limitation": "Only records with a defensible Australian country/state attribution are included; unknown and non-Australian records are excluded.",
-      "region_records": 282,
+      "region_records": 284,
       "region_unavailable_records": 0,
       "region_source": "Public reviewer country supplied by Trustpilot."
     },
@@ -37,18 +37,18 @@
       "label": "Little Lifely Trustpilot",
       "url": "https://www.trustpilot.com/review/littlelifely.com",
       "score": 4.89,
-      "total_reviews": 100,
+      "total_reviews": 104,
       "score_delta": null,
       "review_delta": null,
       "to_next_0_1_est_reviews": null,
       "source_note": "Captured Australian review history only.",
       "color": "#00a76f",
-      "history_records": 100,
+      "history_records": 104,
       "history_first_review_at": "2026-05-18T02:56:25Z",
-      "history_last_review_at": "2026-10-01T00:54:31Z",
+      "history_last_review_at": "2026-10-02T05:31:16Z",
       "history_method": "AU-only derivative of the verified Watchtower review history",
       "history_limitation": "Only records with a defensible Australian country/state attribution are included; unknown and non-Australian records are excluded.",
-      "region_records": 100,
+      "region_records": 104,
       "region_unavailable_records": 0,
       "region_source": "Public reviewer country supplied by Trustpilot."
     },
@@ -128,12 +128,12 @@
         "brand": "Lifely",
         "platform": "Trustpilot",
         "label": "Lifely Trustpilot",
-        "records": 282,
+        "records": 284,
         "first_review_at": "2026-03-30T03:09:17Z",
-        "last_review_at": "2026-09-30T08:25:23Z",
+        "last_review_at": "2026-10-02T03:23:40Z",
         "method": "AU-only derivative of the verified Watchtower review history",
         "limitation": "Only records with a defensible Australian country/state attribution are included; unknown and non-Australian records are excluded.",
-        "region_records": 282,
+        "region_records": 284,
         "region_unavailable_records": 0,
         "region_source": "Public reviewer country supplied by Trustpilot."
       },
@@ -2508,23 +2508,23 @@
           "start": "2026-09-28",
           "end": "2026-10-04",
           "is_partial": true,
-          "review_count": 5,
-          "average_score": 4.0,
+          "review_count": 7,
+          "average_score": 3.86,
           "stars": {
             "1": 1,
-            "2": 0,
+            "2": 1,
             "3": 0,
             "4": 1,
-            "5": 3
+            "5": 4
           },
-          "low_star_count": 1,
-          "positive_count": 4,
+          "low_star_count": 2,
+          "positive_count": 5,
           "complaint_themes": [
             {
               "theme": "support_response_resolution",
               "label": "Support response / resolution loop",
               "count": 1,
-              "share": 100.0,
+              "share": 50.0,
               "previous_count": 0,
               "delta_vs_previous": 1,
               "example": {
@@ -2534,6 +2534,21 @@
                 "url": "https://www.trustpilot.com/reviews/6abb3d8bd5471ac4603dbe53"
               },
               "recommended_action": "Use a named low-star rescue owner, a clear first-response window, and a close-the-loop update after resolution."
+            },
+            {
+              "theme": "returns_trial_policy_confusion",
+              "label": "Returns / trial-policy confusion",
+              "count": 1,
+              "share": 50.0,
+              "previous_count": 0,
+              "delta_vs_previous": 1,
+              "example": {
+                "rating": 2,
+                "date": "2026-10-01T07:12:37Z",
+                "text": "I think i am going to return it I think i am going to return it. I dont like that the headrest keeps slipping out the more I recline.",
+                "url": "https://www.trustpilot.com/reviews/6abdebc521841814d704fdd5"
+              },
+              "recommended_action": "Make return costs, eligibility, pickup rules, store-credit terms, and exceptions unmistakable before purchase."
             }
           ],
           "positive_themes": [
@@ -2541,7 +2556,7 @@
               "theme": "comfort_product_love",
               "label": "Comfort and product feel",
               "count": 2,
-              "share": 50.0,
+              "share": 40.0,
               "previous_count": 4,
               "delta_vs_previous": -2,
               "example": {
@@ -2555,7 +2570,7 @@
               "theme": "shipping_positive",
               "label": "Fast or clear delivery",
               "count": 1,
-              "share": 25.0,
+              "share": 20.0,
               "previous_count": 3,
               "delta_vs_previous": -2,
               "example": {
@@ -2569,7 +2584,7 @@
               "theme": "service_recovery",
               "label": "Helpful service / recovery",
               "count": 1,
-              "share": 25.0,
+              "share": 20.0,
               "previous_count": 1,
               "delta_vs_previous": 0,
               "example": {
@@ -2577,6 +2592,20 @@
                 "date": "2026-09-30T08:25:23Z",
                 "text": "10/10 Service From Marianne I’ve been so happy with the customer service from Lifely, especially Marianne! She has been absolutely lovely to deal with — so helpful, friendly and responsive throughout the whole process. I haven’t personally used the bed yet as it’s for my little one, so I can’t comm…",
                 "url": "https://www.trustpilot.com/reviews/6abcab5385bdec42861b24e2"
+              }
+            },
+            {
+              "theme": "easy_setup_conversion",
+              "label": "Easy setup / quick transform",
+              "count": 1,
+              "share": 20.0,
+              "previous_count": 3,
+              "delta_vs_previous": -2,
+              "example": {
+                "rating": 5,
+                "date": "2026-10-02T03:23:40Z",
+                "text": "Lifely's Desk Chair The product is very simple to construct, and very well thought about for self maintenance! Each part of what I bought allows for opening/refluffing, which not a lot of places think of. If you weren't satisfied with the level of fluff in the seat, you can easily unzip it and add…",
+                "url": "https://www.trustpilot.com/reviews/6abf079c72ba7beb3a02d3d4"
               }
             }
           ]
@@ -3406,26 +3435,57 @@
           "start": "2026-10-01",
           "end": "2026-10-31",
           "is_partial": true,
-          "review_count": 0,
-          "average_score": null,
+          "review_count": 2,
+          "average_score": 3.5,
           "stars": {
             "1": 0,
-            "2": 0,
+            "2": 1,
             "3": 0,
             "4": 0,
-            "5": 0
+            "5": 1
           },
-          "low_star_count": 0,
-          "positive_count": 0,
-          "complaint_themes": [],
-          "positive_themes": []
+          "low_star_count": 1,
+          "positive_count": 1,
+          "complaint_themes": [
+            {
+              "theme": "returns_trial_policy_confusion",
+              "label": "Returns / trial-policy confusion",
+              "count": 1,
+              "share": 100.0,
+              "previous_count": 0,
+              "delta_vs_previous": 1,
+              "example": {
+                "rating": 2,
+                "date": "2026-10-01T07:12:37Z",
+                "text": "I think i am going to return it I think i am going to return it. I dont like that the headrest keeps slipping out the more I recline.",
+                "url": "https://www.trustpilot.com/reviews/6abdebc521841814d704fdd5"
+              },
+              "recommended_action": "Make return costs, eligibility, pickup rules, store-credit terms, and exceptions unmistakable before purchase."
+            }
+          ],
+          "positive_themes": [
+            {
+              "theme": "easy_setup_conversion",
+              "label": "Easy setup / quick transform",
+              "count": 1,
+              "share": 100.0,
+              "previous_count": 7,
+              "delta_vs_previous": -6,
+              "example": {
+                "rating": 5,
+                "date": "2026-10-02T03:23:40Z",
+                "text": "Lifely's Desk Chair The product is very simple to construct, and very well thought about for self maintenance! Each part of what I bought allows for opening/refluffing, which not a lot of places think of. If you weren't satisfied with the level of fluff in the seat, you can easily unzip it and add…",
+                "url": "https://www.trustpilot.com/reviews/6abf079c72ba7beb3a02d3d4"
+              }
+            }
+          ]
         }
       ],
       "regions": [
         {
           "key": "AU",
           "label": "Australia",
-          "records": 282,
+          "records": 284,
           "weekly": [
             {
               "key": "2026-03-30",
@@ -5797,23 +5857,23 @@
               "start": "2026-09-28",
               "end": "2026-10-04",
               "is_partial": true,
-              "review_count": 5,
-              "average_score": 4.0,
+              "review_count": 7,
+              "average_score": 3.86,
               "stars": {
                 "1": 1,
-                "2": 0,
+                "2": 1,
                 "3": 0,
                 "4": 1,
-                "5": 3
+                "5": 4
               },
-              "low_star_count": 1,
-              "positive_count": 4,
+              "low_star_count": 2,
+              "positive_count": 5,
               "complaint_themes": [
                 {
                   "theme": "support_response_resolution",
                   "label": "Support response / resolution loop",
                   "count": 1,
-                  "share": 100.0,
+                  "share": 50.0,
                   "previous_count": 0,
                   "delta_vs_previous": 1,
                   "example": {
@@ -5823,6 +5883,21 @@
                     "url": "https://www.trustpilot.com/reviews/6abb3d8bd5471ac4603dbe53"
                   },
                   "recommended_action": "Use a named low-star rescue owner, a clear first-response window, and a close-the-loop update after resolution."
+                },
+                {
+                  "theme": "returns_trial_policy_confusion",
+                  "label": "Returns / trial-policy confusion",
+                  "count": 1,
+                  "share": 50.0,
+                  "previous_count": 0,
+                  "delta_vs_previous": 1,
+                  "example": {
+                    "rating": 2,
+                    "date": "2026-10-01T07:12:37Z",
+                    "text": "I think i am going to return it I think i am going to return it. I dont like that the headrest keeps slipping out the more I recline.",
+                    "url": "https://www.trustpilot.com/reviews/6abdebc521841814d704fdd5"
+                  },
+                  "recommended_action": "Make return costs, eligibility, pickup rules, store-credit terms, and exceptions unmistakable before purchase."
                 }
               ],
               "positive_themes": [
@@ -5830,7 +5905,7 @@
                   "theme": "comfort_product_love",
                   "label": "Comfort and product feel",
                   "count": 2,
-                  "share": 50.0,
+                  "share": 40.0,
                   "previous_count": 4,
                   "delta_vs_previous": -2,
                   "example": {
@@ -5844,7 +5919,7 @@
                   "theme": "shipping_positive",
                   "label": "Fast or clear delivery",
                   "count": 1,
-                  "share": 25.0,
+                  "share": 20.0,
                   "previous_count": 3,
                   "delta_vs_previous": -2,
                   "example": {
@@ -5858,7 +5933,7 @@
                   "theme": "service_recovery",
                   "label": "Helpful service / recovery",
                   "count": 1,
-                  "share": 25.0,
+                  "share": 20.0,
                   "previous_count": 1,
                   "delta_vs_previous": 0,
                   "example": {
@@ -5866,6 +5941,20 @@
                     "date": "2026-09-30T08:25:23Z",
                     "text": "10/10 Service From Marianne I’ve been so happy with the customer service from Lifely, especially Marianne! She has been absolutely lovely to deal with — so helpful, friendly and responsive throughout the whole process. I haven’t personally used the bed yet as it’s for my little one, so I can’t comm…",
                     "url": "https://www.trustpilot.com/reviews/6abcab5385bdec42861b24e2"
+                  }
+                },
+                {
+                  "theme": "easy_setup_conversion",
+                  "label": "Easy setup / quick transform",
+                  "count": 1,
+                  "share": 20.0,
+                  "previous_count": 3,
+                  "delta_vs_previous": -2,
+                  "example": {
+                    "rating": 5,
+                    "date": "2026-10-02T03:23:40Z",
+                    "text": "Lifely's Desk Chair The product is very simple to construct, and very well thought about for self maintenance! Each part of what I bought allows for opening/refluffing, which not a lot of places think of. If you weren't satisfied with the level of fluff in the seat, you can easily unzip it and add…",
+                    "url": "https://www.trustpilot.com/reviews/6abf079c72ba7beb3a02d3d4"
                   }
                 }
               ]
@@ -6695,19 +6784,50 @@
               "start": "2026-10-01",
               "end": "2026-10-31",
               "is_partial": true,
-              "review_count": 0,
-              "average_score": null,
+              "review_count": 2,
+              "average_score": 3.5,
               "stars": {
                 "1": 0,
-                "2": 0,
+                "2": 1,
                 "3": 0,
                 "4": 0,
-                "5": 0
+                "5": 1
               },
-              "low_star_count": 0,
-              "positive_count": 0,
-              "complaint_themes": [],
-              "positive_themes": []
+              "low_star_count": 1,
+              "positive_count": 1,
+              "complaint_themes": [
+                {
+                  "theme": "returns_trial_policy_confusion",
+                  "label": "Returns / trial-policy confusion",
+                  "count": 1,
+                  "share": 100.0,
+                  "previous_count": 0,
+                  "delta_vs_previous": 1,
+                  "example": {
+                    "rating": 2,
+                    "date": "2026-10-01T07:12:37Z",
+                    "text": "I think i am going to return it I think i am going to return it. I dont like that the headrest keeps slipping out the more I recline.",
+                    "url": "https://www.trustpilot.com/reviews/6abdebc521841814d704fdd5"
+                  },
+                  "recommended_action": "Make return costs, eligibility, pickup rules, store-credit terms, and exceptions unmistakable before purchase."
+                }
+              ],
+              "positive_themes": [
+                {
+                  "theme": "easy_setup_conversion",
+                  "label": "Easy setup / quick transform",
+                  "count": 1,
+                  "share": 100.0,
+                  "previous_count": 7,
+                  "delta_vs_previous": -6,
+                  "example": {
+                    "rating": 5,
+                    "date": "2026-10-02T03:23:40Z",
+                    "text": "Lifely's Desk Chair The product is very simple to construct, and very well thought about for self maintenance! Each part of what I bought allows for opening/refluffing, which not a lot of places think of. If you weren't satisfied with the level of fluff in the seat, you can easily unzip it and add…",
+                    "url": "https://www.trustpilot.com/reviews/6abf079c72ba7beb3a02d3d4"
+                  }
+                }
+              ]
             }
           ]
         }
@@ -6721,12 +6841,12 @@
         "brand": "Little Lifely",
         "platform": "Trustpilot",
         "label": "Little Lifely Trustpilot",
-        "records": 100,
+        "records": 104,
         "first_review_at": "2026-05-18T02:56:25Z",
-        "last_review_at": "2026-10-01T00:54:31Z",
+        "last_review_at": "2026-10-02T05:31:16Z",
         "method": "AU-only derivative of the verified Watchtower review history",
         "limitation": "Only records with a defensible Australian country/state attribution are included; unknown and non-Australian records are excluded.",
-        "region_records": 100,
+        "region_records": 104,
         "region_unavailable_records": 0,
         "region_source": "Public reviewer country supplied by Trustpilot."
       },
@@ -7568,26 +7688,26 @@
           "start": "2026-09-28",
           "end": "2026-10-04",
           "is_partial": true,
-          "review_count": 8,
-          "average_score": 4.88,
+          "review_count": 12,
+          "average_score": 4.92,
           "stars": {
             "1": 0,
             "2": 0,
             "3": 0,
             "4": 1,
-            "5": 7
+            "5": 11
           },
           "low_star_count": 0,
-          "positive_count": 8,
+          "positive_count": 12,
           "complaint_themes": [],
           "positive_themes": [
             {
               "theme": "comfort_product_love",
               "label": "Comfort and product feel",
-              "count": 6,
-              "share": 75.0,
+              "count": 8,
+              "share": 66.7,
               "previous_count": 8,
-              "delta_vs_previous": -2,
+              "delta_vs_previous": 0,
               "example": {
                 "rating": 5,
                 "date": "2026-09-28T12:46:26Z",
@@ -7598,16 +7718,31 @@
             {
               "theme": "shipping_positive",
               "label": "Fast or clear delivery",
-              "count": 2,
+              "count": 3,
               "share": 25.0,
               "previous_count": 0,
-              "delta_vs_previous": 2,
+              "delta_vs_previous": 3,
               "example": {
                 "rating": 5,
                 "date": "2026-09-28T09:50:34Z",
                 "text": "Fantastic Bed! I cannot rave about this bed enough! Was a little hesitant when I seen the price tag but the bundle was a bargain and the bed arrived in the correct shipping time given. Was so simple to put together and our little one absolutely loves it, although I’m not sure who’s loves it more he…",
                 "url": "https://www.trustpilot.com/reviews/6aba1c4aaea06afca4c8379e"
               }
+            },
+            {
+              "theme": "other",
+              "label": "Other feedback",
+              "count": 1,
+              "share": 8.3,
+              "previous_count": 0,
+              "delta_vs_previous": 1,
+              "example": {
+                "rating": 5,
+                "date": "2026-10-01T12:18:57Z",
+                "text": "Best purchase for our 2 year old boy Best purchase for our 2 year old boy. He was so excited for his “new big boy bed”. Bed time is that much easier and calmer, not to mention sleeps through the night without leaving. As a Mum transitioning to a big boy bed, I felt so much safer knowing he couldn’t…",
+                "url": "https://www.trustpilot.com/reviews/6abe3391e8a3d8d081dab1bd"
+              },
+              "recommended_action": "Review the underlying comments and create a new recurring theme if this pattern repeats."
             }
           ]
         }
@@ -7952,31 +8087,60 @@
           "start": "2026-10-01",
           "end": "2026-10-31",
           "is_partial": true,
-          "review_count": 1,
+          "review_count": 5,
           "average_score": 5.0,
           "stars": {
             "1": 0,
             "2": 0,
             "3": 0,
             "4": 0,
-            "5": 1
+            "5": 5
           },
           "low_star_count": 0,
-          "positive_count": 1,
+          "positive_count": 5,
           "complaint_themes": [],
           "positive_themes": [
             {
               "theme": "comfort_product_love",
               "label": "Comfort and product feel",
-              "count": 1,
-              "share": 100.0,
+              "count": 3,
+              "share": 60.0,
               "previous_count": 27,
-              "delta_vs_previous": -26,
+              "delta_vs_previous": -24,
               "example": {
                 "rating": 5,
                 "date": "2026-10-01T00:54:31Z",
                 "text": "Perfect first bed for our little one, and room for me too! We couldn't be happier with our Little Lifey soft bed. My son absolutely loves it. He gets excited to climb in at bedtime, which says a lot! The soft design gives me real peace of mind on safety. There are no hard edges to worry about, and…",
                 "url": "https://www.trustpilot.com/reviews/6abd9327c1b24d6701f82696"
+              }
+            },
+            {
+              "theme": "other",
+              "label": "Other feedback",
+              "count": 1,
+              "share": 20.0,
+              "previous_count": 2,
+              "delta_vs_previous": -1,
+              "example": {
+                "rating": 5,
+                "date": "2026-10-01T12:18:57Z",
+                "text": "Best purchase for our 2 year old boy Best purchase for our 2 year old boy. He was so excited for his “new big boy bed”. Bed time is that much easier and calmer, not to mention sleeps through the night without leaving. As a Mum transitioning to a big boy bed, I felt so much safer knowing he couldn’t…",
+                "url": "https://www.trustpilot.com/reviews/6abe3391e8a3d8d081dab1bd"
+              },
+              "recommended_action": "Review the underlying comments and create a new recurring theme if this pattern repeats."
+            },
+            {
+              "theme": "shipping_positive",
+              "label": "Fast or clear delivery",
+              "count": 1,
+              "share": 20.0,
+              "previous_count": 9,
+              "delta_vs_previous": -8,
+              "example": {
+                "rating": 5,
+                "date": "2026-10-01T12:51:40Z",
+                "text": "Autism friendly bed Shipping took around 2-3 weeks however bed and frame is completely worth it, when set up correctly, it is the safest bed i could ask for for my lvl 3 autistic son who is 5yrs old. My son stims frequently back and forth and smashes his head on every bed so any hard frames are a n…",
+                "url": "https://www.trustpilot.com/reviews/6abe3b3c9d211536654d244f"
               }
             }
           ]
@@ -7986,7 +8150,7 @@
         {
           "key": "AU",
           "label": "Australia",
-          "records": 100,
+          "records": 104,
           "weekly": [
             {
               "key": "2026-05-18",
@@ -8825,26 +8989,26 @@
               "start": "2026-09-28",
               "end": "2026-10-04",
               "is_partial": true,
-              "review_count": 8,
-              "average_score": 4.88,
+              "review_count": 12,
+              "average_score": 4.92,
               "stars": {
                 "1": 0,
                 "2": 0,
                 "3": 0,
                 "4": 1,
-                "5": 7
+                "5": 11
               },
               "low_star_count": 0,
-              "positive_count": 8,
+              "positive_count": 12,
               "complaint_themes": [],
               "positive_themes": [
                 {
                   "theme": "comfort_product_love",
                   "label": "Comfort and product feel",
-                  "count": 6,
-                  "share": 75.0,
+                  "count": 8,
+                  "share": 66.7,
                   "previous_count": 8,
-                  "delta_vs_previous": -2,
+                  "delta_vs_previous": 0,
                   "example": {
                     "rating": 5,
                     "date": "2026-09-28T12:46:26Z",
@@ -8855,16 +9019,31 @@
                 {
                   "theme": "shipping_positive",
                   "label": "Fast or clear delivery",
-                  "count": 2,
+                  "count": 3,
                   "share": 25.0,
                   "previous_count": 0,
-                  "delta_vs_previous": 2,
+                  "delta_vs_previous": 3,
                   "example": {
                     "rating": 5,
                     "date": "2026-09-28T09:50:34Z",
                     "text": "Fantastic Bed! I cannot rave about this bed enough! Was a little hesitant when I seen the price tag but the bundle was a bargain and the bed arrived in the correct shipping time given. Was so simple to put together and our little one absolutely loves it, although I’m not sure who’s loves it more he…",
                     "url": "https://www.trustpilot.com/reviews/6aba1c4aaea06afca4c8379e"
                   }
+                },
+                {
+                  "theme": "other",
+                  "label": "Other feedback",
+                  "count": 1,
+                  "share": 8.3,
+                  "previous_count": 0,
+                  "delta_vs_previous": 1,
+                  "example": {
+                    "rating": 5,
+                    "date": "2026-10-01T12:18:57Z",
+                    "text": "Best purchase for our 2 year old boy Best purchase for our 2 year old boy. He was so excited for his “new big boy bed”. Bed time is that much easier and calmer, not to mention sleeps through the night without leaving. As a Mum transitioning to a big boy bed, I felt so much safer knowing he couldn’t…",
+                    "url": "https://www.trustpilot.com/reviews/6abe3391e8a3d8d081dab1bd"
+                  },
+                  "recommended_action": "Review the underlying comments and create a new recurring theme if this pattern repeats."
                 }
               ]
             }
@@ -9209,31 +9388,60 @@
               "start": "2026-10-01",
               "end": "2026-10-31",
               "is_partial": true,
-              "review_count": 1,
+              "review_count": 5,
               "average_score": 5.0,
               "stars": {
                 "1": 0,
                 "2": 0,
                 "3": 0,
                 "4": 0,
-                "5": 1
+                "5": 5
               },
               "low_star_count": 0,
-              "positive_count": 1,
+              "positive_count": 5,
               "complaint_themes": [],
               "positive_themes": [
                 {
                   "theme": "comfort_product_love",
                   "label": "Comfort and product feel",
-                  "count": 1,
-                  "share": 100.0,
+                  "count": 3,
+                  "share": 60.0,
                   "previous_count": 27,
-                  "delta_vs_previous": -26,
+                  "delta_vs_previous": -24,
                   "example": {
                     "rating": 5,
                     "date": "2026-10-01T00:54:31Z",
                     "text": "Perfect first bed for our little one, and room for me too! We couldn't be happier with our Little Lifey soft bed. My son absolutely loves it. He gets excited to climb in at bedtime, which says a lot! The soft design gives me real peace of mind on safety. There are no hard edges to worry about, and…",
                     "url": "https://www.trustpilot.com/reviews/6abd9327c1b24d6701f82696"
+                  }
+                },
+                {
+                  "theme": "other",
+                  "label": "Other feedback",
+                  "count": 1,
+                  "share": 20.0,
+                  "previous_count": 2,
+                  "delta_vs_previous": -1,
+                  "example": {
+                    "rating": 5,
+                    "date": "2026-10-01T12:18:57Z",
+                    "text": "Best purchase for our 2 year old boy Best purchase for our 2 year old boy. He was so excited for his “new big boy bed”. Bed time is that much easier and calmer, not to mention sleeps through the night without leaving. As a Mum transitioning to a big boy bed, I felt so much safer knowing he couldn’t…",
+                    "url": "https://www.trustpilot.com/reviews/6abe3391e8a3d8d081dab1bd"
+                  },
+                  "recommended_action": "Review the underlying comments and create a new recurring theme if this pattern repeats."
+                },
+                {
+                  "theme": "shipping_positive",
+                  "label": "Fast or clear delivery",
+                  "count": 1,
+                  "share": 20.0,
+                  "previous_count": 9,
+                  "delta_vs_previous": -8,
+                  "example": {
+                    "rating": 5,
+                    "date": "2026-10-01T12:51:40Z",
+                    "text": "Autism friendly bed Shipping took around 2-3 weeks however bed and frame is completely worth it, when set up correctly, it is the safest bed i could ask for for my lvl 3 autistic son who is 5yrs old. My son stims frequently back and forth and smashes his head on every bed so any hard frames are a n…",
+                    "url": "https://www.trustpilot.com/reviews/6abe3b3c9d211536654d244f"
                   }
                 }
               ]
@@ -33388,12 +33596,12 @@
       "brand": "Lifely",
       "platform": "Trustpilot",
       "label": "Lifely Trustpilot",
-      "records": 282,
+      "records": 284,
       "first_review_at": "2026-03-30T03:09:17Z",
-      "last_review_at": "2026-09-30T08:25:23Z",
+      "last_review_at": "2026-10-02T03:23:40Z",
       "method": "AU-only derivative of the verified Watchtower review history",
       "limitation": "Only records with a defensible Australian country/state attribution are included; unknown and non-Australian records are excluded.",
-      "region_records": 282,
+      "region_records": 284,
       "region_unavailable_records": 0,
       "region_source": "Public reviewer country supplied by Trustpilot."
     },
@@ -33401,12 +33609,12 @@
       "brand": "Little Lifely",
       "platform": "Trustpilot",
       "label": "Little Lifely Trustpilot",
-      "records": 100,
+      "records": 104,
       "first_review_at": "2026-05-18T02:56:25Z",
-      "last_review_at": "2026-10-01T00:54:31Z",
+      "last_review_at": "2026-10-02T05:31:16Z",
       "method": "AU-only derivative of the verified Watchtower review history",
       "limitation": "Only records with a defensible Australian country/state attribution are included; unknown and non-Australian records are excluded.",
-      "region_records": 100,
+      "region_records": 104,
       "region_unavailable_records": 0,
       "region_source": "Public reviewer country supplied by Trustpilot."
     },
