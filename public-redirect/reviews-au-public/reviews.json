@@ -5,7 +5,7 @@
     "label": "Australia only",
     "rule": "Includes only source-attributed Australian reviews. Unknown and non-Australian records are excluded."
   },
-  "last_updated": "2026-10-02T06:14:34Z",
+  "last_updated": "2026-10-03T06:13:28Z",
   "metric_definition": "Captured AU review history only. Scores are calculated from dated, source-attributed Australian reviews and are not global platform scores.",
   "sources": [
     {
@@ -36,19 +36,19 @@
       "platform": "Trustpilot",
       "label": "Little Lifely Trustpilot",
       "url": "https://www.trustpilot.com/review/littlelifely.com",
-      "score": 4.89,
-      "total_reviews": 104,
+      "score": 4.9,
+      "total_reviews": 107,
       "score_delta": null,
       "review_delta": null,
       "to_next_0_1_est_reviews": null,
       "source_note": "Captured Australian review history only.",
       "color": "#00a76f",
-      "history_records": 104,
+      "history_records": 107,
       "history_first_review_at": "2026-05-18T02:56:25Z",
-      "history_last_review_at": "2026-10-02T05:31:16Z",
+      "history_last_review_at": "2026-10-03T00:07:09Z",
       "history_method": "AU-only derivative of the verified Watchtower review history",
       "history_limitation": "Only records with a defensible Australian country/state attribution are included; unknown and non-Australian records are excluded.",
-      "region_records": 104,
+      "region_records": 107,
       "region_unavailable_records": 0,
       "region_source": "Public reviewer country supplied by Trustpilot."
     },
@@ -6841,12 +6841,12 @@
         "brand": "Little Lifely",
         "platform": "Trustpilot",
         "label": "Little Lifely Trustpilot",
-        "records": 104,
+        "records": 107,
         "first_review_at": "2026-05-18T02:56:25Z",
-        "last_review_at": "2026-10-02T05:31:16Z",
+        "last_review_at": "2026-10-03T00:07:09Z",
         "method": "AU-only derivative of the verified Watchtower review history",
         "limitation": "Only records with a defensible Australian country/state attribution are included; unknown and non-Australian records are excluded.",
-        "region_records": 104,
+        "region_records": 107,
         "region_unavailable_records": 0,
         "region_source": "Public reviewer country supplied by Trustpilot."
       },
@@ -7688,26 +7688,26 @@
           "start": "2026-09-28",
           "end": "2026-10-04",
           "is_partial": true,
-          "review_count": 12,
-          "average_score": 4.92,
+          "review_count": 15,
+          "average_score": 4.93,
           "stars": {
             "1": 0,
             "2": 0,
             "3": 0,
             "4": 1,
-            "5": 11
+            "5": 14
           },
           "low_star_count": 0,
-          "positive_count": 12,
+          "positive_count": 15,
           "complaint_themes": [],
           "positive_themes": [
             {
               "theme": "comfort_product_love",
               "label": "Comfort and product feel",
-              "count": 8,
+              "count": 10,
               "share": 66.7,
               "previous_count": 8,
-              "delta_vs_previous": 0,
+              "delta_vs_previous": 2,
               "example": {
                 "rating": 5,
                 "date": "2026-09-28T12:46:26Z",
@@ -7718,10 +7718,10 @@
             {
               "theme": "shipping_positive",
               "label": "Fast or clear delivery",
-              "count": 3,
-              "share": 25.0,
+              "count": 4,
+              "share": 26.7,
               "previous_count": 0,
-              "delta_vs_previous": 3,
+              "delta_vs_previous": 4,
               "example": {
                 "rating": 5,
                 "date": "2026-09-28T09:50:34Z",
@@ -7733,7 +7733,7 @@
               "theme": "other",
               "label": "Other feedback",
               "count": 1,
-              "share": 8.3,
+              "share": 6.7,
               "previous_count": 0,
               "delta_vs_previous": 1,
               "example": {
@@ -8087,26 +8087,26 @@
           "start": "2026-10-01",
           "end": "2026-10-31",
           "is_partial": true,
-          "review_count": 5,
+          "review_count": 8,
           "average_score": 5.0,
           "stars": {
             "1": 0,
             "2": 0,
             "3": 0,
             "4": 0,
-            "5": 5
+            "5": 8
           },
           "low_star_count": 0,
-          "positive_count": 5,
+          "positive_count": 8,
           "complaint_themes": [],
           "positive_themes": [
             {
               "theme": "comfort_product_love",
               "label": "Comfort and product feel",
-              "count": 3,
-              "share": 60.0,
+              "count": 5,
+              "share": 62.5,
               "previous_count": 27,
-              "delta_vs_previous": -24,
+              "delta_vs_previous": -22,
               "example": {
                 "rating": 5,
                 "date": "2026-10-01T00:54:31Z",
@@ -8115,10 +8115,24 @@
               }
             },
             {
+              "theme": "shipping_positive",
+              "label": "Fast or clear delivery",
+              "count": 2,
+              "share": 25.0,
+              "previous_count": 9,
+              "delta_vs_previous": -7,
+              "example": {
+                "rating": 5,
+                "date": "2026-10-01T12:51:40Z",
+                "text": "Autism friendly bed Shipping took around 2-3 weeks however bed and frame is completely worth it, when set up correctly, it is the safest bed i could ask for for my lvl 3 autistic son who is 5yrs old. My son stims frequently back and forth and smashes his head on every bed so any hard frames are a n…",
+                "url": "https://www.trustpilot.com/reviews/6abe3b3c9d211536654d244f"
+              }
+            },
+            {
               "theme": "other",
               "label": "Other feedback",
               "count": 1,
-              "share": 20.0,
+              "share": 12.5,
               "previous_count": 2,
               "delta_vs_previous": -1,
               "example": {
@@ -8128,20 +8142,6 @@
                 "url": "https://www.trustpilot.com/reviews/6abe3391e8a3d8d081dab1bd"
               },
               "recommended_action": "Review the underlying comments and create a new recurring theme if this pattern repeats."
-            },
-            {
-              "theme": "shipping_positive",
-              "label": "Fast or clear delivery",
-              "count": 1,
-              "share": 20.0,
-              "previous_count": 9,
-              "delta_vs_previous": -8,
-              "example": {
-                "rating": 5,
-                "date": "2026-10-01T12:51:40Z",
-                "text": "Autism friendly bed Shipping took around 2-3 weeks however bed and frame is completely worth it, when set up correctly, it is the safest bed i could ask for for my lvl 3 autistic son who is 5yrs old. My son stims frequently back and forth and smashes his head on every bed so any hard frames are a n…",
-                "url": "https://www.trustpilot.com/reviews/6abe3b3c9d211536654d244f"
-              }
             }
           ]
         }
@@ -8150,7 +8150,7 @@
         {
           "key": "AU",
           "label": "Australia",
-          "records": 104,
+          "records": 107,
           "weekly": [
             {
               "key": "2026-05-18",
@@ -8989,26 +8989,26 @@
               "start": "2026-09-28",
               "end": "2026-10-04",
               "is_partial": true,
-              "review_count": 12,
-              "average_score": 4.92,
+              "review_count": 15,
+              "average_score": 4.93,
               "stars": {
                 "1": 0,
                 "2": 0,
                 "3": 0,
                 "4": 1,
-                "5": 11
+                "5": 14
               },
               "low_star_count": 0,
-              "positive_count": 12,
+              "positive_count": 15,
               "complaint_themes": [],
               "positive_themes": [
                 {
                   "theme": "comfort_product_love",
                   "label": "Comfort and product feel",
-                  "count": 8,
+                  "count": 10,
                   "share": 66.7,
                   "previous_count": 8,
-                  "delta_vs_previous": 0,
+                  "delta_vs_previous": 2,
                   "example": {
                     "rating": 5,
                     "date": "2026-09-28T12:46:26Z",
@@ -9019,10 +9019,10 @@
                 {
                   "theme": "shipping_positive",
                   "label": "Fast or clear delivery",
-                  "count": 3,
-                  "share": 25.0,
+                  "count": 4,
+                  "share": 26.7,
                   "previous_count": 0,
-                  "delta_vs_previous": 3,
+                  "delta_vs_previous": 4,
                   "example": {
                     "rating": 5,
                     "date": "2026-09-28T09:50:34Z",
@@ -9034,7 +9034,7 @@
                   "theme": "other",
                   "label": "Other feedback",
                   "count": 1,
-                  "share": 8.3,
+                  "share": 6.7,
                   "previous_count": 0,
                   "delta_vs_previous": 1,
                   "example": {
@@ -9388,26 +9388,26 @@
               "start": "2026-10-01",
               "end": "2026-10-31",
               "is_partial": true,
-              "review_count": 5,
+              "review_count": 8,
               "average_score": 5.0,
               "stars": {
                 "1": 0,
                 "2": 0,
                 "3": 0,
                 "4": 0,
-                "5": 5
+                "5": 8
               },
               "low_star_count": 0,
-              "positive_count": 5,
+              "positive_count": 8,
               "complaint_themes": [],
               "positive_themes": [
                 {
                   "theme": "comfort_product_love",
                   "label": "Comfort and product feel",
-                  "count": 3,
-                  "share": 60.0,
+                  "count": 5,
+                  "share": 62.5,
                   "previous_count": 27,
-                  "delta_vs_previous": -24,
+                  "delta_vs_previous": -22,
                   "example": {
                     "rating": 5,
                     "date": "2026-10-01T00:54:31Z",
@@ -9416,10 +9416,24 @@
                   }
                 },
                 {
+                  "theme": "shipping_positive",
+                  "label": "Fast or clear delivery",
+                  "count": 2,
+                  "share": 25.0,
+                  "previous_count": 9,
+                  "delta_vs_previous": -7,
+                  "example": {
+                    "rating": 5,
+                    "date": "2026-10-01T12:51:40Z",
+                    "text": "Autism friendly bed Shipping took around 2-3 weeks however bed and frame is completely worth it, when set up correctly, it is the safest bed i could ask for for my lvl 3 autistic son who is 5yrs old. My son stims frequently back and forth and smashes his head on every bed so any hard frames are a n…",
+                    "url": "https://www.trustpilot.com/reviews/6abe3b3c9d211536654d244f"
+                  }
+                },
+                {
                   "theme": "other",
                   "label": "Other feedback",
                   "count": 1,
-                  "share": 20.0,
+                  "share": 12.5,
                   "previous_count": 2,
                   "delta_vs_previous": -1,
                   "example": {
@@ -9429,20 +9443,6 @@
                     "url": "https://www.trustpilot.com/reviews/6abe3391e8a3d8d081dab1bd"
                   },
                   "recommended_action": "Review the underlying comments and create a new recurring theme if this pattern repeats."
-                },
-                {
-                  "theme": "shipping_positive",
-                  "label": "Fast or clear delivery",
-                  "count": 1,
-                  "share": 20.0,
-                  "previous_count": 9,
-                  "delta_vs_previous": -8,
-                  "example": {
-                    "rating": 5,
-                    "date": "2026-10-01T12:51:40Z",
-                    "text": "Autism friendly bed Shipping took around 2-3 weeks however bed and frame is completely worth it, when set up correctly, it is the safest bed i could ask for for my lvl 3 autistic son who is 5yrs old. My son stims frequently back and forth and smashes his head on every bed so any hard frames are a n…",
-                    "url": "https://www.trustpilot.com/reviews/6abe3b3c9d211536654d244f"
-                  }
                 }
               ]
             }
@@ -33609,12 +33609,12 @@
       "brand": "Little Lifely",
       "platform": "Trustpilot",
       "label": "Little Lifely Trustpilot",
-      "records": 104,
+      "records": 107,
       "first_review_at": "2026-05-18T02:56:25Z",
-      "last_review_at": "2026-10-02T05:31:16Z",
+      "last_review_at": "2026-10-03T00:07:09Z",
       "method": "AU-only derivative of the verified Watchtower review history",
       "limitation": "Only records with a defensible Australian country/state attribution are included; unknown and non-Australian records are excluded.",
-      "region_records": 104,
+      "region_records": 107,
       "region_unavailable_records": 0,
       "region_source": "Public reviewer country supplied by Trustpilot."
     },
