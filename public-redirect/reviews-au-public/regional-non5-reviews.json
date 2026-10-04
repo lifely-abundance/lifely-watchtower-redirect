@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "analysis_type": "public_au_non5_review_analysis",
-  "generated_at": "2026-10-03T06:13:28+00:00",
+  "generated_at": "2026-10-04T06:03:41+00:00",
   "coverage": {
     "from": "2026-01-02",
     "through": "2026-10-03",
@@ -18,9 +18,9 @@
       "Reviewer country is source-provided and is not order destination.",
       "Records without a source-provided Australian country are excluded."
     ],
-    "latest_non5_review": "2026-10-01",
+    "latest_non5_review": "2026-10-03",
     "partial_period": "2026-10",
-    "source_checked_at": "2026-10-03T06:13:28Z"
+    "source_checked_at": "2026-10-04T06:03:41Z"
   },
   "category_labels": {
     "delivery_delay_preorder_stock": "Delivery delay / preorder / stock promise",
@@ -44,15 +44,15 @@
     "wrong_missing_incomplete_order"
   ],
   "totals": {
-    "reviews": 118,
+    "reviews": 119,
     "ratings": {
       "1": 60,
       "2": 17,
       "3": 16,
-      "4": 25
+      "4": 26
     },
     "profiles": {
-      "lifely.com.au": 111,
+      "lifely.com.au": 112,
       "littlelifely.com": 7
     },
     "categories": {
@@ -62,7 +62,7 @@
       "customer_service_communication": 5,
       "damaged_on_arrival": 4,
       "delivery_delay_preorder_stock": 20,
-      "no_explicit_complaint": 10,
+      "no_explicit_complaint": 11,
       "price_value_expectation": 1,
       "product_quality_defect_durability": 10,
       "return_refund_cancellation_warranty": 10,
@@ -71,6 +71,19 @@
     }
   },
   "records": [
+    {
+      "region": "AU",
+      "profile": "lifely.com.au",
+      "month": "2026-10",
+      "quarter": "Q4 MTD",
+      "published_date": "2026-10-03",
+      "rating": 4,
+      "category": "no_explicit_complaint",
+      "delivery_related": false,
+      "title": "Ordering was easy and then got delivery…",
+      "excerpt": "Ordering was easy and then got delivery within 3 days later (country Victoria).",
+      "url": "https://www.trustpilot.com/reviews/6ac0b97762af95886f1c5f2b"
+    },
     {
       "region": "AU",
       "profile": "lifely.com.au",
