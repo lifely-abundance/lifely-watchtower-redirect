@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "analysis_type": "public_au_non5_review_analysis",
-  "generated_at": "2026-10-04T06:03:41+00:00",
+  "generated_at": "2026-10-05T06:15:59+00:00",
   "coverage": {
     "from": "2026-01-02",
-    "through": "2026-10-03",
+    "through": "2026-10-05",
     "partial_month": "2026-10",
     "profiles": [
       "lifely.com.au",
@@ -18,9 +18,9 @@
       "Reviewer country is source-provided and is not order destination.",
       "Records without a source-provided Australian country are excluded."
     ],
-    "latest_non5_review": "2026-10-03",
+    "latest_non5_review": "2026-10-05",
     "partial_period": "2026-10",
-    "source_checked_at": "2026-10-04T06:03:41Z"
+    "source_checked_at": "2026-10-05T06:15:59Z"
   },
   "category_labels": {
     "delivery_delay_preorder_stock": "Delivery delay / preorder / stock promise",
@@ -44,15 +44,15 @@
     "wrong_missing_incomplete_order"
   ],
   "totals": {
-    "reviews": 119,
+    "reviews": 120,
     "ratings": {
-      "1": 60,
+      "1": 61,
       "2": 17,
       "3": 16,
       "4": 26
     },
     "profiles": {
-      "lifely.com.au": 112,
+      "lifely.com.au": 113,
       "littlelifely.com": 7
     },
     "categories": {
@@ -61,7 +61,7 @@
       "courier_tracking_delivery_handling": 25,
       "customer_service_communication": 5,
       "damaged_on_arrival": 4,
-      "delivery_delay_preorder_stock": 20,
+      "delivery_delay_preorder_stock": 21,
       "no_explicit_complaint": 11,
       "price_value_expectation": 1,
       "product_quality_defect_durability": 10,
@@ -71,6 +71,19 @@
     }
   },
   "records": [
+    {
+      "region": "AU",
+      "profile": "lifely.com.au",
+      "month": "2026-10",
+      "quarter": "Q4 MTD",
+      "published_date": "2026-10-05",
+      "rating": 1,
+      "category": "delivery_delay_preorder_stock",
+      "delivery_related": true,
+      "title": "Absolutely appalling",
+      "excerpt": "Absolutely appalling. The item delivered does not match the description on their website. Lifely admitted, in writting, that the product does not match the description on the website. Under Australian Consumer Law I am entitled to 100% refund. Insultingly, the customer service team offered a 20% refund and for me to keep the products. I do not wish to keep the products as they do not match what I ordered. This is dec",
+      "url": "https://www.trustpilot.com/reviews/6ac2f89dd0fa23c7c86c9472"
+    },
     {
       "region": "AU",
       "profile": "lifely.com.au",
