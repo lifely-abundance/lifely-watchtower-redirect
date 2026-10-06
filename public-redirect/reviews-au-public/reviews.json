@@ -5,7 +5,7 @@
     "label": "Australia only",
     "rule": "Includes only source-attributed Australian reviews. Unknown and non-Australian records are excluded."
   },
-  "last_updated": "2026-10-05T06:15:59Z",
+  "last_updated": "2026-10-06T06:13:41Z",
   "metric_definition": "Captured AU review history only. Scores are calculated from dated, source-attributed Australian reviews and are not global platform scores.",
   "sources": [
     {
@@ -14,19 +14,19 @@
       "platform": "Trustpilot",
       "label": "Lifely Trustpilot",
       "url": "https://www.trustpilot.com/review/lifely.com.au",
-      "score": 4.02,
-      "total_reviews": 290,
+      "score": 4.01,
+      "total_reviews": 292,
       "score_delta": null,
       "review_delta": null,
       "to_next_0_1_est_reviews": null,
       "source_note": "Captured Australian review history only.",
       "color": "#00a76f",
-      "history_records": 290,
+      "history_records": 292,
       "history_first_review_at": "2026-03-30T03:09:17Z",
-      "history_last_review_at": "2026-10-05T05:13:29Z",
+      "history_last_review_at": "2026-10-06T02:23:51Z",
       "history_method": "AU-only derivative of the verified Watchtower review history",
       "history_limitation": "Only records with a defensible Australian country/state attribution are included; unknown and non-Australian records are excluded.",
-      "region_records": 290,
+      "region_records": 292,
       "region_unavailable_records": 0,
       "region_source": "Public reviewer country supplied by Trustpilot."
     },
@@ -37,18 +37,18 @@
       "label": "Little Lifely Trustpilot",
       "url": "https://www.trustpilot.com/review/littlelifely.com",
       "score": 4.9,
-      "total_reviews": 107,
+      "total_reviews": 110,
       "score_delta": null,
       "review_delta": null,
       "to_next_0_1_est_reviews": null,
       "source_note": "Captured Australian review history only.",
       "color": "#00a76f",
-      "history_records": 107,
+      "history_records": 110,
       "history_first_review_at": "2026-05-18T02:56:25Z",
-      "history_last_review_at": "2026-10-03T00:07:09Z",
+      "history_last_review_at": "2026-10-06T05:05:07Z",
       "history_method": "AU-only derivative of the verified Watchtower review history",
       "history_limitation": "Only records with a defensible Australian country/state attribution are included; unknown and non-Australian records are excluded.",
-      "region_records": 107,
+      "region_records": 110,
       "region_unavailable_records": 0,
       "region_source": "Public reviewer country supplied by Trustpilot."
     },
@@ -128,12 +128,12 @@
         "brand": "Lifely",
         "platform": "Trustpilot",
         "label": "Lifely Trustpilot",
-        "records": 290,
+        "records": 292,
         "first_review_at": "2026-03-30T03:09:17Z",
-        "last_review_at": "2026-10-05T05:13:29Z",
+        "last_review_at": "2026-10-06T02:23:51Z",
         "method": "AU-only derivative of the verified Watchtower review history",
         "limitation": "Only records with a defensible Australian country/state attribution are included; unknown and non-Australian records are excluded.",
-        "region_records": 290,
+        "region_records": 292,
         "region_unavailable_records": 0,
         "region_source": "Public reviewer country supplied by Trustpilot."
       },
@@ -2616,23 +2616,23 @@
           "start": "2026-10-05",
           "end": "2026-10-11",
           "is_partial": true,
-          "review_count": 4,
-          "average_score": 4.0,
+          "review_count": 6,
+          "average_score": 3.67,
           "stars": {
-            "1": 1,
+            "1": 2,
             "2": 0,
             "3": 0,
             "4": 0,
-            "5": 3
+            "5": 4
           },
-          "low_star_count": 1,
-          "positive_count": 3,
+          "low_star_count": 2,
+          "positive_count": 4,
           "complaint_themes": [
             {
               "theme": "returns_trial_policy_confusion",
               "label": "Returns / trial-policy confusion",
               "count": 1,
-              "share": 100.0,
+              "share": 50.0,
               "previous_count": 1,
               "delta_vs_previous": 0,
               "example": {
@@ -2642,16 +2642,31 @@
                 "url": "https://www.trustpilot.com/reviews/6ac2f89dd0fa23c7c86c9472"
               },
               "recommended_action": "Make return costs, eligibility, pickup rules, store-credit terms, and exceptions unmistakable before purchase."
+            },
+            {
+              "theme": "comfort_fit_expectation",
+              "label": "Comfort / fit expectation gap",
+              "count": 1,
+              "share": 50.0,
+              "previous_count": 0,
+              "delta_vs_previous": 1,
+              "example": {
+                "rating": 1,
+                "date": "2026-10-05T23:57:43Z",
+                "text": "The chair is poorly designed for… The chair is poorly designed for posture. Curves the back in the wrong direction. It’s like sitting in an eggshell. A cushion helps the lower back but the upper back is still hunched forward. Being a sofa chair I expected the seat would be sprinted like a sofa but…",
+                "url": "https://www.trustpilot.com/reviews/6ac41d57387127807fb381d5"
+              },
+              "recommended_action": "Strengthen firmness, fit, dimensions-in-context, and intended-use guidance beside review proof on the PDP."
             }
           ],
           "positive_themes": [
             {
               "theme": "comfort_product_love",
               "label": "Comfort and product feel",
-              "count": 2,
-              "share": 66.7,
+              "count": 3,
+              "share": 75.0,
               "previous_count": 3,
-              "delta_vs_previous": -1,
+              "delta_vs_previous": 0,
               "example": {
                 "rating": 5,
                 "date": "2026-10-05T04:51:02Z",
@@ -2663,7 +2678,7 @@
               "theme": "service_recovery",
               "label": "Helpful service / recovery",
               "count": 1,
-              "share": 33.3,
+              "share": 25.0,
               "previous_count": 1,
               "delta_vs_previous": 0,
               "example": {
@@ -3500,23 +3515,23 @@
           "start": "2026-10-01",
           "end": "2026-10-31",
           "is_partial": true,
-          "review_count": 8,
-          "average_score": 4.0,
+          "review_count": 10,
+          "average_score": 3.8,
           "stars": {
-            "1": 1,
+            "1": 2,
             "2": 1,
             "3": 0,
             "4": 1,
-            "5": 5
+            "5": 6
           },
-          "low_star_count": 2,
-          "positive_count": 6,
+          "low_star_count": 3,
+          "positive_count": 7,
           "complaint_themes": [
             {
               "theme": "returns_trial_policy_confusion",
               "label": "Returns / trial-policy confusion",
               "count": 2,
-              "share": 100.0,
+              "share": 66.7,
               "previous_count": 0,
               "delta_vs_previous": 2,
               "example": {
@@ -3526,16 +3541,31 @@
                 "url": "https://www.trustpilot.com/reviews/6abdebc521841814d704fdd5"
               },
               "recommended_action": "Make return costs, eligibility, pickup rules, store-credit terms, and exceptions unmistakable before purchase."
+            },
+            {
+              "theme": "comfort_fit_expectation",
+              "label": "Comfort / fit expectation gap",
+              "count": 1,
+              "share": 33.3,
+              "previous_count": 1,
+              "delta_vs_previous": 0,
+              "example": {
+                "rating": 1,
+                "date": "2026-10-05T23:57:43Z",
+                "text": "The chair is poorly designed for… The chair is poorly designed for posture. Curves the back in the wrong direction. It’s like sitting in an eggshell. A cushion helps the lower back but the upper back is still hunched forward. Being a sofa chair I expected the seat would be sprinted like a sofa but…",
+                "url": "https://www.trustpilot.com/reviews/6ac41d57387127807fb381d5"
+              },
+              "recommended_action": "Strengthen firmness, fit, dimensions-in-context, and intended-use guidance beside review proof on the PDP."
             }
           ],
           "positive_themes": [
             {
               "theme": "comfort_product_love",
               "label": "Comfort and product feel",
-              "count": 3,
-              "share": 50.0,
+              "count": 4,
+              "share": 57.1,
               "previous_count": 16,
-              "delta_vs_previous": -13,
+              "delta_vs_previous": -12,
               "example": {
                 "rating": 5,
                 "date": "2026-10-04T11:12:33Z",
@@ -3547,7 +3577,7 @@
               "theme": "easy_setup_conversion",
               "label": "Easy setup / quick transform",
               "count": 1,
-              "share": 16.7,
+              "share": 14.3,
               "previous_count": 7,
               "delta_vs_previous": -6,
               "example": {
@@ -3561,7 +3591,7 @@
               "theme": "shipping_positive",
               "label": "Fast or clear delivery",
               "count": 1,
-              "share": 16.7,
+              "share": 14.3,
               "previous_count": 10,
               "delta_vs_previous": -9,
               "example": {
@@ -3575,7 +3605,7 @@
               "theme": "service_recovery",
               "label": "Helpful service / recovery",
               "count": 1,
-              "share": 16.7,
+              "share": 14.3,
               "previous_count": 8,
               "delta_vs_previous": -7,
               "example": {
@@ -3592,7 +3622,7 @@
         {
           "key": "AU",
           "label": "Australia",
-          "records": 290,
+          "records": 292,
           "weekly": [
             {
               "key": "2026-03-30",
@@ -6072,23 +6102,23 @@
               "start": "2026-10-05",
               "end": "2026-10-11",
               "is_partial": true,
-              "review_count": 4,
-              "average_score": 4.0,
+              "review_count": 6,
+              "average_score": 3.67,
               "stars": {
-                "1": 1,
+                "1": 2,
                 "2": 0,
                 "3": 0,
                 "4": 0,
-                "5": 3
+                "5": 4
               },
-              "low_star_count": 1,
-              "positive_count": 3,
+              "low_star_count": 2,
+              "positive_count": 4,
               "complaint_themes": [
                 {
                   "theme": "returns_trial_policy_confusion",
                   "label": "Returns / trial-policy confusion",
                   "count": 1,
-                  "share": 100.0,
+                  "share": 50.0,
                   "previous_count": 1,
                   "delta_vs_previous": 0,
                   "example": {
@@ -6098,16 +6128,31 @@
                     "url": "https://www.trustpilot.com/reviews/6ac2f89dd0fa23c7c86c9472"
                   },
                   "recommended_action": "Make return costs, eligibility, pickup rules, store-credit terms, and exceptions unmistakable before purchase."
+                },
+                {
+                  "theme": "comfort_fit_expectation",
+                  "label": "Comfort / fit expectation gap",
+                  "count": 1,
+                  "share": 50.0,
+                  "previous_count": 0,
+                  "delta_vs_previous": 1,
+                  "example": {
+                    "rating": 1,
+                    "date": "2026-10-05T23:57:43Z",
+                    "text": "The chair is poorly designed for… The chair is poorly designed for posture. Curves the back in the wrong direction. It’s like sitting in an eggshell. A cushion helps the lower back but the upper back is still hunched forward. Being a sofa chair I expected the seat would be sprinted like a sofa but…",
+                    "url": "https://www.trustpilot.com/reviews/6ac41d57387127807fb381d5"
+                  },
+                  "recommended_action": "Strengthen firmness, fit, dimensions-in-context, and intended-use guidance beside review proof on the PDP."
                 }
               ],
               "positive_themes": [
                 {
                   "theme": "comfort_product_love",
                   "label": "Comfort and product feel",
-                  "count": 2,
-                  "share": 66.7,
+                  "count": 3,
+                  "share": 75.0,
                   "previous_count": 3,
-                  "delta_vs_previous": -1,
+                  "delta_vs_previous": 0,
                   "example": {
                     "rating": 5,
                     "date": "2026-10-05T04:51:02Z",
@@ -6119,7 +6164,7 @@
                   "theme": "service_recovery",
                   "label": "Helpful service / recovery",
                   "count": 1,
-                  "share": 33.3,
+                  "share": 25.0,
                   "previous_count": 1,
                   "delta_vs_previous": 0,
                   "example": {
@@ -6956,23 +7001,23 @@
               "start": "2026-10-01",
               "end": "2026-10-31",
               "is_partial": true,
-              "review_count": 8,
-              "average_score": 4.0,
+              "review_count": 10,
+              "average_score": 3.8,
               "stars": {
-                "1": 1,
+                "1": 2,
                 "2": 1,
                 "3": 0,
                 "4": 1,
-                "5": 5
+                "5": 6
               },
-              "low_star_count": 2,
-              "positive_count": 6,
+              "low_star_count": 3,
+              "positive_count": 7,
               "complaint_themes": [
                 {
                   "theme": "returns_trial_policy_confusion",
                   "label": "Returns / trial-policy confusion",
                   "count": 2,
-                  "share": 100.0,
+                  "share": 66.7,
                   "previous_count": 0,
                   "delta_vs_previous": 2,
                   "example": {
@@ -6982,16 +7027,31 @@
                     "url": "https://www.trustpilot.com/reviews/6abdebc521841814d704fdd5"
                   },
                   "recommended_action": "Make return costs, eligibility, pickup rules, store-credit terms, and exceptions unmistakable before purchase."
+                },
+                {
+                  "theme": "comfort_fit_expectation",
+                  "label": "Comfort / fit expectation gap",
+                  "count": 1,
+                  "share": 33.3,
+                  "previous_count": 1,
+                  "delta_vs_previous": 0,
+                  "example": {
+                    "rating": 1,
+                    "date": "2026-10-05T23:57:43Z",
+                    "text": "The chair is poorly designed for… The chair is poorly designed for posture. Curves the back in the wrong direction. It’s like sitting in an eggshell. A cushion helps the lower back but the upper back is still hunched forward. Being a sofa chair I expected the seat would be sprinted like a sofa but…",
+                    "url": "https://www.trustpilot.com/reviews/6ac41d57387127807fb381d5"
+                  },
+                  "recommended_action": "Strengthen firmness, fit, dimensions-in-context, and intended-use guidance beside review proof on the PDP."
                 }
               ],
               "positive_themes": [
                 {
                   "theme": "comfort_product_love",
                   "label": "Comfort and product feel",
-                  "count": 3,
-                  "share": 50.0,
+                  "count": 4,
+                  "share": 57.1,
                   "previous_count": 16,
-                  "delta_vs_previous": -13,
+                  "delta_vs_previous": -12,
                   "example": {
                     "rating": 5,
                     "date": "2026-10-04T11:12:33Z",
@@ -7003,7 +7063,7 @@
                   "theme": "easy_setup_conversion",
                   "label": "Easy setup / quick transform",
                   "count": 1,
-                  "share": 16.7,
+                  "share": 14.3,
                   "previous_count": 7,
                   "delta_vs_previous": -6,
                   "example": {
@@ -7017,7 +7077,7 @@
                   "theme": "shipping_positive",
                   "label": "Fast or clear delivery",
                   "count": 1,
-                  "share": 16.7,
+                  "share": 14.3,
                   "previous_count": 10,
                   "delta_vs_previous": -9,
                   "example": {
@@ -7031,7 +7091,7 @@
                   "theme": "service_recovery",
                   "label": "Helpful service / recovery",
                   "count": 1,
-                  "share": 16.7,
+                  "share": 14.3,
                   "previous_count": 8,
                   "delta_vs_previous": -7,
                   "example": {
@@ -7055,12 +7115,12 @@
         "brand": "Little Lifely",
         "platform": "Trustpilot",
         "label": "Little Lifely Trustpilot",
-        "records": 107,
+        "records": 110,
         "first_review_at": "2026-05-18T02:56:25Z",
-        "last_review_at": "2026-10-03T00:07:09Z",
+        "last_review_at": "2026-10-06T05:05:07Z",
         "method": "AU-only derivative of the verified Watchtower review history",
         "limitation": "Only records with a defensible Australian country/state attribution are included; unknown and non-Australian records are excluded.",
-        "region_records": 107,
+        "region_records": 110,
         "region_unavailable_records": 0,
         "region_source": "Public reviewer country supplied by Trustpilot."
       },
@@ -7966,19 +8026,49 @@
           "start": "2026-10-05",
           "end": "2026-10-11",
           "is_partial": true,
-          "review_count": 0,
-          "average_score": null,
+          "review_count": 3,
+          "average_score": 5.0,
           "stars": {
             "1": 0,
             "2": 0,
             "3": 0,
             "4": 0,
-            "5": 0
+            "5": 3
           },
           "low_star_count": 0,
-          "positive_count": 0,
+          "positive_count": 3,
           "complaint_themes": [],
-          "positive_themes": []
+          "positive_themes": [
+            {
+              "theme": "shipping_positive",
+              "label": "Fast or clear delivery",
+              "count": 2,
+              "share": 66.7,
+              "previous_count": 4,
+              "delta_vs_previous": -2,
+              "example": {
+                "rating": 5,
+                "date": "2026-10-05T06:57:15Z",
+                "text": "Swapping beds with the kid.. comfy as! Bed arrived on time, per the advice of the team. Easy to put together, little bit of a team effort required. Amazingly comfortable. The single fits our son, and mum and dad. Absolute hit.",
+                "url": "https://www.trustpilot.com/reviews/6ac32e2b9112ecd83fee7028"
+              }
+            },
+            {
+              "theme": "other",
+              "label": "Other feedback",
+              "count": 1,
+              "share": 33.3,
+              "previous_count": 1,
+              "delta_vs_previous": 0,
+              "example": {
+                "rating": 5,
+                "date": "2026-10-05T07:55:04Z",
+                "text": "Highly recommend Very low to the ground, which makes it easier for toddlers to get in and out and reduces the impact if they roll out.",
+                "url": "https://www.trustpilot.com/reviews/6ac33bb80aa47b7e729537d8"
+              },
+              "recommended_action": "Review the underlying comments and create a new recurring theme if this pattern repeats."
+            }
+          ]
         }
       ],
       "monthly": [
@@ -8321,24 +8411,24 @@
           "start": "2026-10-01",
           "end": "2026-10-31",
           "is_partial": true,
-          "review_count": 8,
+          "review_count": 11,
           "average_score": 5.0,
           "stars": {
             "1": 0,
             "2": 0,
             "3": 0,
             "4": 0,
-            "5": 8
+            "5": 11
           },
           "low_star_count": 0,
-          "positive_count": 8,
+          "positive_count": 11,
           "complaint_themes": [],
           "positive_themes": [
             {
               "theme": "comfort_product_love",
               "label": "Comfort and product feel",
               "count": 5,
-              "share": 62.5,
+              "share": 45.5,
               "previous_count": 27,
               "delta_vs_previous": -22,
               "example": {
@@ -8351,10 +8441,10 @@
             {
               "theme": "shipping_positive",
               "label": "Fast or clear delivery",
-              "count": 2,
-              "share": 25.0,
+              "count": 4,
+              "share": 36.4,
               "previous_count": 9,
-              "delta_vs_previous": -7,
+              "delta_vs_previous": -5,
               "example": {
                 "rating": 5,
                 "date": "2026-10-01T12:51:40Z",
@@ -8365,10 +8455,10 @@
             {
               "theme": "other",
               "label": "Other feedback",
-              "count": 1,
-              "share": 12.5,
+              "count": 2,
+              "share": 18.2,
               "previous_count": 2,
-              "delta_vs_previous": -1,
+              "delta_vs_previous": 0,
               "example": {
                 "rating": 5,
                 "date": "2026-10-01T12:18:57Z",
@@ -8384,7 +8474,7 @@
         {
           "key": "AU",
           "label": "Australia",
-          "records": 107,
+          "records": 110,
           "weekly": [
             {
               "key": "2026-05-18",
@@ -9287,19 +9377,49 @@
               "start": "2026-10-05",
               "end": "2026-10-11",
               "is_partial": true,
-              "review_count": 0,
-              "average_score": null,
+              "review_count": 3,
+              "average_score": 5.0,
               "stars": {
                 "1": 0,
                 "2": 0,
                 "3": 0,
                 "4": 0,
-                "5": 0
+                "5": 3
               },
               "low_star_count": 0,
-              "positive_count": 0,
+              "positive_count": 3,
               "complaint_themes": [],
-              "positive_themes": []
+              "positive_themes": [
+                {
+                  "theme": "shipping_positive",
+                  "label": "Fast or clear delivery",
+                  "count": 2,
+                  "share": 66.7,
+                  "previous_count": 4,
+                  "delta_vs_previous": -2,
+                  "example": {
+                    "rating": 5,
+                    "date": "2026-10-05T06:57:15Z",
+                    "text": "Swapping beds with the kid.. comfy as! Bed arrived on time, per the advice of the team. Easy to put together, little bit of a team effort required. Amazingly comfortable. The single fits our son, and mum and dad. Absolute hit.",
+                    "url": "https://www.trustpilot.com/reviews/6ac32e2b9112ecd83fee7028"
+                  }
+                },
+                {
+                  "theme": "other",
+                  "label": "Other feedback",
+                  "count": 1,
+                  "share": 33.3,
+                  "previous_count": 1,
+                  "delta_vs_previous": 0,
+                  "example": {
+                    "rating": 5,
+                    "date": "2026-10-05T07:55:04Z",
+                    "text": "Highly recommend Very low to the ground, which makes it easier for toddlers to get in and out and reduces the impact if they roll out.",
+                    "url": "https://www.trustpilot.com/reviews/6ac33bb80aa47b7e729537d8"
+                  },
+                  "recommended_action": "Review the underlying comments and create a new recurring theme if this pattern repeats."
+                }
+              ]
             }
           ],
           "monthly": [
@@ -9642,24 +9762,24 @@
               "start": "2026-10-01",
               "end": "2026-10-31",
               "is_partial": true,
-              "review_count": 8,
+              "review_count": 11,
               "average_score": 5.0,
               "stars": {
                 "1": 0,
                 "2": 0,
                 "3": 0,
                 "4": 0,
-                "5": 8
+                "5": 11
               },
               "low_star_count": 0,
-              "positive_count": 8,
+              "positive_count": 11,
               "complaint_themes": [],
               "positive_themes": [
                 {
                   "theme": "comfort_product_love",
                   "label": "Comfort and product feel",
                   "count": 5,
-                  "share": 62.5,
+                  "share": 45.5,
                   "previous_count": 27,
                   "delta_vs_previous": -22,
                   "example": {
@@ -9672,10 +9792,10 @@
                 {
                   "theme": "shipping_positive",
                   "label": "Fast or clear delivery",
-                  "count": 2,
-                  "share": 25.0,
+                  "count": 4,
+                  "share": 36.4,
                   "previous_count": 9,
-                  "delta_vs_previous": -7,
+                  "delta_vs_previous": -5,
                   "example": {
                     "rating": 5,
                     "date": "2026-10-01T12:51:40Z",
@@ -9686,10 +9806,10 @@
                 {
                   "theme": "other",
                   "label": "Other feedback",
-                  "count": 1,
-                  "share": 12.5,
+                  "count": 2,
+                  "share": 18.2,
                   "previous_count": 2,
-                  "delta_vs_previous": -1,
+                  "delta_vs_previous": 0,
                   "example": {
                     "rating": 5,
                     "date": "2026-10-01T12:18:57Z",
@@ -34000,12 +34120,12 @@
       "brand": "Lifely",
       "platform": "Trustpilot",
       "label": "Lifely Trustpilot",
-      "records": 290,
+      "records": 292,
       "first_review_at": "2026-03-30T03:09:17Z",
-      "last_review_at": "2026-10-05T05:13:29Z",
+      "last_review_at": "2026-10-06T02:23:51Z",
       "method": "AU-only derivative of the verified Watchtower review history",
       "limitation": "Only records with a defensible Australian country/state attribution are included; unknown and non-Australian records are excluded.",
-      "region_records": 290,
+      "region_records": 292,
       "region_unavailable_records": 0,
       "region_source": "Public reviewer country supplied by Trustpilot."
     },
@@ -34013,12 +34133,12 @@
       "brand": "Little Lifely",
       "platform": "Trustpilot",
       "label": "Little Lifely Trustpilot",
-      "records": 107,
+      "records": 110,
       "first_review_at": "2026-05-18T02:56:25Z",
-      "last_review_at": "2026-10-03T00:07:09Z",
+      "last_review_at": "2026-10-06T05:05:07Z",
       "method": "AU-only derivative of the verified Watchtower review history",
       "limitation": "Only records with a defensible Australian country/state attribution are included; unknown and non-Australian records are excluded.",
-      "region_records": 107,
+      "region_records": 110,
       "region_unavailable_records": 0,
       "region_source": "Public reviewer country supplied by Trustpilot."
     },

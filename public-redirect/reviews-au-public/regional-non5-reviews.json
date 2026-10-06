@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "analysis_type": "public_au_non5_review_analysis",
-  "generated_at": "2026-10-05T06:15:59+00:00",
+  "generated_at": "2026-10-06T06:13:41+00:00",
   "coverage": {
     "from": "2026-01-02",
-    "through": "2026-10-05",
+    "through": "2026-10-06",
     "partial_month": "2026-10",
     "profiles": [
       "lifely.com.au",
@@ -20,7 +20,7 @@
     ],
     "latest_non5_review": "2026-10-05",
     "partial_period": "2026-10",
-    "source_checked_at": "2026-10-05T06:15:59Z"
+    "source_checked_at": "2026-10-06T06:13:40Z"
   },
   "category_labels": {
     "delivery_delay_preorder_stock": "Delivery delay / preorder / stock promise",
@@ -44,20 +44,20 @@
     "wrong_missing_incomplete_order"
   ],
   "totals": {
-    "reviews": 120,
+    "reviews": 121,
     "ratings": {
-      "1": 61,
+      "1": 62,
       "2": 17,
       "3": 16,
       "4": 26
     },
     "profiles": {
-      "lifely.com.au": 113,
+      "lifely.com.au": 114,
       "littlelifely.com": 7
     },
     "categories": {
       "assembly_instructions_hardware": 2,
-      "comfort_design_fit_usability": 14,
+      "comfort_design_fit_usability": 15,
       "courier_tracking_delivery_handling": 25,
       "customer_service_communication": 5,
       "damaged_on_arrival": 4,
@@ -71,6 +71,19 @@
     }
   },
   "records": [
+    {
+      "region": "AU",
+      "profile": "lifely.com.au",
+      "month": "2026-10",
+      "quarter": "Q4 MTD",
+      "published_date": "2026-10-05",
+      "rating": 1,
+      "category": "comfort_design_fit_usability",
+      "delivery_related": false,
+      "title": "The chair is poorly designed for…",
+      "excerpt": "The chair is poorly designed for posture. Curves the back in the wrong direction. It’s like sitting in an eggshell. A cushion helps the lower back but the upper back is still hunched forward. Being a sofa chair I expected the seat would be sprinted like a sofa but it’s not. I wanted a chair that I could sit in for hours and work, this wasn’t it.",
+      "url": "https://www.trustpilot.com/reviews/6ac41d57387127807fb381d5"
+    },
     {
       "region": "AU",
       "profile": "lifely.com.au",
