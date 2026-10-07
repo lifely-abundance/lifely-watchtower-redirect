@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "analysis_type": "public_au_non5_review_analysis",
-  "generated_at": "2026-10-06T06:13:41+00:00",
+  "generated_at": "2026-10-07T06:04:27+00:00",
   "coverage": {
     "from": "2026-01-02",
-    "through": "2026-10-06",
+    "through": "2026-10-07",
     "partial_month": "2026-10",
     "profiles": [
       "lifely.com.au",
@@ -18,9 +18,9 @@
       "Reviewer country is source-provided and is not order destination.",
       "Records without a source-provided Australian country are excluded."
     ],
-    "latest_non5_review": "2026-10-05",
+    "latest_non5_review": "2026-10-06",
     "partial_period": "2026-10",
-    "source_checked_at": "2026-10-06T06:13:40Z"
+    "source_checked_at": "2026-10-07T06:04:27Z"
   },
   "category_labels": {
     "delivery_delay_preorder_stock": "Delivery delay / preorder / stock promise",
@@ -44,22 +44,22 @@
     "wrong_missing_incomplete_order"
   ],
   "totals": {
-    "reviews": 121,
+    "reviews": 122,
     "ratings": {
-      "1": 62,
+      "1": 63,
       "2": 17,
       "3": 16,
       "4": 26
     },
     "profiles": {
-      "lifely.com.au": 114,
+      "lifely.com.au": 115,
       "littlelifely.com": 7
     },
     "categories": {
       "assembly_instructions_hardware": 2,
       "comfort_design_fit_usability": 15,
       "courier_tracking_delivery_handling": 25,
-      "customer_service_communication": 5,
+      "customer_service_communication": 6,
       "damaged_on_arrival": 4,
       "delivery_delay_preorder_stock": 21,
       "no_explicit_complaint": 11,
@@ -71,6 +71,19 @@
     }
   },
   "records": [
+    {
+      "region": "AU",
+      "profile": "lifely.com.au",
+      "month": "2026-10",
+      "quarter": "Q4 MTD",
+      "published_date": "2026-10-06",
+      "rating": 1,
+      "category": "customer_service_communication",
+      "delivery_related": false,
+      "title": "Pre orders are difficult to cancel and or refund. Be cautious when buying if not in stocks as they will just send it anyways even if told not to and to refund..",
+      "excerpt": "Customer service friendly but dont listen to concerns urgently. They are very busy and cant seem to action tasks from valued customers easily or promptly or keep promises on verbal time frames and or estimates on communication response. Other than that experience the mattress is incredible and so helpful for us. Thank you lifely xx",
+      "url": "https://www.trustpilot.com/reviews/6ac49a23ae98c6e7f300ea76"
+    },
     {
       "region": "AU",
       "profile": "lifely.com.au",
