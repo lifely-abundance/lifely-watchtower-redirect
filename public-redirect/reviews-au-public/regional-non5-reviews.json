@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "analysis_type": "public_au_non5_review_analysis",
-  "generated_at": "2026-10-08T06:12:38+00:00",
+  "generated_at": "2026-10-09T06:06:15+00:00",
   "coverage": {
     "from": "2026-01-02",
-    "through": "2026-10-07",
+    "through": "2026-10-08",
     "partial_month": "2026-10",
     "profiles": [
       "lifely.com.au",
@@ -18,9 +18,9 @@
       "Reviewer country is source-provided and is not order destination.",
       "Records without a source-provided Australian country are excluded."
     ],
-    "latest_non5_review": "2026-10-07",
+    "latest_non5_review": "2026-10-08",
     "partial_period": "2026-10",
-    "source_checked_at": "2026-10-08T06:12:37Z"
+    "source_checked_at": "2026-10-09T06:06:14Z"
   },
   "category_labels": {
     "delivery_delay_preorder_stock": "Delivery delay / preorder / stock promise",
@@ -44,24 +44,24 @@
     "wrong_missing_incomplete_order"
   ],
   "totals": {
-    "reviews": 122,
+    "reviews": 124,
     "ratings": {
-      "1": 63,
+      "1": 65,
       "2": 17,
       "3": 16,
       "4": 26
     },
     "profiles": {
-      "lifely.com.au": 115,
+      "lifely.com.au": 117,
       "littlelifely.com": 7
     },
     "categories": {
       "assembly_instructions_hardware": 2,
       "comfort_design_fit_usability": 15,
-      "courier_tracking_delivery_handling": 25,
+      "courier_tracking_delivery_handling": 26,
       "customer_service_communication": 6,
       "damaged_on_arrival": 4,
-      "delivery_delay_preorder_stock": 21,
+      "delivery_delay_preorder_stock": 22,
       "no_explicit_complaint": 11,
       "price_value_expectation": 1,
       "product_quality_defect_durability": 10,
@@ -71,6 +71,32 @@
     }
   },
   "records": [
+    {
+      "region": "AU",
+      "profile": "lifely.com.au",
+      "month": "2026-10",
+      "quarter": "Q4 MTD",
+      "published_date": "2026-10-08",
+      "rating": 1,
+      "category": "courier_tracking_delivery_handling",
+      "delivery_related": true,
+      "title": "Pre ordered back in July",
+      "excerpt": "Pre ordered back in July, should have been delivered a month ago. Contact customer service and they seemed to have 'forgotten' about our $1000 order. We were then told it would be delivered last week but no they chose the cheapest most unreliable delivery company (Hunter Express) to deliver it. It's been 'out for delivery' for 3 days now. Don't waste your time unless you enjoy multiple emails and phone calls to usele",
+      "url": "https://www.trustpilot.com/reviews/6ac7f8b9ec8c607c17ce8242"
+    },
+    {
+      "region": "AU",
+      "profile": "lifely.com.au",
+      "month": "2026-10",
+      "quarter": "Q4 MTD",
+      "published_date": "2026-10-08",
+      "rating": 1,
+      "category": "delivery_delay_preorder_stock",
+      "delivery_related": true,
+      "title": "Still not delivered",
+      "excerpt": "Has not been delivered in spite of multiple communications",
+      "url": "https://www.trustpilot.com/reviews/6ac74222bde694d457a20ac7"
+    },
     {
       "region": "AU",
       "profile": "lifely.com.au",
