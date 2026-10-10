@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "analysis_type": "public_au_non5_review_analysis",
-  "generated_at": "2026-10-09T06:06:15+00:00",
+  "generated_at": "2026-10-10T06:05:29+00:00",
   "coverage": {
     "from": "2026-01-02",
     "through": "2026-10-08",
@@ -20,7 +20,7 @@
     ],
     "latest_non5_review": "2026-10-08",
     "partial_period": "2026-10",
-    "source_checked_at": "2026-10-09T06:06:14Z"
+    "source_checked_at": "2026-10-10T06:05:29Z"
   },
   "category_labels": {
     "delivery_delay_preorder_stock": "Delivery delay / preorder / stock promise",
