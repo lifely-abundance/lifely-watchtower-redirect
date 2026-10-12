@@ -5,7 +5,7 @@
     "label": "Australia only",
     "rule": "Includes only source-attributed Australian reviews. Unknown and non-Australian records are excluded."
   },
-  "last_updated": "2026-10-11T06:12:31Z",
+  "last_updated": "2026-10-12T06:04:22Z",
   "metric_definition": "Captured AU review history only. Scores are calculated from dated, source-attributed Australian reviews and are not global platform scores.",
   "sources": [
     {
@@ -37,18 +37,18 @@
       "label": "Little Lifely Trustpilot",
       "url": "https://www.trustpilot.com/review/littlelifely.com",
       "score": 4.91,
-      "total_reviews": 116,
+      "total_reviews": 117,
       "score_delta": null,
       "review_delta": null,
       "to_next_0_1_est_reviews": null,
       "source_note": "Captured Australian review history only.",
       "color": "#00a76f",
-      "history_records": 116,
+      "history_records": 117,
       "history_first_review_at": "2026-05-18T02:56:25Z",
-      "history_last_review_at": "2026-10-07T10:29:42Z",
+      "history_last_review_at": "2026-10-11T12:26:15Z",
       "history_method": "AU-only derivative of the verified Watchtower review history",
       "history_limitation": "Only records with a defensible Australian country/state attribution are included; unknown and non-Australian records are excluded.",
-      "region_records": 116,
+      "region_records": 117,
       "region_unavailable_records": 0,
       "region_source": "Public reviewer country supplied by Trustpilot."
     },
@@ -2615,7 +2615,7 @@
           "label": "5 Oct–11 Oct 2026",
           "start": "2026-10-05",
           "end": "2026-10-11",
-          "is_partial": true,
+          "is_partial": false,
           "review_count": 10,
           "average_score": 3.0,
           "stars": {
@@ -2719,6 +2719,26 @@
               }
             }
           ]
+        },
+        {
+          "key": "2026-10-12",
+          "label": "12 Oct–18 Oct 2026",
+          "start": "2026-10-12",
+          "end": "2026-10-18",
+          "is_partial": true,
+          "review_count": 0,
+          "average_score": null,
+          "stars": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0
+          },
+          "low_star_count": 0,
+          "positive_count": 0,
+          "complaint_themes": [],
+          "positive_themes": []
         }
       ],
       "monthly": [
@@ -6161,7 +6181,7 @@
               "label": "5 Oct–11 Oct 2026",
               "start": "2026-10-05",
               "end": "2026-10-11",
-              "is_partial": true,
+              "is_partial": false,
               "review_count": 10,
               "average_score": 3.0,
               "stars": {
@@ -6265,6 +6285,26 @@
                   }
                 }
               ]
+            },
+            {
+              "key": "2026-10-12",
+              "label": "12 Oct–18 Oct 2026",
+              "start": "2026-10-12",
+              "end": "2026-10-18",
+              "is_partial": true,
+              "review_count": 0,
+              "average_score": null,
+              "stars": {
+                "1": 0,
+                "2": 0,
+                "3": 0,
+                "4": 0,
+                "5": 0
+              },
+              "low_star_count": 0,
+              "positive_count": 0,
+              "complaint_themes": [],
+              "positive_themes": []
             }
           ],
           "monthly": [
@@ -7235,12 +7275,12 @@
         "brand": "Little Lifely",
         "platform": "Trustpilot",
         "label": "Little Lifely Trustpilot",
-        "records": 116,
+        "records": 117,
         "first_review_at": "2026-05-18T02:56:25Z",
-        "last_review_at": "2026-10-07T10:29:42Z",
+        "last_review_at": "2026-10-11T12:26:15Z",
         "method": "AU-only derivative of the verified Watchtower review history",
         "limitation": "Only records with a defensible Australian country/state attribution are included; unknown and non-Australian records are excluded.",
-        "region_records": 116,
+        "region_records": 117,
         "region_unavailable_records": 0,
         "region_source": "Public reviewer country supplied by Trustpilot."
       },
@@ -8145,25 +8185,25 @@
           "label": "5 Oct–11 Oct 2026",
           "start": "2026-10-05",
           "end": "2026-10-11",
-          "is_partial": true,
-          "review_count": 9,
+          "is_partial": false,
+          "review_count": 10,
           "average_score": 5.0,
           "stars": {
             "1": 0,
             "2": 0,
             "3": 0,
             "4": 0,
-            "5": 9
+            "5": 10
           },
           "low_star_count": 0,
-          "positive_count": 9,
+          "positive_count": 10,
           "complaint_themes": [],
           "positive_themes": [
             {
               "theme": "shipping_positive",
               "label": "Fast or clear delivery",
               "count": 4,
-              "share": 44.4,
+              "share": 40.0,
               "previous_count": 4,
               "delta_vs_previous": 0,
               "example": {
@@ -8176,10 +8216,10 @@
             {
               "theme": "other",
               "label": "Other feedback",
-              "count": 2,
-              "share": 22.2,
+              "count": 3,
+              "share": 30.0,
               "previous_count": 1,
-              "delta_vs_previous": 1,
+              "delta_vs_previous": 2,
               "example": {
                 "rating": 5,
                 "date": "2026-10-05T07:55:04Z",
@@ -8192,7 +8232,7 @@
               "theme": "comfort_product_love",
               "label": "Comfort and product feel",
               "count": 2,
-              "share": 22.2,
+              "share": 20.0,
               "previous_count": 10,
               "delta_vs_previous": -8,
               "example": {
@@ -8206,7 +8246,7 @@
               "theme": "easy_setup_conversion",
               "label": "Easy setup / quick transform",
               "count": 1,
-              "share": 11.1,
+              "share": 10.0,
               "previous_count": 0,
               "delta_vs_previous": 1,
               "example": {
@@ -8217,6 +8257,26 @@
               }
             }
           ]
+        },
+        {
+          "key": "2026-10-12",
+          "label": "12 Oct–18 Oct 2026",
+          "start": "2026-10-12",
+          "end": "2026-10-18",
+          "is_partial": true,
+          "review_count": 0,
+          "average_score": null,
+          "stars": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0
+          },
+          "low_star_count": 0,
+          "positive_count": 0,
+          "complaint_themes": [],
+          "positive_themes": []
         }
       ],
       "monthly": [
@@ -8559,24 +8619,24 @@
           "start": "2026-10-01",
           "end": "2026-10-31",
           "is_partial": true,
-          "review_count": 17,
+          "review_count": 18,
           "average_score": 5.0,
           "stars": {
             "1": 0,
             "2": 0,
             "3": 0,
             "4": 0,
-            "5": 17
+            "5": 18
           },
           "low_star_count": 0,
-          "positive_count": 17,
+          "positive_count": 18,
           "complaint_themes": [],
           "positive_themes": [
             {
               "theme": "comfort_product_love",
               "label": "Comfort and product feel",
               "count": 7,
-              "share": 41.2,
+              "share": 38.9,
               "previous_count": 27,
               "delta_vs_previous": -20,
               "example": {
@@ -8590,7 +8650,7 @@
               "theme": "shipping_positive",
               "label": "Fast or clear delivery",
               "count": 6,
-              "share": 35.3,
+              "share": 33.3,
               "previous_count": 9,
               "delta_vs_previous": -3,
               "example": {
@@ -8603,10 +8663,10 @@
             {
               "theme": "other",
               "label": "Other feedback",
-              "count": 3,
-              "share": 17.6,
+              "count": 4,
+              "share": 22.2,
               "previous_count": 2,
-              "delta_vs_previous": 1,
+              "delta_vs_previous": 2,
               "example": {
                 "rating": 5,
                 "date": "2026-10-01T12:18:57Z",
@@ -8619,7 +8679,7 @@
               "theme": "easy_setup_conversion",
               "label": "Easy setup / quick transform",
               "count": 1,
-              "share": 5.9,
+              "share": 5.6,
               "previous_count": 5,
               "delta_vs_previous": -4,
               "example": {
@@ -8636,7 +8696,7 @@
         {
           "key": "AU",
           "label": "Australia",
-          "records": 116,
+          "records": 117,
           "weekly": [
             {
               "key": "2026-05-18",
@@ -9538,25 +9598,25 @@
               "label": "5 Oct–11 Oct 2026",
               "start": "2026-10-05",
               "end": "2026-10-11",
-              "is_partial": true,
-              "review_count": 9,
+              "is_partial": false,
+              "review_count": 10,
               "average_score": 5.0,
               "stars": {
                 "1": 0,
                 "2": 0,
                 "3": 0,
                 "4": 0,
-                "5": 9
+                "5": 10
               },
               "low_star_count": 0,
-              "positive_count": 9,
+              "positive_count": 10,
               "complaint_themes": [],
               "positive_themes": [
                 {
                   "theme": "shipping_positive",
                   "label": "Fast or clear delivery",
                   "count": 4,
-                  "share": 44.4,
+                  "share": 40.0,
                   "previous_count": 4,
                   "delta_vs_previous": 0,
                   "example": {
@@ -9569,10 +9629,10 @@
                 {
                   "theme": "other",
                   "label": "Other feedback",
-                  "count": 2,
-                  "share": 22.2,
+                  "count": 3,
+                  "share": 30.0,
                   "previous_count": 1,
-                  "delta_vs_previous": 1,
+                  "delta_vs_previous": 2,
                   "example": {
                     "rating": 5,
                     "date": "2026-10-05T07:55:04Z",
@@ -9585,7 +9645,7 @@
                   "theme": "comfort_product_love",
                   "label": "Comfort and product feel",
                   "count": 2,
-                  "share": 22.2,
+                  "share": 20.0,
                   "previous_count": 10,
                   "delta_vs_previous": -8,
                   "example": {
@@ -9599,7 +9659,7 @@
                   "theme": "easy_setup_conversion",
                   "label": "Easy setup / quick transform",
                   "count": 1,
-                  "share": 11.1,
+                  "share": 10.0,
                   "previous_count": 0,
                   "delta_vs_previous": 1,
                   "example": {
@@ -9610,6 +9670,26 @@
                   }
                 }
               ]
+            },
+            {
+              "key": "2026-10-12",
+              "label": "12 Oct–18 Oct 2026",
+              "start": "2026-10-12",
+              "end": "2026-10-18",
+              "is_partial": true,
+              "review_count": 0,
+              "average_score": null,
+              "stars": {
+                "1": 0,
+                "2": 0,
+                "3": 0,
+                "4": 0,
+                "5": 0
+              },
+              "low_star_count": 0,
+              "positive_count": 0,
+              "complaint_themes": [],
+              "positive_themes": []
             }
           ],
           "monthly": [
@@ -9952,24 +10032,24 @@
               "start": "2026-10-01",
               "end": "2026-10-31",
               "is_partial": true,
-              "review_count": 17,
+              "review_count": 18,
               "average_score": 5.0,
               "stars": {
                 "1": 0,
                 "2": 0,
                 "3": 0,
                 "4": 0,
-                "5": 17
+                "5": 18
               },
               "low_star_count": 0,
-              "positive_count": 17,
+              "positive_count": 18,
               "complaint_themes": [],
               "positive_themes": [
                 {
                   "theme": "comfort_product_love",
                   "label": "Comfort and product feel",
                   "count": 7,
-                  "share": 41.2,
+                  "share": 38.9,
                   "previous_count": 27,
                   "delta_vs_previous": -20,
                   "example": {
@@ -9983,7 +10063,7 @@
                   "theme": "shipping_positive",
                   "label": "Fast or clear delivery",
                   "count": 6,
-                  "share": 35.3,
+                  "share": 33.3,
                   "previous_count": 9,
                   "delta_vs_previous": -3,
                   "example": {
@@ -9996,10 +10076,10 @@
                 {
                   "theme": "other",
                   "label": "Other feedback",
-                  "count": 3,
-                  "share": 17.6,
+                  "count": 4,
+                  "share": 22.2,
                   "previous_count": 2,
-                  "delta_vs_previous": 1,
+                  "delta_vs_previous": 2,
                   "example": {
                     "rating": 5,
                     "date": "2026-10-01T12:18:57Z",
@@ -10012,7 +10092,7 @@
                   "theme": "easy_setup_conversion",
                   "label": "Easy setup / quick transform",
                   "count": 1,
-                  "share": 5.9,
+                  "share": 5.6,
                   "previous_count": 5,
                   "delta_vs_previous": -4,
                   "example": {
@@ -10537,6 +10617,26 @@
           "label": "5 Oct–11 Oct 2026",
           "start": "2026-10-05",
           "end": "2026-10-11",
+          "is_partial": false,
+          "review_count": 0,
+          "average_score": null,
+          "stars": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0
+          },
+          "low_star_count": 0,
+          "positive_count": 0,
+          "complaint_themes": [],
+          "positive_themes": []
+        },
+        {
+          "key": "2026-10-12",
+          "label": "12 Oct–18 Oct 2026",
+          "start": "2026-10-12",
+          "end": "2026-10-18",
           "is_partial": true,
           "review_count": 0,
           "average_score": null,
@@ -11240,6 +11340,26 @@
               "label": "5 Oct–11 Oct 2026",
               "start": "2026-10-05",
               "end": "2026-10-11",
+              "is_partial": false,
+              "review_count": 0,
+              "average_score": null,
+              "stars": {
+                "1": 0,
+                "2": 0,
+                "3": 0,
+                "4": 0,
+                "5": 0
+              },
+              "low_star_count": 0,
+              "positive_count": 0,
+              "complaint_themes": [],
+              "positive_themes": []
+            },
+            {
+              "key": "2026-10-12",
+              "label": "12 Oct–18 Oct 2026",
+              "start": "2026-10-12",
+              "end": "2026-10-18",
               "is_partial": true,
               "review_count": 0,
               "average_score": null,
@@ -16559,6 +16679,26 @@
           "label": "5 Oct–11 Oct 2026",
           "start": "2026-10-05",
           "end": "2026-10-11",
+          "is_partial": false,
+          "review_count": 0,
+          "average_score": null,
+          "stars": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0
+          },
+          "low_star_count": 0,
+          "positive_count": 0,
+          "complaint_themes": [],
+          "positive_themes": []
+        },
+        {
+          "key": "2026-10-12",
+          "label": "12 Oct–18 Oct 2026",
+          "start": "2026-10-12",
+          "end": "2026-10-18",
           "is_partial": true,
           "review_count": 0,
           "average_score": null,
@@ -23829,6 +23969,26 @@
               "label": "5 Oct–11 Oct 2026",
               "start": "2026-10-05",
               "end": "2026-10-11",
+              "is_partial": false,
+              "review_count": 0,
+              "average_score": null,
+              "stars": {
+                "1": 0,
+                "2": 0,
+                "3": 0,
+                "4": 0,
+                "5": 0
+              },
+              "low_star_count": 0,
+              "positive_count": 0,
+              "complaint_themes": [],
+              "positive_themes": []
+            },
+            {
+              "key": "2026-10-12",
+              "label": "12 Oct–18 Oct 2026",
+              "start": "2026-10-12",
+              "end": "2026-10-18",
               "is_partial": true,
               "review_count": 0,
               "average_score": null,
@@ -29347,6 +29507,26 @@
           "label": "5 Oct–11 Oct 2026",
           "start": "2026-10-05",
           "end": "2026-10-11",
+          "is_partial": false,
+          "review_count": 0,
+          "average_score": null,
+          "stars": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0
+          },
+          "low_star_count": 0,
+          "positive_count": 0,
+          "complaint_themes": [],
+          "positive_themes": []
+        },
+        {
+          "key": "2026-10-12",
+          "label": "12 Oct–18 Oct 2026",
+          "start": "2026-10-12",
+          "end": "2026-10-18",
           "is_partial": true,
           "review_count": 0,
           "average_score": null,
@@ -33496,6 +33676,26 @@
               "label": "5 Oct–11 Oct 2026",
               "start": "2026-10-05",
               "end": "2026-10-11",
+              "is_partial": false,
+              "review_count": 0,
+              "average_score": null,
+              "stars": {
+                "1": 0,
+                "2": 0,
+                "3": 0,
+                "4": 0,
+                "5": 0
+              },
+              "low_star_count": 0,
+              "positive_count": 0,
+              "complaint_themes": [],
+              "positive_themes": []
+            },
+            {
+              "key": "2026-10-12",
+              "label": "12 Oct–18 Oct 2026",
+              "start": "2026-10-12",
+              "end": "2026-10-18",
               "is_partial": true,
               "review_count": 0,
               "average_score": null,
@@ -34337,12 +34537,12 @@
       "brand": "Little Lifely",
       "platform": "Trustpilot",
       "label": "Little Lifely Trustpilot",
-      "records": 116,
+      "records": 117,
       "first_review_at": "2026-05-18T02:56:25Z",
-      "last_review_at": "2026-10-07T10:29:42Z",
+      "last_review_at": "2026-10-11T12:26:15Z",
       "method": "AU-only derivative of the verified Watchtower review history",
       "limitation": "Only records with a defensible Australian country/state attribution are included; unknown and non-Australian records are excluded.",
-      "region_records": 116,
+      "region_records": 117,
       "region_unavailable_records": 0,
       "region_source": "Public reviewer country supplied by Trustpilot."
     },
