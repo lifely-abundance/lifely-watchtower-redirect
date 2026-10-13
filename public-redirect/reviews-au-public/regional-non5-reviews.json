@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "analysis_type": "public_au_non5_review_analysis",
-  "generated_at": "2026-10-12T06:04:23+00:00",
+  "generated_at": "2026-10-13T06:14:40+00:00",
   "coverage": {
     "from": "2026-01-02",
-    "through": "2026-10-11",
+    "through": "2026-10-12",
     "partial_month": "2026-10",
     "profiles": [
       "lifely.com.au",
@@ -18,9 +18,9 @@
       "Reviewer country is source-provided and is not order destination.",
       "Records without a source-provided Australian country are excluded."
     ],
-    "latest_non5_review": "2026-10-08",
+    "latest_non5_review": "2026-10-12",
     "partial_period": "2026-10",
-    "source_checked_at": "2026-10-12T06:04:22Z"
+    "source_checked_at": "2026-10-13T06:14:39Z"
   },
   "category_labels": {
     "delivery_delay_preorder_stock": "Delivery delay / preorder / stock promise",
@@ -44,21 +44,21 @@
     "wrong_missing_incomplete_order"
   ],
   "totals": {
-    "reviews": 124,
+    "reviews": 125,
     "ratings": {
       "1": 65,
       "2": 17,
-      "3": 16,
+      "3": 17,
       "4": 26
     },
     "profiles": {
-      "lifely.com.au": 117,
+      "lifely.com.au": 118,
       "littlelifely.com": 7
     },
     "categories": {
       "assembly_instructions_hardware": 2,
       "comfort_design_fit_usability": 15,
-      "courier_tracking_delivery_handling": 26,
+      "courier_tracking_delivery_handling": 27,
       "customer_service_communication": 6,
       "damaged_on_arrival": 4,
       "delivery_delay_preorder_stock": 22,
@@ -71,6 +71,19 @@
     }
   },
   "records": [
+    {
+      "region": "AU",
+      "profile": "lifely.com.au",
+      "month": "2026-10",
+      "quarter": "Q4 MTD",
+      "published_date": "2026-10-12",
+      "rating": 3,
+      "category": "courier_tracking_delivery_handling",
+      "delivery_related": true,
+      "title": "Nice Couch, Removable Covers for Easy Clean",
+      "excerpt": "I wasn't told my order would come in 2 shipments and had to reach out to find out, The cushions are really hard to get into the covers and then look mis shappen, I had to bring everything in from outside myself as the delivery driver stated he wasn't allowed to come in my home, If this is correct, maybe a company that can assist with bringing the furniture inside would be a better fit, especially because I paid over",
+      "url": "https://www.trustpilot.com/reviews/6acd3e54f189b305d2e088e1"
+    },
     {
       "region": "AU",
       "profile": "lifely.com.au",
