@@ -5,7 +5,7 @@
     "label": "Australia only",
     "rule": "Includes only source-attributed Australian reviews. Unknown and non-Australian records are excluded."
   },
-  "last_updated": "2026-10-13T06:14:40Z",
+  "last_updated": "2026-10-14T06:12:50Z",
   "metric_definition": "Captured AU review history only. Scores are calculated from dated, source-attributed Australian reviews and are not global platform scores.",
   "sources": [
     {
@@ -37,18 +37,18 @@
       "label": "Little Lifely Trustpilot",
       "url": "https://www.trustpilot.com/review/littlelifely.com",
       "score": 4.91,
-      "total_reviews": 117,
+      "total_reviews": 118,
       "score_delta": null,
       "review_delta": null,
       "to_next_0_1_est_reviews": null,
       "source_note": "Captured Australian review history only.",
       "color": "#00a76f",
-      "history_records": 117,
+      "history_records": 118,
       "history_first_review_at": "2026-05-18T02:56:25Z",
-      "history_last_review_at": "2026-10-11T12:26:15Z",
+      "history_last_review_at": "2026-10-13T14:16:57Z",
       "history_method": "AU-only derivative of the verified Watchtower review history",
       "history_limitation": "Only records with a defensible Australian country/state attribution are included; unknown and non-Australian records are excluded.",
-      "region_records": 117,
+      "region_records": 118,
       "region_unavailable_records": 0,
       "region_source": "Public reviewer country supplied by Trustpilot."
     },
@@ -7275,12 +7275,12 @@
         "brand": "Little Lifely",
         "platform": "Trustpilot",
         "label": "Little Lifely Trustpilot",
-        "records": 117,
+        "records": 118,
         "first_review_at": "2026-05-18T02:56:25Z",
-        "last_review_at": "2026-10-11T12:26:15Z",
+        "last_review_at": "2026-10-13T14:16:57Z",
         "method": "AU-only derivative of the verified Watchtower review history",
         "limitation": "Only records with a defensible Australian country/state attribution are included; unknown and non-Australian records are excluded.",
-        "region_records": 117,
+        "region_records": 118,
         "region_unavailable_records": 0,
         "region_source": "Public reviewer country supplied by Trustpilot."
       },
@@ -8264,19 +8264,34 @@
           "start": "2026-10-12",
           "end": "2026-10-18",
           "is_partial": true,
-          "review_count": 0,
-          "average_score": null,
+          "review_count": 1,
+          "average_score": 5.0,
           "stars": {
             "1": 0,
             "2": 0,
             "3": 0,
             "4": 0,
-            "5": 0
+            "5": 1
           },
           "low_star_count": 0,
-          "positive_count": 0,
+          "positive_count": 1,
           "complaint_themes": [],
-          "positive_themes": []
+          "positive_themes": [
+            {
+              "theme": "comfort_product_love",
+              "label": "Comfort and product feel",
+              "count": 1,
+              "share": 100.0,
+              "previous_count": 2,
+              "delta_vs_previous": -1,
+              "example": {
+                "rating": 5,
+                "date": "2026-10-13T14:16:57Z",
+                "text": "Built for a rough-and-tumble toddler We bought the King Single bed and matching mattress from Little Lifely for our two-year-old son, and we couldn't be happier with the frame. He's a very rough-and-tumble little boy who loves jumping around and playing on it, and it's handled everything he's throw…",
+                "url": "https://www.trustpilot.com/reviews/6ace2139390a956141a53c2e"
+              }
+            }
+          ]
         }
       ],
       "monthly": [
@@ -8619,26 +8634,26 @@
           "start": "2026-10-01",
           "end": "2026-10-31",
           "is_partial": true,
-          "review_count": 18,
+          "review_count": 19,
           "average_score": 5.0,
           "stars": {
             "1": 0,
             "2": 0,
             "3": 0,
             "4": 0,
-            "5": 18
+            "5": 19
           },
           "low_star_count": 0,
-          "positive_count": 18,
+          "positive_count": 19,
           "complaint_themes": [],
           "positive_themes": [
             {
               "theme": "comfort_product_love",
               "label": "Comfort and product feel",
-              "count": 7,
-              "share": 38.9,
+              "count": 8,
+              "share": 42.1,
               "previous_count": 27,
-              "delta_vs_previous": -20,
+              "delta_vs_previous": -19,
               "example": {
                 "rating": 5,
                 "date": "2026-10-01T00:54:31Z",
@@ -8650,7 +8665,7 @@
               "theme": "shipping_positive",
               "label": "Fast or clear delivery",
               "count": 6,
-              "share": 33.3,
+              "share": 31.6,
               "previous_count": 9,
               "delta_vs_previous": -3,
               "example": {
@@ -8664,7 +8679,7 @@
               "theme": "other",
               "label": "Other feedback",
               "count": 4,
-              "share": 22.2,
+              "share": 21.1,
               "previous_count": 2,
               "delta_vs_previous": 2,
               "example": {
@@ -8679,7 +8694,7 @@
               "theme": "easy_setup_conversion",
               "label": "Easy setup / quick transform",
               "count": 1,
-              "share": 5.6,
+              "share": 5.3,
               "previous_count": 5,
               "delta_vs_previous": -4,
               "example": {
@@ -8696,7 +8711,7 @@
         {
           "key": "AU",
           "label": "Australia",
-          "records": 117,
+          "records": 118,
           "weekly": [
             {
               "key": "2026-05-18",
@@ -9677,19 +9692,34 @@
               "start": "2026-10-12",
               "end": "2026-10-18",
               "is_partial": true,
-              "review_count": 0,
-              "average_score": null,
+              "review_count": 1,
+              "average_score": 5.0,
               "stars": {
                 "1": 0,
                 "2": 0,
                 "3": 0,
                 "4": 0,
-                "5": 0
+                "5": 1
               },
               "low_star_count": 0,
-              "positive_count": 0,
+              "positive_count": 1,
               "complaint_themes": [],
-              "positive_themes": []
+              "positive_themes": [
+                {
+                  "theme": "comfort_product_love",
+                  "label": "Comfort and product feel",
+                  "count": 1,
+                  "share": 100.0,
+                  "previous_count": 2,
+                  "delta_vs_previous": -1,
+                  "example": {
+                    "rating": 5,
+                    "date": "2026-10-13T14:16:57Z",
+                    "text": "Built for a rough-and-tumble toddler We bought the King Single bed and matching mattress from Little Lifely for our two-year-old son, and we couldn't be happier with the frame. He's a very rough-and-tumble little boy who loves jumping around and playing on it, and it's handled everything he's throw…",
+                    "url": "https://www.trustpilot.com/reviews/6ace2139390a956141a53c2e"
+                  }
+                }
+              ]
             }
           ],
           "monthly": [
@@ -10032,26 +10062,26 @@
               "start": "2026-10-01",
               "end": "2026-10-31",
               "is_partial": true,
-              "review_count": 18,
+              "review_count": 19,
               "average_score": 5.0,
               "stars": {
                 "1": 0,
                 "2": 0,
                 "3": 0,
                 "4": 0,
-                "5": 18
+                "5": 19
               },
               "low_star_count": 0,
-              "positive_count": 18,
+              "positive_count": 19,
               "complaint_themes": [],
               "positive_themes": [
                 {
                   "theme": "comfort_product_love",
                   "label": "Comfort and product feel",
-                  "count": 7,
-                  "share": 38.9,
+                  "count": 8,
+                  "share": 42.1,
                   "previous_count": 27,
-                  "delta_vs_previous": -20,
+                  "delta_vs_previous": -19,
                   "example": {
                     "rating": 5,
                     "date": "2026-10-01T00:54:31Z",
@@ -10063,7 +10093,7 @@
                   "theme": "shipping_positive",
                   "label": "Fast or clear delivery",
                   "count": 6,
-                  "share": 33.3,
+                  "share": 31.6,
                   "previous_count": 9,
                   "delta_vs_previous": -3,
                   "example": {
@@ -10077,7 +10107,7 @@
                   "theme": "other",
                   "label": "Other feedback",
                   "count": 4,
-                  "share": 22.2,
+                  "share": 21.1,
                   "previous_count": 2,
                   "delta_vs_previous": 2,
                   "example": {
@@ -10092,7 +10122,7 @@
                   "theme": "easy_setup_conversion",
                   "label": "Easy setup / quick transform",
                   "count": 1,
-                  "share": 5.6,
+                  "share": 5.3,
                   "previous_count": 5,
                   "delta_vs_previous": -4,
                   "example": {
@@ -34537,12 +34567,12 @@
       "brand": "Little Lifely",
       "platform": "Trustpilot",
       "label": "Little Lifely Trustpilot",
-      "records": 117,
+      "records": 118,
       "first_review_at": "2026-05-18T02:56:25Z",
-      "last_review_at": "2026-10-11T12:26:15Z",
+      "last_review_at": "2026-10-13T14:16:57Z",
       "method": "AU-only derivative of the verified Watchtower review history",
       "limitation": "Only records with a defensible Australian country/state attribution are included; unknown and non-Australian records are excluded.",
-      "region_records": 117,
+      "region_records": 118,
       "region_unavailable_records": 0,
       "region_source": "Public reviewer country supplied by Trustpilot."
     },
