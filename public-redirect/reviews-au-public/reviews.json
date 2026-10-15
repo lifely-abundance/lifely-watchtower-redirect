@@ -5,7 +5,7 @@
     "label": "Australia only",
     "rule": "Includes only source-attributed Australian reviews. Unknown and non-Australian records are excluded."
   },
-  "last_updated": "2026-10-14T06:12:50Z",
+  "last_updated": "2026-10-15T06:04:28Z",
   "metric_definition": "Captured AU review history only. Scores are calculated from dated, source-attributed Australian reviews and are not global platform scores.",
   "sources": [
     {
@@ -36,19 +36,19 @@
       "platform": "Trustpilot",
       "label": "Little Lifely Trustpilot",
       "url": "https://www.trustpilot.com/review/littlelifely.com",
-      "score": 4.91,
-      "total_reviews": 118,
+      "score": 4.88,
+      "total_reviews": 120,
       "score_delta": null,
       "review_delta": null,
       "to_next_0_1_est_reviews": null,
       "source_note": "Captured Australian review history only.",
       "color": "#00a76f",
-      "history_records": 118,
+      "history_records": 120,
       "history_first_review_at": "2026-05-18T02:56:25Z",
-      "history_last_review_at": "2026-10-13T14:16:57Z",
+      "history_last_review_at": "2026-10-15T05:00:28Z",
       "history_method": "AU-only derivative of the verified Watchtower review history",
       "history_limitation": "Only records with a defensible Australian country/state attribution are included; unknown and non-Australian records are excluded.",
-      "region_records": 118,
+      "region_records": 120,
       "region_unavailable_records": 0,
       "region_source": "Public reviewer country supplied by Trustpilot."
     },
@@ -7275,12 +7275,12 @@
         "brand": "Little Lifely",
         "platform": "Trustpilot",
         "label": "Little Lifely Trustpilot",
-        "records": 118,
+        "records": 120,
         "first_review_at": "2026-05-18T02:56:25Z",
-        "last_review_at": "2026-10-13T14:16:57Z",
+        "last_review_at": "2026-10-15T05:00:28Z",
         "method": "AU-only derivative of the verified Watchtower review history",
         "limitation": "Only records with a defensible Australian country/state attribution are included; unknown and non-Australian records are excluded.",
-        "region_records": 118,
+        "region_records": 120,
         "region_unavailable_records": 0,
         "region_source": "Public reviewer country supplied by Trustpilot."
       },
@@ -8264,26 +8264,42 @@
           "start": "2026-10-12",
           "end": "2026-10-18",
           "is_partial": true,
-          "review_count": 1,
-          "average_score": 5.0,
+          "review_count": 3,
+          "average_score": 4.0,
           "stars": {
             "1": 0,
-            "2": 0,
+            "2": 1,
             "3": 0,
             "4": 0,
-            "5": 1
+            "5": 2
           },
-          "low_star_count": 0,
-          "positive_count": 1,
-          "complaint_themes": [],
+          "low_star_count": 1,
+          "positive_count": 2,
+          "complaint_themes": [
+            {
+              "theme": "damage_fault_quality",
+              "label": "Damage, faults, or product QA",
+              "count": 1,
+              "share": 100.0,
+              "previous_count": 0,
+              "delta_vs_previous": 1,
+              "example": {
+                "rating": 2,
+                "date": "2026-10-15T05:00:28Z",
+                "text": "The bed came with marks and tears… The bed came with marks and tears throughout and one zipper already broken to attach the cover- paid for a double and mattress and it seems cheap - wouldn’t buy again",
+                "url": "https://www.trustpilot.com/reviews/6ad041cca6062b021e72df7f"
+              },
+              "recommended_action": "Route repeated defects to SKU-level QA with photos, order/batch context, and a split between transit and manufacturing damage."
+            }
+          ],
           "positive_themes": [
             {
               "theme": "comfort_product_love",
               "label": "Comfort and product feel",
-              "count": 1,
+              "count": 2,
               "share": 100.0,
               "previous_count": 2,
-              "delta_vs_previous": -1,
+              "delta_vs_previous": 0,
               "example": {
                 "rating": 5,
                 "date": "2026-10-13T14:16:57Z",
@@ -8634,26 +8650,42 @@
           "start": "2026-10-01",
           "end": "2026-10-31",
           "is_partial": true,
-          "review_count": 19,
-          "average_score": 5.0,
+          "review_count": 21,
+          "average_score": 4.86,
           "stars": {
             "1": 0,
-            "2": 0,
+            "2": 1,
             "3": 0,
             "4": 0,
-            "5": 19
+            "5": 20
           },
-          "low_star_count": 0,
-          "positive_count": 19,
-          "complaint_themes": [],
+          "low_star_count": 1,
+          "positive_count": 20,
+          "complaint_themes": [
+            {
+              "theme": "damage_fault_quality",
+              "label": "Damage, faults, or product QA",
+              "count": 1,
+              "share": 100.0,
+              "previous_count": 0,
+              "delta_vs_previous": 1,
+              "example": {
+                "rating": 2,
+                "date": "2026-10-15T05:00:28Z",
+                "text": "The bed came with marks and tears… The bed came with marks and tears throughout and one zipper already broken to attach the cover- paid for a double and mattress and it seems cheap - wouldn’t buy again",
+                "url": "https://www.trustpilot.com/reviews/6ad041cca6062b021e72df7f"
+              },
+              "recommended_action": "Route repeated defects to SKU-level QA with photos, order/batch context, and a split between transit and manufacturing damage."
+            }
+          ],
           "positive_themes": [
             {
               "theme": "comfort_product_love",
               "label": "Comfort and product feel",
-              "count": 8,
-              "share": 42.1,
+              "count": 9,
+              "share": 45.0,
               "previous_count": 27,
-              "delta_vs_previous": -19,
+              "delta_vs_previous": -18,
               "example": {
                 "rating": 5,
                 "date": "2026-10-01T00:54:31Z",
@@ -8665,7 +8697,7 @@
               "theme": "shipping_positive",
               "label": "Fast or clear delivery",
               "count": 6,
-              "share": 31.6,
+              "share": 30.0,
               "previous_count": 9,
               "delta_vs_previous": -3,
               "example": {
@@ -8679,7 +8711,7 @@
               "theme": "other",
               "label": "Other feedback",
               "count": 4,
-              "share": 21.1,
+              "share": 20.0,
               "previous_count": 2,
               "delta_vs_previous": 2,
               "example": {
@@ -8694,7 +8726,7 @@
               "theme": "easy_setup_conversion",
               "label": "Easy setup / quick transform",
               "count": 1,
-              "share": 5.3,
+              "share": 5.0,
               "previous_count": 5,
               "delta_vs_previous": -4,
               "example": {
@@ -8711,7 +8743,7 @@
         {
           "key": "AU",
           "label": "Australia",
-          "records": 118,
+          "records": 120,
           "weekly": [
             {
               "key": "2026-05-18",
@@ -9692,26 +9724,42 @@
               "start": "2026-10-12",
               "end": "2026-10-18",
               "is_partial": true,
-              "review_count": 1,
-              "average_score": 5.0,
+              "review_count": 3,
+              "average_score": 4.0,
               "stars": {
                 "1": 0,
-                "2": 0,
+                "2": 1,
                 "3": 0,
                 "4": 0,
-                "5": 1
+                "5": 2
               },
-              "low_star_count": 0,
-              "positive_count": 1,
-              "complaint_themes": [],
+              "low_star_count": 1,
+              "positive_count": 2,
+              "complaint_themes": [
+                {
+                  "theme": "damage_fault_quality",
+                  "label": "Damage, faults, or product QA",
+                  "count": 1,
+                  "share": 100.0,
+                  "previous_count": 0,
+                  "delta_vs_previous": 1,
+                  "example": {
+                    "rating": 2,
+                    "date": "2026-10-15T05:00:28Z",
+                    "text": "The bed came with marks and tears… The bed came with marks and tears throughout and one zipper already broken to attach the cover- paid for a double and mattress and it seems cheap - wouldn’t buy again",
+                    "url": "https://www.trustpilot.com/reviews/6ad041cca6062b021e72df7f"
+                  },
+                  "recommended_action": "Route repeated defects to SKU-level QA with photos, order/batch context, and a split between transit and manufacturing damage."
+                }
+              ],
               "positive_themes": [
                 {
                   "theme": "comfort_product_love",
                   "label": "Comfort and product feel",
-                  "count": 1,
+                  "count": 2,
                   "share": 100.0,
                   "previous_count": 2,
-                  "delta_vs_previous": -1,
+                  "delta_vs_previous": 0,
                   "example": {
                     "rating": 5,
                     "date": "2026-10-13T14:16:57Z",
@@ -10062,26 +10110,42 @@
               "start": "2026-10-01",
               "end": "2026-10-31",
               "is_partial": true,
-              "review_count": 19,
-              "average_score": 5.0,
+              "review_count": 21,
+              "average_score": 4.86,
               "stars": {
                 "1": 0,
-                "2": 0,
+                "2": 1,
                 "3": 0,
                 "4": 0,
-                "5": 19
+                "5": 20
               },
-              "low_star_count": 0,
-              "positive_count": 19,
-              "complaint_themes": [],
+              "low_star_count": 1,
+              "positive_count": 20,
+              "complaint_themes": [
+                {
+                  "theme": "damage_fault_quality",
+                  "label": "Damage, faults, or product QA",
+                  "count": 1,
+                  "share": 100.0,
+                  "previous_count": 0,
+                  "delta_vs_previous": 1,
+                  "example": {
+                    "rating": 2,
+                    "date": "2026-10-15T05:00:28Z",
+                    "text": "The bed came with marks and tears… The bed came with marks and tears throughout and one zipper already broken to attach the cover- paid for a double and mattress and it seems cheap - wouldn’t buy again",
+                    "url": "https://www.trustpilot.com/reviews/6ad041cca6062b021e72df7f"
+                  },
+                  "recommended_action": "Route repeated defects to SKU-level QA with photos, order/batch context, and a split between transit and manufacturing damage."
+                }
+              ],
               "positive_themes": [
                 {
                   "theme": "comfort_product_love",
                   "label": "Comfort and product feel",
-                  "count": 8,
-                  "share": 42.1,
+                  "count": 9,
+                  "share": 45.0,
                   "previous_count": 27,
-                  "delta_vs_previous": -19,
+                  "delta_vs_previous": -18,
                   "example": {
                     "rating": 5,
                     "date": "2026-10-01T00:54:31Z",
@@ -10093,7 +10157,7 @@
                   "theme": "shipping_positive",
                   "label": "Fast or clear delivery",
                   "count": 6,
-                  "share": 31.6,
+                  "share": 30.0,
                   "previous_count": 9,
                   "delta_vs_previous": -3,
                   "example": {
@@ -10107,7 +10171,7 @@
                   "theme": "other",
                   "label": "Other feedback",
                   "count": 4,
-                  "share": 21.1,
+                  "share": 20.0,
                   "previous_count": 2,
                   "delta_vs_previous": 2,
                   "example": {
@@ -10122,7 +10186,7 @@
                   "theme": "easy_setup_conversion",
                   "label": "Easy setup / quick transform",
                   "count": 1,
-                  "share": 5.3,
+                  "share": 5.0,
                   "previous_count": 5,
                   "delta_vs_previous": -4,
                   "example": {
@@ -34567,12 +34631,12 @@
       "brand": "Little Lifely",
       "platform": "Trustpilot",
       "label": "Little Lifely Trustpilot",
-      "records": 118,
+      "records": 120,
       "first_review_at": "2026-05-18T02:56:25Z",
-      "last_review_at": "2026-10-13T14:16:57Z",
+      "last_review_at": "2026-10-15T05:00:28Z",
       "method": "AU-only derivative of the verified Watchtower review history",
       "limitation": "Only records with a defensible Australian country/state attribution are included; unknown and non-Australian records are excluded.",
-      "region_records": 118,
+      "region_records": 120,
       "region_unavailable_records": 0,
       "region_source": "Public reviewer country supplied by Trustpilot."
     },
