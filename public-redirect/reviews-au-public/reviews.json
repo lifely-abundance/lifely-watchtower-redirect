@@ -5,7 +5,7 @@
     "label": "Australia only",
     "rule": "Includes only source-attributed Australian reviews. Unknown and non-Australian records are excluded."
   },
-  "last_updated": "2026-10-15T06:04:28Z",
+  "last_updated": "2026-10-17T06:03:26Z",
   "metric_definition": "Captured AU review history only. Scores are calculated from dated, source-attributed Australian reviews and are not global platform scores.",
   "sources": [
     {
@@ -14,19 +14,19 @@
       "platform": "Trustpilot",
       "label": "Lifely Trustpilot",
       "url": "https://www.trustpilot.com/review/lifely.com.au",
-      "score": 3.98,
-      "total_reviews": 297,
+      "score": 3.99,
+      "total_reviews": 302,
       "score_delta": null,
       "review_delta": null,
       "to_next_0_1_est_reviews": null,
       "source_note": "Captured Australian review history only.",
       "color": "#00a76f",
-      "history_records": 297,
+      "history_records": 302,
       "history_first_review_at": "2026-03-30T03:09:17Z",
-      "history_last_review_at": "2026-10-12T22:08:52Z",
+      "history_last_review_at": "2026-10-16T16:30:44Z",
       "history_method": "AU-only derivative of the verified Watchtower review history",
       "history_limitation": "Only records with a defensible Australian country/state attribution are included; unknown and non-Australian records are excluded.",
-      "region_records": 297,
+      "region_records": 302,
       "region_unavailable_records": 0,
       "region_source": "Public reviewer country supplied by Trustpilot."
     },
@@ -36,19 +36,19 @@
       "platform": "Trustpilot",
       "label": "Little Lifely Trustpilot",
       "url": "https://www.trustpilot.com/review/littlelifely.com",
-      "score": 4.88,
-      "total_reviews": 120,
+      "score": 4.89,
+      "total_reviews": 124,
       "score_delta": null,
       "review_delta": null,
       "to_next_0_1_est_reviews": null,
       "source_note": "Captured Australian review history only.",
       "color": "#00a76f",
-      "history_records": 120,
+      "history_records": 124,
       "history_first_review_at": "2026-05-18T02:56:25Z",
-      "history_last_review_at": "2026-10-15T05:00:28Z",
+      "history_last_review_at": "2026-10-16T05:20:24Z",
       "history_method": "AU-only derivative of the verified Watchtower review history",
       "history_limitation": "Only records with a defensible Australian country/state attribution are included; unknown and non-Australian records are excluded.",
-      "region_records": 120,
+      "region_records": 124,
       "region_unavailable_records": 0,
       "region_source": "Public reviewer country supplied by Trustpilot."
     },
@@ -128,12 +128,12 @@
         "brand": "Lifely",
         "platform": "Trustpilot",
         "label": "Lifely Trustpilot",
-        "records": 297,
+        "records": 302,
         "first_review_at": "2026-03-30T03:09:17Z",
-        "last_review_at": "2026-10-12T22:08:52Z",
+        "last_review_at": "2026-10-16T16:30:44Z",
         "method": "AU-only derivative of the verified Watchtower review history",
         "limitation": "Only records with a defensible Australian country/state attribution are included; unknown and non-Australian records are excluded.",
-        "region_records": 297,
+        "region_records": 302,
         "region_unavailable_records": 0,
         "region_source": "Public reviewer country supplied by Trustpilot."
       },
@@ -2509,22 +2509,22 @@
           "end": "2026-10-04",
           "is_partial": false,
           "review_count": 9,
-          "average_score": 4.0,
+          "average_score": 4.11,
           "stars": {
             "1": 1,
-            "2": 1,
-            "3": 0,
+            "2": 0,
+            "3": 1,
             "4": 2,
             "5": 5
           },
-          "low_star_count": 2,
+          "low_star_count": 1,
           "positive_count": 7,
           "complaint_themes": [
             {
               "theme": "support_response_resolution",
               "label": "Support response / resolution loop",
               "count": 1,
-              "share": 50.0,
+              "share": 100.0,
               "previous_count": 0,
               "delta_vs_previous": 1,
               "example": {
@@ -2534,21 +2534,6 @@
                 "url": "https://www.trustpilot.com/reviews/6abb3d8bd5471ac4603dbe53"
               },
               "recommended_action": "Use a named low-star rescue owner, a clear first-response window, and a close-the-loop update after resolution."
-            },
-            {
-              "theme": "returns_trial_policy_confusion",
-              "label": "Returns / trial-policy confusion",
-              "count": 1,
-              "share": 50.0,
-              "previous_count": 0,
-              "delta_vs_previous": 1,
-              "example": {
-                "rating": 2,
-                "date": "2026-10-01T07:12:37Z",
-                "text": "I think i am going to return it I think i am going to return it. I dont like that the headrest keeps slipping out the more I recline.",
-                "url": "https://www.trustpilot.com/reviews/6abdebc521841814d704fdd5"
-              },
-              "recommended_action": "Make return costs, eligibility, pickup rules, store-credit terms, and exceptions unmistakable before purchase."
             }
           ],
           "positive_themes": [
@@ -2648,8 +2633,8 @@
               "label": "Returns / trial-policy confusion",
               "count": 1,
               "share": 20.0,
-              "previous_count": 1,
-              "delta_vs_previous": 0,
+              "previous_count": 0,
+              "delta_vs_previous": 1,
               "example": {
                 "rating": 1,
                 "date": "2026-10-05T03:08:45Z",
@@ -2726,19 +2711,78 @@
           "start": "2026-10-12",
           "end": "2026-10-18",
           "is_partial": true,
-          "review_count": 1,
-          "average_score": 3.0,
+          "review_count": 6,
+          "average_score": 4.0,
           "stars": {
-            "1": 0,
+            "1": 1,
             "2": 0,
             "3": 1,
             "4": 0,
-            "5": 0
+            "5": 4
           },
-          "low_star_count": 0,
-          "positive_count": 0,
-          "complaint_themes": [],
-          "positive_themes": []
+          "low_star_count": 1,
+          "positive_count": 4,
+          "complaint_themes": [
+            {
+              "theme": "damage_fault_quality",
+              "label": "Damage, faults, or product QA",
+              "count": 1,
+              "share": 100.0,
+              "previous_count": 0,
+              "delta_vs_previous": 1,
+              "example": {
+                "rating": 1,
+                "date": "2026-10-16T16:30:44Z",
+                "text": "Disappointed in the hype I bought this chair, built it, it does not recline 180 degrees, it has a slight tilt but it’s more like slightly leaning back on a couch, not a 180 degree recline",
+                "url": "https://www.trustpilot.com/reviews/6ad23514a7047daeba73c23d"
+              },
+              "recommended_action": "Route repeated defects to SKU-level QA with photos, order/batch context, and a split between transit and manufacturing damage."
+            }
+          ],
+          "positive_themes": [
+            {
+              "theme": "shipping_positive",
+              "label": "Fast or clear delivery",
+              "count": 2,
+              "share": 50.0,
+              "previous_count": 0,
+              "delta_vs_previous": 2,
+              "example": {
+                "rating": 5,
+                "date": "2026-10-15T06:30:59Z",
+                "text": "My lounge got misplaced when out for… My lounge got misplaced when out for delivery but the customer experience I received from Marianne was exceptional! Thanks so much for sorting this out for me",
+                "url": "https://www.trustpilot.com/reviews/6ad0570308c4274e71c45714"
+              }
+            },
+            {
+              "theme": "service_recovery",
+              "label": "Helpful service / recovery",
+              "count": 1,
+              "share": 25.0,
+              "previous_count": 1,
+              "delta_vs_previous": 0,
+              "example": {
+                "rating": 5,
+                "date": "2026-10-16T02:13:07Z",
+                "text": "Little lifely/cocoon bed & some delivery drama! I ordered the little lifely package & cocoon bed. I LOVEEE my products, such good quality, comfy mattresses and great prices, I assembled myself without problem (worked up a sweat tho). Now, I actually had the WORST DELIVERY experience EVER with their…",
+                "url": "https://www.trustpilot.com/reviews/6ad16c13ed63f45790e6b958"
+              }
+            },
+            {
+              "theme": "easy_setup_conversion",
+              "label": "Easy setup / quick transform",
+              "count": 1,
+              "share": 25.0,
+              "previous_count": 0,
+              "delta_vs_previous": 1,
+              "example": {
+                "rating": 5,
+                "date": "2026-10-16T10:34:58Z",
+                "text": "Radiant mattress and Irisa bed frame We recently purchased the Radiant mattress and Irisa bed frame and are very satisfied with the overall experience. Ordering was straightforward and the delivery arrived within the timeframe communicated by the company. Both products were very well packed, and as…",
+                "url": "https://www.trustpilot.com/reviews/6acf30acd39dc3b62ba3d940"
+              }
+            }
+          ]
         }
       ],
       "monthly": [
@@ -3565,33 +3609,18 @@
           "start": "2026-10-01",
           "end": "2026-10-31",
           "is_partial": true,
-          "review_count": 15,
-          "average_score": 3.27,
+          "review_count": 20,
+          "average_score": 3.55,
           "stars": {
-            "1": 5,
-            "2": 1,
-            "3": 1,
+            "1": 6,
+            "2": 0,
+            "3": 2,
             "4": 1,
-            "5": 7
+            "5": 11
           },
           "low_star_count": 6,
-          "positive_count": 8,
+          "positive_count": 12,
           "complaint_themes": [
-            {
-              "theme": "returns_trial_policy_confusion",
-              "label": "Returns / trial-policy confusion",
-              "count": 2,
-              "share": 33.3,
-              "previous_count": 0,
-              "delta_vs_previous": 2,
-              "example": {
-                "rating": 2,
-                "date": "2026-10-01T07:12:37Z",
-                "text": "I think i am going to return it I think i am going to return it. I dont like that the headrest keeps slipping out the more I recline.",
-                "url": "https://www.trustpilot.com/reviews/6abdebc521841814d704fdd5"
-              },
-              "recommended_action": "Make return costs, eligibility, pickup rules, store-credit terms, and exceptions unmistakable before purchase."
-            },
             {
               "theme": "support_response_resolution",
               "label": "Support response / resolution loop",
@@ -3606,6 +3635,21 @@
                 "url": "https://www.trustpilot.com/reviews/6ac49a23ae98c6e7f300ea76"
               },
               "recommended_action": "Use a named low-star rescue owner, a clear first-response window, and a close-the-loop update after resolution."
+            },
+            {
+              "theme": "returns_trial_policy_confusion",
+              "label": "Returns / trial-policy confusion",
+              "count": 1,
+              "share": 16.7,
+              "previous_count": 0,
+              "delta_vs_previous": 1,
+              "example": {
+                "rating": 1,
+                "date": "2026-10-05T03:08:45Z",
+                "text": "Absolutely appalling Absolutely appalling. The item delivered does not match the description on their website. Lifely admitted, in writting, that the product does not match the description on the website. Under Australian Consumer Law I am entitled to 100% refund. Insultingly, the customer service…",
+                "url": "https://www.trustpilot.com/reviews/6ac2f89dd0fa23c7c86c9472"
+              },
+              "recommended_action": "Make return costs, eligibility, pickup rules, store-credit terms, and exceptions unmistakable before purchase."
             },
             {
               "theme": "comfort_fit_expectation",
@@ -3643,7 +3687,7 @@
               "theme": "comfort_product_love",
               "label": "Comfort and product feel",
               "count": 5,
-              "share": 62.5,
+              "share": 41.7,
               "previous_count": 16,
               "delta_vs_previous": -11,
               "example": {
@@ -3654,26 +3698,12 @@
               }
             },
             {
-              "theme": "easy_setup_conversion",
-              "label": "Easy setup / quick transform",
-              "count": 1,
-              "share": 12.5,
-              "previous_count": 7,
-              "delta_vs_previous": -6,
-              "example": {
-                "rating": 5,
-                "date": "2026-10-02T03:23:40Z",
-                "text": "Lifely's Desk Chair The product is very simple to construct, and very well thought about for self maintenance! Each part of what I bought allows for opening/refluffing, which not a lot of places think of. If you weren't satisfied with the level of fluff in the seat, you can easily unzip it and add…",
-                "url": "https://www.trustpilot.com/reviews/6abf079c72ba7beb3a02d3d4"
-              }
-            },
-            {
               "theme": "shipping_positive",
               "label": "Fast or clear delivery",
-              "count": 1,
-              "share": 12.5,
+              "count": 3,
+              "share": 25.0,
               "previous_count": 10,
-              "delta_vs_previous": -9,
+              "delta_vs_previous": -7,
               "example": {
                 "rating": 4,
                 "date": "2026-10-03T10:14:47Z",
@@ -3682,12 +3712,26 @@
               }
             },
             {
+              "theme": "easy_setup_conversion",
+              "label": "Easy setup / quick transform",
+              "count": 2,
+              "share": 16.7,
+              "previous_count": 7,
+              "delta_vs_previous": -5,
+              "example": {
+                "rating": 5,
+                "date": "2026-10-02T03:23:40Z",
+                "text": "Lifely's Desk Chair The product is very simple to construct, and very well thought about for self maintenance! Each part of what I bought allows for opening/refluffing, which not a lot of places think of. If you weren't satisfied with the level of fluff in the seat, you can easily unzip it and add…",
+                "url": "https://www.trustpilot.com/reviews/6abf079c72ba7beb3a02d3d4"
+              }
+            },
+            {
               "theme": "service_recovery",
               "label": "Helpful service / recovery",
-              "count": 1,
-              "share": 12.5,
+              "count": 2,
+              "share": 16.7,
               "previous_count": 8,
-              "delta_vs_previous": -7,
+              "delta_vs_previous": -6,
               "example": {
                 "rating": 5,
                 "date": "2026-10-05T05:13:29Z",
@@ -3702,7 +3746,7 @@
         {
           "key": "AU",
           "label": "Australia",
-          "records": 297,
+          "records": 302,
           "weekly": [
             {
               "key": "2026-03-30",
@@ -6075,22 +6119,22 @@
               "end": "2026-10-04",
               "is_partial": false,
               "review_count": 9,
-              "average_score": 4.0,
+              "average_score": 4.11,
               "stars": {
                 "1": 1,
-                "2": 1,
-                "3": 0,
+                "2": 0,
+                "3": 1,
                 "4": 2,
                 "5": 5
               },
-              "low_star_count": 2,
+              "low_star_count": 1,
               "positive_count": 7,
               "complaint_themes": [
                 {
                   "theme": "support_response_resolution",
                   "label": "Support response / resolution loop",
                   "count": 1,
-                  "share": 50.0,
+                  "share": 100.0,
                   "previous_count": 0,
                   "delta_vs_previous": 1,
                   "example": {
@@ -6100,21 +6144,6 @@
                     "url": "https://www.trustpilot.com/reviews/6abb3d8bd5471ac4603dbe53"
                   },
                   "recommended_action": "Use a named low-star rescue owner, a clear first-response window, and a close-the-loop update after resolution."
-                },
-                {
-                  "theme": "returns_trial_policy_confusion",
-                  "label": "Returns / trial-policy confusion",
-                  "count": 1,
-                  "share": 50.0,
-                  "previous_count": 0,
-                  "delta_vs_previous": 1,
-                  "example": {
-                    "rating": 2,
-                    "date": "2026-10-01T07:12:37Z",
-                    "text": "I think i am going to return it I think i am going to return it. I dont like that the headrest keeps slipping out the more I recline.",
-                    "url": "https://www.trustpilot.com/reviews/6abdebc521841814d704fdd5"
-                  },
-                  "recommended_action": "Make return costs, eligibility, pickup rules, store-credit terms, and exceptions unmistakable before purchase."
                 }
               ],
               "positive_themes": [
@@ -6214,8 +6243,8 @@
                   "label": "Returns / trial-policy confusion",
                   "count": 1,
                   "share": 20.0,
-                  "previous_count": 1,
-                  "delta_vs_previous": 0,
+                  "previous_count": 0,
+                  "delta_vs_previous": 1,
                   "example": {
                     "rating": 1,
                     "date": "2026-10-05T03:08:45Z",
@@ -6292,19 +6321,78 @@
               "start": "2026-10-12",
               "end": "2026-10-18",
               "is_partial": true,
-              "review_count": 1,
-              "average_score": 3.0,
+              "review_count": 6,
+              "average_score": 4.0,
               "stars": {
-                "1": 0,
+                "1": 1,
                 "2": 0,
                 "3": 1,
                 "4": 0,
-                "5": 0
+                "5": 4
               },
-              "low_star_count": 0,
-              "positive_count": 0,
-              "complaint_themes": [],
-              "positive_themes": []
+              "low_star_count": 1,
+              "positive_count": 4,
+              "complaint_themes": [
+                {
+                  "theme": "damage_fault_quality",
+                  "label": "Damage, faults, or product QA",
+                  "count": 1,
+                  "share": 100.0,
+                  "previous_count": 0,
+                  "delta_vs_previous": 1,
+                  "example": {
+                    "rating": 1,
+                    "date": "2026-10-16T16:30:44Z",
+                    "text": "Disappointed in the hype I bought this chair, built it, it does not recline 180 degrees, it has a slight tilt but it’s more like slightly leaning back on a couch, not a 180 degree recline",
+                    "url": "https://www.trustpilot.com/reviews/6ad23514a7047daeba73c23d"
+                  },
+                  "recommended_action": "Route repeated defects to SKU-level QA with photos, order/batch context, and a split between transit and manufacturing damage."
+                }
+              ],
+              "positive_themes": [
+                {
+                  "theme": "shipping_positive",
+                  "label": "Fast or clear delivery",
+                  "count": 2,
+                  "share": 50.0,
+                  "previous_count": 0,
+                  "delta_vs_previous": 2,
+                  "example": {
+                    "rating": 5,
+                    "date": "2026-10-15T06:30:59Z",
+                    "text": "My lounge got misplaced when out for… My lounge got misplaced when out for delivery but the customer experience I received from Marianne was exceptional! Thanks so much for sorting this out for me",
+                    "url": "https://www.trustpilot.com/reviews/6ad0570308c4274e71c45714"
+                  }
+                },
+                {
+                  "theme": "service_recovery",
+                  "label": "Helpful service / recovery",
+                  "count": 1,
+                  "share": 25.0,
+                  "previous_count": 1,
+                  "delta_vs_previous": 0,
+                  "example": {
+                    "rating": 5,
+                    "date": "2026-10-16T02:13:07Z",
+                    "text": "Little lifely/cocoon bed & some delivery drama! I ordered the little lifely package & cocoon bed. I LOVEEE my products, such good quality, comfy mattresses and great prices, I assembled myself without problem (worked up a sweat tho). Now, I actually had the WORST DELIVERY experience EVER with their…",
+                    "url": "https://www.trustpilot.com/reviews/6ad16c13ed63f45790e6b958"
+                  }
+                },
+                {
+                  "theme": "easy_setup_conversion",
+                  "label": "Easy setup / quick transform",
+                  "count": 1,
+                  "share": 25.0,
+                  "previous_count": 0,
+                  "delta_vs_previous": 1,
+                  "example": {
+                    "rating": 5,
+                    "date": "2026-10-16T10:34:58Z",
+                    "text": "Radiant mattress and Irisa bed frame We recently purchased the Radiant mattress and Irisa bed frame and are very satisfied with the overall experience. Ordering was straightforward and the delivery arrived within the timeframe communicated by the company. Both products were very well packed, and as…",
+                    "url": "https://www.trustpilot.com/reviews/6acf30acd39dc3b62ba3d940"
+                  }
+                }
+              ]
             }
           ],
           "monthly": [
@@ -7131,33 +7219,18 @@
               "start": "2026-10-01",
               "end": "2026-10-31",
               "is_partial": true,
-              "review_count": 15,
-              "average_score": 3.27,
+              "review_count": 20,
+              "average_score": 3.55,
               "stars": {
-                "1": 5,
-                "2": 1,
-                "3": 1,
+                "1": 6,
+                "2": 0,
+                "3": 2,
                 "4": 1,
-                "5": 7
+                "5": 11
               },
               "low_star_count": 6,
-              "positive_count": 8,
+              "positive_count": 12,
               "complaint_themes": [
-                {
-                  "theme": "returns_trial_policy_confusion",
-                  "label": "Returns / trial-policy confusion",
-                  "count": 2,
-                  "share": 33.3,
-                  "previous_count": 0,
-                  "delta_vs_previous": 2,
-                  "example": {
-                    "rating": 2,
-                    "date": "2026-10-01T07:12:37Z",
-                    "text": "I think i am going to return it I think i am going to return it. I dont like that the headrest keeps slipping out the more I recline.",
-                    "url": "https://www.trustpilot.com/reviews/6abdebc521841814d704fdd5"
-                  },
-                  "recommended_action": "Make return costs, eligibility, pickup rules, store-credit terms, and exceptions unmistakable before purchase."
-                },
                 {
                   "theme": "support_response_resolution",
                   "label": "Support response / resolution loop",
@@ -7172,6 +7245,21 @@
                     "url": "https://www.trustpilot.com/reviews/6ac49a23ae98c6e7f300ea76"
                   },
                   "recommended_action": "Use a named low-star rescue owner, a clear first-response window, and a close-the-loop update after resolution."
+                },
+                {
+                  "theme": "returns_trial_policy_confusion",
+                  "label": "Returns / trial-policy confusion",
+                  "count": 1,
+                  "share": 16.7,
+                  "previous_count": 0,
+                  "delta_vs_previous": 1,
+                  "example": {
+                    "rating": 1,
+                    "date": "2026-10-05T03:08:45Z",
+                    "text": "Absolutely appalling Absolutely appalling. The item delivered does not match the description on their website. Lifely admitted, in writting, that the product does not match the description on the website. Under Australian Consumer Law I am entitled to 100% refund. Insultingly, the customer service…",
+                    "url": "https://www.trustpilot.com/reviews/6ac2f89dd0fa23c7c86c9472"
+                  },
+                  "recommended_action": "Make return costs, eligibility, pickup rules, store-credit terms, and exceptions unmistakable before purchase."
                 },
                 {
                   "theme": "comfort_fit_expectation",
@@ -7209,7 +7297,7 @@
                   "theme": "comfort_product_love",
                   "label": "Comfort and product feel",
                   "count": 5,
-                  "share": 62.5,
+                  "share": 41.7,
                   "previous_count": 16,
                   "delta_vs_previous": -11,
                   "example": {
@@ -7220,26 +7308,12 @@
                   }
                 },
                 {
-                  "theme": "easy_setup_conversion",
-                  "label": "Easy setup / quick transform",
-                  "count": 1,
-                  "share": 12.5,
-                  "previous_count": 7,
-                  "delta_vs_previous": -6,
-                  "example": {
-                    "rating": 5,
-                    "date": "2026-10-02T03:23:40Z",
-                    "text": "Lifely's Desk Chair The product is very simple to construct, and very well thought about for self maintenance! Each part of what I bought allows for opening/refluffing, which not a lot of places think of. If you weren't satisfied with the level of fluff in the seat, you can easily unzip it and add…",
-                    "url": "https://www.trustpilot.com/reviews/6abf079c72ba7beb3a02d3d4"
-                  }
-                },
-                {
                   "theme": "shipping_positive",
                   "label": "Fast or clear delivery",
-                  "count": 1,
-                  "share": 12.5,
+                  "count": 3,
+                  "share": 25.0,
                   "previous_count": 10,
-                  "delta_vs_previous": -9,
+                  "delta_vs_previous": -7,
                   "example": {
                     "rating": 4,
                     "date": "2026-10-03T10:14:47Z",
@@ -7248,12 +7322,26 @@
                   }
                 },
                 {
+                  "theme": "easy_setup_conversion",
+                  "label": "Easy setup / quick transform",
+                  "count": 2,
+                  "share": 16.7,
+                  "previous_count": 7,
+                  "delta_vs_previous": -5,
+                  "example": {
+                    "rating": 5,
+                    "date": "2026-10-02T03:23:40Z",
+                    "text": "Lifely's Desk Chair The product is very simple to construct, and very well thought about for self maintenance! Each part of what I bought allows for opening/refluffing, which not a lot of places think of. If you weren't satisfied with the level of fluff in the seat, you can easily unzip it and add…",
+                    "url": "https://www.trustpilot.com/reviews/6abf079c72ba7beb3a02d3d4"
+                  }
+                },
+                {
                   "theme": "service_recovery",
                   "label": "Helpful service / recovery",
-                  "count": 1,
-                  "share": 12.5,
+                  "count": 2,
+                  "share": 16.7,
                   "previous_count": 8,
-                  "delta_vs_previous": -7,
+                  "delta_vs_previous": -6,
                   "example": {
                     "rating": 5,
                     "date": "2026-10-05T05:13:29Z",
@@ -7275,12 +7363,12 @@
         "brand": "Little Lifely",
         "platform": "Trustpilot",
         "label": "Little Lifely Trustpilot",
-        "records": 120,
+        "records": 124,
         "first_review_at": "2026-05-18T02:56:25Z",
-        "last_review_at": "2026-10-15T05:00:28Z",
+        "last_review_at": "2026-10-16T05:20:24Z",
         "method": "AU-only derivative of the verified Watchtower review history",
         "limitation": "Only records with a defensible Australian country/state attribution are included; unknown and non-Australian records are excluded.",
-        "region_records": 120,
+        "region_records": 124,
         "region_unavailable_records": 0,
         "region_source": "Public reviewer country supplied by Trustpilot."
       },
@@ -8264,17 +8352,17 @@
           "start": "2026-10-12",
           "end": "2026-10-18",
           "is_partial": true,
-          "review_count": 3,
-          "average_score": 4.0,
+          "review_count": 7,
+          "average_score": 4.57,
           "stars": {
             "1": 0,
             "2": 1,
             "3": 0,
             "4": 0,
-            "5": 2
+            "5": 6
           },
           "low_star_count": 1,
-          "positive_count": 2,
+          "positive_count": 6,
           "complaint_themes": [
             {
               "theme": "damage_fault_quality",
@@ -8296,10 +8384,10 @@
             {
               "theme": "comfort_product_love",
               "label": "Comfort and product feel",
-              "count": 2,
+              "count": 6,
               "share": 100.0,
               "previous_count": 2,
-              "delta_vs_previous": 0,
+              "delta_vs_previous": 4,
               "example": {
                 "rating": 5,
                 "date": "2026-10-13T14:16:57Z",
@@ -8650,17 +8738,17 @@
           "start": "2026-10-01",
           "end": "2026-10-31",
           "is_partial": true,
-          "review_count": 21,
-          "average_score": 4.86,
+          "review_count": 25,
+          "average_score": 4.88,
           "stars": {
             "1": 0,
             "2": 1,
             "3": 0,
             "4": 0,
-            "5": 20
+            "5": 24
           },
           "low_star_count": 1,
-          "positive_count": 20,
+          "positive_count": 24,
           "complaint_themes": [
             {
               "theme": "damage_fault_quality",
@@ -8682,10 +8770,10 @@
             {
               "theme": "comfort_product_love",
               "label": "Comfort and product feel",
-              "count": 9,
-              "share": 45.0,
+              "count": 13,
+              "share": 54.2,
               "previous_count": 27,
-              "delta_vs_previous": -18,
+              "delta_vs_previous": -14,
               "example": {
                 "rating": 5,
                 "date": "2026-10-01T00:54:31Z",
@@ -8697,7 +8785,7 @@
               "theme": "shipping_positive",
               "label": "Fast or clear delivery",
               "count": 6,
-              "share": 30.0,
+              "share": 25.0,
               "previous_count": 9,
               "delta_vs_previous": -3,
               "example": {
@@ -8711,7 +8799,7 @@
               "theme": "other",
               "label": "Other feedback",
               "count": 4,
-              "share": 20.0,
+              "share": 16.7,
               "previous_count": 2,
               "delta_vs_previous": 2,
               "example": {
@@ -8726,7 +8814,7 @@
               "theme": "easy_setup_conversion",
               "label": "Easy setup / quick transform",
               "count": 1,
-              "share": 5.0,
+              "share": 4.2,
               "previous_count": 5,
               "delta_vs_previous": -4,
               "example": {
@@ -8743,7 +8831,7 @@
         {
           "key": "AU",
           "label": "Australia",
-          "records": 120,
+          "records": 124,
           "weekly": [
             {
               "key": "2026-05-18",
@@ -9724,17 +9812,17 @@
               "start": "2026-10-12",
               "end": "2026-10-18",
               "is_partial": true,
-              "review_count": 3,
-              "average_score": 4.0,
+              "review_count": 7,
+              "average_score": 4.57,
               "stars": {
                 "1": 0,
                 "2": 1,
                 "3": 0,
                 "4": 0,
-                "5": 2
+                "5": 6
               },
               "low_star_count": 1,
-              "positive_count": 2,
+              "positive_count": 6,
               "complaint_themes": [
                 {
                   "theme": "damage_fault_quality",
@@ -9756,10 +9844,10 @@
                 {
                   "theme": "comfort_product_love",
                   "label": "Comfort and product feel",
-                  "count": 2,
+                  "count": 6,
                   "share": 100.0,
                   "previous_count": 2,
-                  "delta_vs_previous": 0,
+                  "delta_vs_previous": 4,
                   "example": {
                     "rating": 5,
                     "date": "2026-10-13T14:16:57Z",
@@ -10110,17 +10198,17 @@
               "start": "2026-10-01",
               "end": "2026-10-31",
               "is_partial": true,
-              "review_count": 21,
-              "average_score": 4.86,
+              "review_count": 25,
+              "average_score": 4.88,
               "stars": {
                 "1": 0,
                 "2": 1,
                 "3": 0,
                 "4": 0,
-                "5": 20
+                "5": 24
               },
               "low_star_count": 1,
-              "positive_count": 20,
+              "positive_count": 24,
               "complaint_themes": [
                 {
                   "theme": "damage_fault_quality",
@@ -10142,10 +10230,10 @@
                 {
                   "theme": "comfort_product_love",
                   "label": "Comfort and product feel",
-                  "count": 9,
-                  "share": 45.0,
+                  "count": 13,
+                  "share": 54.2,
                   "previous_count": 27,
-                  "delta_vs_previous": -18,
+                  "delta_vs_previous": -14,
                   "example": {
                     "rating": 5,
                     "date": "2026-10-01T00:54:31Z",
@@ -10157,7 +10245,7 @@
                   "theme": "shipping_positive",
                   "label": "Fast or clear delivery",
                   "count": 6,
-                  "share": 30.0,
+                  "share": 25.0,
                   "previous_count": 9,
                   "delta_vs_previous": -3,
                   "example": {
@@ -10171,7 +10259,7 @@
                   "theme": "other",
                   "label": "Other feedback",
                   "count": 4,
-                  "share": 20.0,
+                  "share": 16.7,
                   "previous_count": 2,
                   "delta_vs_previous": 2,
                   "example": {
@@ -10186,7 +10274,7 @@
                   "theme": "easy_setup_conversion",
                   "label": "Easy setup / quick transform",
                   "count": 1,
-                  "share": 5.0,
+                  "share": 4.2,
                   "previous_count": 5,
                   "delta_vs_previous": -4,
                   "example": {
@@ -34618,12 +34706,12 @@
       "brand": "Lifely",
       "platform": "Trustpilot",
       "label": "Lifely Trustpilot",
-      "records": 297,
+      "records": 302,
       "first_review_at": "2026-03-30T03:09:17Z",
-      "last_review_at": "2026-10-12T22:08:52Z",
+      "last_review_at": "2026-10-16T16:30:44Z",
       "method": "AU-only derivative of the verified Watchtower review history",
       "limitation": "Only records with a defensible Australian country/state attribution are included; unknown and non-Australian records are excluded.",
-      "region_records": 297,
+      "region_records": 302,
       "region_unavailable_records": 0,
       "region_source": "Public reviewer country supplied by Trustpilot."
     },
@@ -34631,12 +34719,12 @@
       "brand": "Little Lifely",
       "platform": "Trustpilot",
       "label": "Little Lifely Trustpilot",
-      "records": 120,
+      "records": 124,
       "first_review_at": "2026-05-18T02:56:25Z",
-      "last_review_at": "2026-10-15T05:00:28Z",
+      "last_review_at": "2026-10-16T05:20:24Z",
       "method": "AU-only derivative of the verified Watchtower review history",
       "limitation": "Only records with a defensible Australian country/state attribution are included; unknown and non-Australian records are excluded.",
-      "region_records": 120,
+      "region_records": 124,
       "region_unavailable_records": 0,
       "region_source": "Public reviewer country supplied by Trustpilot."
     },

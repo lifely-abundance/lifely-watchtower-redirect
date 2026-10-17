@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "analysis_type": "public_au_non5_review_analysis",
-  "generated_at": "2026-10-15T06:04:29+00:00",
+  "generated_at": "2026-10-17T06:03:26+00:00",
   "coverage": {
     "from": "2026-01-02",
-    "through": "2026-10-15",
+    "through": "2026-10-16",
     "partial_month": "2026-10",
     "profiles": [
       "lifely.com.au",
@@ -18,9 +18,9 @@
       "Reviewer country is source-provided and is not order destination.",
       "Records without a source-provided Australian country are excluded."
     ],
-    "latest_non5_review": "2026-10-15",
+    "latest_non5_review": "2026-10-16",
     "partial_period": "2026-10",
-    "source_checked_at": "2026-10-15T06:04:28Z"
+    "source_checked_at": "2026-10-17T06:03:26Z"
   },
   "category_labels": {
     "delivery_delay_preorder_stock": "Delivery delay / preorder / stock promise",
@@ -44,15 +44,15 @@
     "wrong_missing_incomplete_order"
   ],
   "totals": {
-    "reviews": 126,
+    "reviews": 127,
     "ratings": {
-      "1": 65,
+      "1": 66,
       "2": 18,
       "3": 17,
       "4": 26
     },
     "profiles": {
-      "lifely.com.au": 118,
+      "lifely.com.au": 119,
       "littlelifely.com": 8
     },
     "categories": {
@@ -62,7 +62,7 @@
       "customer_service_communication": 6,
       "damaged_on_arrival": 4,
       "delivery_delay_preorder_stock": 22,
-      "no_explicit_complaint": 11,
+      "no_explicit_complaint": 12,
       "price_value_expectation": 1,
       "product_quality_defect_durability": 11,
       "return_refund_cancellation_warranty": 10,
@@ -71,6 +71,19 @@
     }
   },
   "records": [
+    {
+      "region": "AU",
+      "profile": "lifely.com.au",
+      "month": "2026-10",
+      "quarter": "Q4 MTD",
+      "published_date": "2026-10-16",
+      "rating": 1,
+      "category": "no_explicit_complaint",
+      "delivery_related": false,
+      "title": "Disappointed in the hype",
+      "excerpt": "I bought this chair, built it, it does not recline 180 degrees, it has a slight tilt but it’s more like slightly leaning back on a couch, not a 180 degree recline",
+      "url": "https://www.trustpilot.com/reviews/6ad23514a7047daeba73c23d"
+    },
     {
       "region": "AU",
       "profile": "littlelifely.com",
@@ -184,8 +197,8 @@
       "rating": 2,
       "category": "return_refund_cancellation_warranty",
       "delivery_related": false,
-      "title": "I think i am going to return it",
-      "excerpt": "I think i am going to return it. I dont like that the headrest keeps slipping out the more I recline.",
+      "title": "[returned] I think i am going to return it",
+      "excerpt": "I think i am going to return it. I dont like that the headrest keeps slipping out the more I recline. Update: Customer Service was very helpful during the return process and I think that counts for good karma. 🙏 +1",
       "url": "https://www.trustpilot.com/reviews/6abdebc521841814d704fdd5"
     },
     {
