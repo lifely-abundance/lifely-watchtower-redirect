@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "analysis_type": "public_au_non5_review_analysis",
-  "generated_at": "2026-10-17T06:03:26+00:00",
+  "generated_at": "2026-10-18T06:18:44+00:00",
   "coverage": {
     "from": "2026-01-02",
-    "through": "2026-10-16",
+    "through": "2026-10-18",
     "partial_month": "2026-10",
     "profiles": [
       "lifely.com.au",
@@ -18,9 +18,9 @@
       "Reviewer country is source-provided and is not order destination.",
       "Records without a source-provided Australian country are excluded."
     ],
-    "latest_non5_review": "2026-10-16",
+    "latest_non5_review": "2026-10-17",
     "partial_period": "2026-10",
-    "source_checked_at": "2026-10-17T06:03:26Z"
+    "source_checked_at": "2026-10-18T06:18:44Z"
   },
   "category_labels": {
     "delivery_delay_preorder_stock": "Delivery delay / preorder / stock promise",
@@ -133,7 +133,7 @@
       "category": "delivery_delay_preorder_stock",
       "delivery_related": true,
       "title": "Still not delivered",
-      "excerpt": "Has not been delivered in spite of multiple communications",
+      "excerpt": "Has not been delivered in spite of multiple communications Hi all After effective communication I finally received my order and I am very happy with the outcome and received a discount on delivery fees Thank you Lifely",
       "url": "https://www.trustpilot.com/reviews/6ac74222bde694d457a20ac7"
     },
     {

@@ -5,7 +5,7 @@
     "label": "Australia only",
     "rule": "Includes only source-attributed Australian reviews. Unknown and non-Australian records are excluded."
   },
-  "last_updated": "2026-10-17T06:03:26Z",
+  "last_updated": "2026-10-18T06:18:44Z",
   "metric_definition": "Captured AU review history only. Scores are calculated from dated, source-attributed Australian reviews and are not global platform scores.",
   "sources": [
     {
@@ -2614,6 +2614,21 @@
           "positive_count": 5,
           "complaint_themes": [
             {
+              "theme": "returns_trial_policy_confusion",
+              "label": "Returns / trial-policy confusion",
+              "count": 2,
+              "share": 40.0,
+              "previous_count": 0,
+              "delta_vs_previous": 2,
+              "example": {
+                "rating": 1,
+                "date": "2026-10-05T03:08:45Z",
+                "text": "Absolutely appalling Absolutely appalling. The item delivered does not match the description on their website. Lifely admitted, in writting, that the product does not match the description on the website. Under Australian Consumer Law I am entitled to 100% refund. Insultingly, the customer service…",
+                "url": "https://www.trustpilot.com/reviews/6ac2f89dd0fa23c7c86c9472"
+              },
+              "recommended_action": "Make return costs, eligibility, pickup rules, store-credit terms, and exceptions unmistakable before purchase."
+            },
+            {
               "theme": "support_response_resolution",
               "label": "Support response / resolution loop",
               "count": 2,
@@ -2629,21 +2644,6 @@
               "recommended_action": "Use a named low-star rescue owner, a clear first-response window, and a close-the-loop update after resolution."
             },
             {
-              "theme": "returns_trial_policy_confusion",
-              "label": "Returns / trial-policy confusion",
-              "count": 1,
-              "share": 20.0,
-              "previous_count": 0,
-              "delta_vs_previous": 1,
-              "example": {
-                "rating": 1,
-                "date": "2026-10-05T03:08:45Z",
-                "text": "Absolutely appalling Absolutely appalling. The item delivered does not match the description on their website. Lifely admitted, in writting, that the product does not match the description on the website. Under Australian Consumer Law I am entitled to 100% refund. Insultingly, the customer service…",
-                "url": "https://www.trustpilot.com/reviews/6ac2f89dd0fa23c7c86c9472"
-              },
-              "recommended_action": "Make return costs, eligibility, pickup rules, store-credit terms, and exceptions unmistakable before purchase."
-            },
-            {
               "theme": "comfort_fit_expectation",
               "label": "Comfort / fit expectation gap",
               "count": 1,
@@ -2657,21 +2657,6 @@
                 "url": "https://www.trustpilot.com/reviews/6ac41d57387127807fb381d5"
               },
               "recommended_action": "Strengthen firmness, fit, dimensions-in-context, and intended-use guidance beside review proof on the PDP."
-            },
-            {
-              "theme": "other",
-              "label": "Other feedback",
-              "count": 1,
-              "share": 20.0,
-              "previous_count": 0,
-              "delta_vs_previous": 1,
-              "example": {
-                "rating": 1,
-                "date": "2026-10-08T09:11:30Z",
-                "text": "Still not delivered Has not been delivered in spite of multiple communications",
-                "url": "https://www.trustpilot.com/reviews/6ac74222bde694d457a20ac7"
-              },
-              "recommended_action": "Review the underlying comments and create a new recurring theme if this pattern repeats."
             }
           ],
           "positive_themes": [
@@ -3622,6 +3607,21 @@
           "positive_count": 12,
           "complaint_themes": [
             {
+              "theme": "returns_trial_policy_confusion",
+              "label": "Returns / trial-policy confusion",
+              "count": 2,
+              "share": 33.3,
+              "previous_count": 0,
+              "delta_vs_previous": 2,
+              "example": {
+                "rating": 1,
+                "date": "2026-10-05T03:08:45Z",
+                "text": "Absolutely appalling Absolutely appalling. The item delivered does not match the description on their website. Lifely admitted, in writting, that the product does not match the description on the website. Under Australian Consumer Law I am entitled to 100% refund. Insultingly, the customer service…",
+                "url": "https://www.trustpilot.com/reviews/6ac2f89dd0fa23c7c86c9472"
+              },
+              "recommended_action": "Make return costs, eligibility, pickup rules, store-credit terms, and exceptions unmistakable before purchase."
+            },
+            {
               "theme": "support_response_resolution",
               "label": "Support response / resolution loop",
               "count": 2,
@@ -3635,21 +3635,6 @@
                 "url": "https://www.trustpilot.com/reviews/6ac49a23ae98c6e7f300ea76"
               },
               "recommended_action": "Use a named low-star rescue owner, a clear first-response window, and a close-the-loop update after resolution."
-            },
-            {
-              "theme": "returns_trial_policy_confusion",
-              "label": "Returns / trial-policy confusion",
-              "count": 1,
-              "share": 16.7,
-              "previous_count": 0,
-              "delta_vs_previous": 1,
-              "example": {
-                "rating": 1,
-                "date": "2026-10-05T03:08:45Z",
-                "text": "Absolutely appalling Absolutely appalling. The item delivered does not match the description on their website. Lifely admitted, in writting, that the product does not match the description on the website. Under Australian Consumer Law I am entitled to 100% refund. Insultingly, the customer service…",
-                "url": "https://www.trustpilot.com/reviews/6ac2f89dd0fa23c7c86c9472"
-              },
-              "recommended_action": "Make return costs, eligibility, pickup rules, store-credit terms, and exceptions unmistakable before purchase."
             },
             {
               "theme": "comfort_fit_expectation",
@@ -3667,19 +3652,19 @@
               "recommended_action": "Strengthen firmness, fit, dimensions-in-context, and intended-use guidance beside review proof on the PDP."
             },
             {
-              "theme": "other",
-              "label": "Other feedback",
+              "theme": "damage_fault_quality",
+              "label": "Damage, faults, or product QA",
               "count": 1,
               "share": 16.7,
               "previous_count": 1,
               "delta_vs_previous": 0,
               "example": {
                 "rating": 1,
-                "date": "2026-10-08T09:11:30Z",
-                "text": "Still not delivered Has not been delivered in spite of multiple communications",
-                "url": "https://www.trustpilot.com/reviews/6ac74222bde694d457a20ac7"
+                "date": "2026-10-16T16:30:44Z",
+                "text": "Disappointed in the hype I bought this chair, built it, it does not recline 180 degrees, it has a slight tilt but it’s more like slightly leaning back on a couch, not a 180 degree recline",
+                "url": "https://www.trustpilot.com/reviews/6ad23514a7047daeba73c23d"
               },
-              "recommended_action": "Review the underlying comments and create a new recurring theme if this pattern repeats."
+              "recommended_action": "Route repeated defects to SKU-level QA with photos, order/batch context, and a split between transit and manufacturing damage."
             }
           ],
           "positive_themes": [
@@ -6224,6 +6209,21 @@
               "positive_count": 5,
               "complaint_themes": [
                 {
+                  "theme": "returns_trial_policy_confusion",
+                  "label": "Returns / trial-policy confusion",
+                  "count": 2,
+                  "share": 40.0,
+                  "previous_count": 0,
+                  "delta_vs_previous": 2,
+                  "example": {
+                    "rating": 1,
+                    "date": "2026-10-05T03:08:45Z",
+                    "text": "Absolutely appalling Absolutely appalling. The item delivered does not match the description on their website. Lifely admitted, in writting, that the product does not match the description on the website. Under Australian Consumer Law I am entitled to 100% refund. Insultingly, the customer service…",
+                    "url": "https://www.trustpilot.com/reviews/6ac2f89dd0fa23c7c86c9472"
+                  },
+                  "recommended_action": "Make return costs, eligibility, pickup rules, store-credit terms, and exceptions unmistakable before purchase."
+                },
+                {
                   "theme": "support_response_resolution",
                   "label": "Support response / resolution loop",
                   "count": 2,
@@ -6239,21 +6239,6 @@
                   "recommended_action": "Use a named low-star rescue owner, a clear first-response window, and a close-the-loop update after resolution."
                 },
                 {
-                  "theme": "returns_trial_policy_confusion",
-                  "label": "Returns / trial-policy confusion",
-                  "count": 1,
-                  "share": 20.0,
-                  "previous_count": 0,
-                  "delta_vs_previous": 1,
-                  "example": {
-                    "rating": 1,
-                    "date": "2026-10-05T03:08:45Z",
-                    "text": "Absolutely appalling Absolutely appalling. The item delivered does not match the description on their website. Lifely admitted, in writting, that the product does not match the description on the website. Under Australian Consumer Law I am entitled to 100% refund. Insultingly, the customer service…",
-                    "url": "https://www.trustpilot.com/reviews/6ac2f89dd0fa23c7c86c9472"
-                  },
-                  "recommended_action": "Make return costs, eligibility, pickup rules, store-credit terms, and exceptions unmistakable before purchase."
-                },
-                {
                   "theme": "comfort_fit_expectation",
                   "label": "Comfort / fit expectation gap",
                   "count": 1,
@@ -6267,21 +6252,6 @@
                     "url": "https://www.trustpilot.com/reviews/6ac41d57387127807fb381d5"
                   },
                   "recommended_action": "Strengthen firmness, fit, dimensions-in-context, and intended-use guidance beside review proof on the PDP."
-                },
-                {
-                  "theme": "other",
-                  "label": "Other feedback",
-                  "count": 1,
-                  "share": 20.0,
-                  "previous_count": 0,
-                  "delta_vs_previous": 1,
-                  "example": {
-                    "rating": 1,
-                    "date": "2026-10-08T09:11:30Z",
-                    "text": "Still not delivered Has not been delivered in spite of multiple communications",
-                    "url": "https://www.trustpilot.com/reviews/6ac74222bde694d457a20ac7"
-                  },
-                  "recommended_action": "Review the underlying comments and create a new recurring theme if this pattern repeats."
                 }
               ],
               "positive_themes": [
@@ -7232,6 +7202,21 @@
               "positive_count": 12,
               "complaint_themes": [
                 {
+                  "theme": "returns_trial_policy_confusion",
+                  "label": "Returns / trial-policy confusion",
+                  "count": 2,
+                  "share": 33.3,
+                  "previous_count": 0,
+                  "delta_vs_previous": 2,
+                  "example": {
+                    "rating": 1,
+                    "date": "2026-10-05T03:08:45Z",
+                    "text": "Absolutely appalling Absolutely appalling. The item delivered does not match the description on their website. Lifely admitted, in writting, that the product does not match the description on the website. Under Australian Consumer Law I am entitled to 100% refund. Insultingly, the customer service…",
+                    "url": "https://www.trustpilot.com/reviews/6ac2f89dd0fa23c7c86c9472"
+                  },
+                  "recommended_action": "Make return costs, eligibility, pickup rules, store-credit terms, and exceptions unmistakable before purchase."
+                },
+                {
                   "theme": "support_response_resolution",
                   "label": "Support response / resolution loop",
                   "count": 2,
@@ -7245,21 +7230,6 @@
                     "url": "https://www.trustpilot.com/reviews/6ac49a23ae98c6e7f300ea76"
                   },
                   "recommended_action": "Use a named low-star rescue owner, a clear first-response window, and a close-the-loop update after resolution."
-                },
-                {
-                  "theme": "returns_trial_policy_confusion",
-                  "label": "Returns / trial-policy confusion",
-                  "count": 1,
-                  "share": 16.7,
-                  "previous_count": 0,
-                  "delta_vs_previous": 1,
-                  "example": {
-                    "rating": 1,
-                    "date": "2026-10-05T03:08:45Z",
-                    "text": "Absolutely appalling Absolutely appalling. The item delivered does not match the description on their website. Lifely admitted, in writting, that the product does not match the description on the website. Under Australian Consumer Law I am entitled to 100% refund. Insultingly, the customer service…",
-                    "url": "https://www.trustpilot.com/reviews/6ac2f89dd0fa23c7c86c9472"
-                  },
-                  "recommended_action": "Make return costs, eligibility, pickup rules, store-credit terms, and exceptions unmistakable before purchase."
                 },
                 {
                   "theme": "comfort_fit_expectation",
@@ -7277,19 +7247,19 @@
                   "recommended_action": "Strengthen firmness, fit, dimensions-in-context, and intended-use guidance beside review proof on the PDP."
                 },
                 {
-                  "theme": "other",
-                  "label": "Other feedback",
+                  "theme": "damage_fault_quality",
+                  "label": "Damage, faults, or product QA",
                   "count": 1,
                   "share": 16.7,
                   "previous_count": 1,
                   "delta_vs_previous": 0,
                   "example": {
                     "rating": 1,
-                    "date": "2026-10-08T09:11:30Z",
-                    "text": "Still not delivered Has not been delivered in spite of multiple communications",
-                    "url": "https://www.trustpilot.com/reviews/6ac74222bde694d457a20ac7"
+                    "date": "2026-10-16T16:30:44Z",
+                    "text": "Disappointed in the hype I bought this chair, built it, it does not recline 180 degrees, it has a slight tilt but it’s more like slightly leaning back on a couch, not a 180 degree recline",
+                    "url": "https://www.trustpilot.com/reviews/6ad23514a7047daeba73c23d"
                   },
-                  "recommended_action": "Review the underlying comments and create a new recurring theme if this pattern repeats."
+                  "recommended_action": "Route repeated defects to SKU-level QA with photos, order/batch context, and a split between transit and manufacturing damage."
                 }
               ],
               "positive_themes": [
@@ -16666,7 +16636,7 @@
               "example": {
                 "rating": 1,
                 "date": "2026-08-01T18:41:21Z",
-                "text": "ProductReview review by Matthew Been waiting more than a month and the product still hasn’t arrived. It is stuck in processing and they have very little to no communication with us. I have no confidence that it is going to arrive More Lifely 2mo Hi! We'd love to look into this for you. Could you pl…",
+                "text": "ProductReview review by Matthew Been waiting more than a month and the product still hasn’t arrived. It is stuck in processing and they have very little to no communication with us. I have no confidence that it is going to arrive More Lifely 3mo Hi! We'd love to look into this for you. Could you pl…",
                 "url": "https://www.productreview.com.au/listings/lifely"
               },
               "recommended_action": "Tighten proactive ETA communication before customers need to chase, and distinguish preorder delays from courier delays.",
@@ -19002,7 +18972,7 @@
               "example": {
                 "rating": 1,
                 "date": "2026-08-01T18:41:21Z",
-                "text": "ProductReview review by Matthew Been waiting more than a month and the product still hasn’t arrived. It is stuck in processing and they have very little to no communication with us. I have no confidence that it is going to arrive More Lifely 2mo Hi! We'd love to look into this for you. Could you pl…",
+                "text": "ProductReview review by Matthew Been waiting more than a month and the product still hasn’t arrived. It is stuck in processing and they have very little to no communication with us. I have no confidence that it is going to arrive More Lifely 3mo Hi! We'd love to look into this for you. Could you pl…",
                 "url": "https://www.productreview.com.au/listings/lifely"
               },
               "recommended_action": "Tighten proactive ETA communication before customers need to chase, and distinguish preorder delays from courier delays.",
@@ -23956,7 +23926,7 @@
                   "example": {
                     "rating": 1,
                     "date": "2026-08-01T18:41:21Z",
-                    "text": "ProductReview review by Matthew Been waiting more than a month and the product still hasn’t arrived. It is stuck in processing and they have very little to no communication with us. I have no confidence that it is going to arrive More Lifely 2mo Hi! We'd love to look into this for you. Could you pl…",
+                    "text": "ProductReview review by Matthew Been waiting more than a month and the product still hasn’t arrived. It is stuck in processing and they have very little to no communication with us. I have no confidence that it is going to arrive More Lifely 3mo Hi! We'd love to look into this for you. Could you pl…",
                     "url": "https://www.productreview.com.au/listings/lifely"
                   },
                   "recommended_action": "Tighten proactive ETA communication before customers need to chase, and distinguish preorder delays from courier delays.",
@@ -26292,7 +26262,7 @@
                   "example": {
                     "rating": 1,
                     "date": "2026-08-01T18:41:21Z",
-                    "text": "ProductReview review by Matthew Been waiting more than a month and the product still hasn’t arrived. It is stuck in processing and they have very little to no communication with us. I have no confidence that it is going to arrive More Lifely 2mo Hi! We'd love to look into this for you. Could you pl…",
+                    "text": "ProductReview review by Matthew Been waiting more than a month and the product still hasn’t arrived. It is stuck in processing and they have very little to no communication with us. I have no confidence that it is going to arrive More Lifely 3mo Hi! We'd love to look into this for you. Could you pl…",
                     "url": "https://www.productreview.com.au/listings/lifely"
                   },
                   "recommended_action": "Tighten proactive ETA communication before customers need to chase, and distinguish preorder delays from courier delays.",
