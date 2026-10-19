@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "analysis_type": "public_au_non5_review_analysis",
-  "generated_at": "2026-10-18T06:18:44+00:00",
+  "generated_at": "2026-10-19T06:17:31+00:00",
   "coverage": {
     "from": "2026-01-02",
-    "through": "2026-10-18",
+    "through": "2026-10-19",
     "partial_month": "2026-10",
     "profiles": [
       "lifely.com.au",
@@ -18,9 +18,9 @@
       "Reviewer country is source-provided and is not order destination.",
       "Records without a source-provided Australian country are excluded."
     ],
-    "latest_non5_review": "2026-10-17",
+    "latest_non5_review": "2026-10-18",
     "partial_period": "2026-10",
-    "source_checked_at": "2026-10-18T06:18:44Z"
+    "source_checked_at": "2026-10-19T06:17:30Z"
   },
   "category_labels": {
     "delivery_delay_preorder_stock": "Delivery delay / preorder / stock promise",
@@ -44,21 +44,21 @@
     "wrong_missing_incomplete_order"
   ],
   "totals": {
-    "reviews": 127,
+    "reviews": 128,
     "ratings": {
       "1": 66,
       "2": 18,
-      "3": 17,
+      "3": 18,
       "4": 26
     },
     "profiles": {
-      "lifely.com.au": 119,
+      "lifely.com.au": 120,
       "littlelifely.com": 8
     },
     "categories": {
       "assembly_instructions_hardware": 2,
       "comfort_design_fit_usability": 15,
-      "courier_tracking_delivery_handling": 27,
+      "courier_tracking_delivery_handling": 28,
       "customer_service_communication": 6,
       "damaged_on_arrival": 4,
       "delivery_delay_preorder_stock": 22,
@@ -71,6 +71,19 @@
     }
   },
   "records": [
+    {
+      "region": "AU",
+      "profile": "lifely.com.au",
+      "month": "2026-10",
+      "quarter": "Q4 MTD",
+      "published_date": "2026-10-18",
+      "rating": 3,
+      "category": "courier_tracking_delivery_handling",
+      "delivery_related": true,
+      "title": "Slow pick and delivery process",
+      "excerpt": "In short the products we ordered are nice and looks and feels as described. My grievances with lifely lie with their communications regarding the product being in stock and the timeframe for delivery. The product I ordered stated it was in stock however I ordered on the 20/9 and it was not picked up by the courier until the 29/9 then not received in Brisbane until Thursday 8/10. I was quite concerned with the lack of",
+      "url": "https://www.trustpilot.com/reviews/6ad49fd7b79c6771a25adeb2"
+    },
     {
       "region": "AU",
       "profile": "lifely.com.au",

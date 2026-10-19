@@ -5,7 +5,7 @@
     "label": "Australia only",
     "rule": "Includes only source-attributed Australian reviews. Unknown and non-Australian records are excluded."
   },
-  "last_updated": "2026-10-18T06:18:44Z",
+  "last_updated": "2026-10-19T06:17:31Z",
   "metric_definition": "Captured AU review history only. Scores are calculated from dated, source-attributed Australian reviews and are not global platform scores.",
   "sources": [
     {
@@ -15,18 +15,18 @@
       "label": "Lifely Trustpilot",
       "url": "https://www.trustpilot.com/review/lifely.com.au",
       "score": 3.99,
-      "total_reviews": 302,
+      "total_reviews": 304,
       "score_delta": null,
       "review_delta": null,
       "to_next_0_1_est_reviews": null,
       "source_note": "Captured Australian review history only.",
       "color": "#00a76f",
-      "history_records": 302,
+      "history_records": 304,
       "history_first_review_at": "2026-03-30T03:09:17Z",
-      "history_last_review_at": "2026-10-16T16:30:44Z",
+      "history_last_review_at": "2026-10-19T02:32:49Z",
       "history_method": "AU-only derivative of the verified Watchtower review history",
       "history_limitation": "Only records with a defensible Australian country/state attribution are included; unknown and non-Australian records are excluded.",
-      "region_records": 302,
+      "region_records": 304,
       "region_unavailable_records": 0,
       "region_source": "Public reviewer country supplied by Trustpilot."
     },
@@ -128,12 +128,12 @@
         "brand": "Lifely",
         "platform": "Trustpilot",
         "label": "Lifely Trustpilot",
-        "records": 302,
+        "records": 304,
         "first_review_at": "2026-03-30T03:09:17Z",
-        "last_review_at": "2026-10-16T16:30:44Z",
+        "last_review_at": "2026-10-19T02:32:49Z",
         "method": "AU-only derivative of the verified Watchtower review history",
         "limitation": "Only records with a defensible Australian country/state attribution are included; unknown and non-Australian records are excluded.",
-        "region_records": 302,
+        "region_records": 304,
         "region_unavailable_records": 0,
         "region_source": "Public reviewer country supplied by Trustpilot."
       },
@@ -2695,13 +2695,13 @@
           "label": "12 Oct–18 Oct 2026",
           "start": "2026-10-12",
           "end": "2026-10-18",
-          "is_partial": true,
-          "review_count": 6,
-          "average_score": 4.0,
+          "is_partial": false,
+          "review_count": 7,
+          "average_score": 3.86,
           "stars": {
             "1": 1,
             "2": 0,
-            "3": 1,
+            "3": 2,
             "4": 0,
             "5": 4
           },
@@ -2765,6 +2765,41 @@
                 "date": "2026-10-16T10:34:58Z",
                 "text": "Radiant mattress and Irisa bed frame We recently purchased the Radiant mattress and Irisa bed frame and are very satisfied with the overall experience. Ordering was straightforward and the delivery arrived within the timeframe communicated by the company. Both products were very well packed, and as…",
                 "url": "https://www.trustpilot.com/reviews/6acf30acd39dc3b62ba3d940"
+              }
+            }
+          ]
+        },
+        {
+          "key": "2026-10-19",
+          "label": "19 Oct–25 Oct 2026",
+          "start": "2026-10-19",
+          "end": "2026-10-25",
+          "is_partial": true,
+          "review_count": 1,
+          "average_score": 5.0,
+          "stars": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 1
+          },
+          "low_star_count": 0,
+          "positive_count": 1,
+          "complaint_themes": [],
+          "positive_themes": [
+            {
+              "theme": "shipping_positive",
+              "label": "Fast or clear delivery",
+              "count": 1,
+              "share": 100.0,
+              "previous_count": 2,
+              "delta_vs_previous": -1,
+              "example": {
+                "rating": 5,
+                "date": "2026-10-19T02:32:49Z",
+                "text": "Happy customer Well priced in comparison to similar products with good shipping time frame was good to Tasmania. Happy with our new couch. Yet to have anyone sleep on it, but is a great addition to our spare room which doubles as a music studio.",
+                "url": "https://www.trustpilot.com/reviews/6ad56531e9dfc748470cd271"
               }
             }
           ]
@@ -3594,17 +3629,17 @@
           "start": "2026-10-01",
           "end": "2026-10-31",
           "is_partial": true,
-          "review_count": 20,
-          "average_score": 3.55,
+          "review_count": 22,
+          "average_score": 3.59,
           "stars": {
             "1": 6,
             "2": 0,
-            "3": 2,
+            "3": 3,
             "4": 1,
-            "5": 11
+            "5": 12
           },
           "low_star_count": 6,
-          "positive_count": 12,
+          "positive_count": 13,
           "complaint_themes": [
             {
               "theme": "returns_trial_policy_confusion",
@@ -3672,7 +3707,7 @@
               "theme": "comfort_product_love",
               "label": "Comfort and product feel",
               "count": 5,
-              "share": 41.7,
+              "share": 38.5,
               "previous_count": 16,
               "delta_vs_previous": -11,
               "example": {
@@ -3685,10 +3720,10 @@
             {
               "theme": "shipping_positive",
               "label": "Fast or clear delivery",
-              "count": 3,
-              "share": 25.0,
+              "count": 4,
+              "share": 30.8,
               "previous_count": 10,
-              "delta_vs_previous": -7,
+              "delta_vs_previous": -6,
               "example": {
                 "rating": 4,
                 "date": "2026-10-03T10:14:47Z",
@@ -3700,7 +3735,7 @@
               "theme": "easy_setup_conversion",
               "label": "Easy setup / quick transform",
               "count": 2,
-              "share": 16.7,
+              "share": 15.4,
               "previous_count": 7,
               "delta_vs_previous": -5,
               "example": {
@@ -3714,7 +3749,7 @@
               "theme": "service_recovery",
               "label": "Helpful service / recovery",
               "count": 2,
-              "share": 16.7,
+              "share": 15.4,
               "previous_count": 8,
               "delta_vs_previous": -6,
               "example": {
@@ -3731,7 +3766,7 @@
         {
           "key": "AU",
           "label": "Australia",
-          "records": 302,
+          "records": 304,
           "weekly": [
             {
               "key": "2026-03-30",
@@ -6290,13 +6325,13 @@
               "label": "12 Oct–18 Oct 2026",
               "start": "2026-10-12",
               "end": "2026-10-18",
-              "is_partial": true,
-              "review_count": 6,
-              "average_score": 4.0,
+              "is_partial": false,
+              "review_count": 7,
+              "average_score": 3.86,
               "stars": {
                 "1": 1,
                 "2": 0,
-                "3": 1,
+                "3": 2,
                 "4": 0,
                 "5": 4
               },
@@ -6360,6 +6395,41 @@
                     "date": "2026-10-16T10:34:58Z",
                     "text": "Radiant mattress and Irisa bed frame We recently purchased the Radiant mattress and Irisa bed frame and are very satisfied with the overall experience. Ordering was straightforward and the delivery arrived within the timeframe communicated by the company. Both products were very well packed, and as…",
                     "url": "https://www.trustpilot.com/reviews/6acf30acd39dc3b62ba3d940"
+                  }
+                }
+              ]
+            },
+            {
+              "key": "2026-10-19",
+              "label": "19 Oct–25 Oct 2026",
+              "start": "2026-10-19",
+              "end": "2026-10-25",
+              "is_partial": true,
+              "review_count": 1,
+              "average_score": 5.0,
+              "stars": {
+                "1": 0,
+                "2": 0,
+                "3": 0,
+                "4": 0,
+                "5": 1
+              },
+              "low_star_count": 0,
+              "positive_count": 1,
+              "complaint_themes": [],
+              "positive_themes": [
+                {
+                  "theme": "shipping_positive",
+                  "label": "Fast or clear delivery",
+                  "count": 1,
+                  "share": 100.0,
+                  "previous_count": 2,
+                  "delta_vs_previous": -1,
+                  "example": {
+                    "rating": 5,
+                    "date": "2026-10-19T02:32:49Z",
+                    "text": "Happy customer Well priced in comparison to similar products with good shipping time frame was good to Tasmania. Happy with our new couch. Yet to have anyone sleep on it, but is a great addition to our spare room which doubles as a music studio.",
+                    "url": "https://www.trustpilot.com/reviews/6ad56531e9dfc748470cd271"
                   }
                 }
               ]
@@ -7189,17 +7259,17 @@
               "start": "2026-10-01",
               "end": "2026-10-31",
               "is_partial": true,
-              "review_count": 20,
-              "average_score": 3.55,
+              "review_count": 22,
+              "average_score": 3.59,
               "stars": {
                 "1": 6,
                 "2": 0,
-                "3": 2,
+                "3": 3,
                 "4": 1,
-                "5": 11
+                "5": 12
               },
               "low_star_count": 6,
-              "positive_count": 12,
+              "positive_count": 13,
               "complaint_themes": [
                 {
                   "theme": "returns_trial_policy_confusion",
@@ -7267,7 +7337,7 @@
                   "theme": "comfort_product_love",
                   "label": "Comfort and product feel",
                   "count": 5,
-                  "share": 41.7,
+                  "share": 38.5,
                   "previous_count": 16,
                   "delta_vs_previous": -11,
                   "example": {
@@ -7280,10 +7350,10 @@
                 {
                   "theme": "shipping_positive",
                   "label": "Fast or clear delivery",
-                  "count": 3,
-                  "share": 25.0,
+                  "count": 4,
+                  "share": 30.8,
                   "previous_count": 10,
-                  "delta_vs_previous": -7,
+                  "delta_vs_previous": -6,
                   "example": {
                     "rating": 4,
                     "date": "2026-10-03T10:14:47Z",
@@ -7295,7 +7365,7 @@
                   "theme": "easy_setup_conversion",
                   "label": "Easy setup / quick transform",
                   "count": 2,
-                  "share": 16.7,
+                  "share": 15.4,
                   "previous_count": 7,
                   "delta_vs_previous": -5,
                   "example": {
@@ -7309,7 +7379,7 @@
                   "theme": "service_recovery",
                   "label": "Helpful service / recovery",
                   "count": 2,
-                  "share": 16.7,
+                  "share": 15.4,
                   "previous_count": 8,
                   "delta_vs_previous": -6,
                   "example": {
@@ -8321,7 +8391,7 @@
           "label": "12 Oct–18 Oct 2026",
           "start": "2026-10-12",
           "end": "2026-10-18",
-          "is_partial": true,
+          "is_partial": false,
           "review_count": 7,
           "average_score": 4.57,
           "stars": {
@@ -8366,6 +8436,26 @@
               }
             }
           ]
+        },
+        {
+          "key": "2026-10-19",
+          "label": "19 Oct–25 Oct 2026",
+          "start": "2026-10-19",
+          "end": "2026-10-25",
+          "is_partial": true,
+          "review_count": 0,
+          "average_score": null,
+          "stars": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0
+          },
+          "low_star_count": 0,
+          "positive_count": 0,
+          "complaint_themes": [],
+          "positive_themes": []
         }
       ],
       "monthly": [
@@ -9781,7 +9871,7 @@
               "label": "12 Oct–18 Oct 2026",
               "start": "2026-10-12",
               "end": "2026-10-18",
-              "is_partial": true,
+              "is_partial": false,
               "review_count": 7,
               "average_score": 4.57,
               "stars": {
@@ -9826,6 +9916,26 @@
                   }
                 }
               ]
+            },
+            {
+              "key": "2026-10-19",
+              "label": "19 Oct–25 Oct 2026",
+              "start": "2026-10-19",
+              "end": "2026-10-25",
+              "is_partial": true,
+              "review_count": 0,
+              "average_score": null,
+              "stars": {
+                "1": 0,
+                "2": 0,
+                "3": 0,
+                "4": 0,
+                "5": 0
+              },
+              "low_star_count": 0,
+              "positive_count": 0,
+              "complaint_themes": [],
+              "positive_themes": []
             }
           ],
           "monthly": [
@@ -10789,6 +10899,26 @@
           "label": "12 Oct–18 Oct 2026",
           "start": "2026-10-12",
           "end": "2026-10-18",
+          "is_partial": false,
+          "review_count": 0,
+          "average_score": null,
+          "stars": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0
+          },
+          "low_star_count": 0,
+          "positive_count": 0,
+          "complaint_themes": [],
+          "positive_themes": []
+        },
+        {
+          "key": "2026-10-19",
+          "label": "19 Oct–25 Oct 2026",
+          "start": "2026-10-19",
+          "end": "2026-10-25",
           "is_partial": true,
           "review_count": 0,
           "average_score": null,
@@ -11512,6 +11642,26 @@
               "label": "12 Oct–18 Oct 2026",
               "start": "2026-10-12",
               "end": "2026-10-18",
+              "is_partial": false,
+              "review_count": 0,
+              "average_score": null,
+              "stars": {
+                "1": 0,
+                "2": 0,
+                "3": 0,
+                "4": 0,
+                "5": 0
+              },
+              "low_star_count": 0,
+              "positive_count": 0,
+              "complaint_themes": [],
+              "positive_themes": []
+            },
+            {
+              "key": "2026-10-19",
+              "label": "19 Oct–25 Oct 2026",
+              "start": "2026-10-19",
+              "end": "2026-10-25",
               "is_partial": true,
               "review_count": 0,
               "average_score": null,
@@ -16851,6 +17001,26 @@
           "label": "12 Oct–18 Oct 2026",
           "start": "2026-10-12",
           "end": "2026-10-18",
+          "is_partial": false,
+          "review_count": 0,
+          "average_score": null,
+          "stars": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0
+          },
+          "low_star_count": 0,
+          "positive_count": 0,
+          "complaint_themes": [],
+          "positive_themes": []
+        },
+        {
+          "key": "2026-10-19",
+          "label": "19 Oct–25 Oct 2026",
+          "start": "2026-10-19",
+          "end": "2026-10-25",
           "is_partial": true,
           "review_count": 0,
           "average_score": null,
@@ -24141,6 +24311,26 @@
               "label": "12 Oct–18 Oct 2026",
               "start": "2026-10-12",
               "end": "2026-10-18",
+              "is_partial": false,
+              "review_count": 0,
+              "average_score": null,
+              "stars": {
+                "1": 0,
+                "2": 0,
+                "3": 0,
+                "4": 0,
+                "5": 0
+              },
+              "low_star_count": 0,
+              "positive_count": 0,
+              "complaint_themes": [],
+              "positive_themes": []
+            },
+            {
+              "key": "2026-10-19",
+              "label": "19 Oct–25 Oct 2026",
+              "start": "2026-10-19",
+              "end": "2026-10-25",
               "is_partial": true,
               "review_count": 0,
               "average_score": null,
@@ -29679,6 +29869,26 @@
           "label": "12 Oct–18 Oct 2026",
           "start": "2026-10-12",
           "end": "2026-10-18",
+          "is_partial": false,
+          "review_count": 0,
+          "average_score": null,
+          "stars": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0
+          },
+          "low_star_count": 0,
+          "positive_count": 0,
+          "complaint_themes": [],
+          "positive_themes": []
+        },
+        {
+          "key": "2026-10-19",
+          "label": "19 Oct–25 Oct 2026",
+          "start": "2026-10-19",
+          "end": "2026-10-25",
           "is_partial": true,
           "review_count": 0,
           "average_score": null,
@@ -33848,6 +34058,26 @@
               "label": "12 Oct–18 Oct 2026",
               "start": "2026-10-12",
               "end": "2026-10-18",
+              "is_partial": false,
+              "review_count": 0,
+              "average_score": null,
+              "stars": {
+                "1": 0,
+                "2": 0,
+                "3": 0,
+                "4": 0,
+                "5": 0
+              },
+              "low_star_count": 0,
+              "positive_count": 0,
+              "complaint_themes": [],
+              "positive_themes": []
+            },
+            {
+              "key": "2026-10-19",
+              "label": "19 Oct–25 Oct 2026",
+              "start": "2026-10-19",
+              "end": "2026-10-25",
               "is_partial": true,
               "review_count": 0,
               "average_score": null,
@@ -34676,12 +34906,12 @@
       "brand": "Lifely",
       "platform": "Trustpilot",
       "label": "Lifely Trustpilot",
-      "records": 302,
+      "records": 304,
       "first_review_at": "2026-03-30T03:09:17Z",
-      "last_review_at": "2026-10-16T16:30:44Z",
+      "last_review_at": "2026-10-19T02:32:49Z",
       "method": "AU-only derivative of the verified Watchtower review history",
       "limitation": "Only records with a defensible Australian country/state attribution are included; unknown and non-Australian records are excluded.",
-      "region_records": 302,
+      "region_records": 304,
       "region_unavailable_records": 0,
       "region_source": "Public reviewer country supplied by Trustpilot."
     },
