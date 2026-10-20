@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "analysis_type": "public_au_non5_review_analysis",
-  "generated_at": "2026-10-19T06:17:31+00:00",
+  "generated_at": "2026-10-20T06:20:26+00:00",
   "coverage": {
     "from": "2026-01-02",
     "through": "2026-10-19",
@@ -18,9 +18,9 @@
       "Reviewer country is source-provided and is not order destination.",
       "Records without a source-provided Australian country are excluded."
     ],
-    "latest_non5_review": "2026-10-18",
+    "latest_non5_review": "2026-10-19",
     "partial_period": "2026-10",
-    "source_checked_at": "2026-10-19T06:17:30Z"
+    "source_checked_at": "2026-10-20T06:20:25Z"
   },
   "category_labels": {
     "delivery_delay_preorder_stock": "Delivery delay / preorder / stock promise",
@@ -44,20 +44,20 @@
     "wrong_missing_incomplete_order"
   ],
   "totals": {
-    "reviews": 128,
+    "reviews": 130,
     "ratings": {
       "1": 66,
       "2": 18,
-      "3": 18,
-      "4": 26
+      "3": 19,
+      "4": 27
     },
     "profiles": {
       "lifely.com.au": 120,
-      "littlelifely.com": 8
+      "littlelifely.com": 10
     },
     "categories": {
-      "assembly_instructions_hardware": 2,
-      "comfort_design_fit_usability": 15,
+      "assembly_instructions_hardware": 3,
+      "comfort_design_fit_usability": 16,
       "courier_tracking_delivery_handling": 28,
       "customer_service_communication": 6,
       "damaged_on_arrival": 4,
@@ -71,6 +71,32 @@
     }
   },
   "records": [
+    {
+      "region": "AU",
+      "profile": "littlelifely.com",
+      "month": "2026-10",
+      "quarter": "Q4 MTD",
+      "published_date": "2026-10-19",
+      "rating": 4,
+      "category": "assembly_instructions_hardware",
+      "delivery_related": false,
+      "title": "We love our Little Lifely bed",
+      "excerpt": "We love our Little Lifely bed. It arrived promptly. Took a bit of time to figure out how to put the cover on, once we had it around the right way, we had it put together in about 20 minutes. A video tutorial would be helpful to those purchasing. Honestly love it.",
+      "url": "https://www.trustpilot.com/reviews/6ad5e1b4b623b18611b1c28b"
+    },
+    {
+      "region": "AU",
+      "profile": "littlelifely.com",
+      "month": "2026-10",
+      "quarter": "Q4 MTD",
+      "published_date": "2026-10-19",
+      "rating": 3,
+      "category": "comfort_design_fit_usability",
+      "delivery_related": false,
+      "title": "Single bed",
+      "excerpt": "I purchased the signature sleep pack. The idea of the bed is fantastic however we have one side collapsing. After multiple attempts to straighten it up ive given up. The mattress is absolutely terrible. Zero comfort. Big regret spending nearly $700. Id advise to get your mattress from elsewhere.",
+      "url": "https://www.trustpilot.com/reviews/6ad5c52c98735c76228f0140"
+    },
     {
       "region": "AU",
       "profile": "lifely.com.au",
