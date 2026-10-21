@@ -5,7 +5,7 @@
     "label": "Australia only",
     "rule": "Includes only source-attributed Australian reviews. Unknown and non-Australian records are excluded."
   },
-  "last_updated": "2026-10-20T06:20:26Z",
+  "last_updated": "2026-10-21T06:04:31Z",
   "metric_definition": "Captured AU review history only. Scores are calculated from dated, source-attributed Australian reviews and are not global platform scores.",
   "sources": [
     {
@@ -15,18 +15,18 @@
       "label": "Lifely Trustpilot",
       "url": "https://www.trustpilot.com/review/lifely.com.au",
       "score": 3.99,
-      "total_reviews": 304,
+      "total_reviews": 305,
       "score_delta": null,
       "review_delta": null,
       "to_next_0_1_est_reviews": null,
       "source_note": "Captured Australian review history only.",
       "color": "#00a76f",
-      "history_records": 304,
+      "history_records": 305,
       "history_first_review_at": "2026-03-30T03:09:17Z",
-      "history_last_review_at": "2026-10-19T02:32:49Z",
+      "history_last_review_at": "2026-10-20T08:25:53Z",
       "history_method": "AU-only derivative of the verified Watchtower review history",
       "history_limitation": "Only records with a defensible Australian country/state attribution are included; unknown and non-Australian records are excluded.",
-      "region_records": 304,
+      "region_records": 305,
       "region_unavailable_records": 0,
       "region_source": "Public reviewer country supplied by Trustpilot."
     },
@@ -128,12 +128,12 @@
         "brand": "Lifely",
         "platform": "Trustpilot",
         "label": "Lifely Trustpilot",
-        "records": 304,
+        "records": 305,
         "first_review_at": "2026-03-30T03:09:17Z",
-        "last_review_at": "2026-10-19T02:32:49Z",
+        "last_review_at": "2026-10-20T08:25:53Z",
         "method": "AU-only derivative of the verified Watchtower review history",
         "limitation": "Only records with a defensible Australian country/state attribution are included; unknown and non-Australian records are excluded.",
-        "region_records": 304,
+        "region_records": 305,
         "region_unavailable_records": 0,
         "region_source": "Public reviewer country supplied by Trustpilot."
       },
@@ -2775,24 +2775,24 @@
           "start": "2026-10-19",
           "end": "2026-10-25",
           "is_partial": true,
-          "review_count": 1,
-          "average_score": 5.0,
+          "review_count": 2,
+          "average_score": 4.5,
           "stars": {
             "1": 0,
             "2": 0,
             "3": 0,
-            "4": 0,
+            "4": 1,
             "5": 1
           },
           "low_star_count": 0,
-          "positive_count": 1,
+          "positive_count": 2,
           "complaint_themes": [],
           "positive_themes": [
             {
               "theme": "shipping_positive",
               "label": "Fast or clear delivery",
               "count": 1,
-              "share": 100.0,
+              "share": 50.0,
               "previous_count": 2,
               "delta_vs_previous": -1,
               "example": {
@@ -2801,6 +2801,21 @@
                 "text": "Happy customer Well priced in comparison to similar products with good shipping time frame was good to Tasmania. Happy with our new couch. Yet to have anyone sleep on it, but is a great addition to our spare room which doubles as a music studio.",
                 "url": "https://www.trustpilot.com/reviews/6ad56531e9dfc748470cd271"
               }
+            },
+            {
+              "theme": "other",
+              "label": "Other feedback",
+              "count": 1,
+              "share": 50.0,
+              "previous_count": 0,
+              "delta_vs_previous": 1,
+              "example": {
+                "rating": 4,
+                "date": "2026-10-20T08:25:53Z",
+                "text": "Bed is comfy as and actually feel like… Bed is comfy as and actually feel like sleeping way better. Only issue was getting the cover on but that was more of a 20 minute frustration thing totally worth it",
+                "url": "https://www.trustpilot.com/reviews/6ad7097133d19c3200309bdf"
+              },
+              "recommended_action": "Review the underlying comments and create a new recurring theme if this pattern repeats."
             }
           ]
         }
@@ -3629,17 +3644,17 @@
           "start": "2026-10-01",
           "end": "2026-10-31",
           "is_partial": true,
-          "review_count": 22,
-          "average_score": 3.59,
+          "review_count": 23,
+          "average_score": 3.61,
           "stars": {
             "1": 6,
             "2": 0,
             "3": 3,
-            "4": 1,
+            "4": 2,
             "5": 12
           },
           "low_star_count": 6,
-          "positive_count": 13,
+          "positive_count": 14,
           "complaint_themes": [
             {
               "theme": "returns_trial_policy_confusion",
@@ -3707,7 +3722,7 @@
               "theme": "comfort_product_love",
               "label": "Comfort and product feel",
               "count": 5,
-              "share": 38.5,
+              "share": 35.7,
               "previous_count": 16,
               "delta_vs_previous": -11,
               "example": {
@@ -3721,7 +3736,7 @@
               "theme": "shipping_positive",
               "label": "Fast or clear delivery",
               "count": 4,
-              "share": 30.8,
+              "share": 28.6,
               "previous_count": 10,
               "delta_vs_previous": -6,
               "example": {
@@ -3735,7 +3750,7 @@
               "theme": "easy_setup_conversion",
               "label": "Easy setup / quick transform",
               "count": 2,
-              "share": 15.4,
+              "share": 14.3,
               "previous_count": 7,
               "delta_vs_previous": -5,
               "example": {
@@ -3749,7 +3764,7 @@
               "theme": "service_recovery",
               "label": "Helpful service / recovery",
               "count": 2,
-              "share": 15.4,
+              "share": 14.3,
               "previous_count": 8,
               "delta_vs_previous": -6,
               "example": {
@@ -3766,7 +3781,7 @@
         {
           "key": "AU",
           "label": "Australia",
-          "records": 304,
+          "records": 305,
           "weekly": [
             {
               "key": "2026-03-30",
@@ -6405,24 +6420,24 @@
               "start": "2026-10-19",
               "end": "2026-10-25",
               "is_partial": true,
-              "review_count": 1,
-              "average_score": 5.0,
+              "review_count": 2,
+              "average_score": 4.5,
               "stars": {
                 "1": 0,
                 "2": 0,
                 "3": 0,
-                "4": 0,
+                "4": 1,
                 "5": 1
               },
               "low_star_count": 0,
-              "positive_count": 1,
+              "positive_count": 2,
               "complaint_themes": [],
               "positive_themes": [
                 {
                   "theme": "shipping_positive",
                   "label": "Fast or clear delivery",
                   "count": 1,
-                  "share": 100.0,
+                  "share": 50.0,
                   "previous_count": 2,
                   "delta_vs_previous": -1,
                   "example": {
@@ -6431,6 +6446,21 @@
                     "text": "Happy customer Well priced in comparison to similar products with good shipping time frame was good to Tasmania. Happy with our new couch. Yet to have anyone sleep on it, but is a great addition to our spare room which doubles as a music studio.",
                     "url": "https://www.trustpilot.com/reviews/6ad56531e9dfc748470cd271"
                   }
+                },
+                {
+                  "theme": "other",
+                  "label": "Other feedback",
+                  "count": 1,
+                  "share": 50.0,
+                  "previous_count": 0,
+                  "delta_vs_previous": 1,
+                  "example": {
+                    "rating": 4,
+                    "date": "2026-10-20T08:25:53Z",
+                    "text": "Bed is comfy as and actually feel like… Bed is comfy as and actually feel like sleeping way better. Only issue was getting the cover on but that was more of a 20 minute frustration thing totally worth it",
+                    "url": "https://www.trustpilot.com/reviews/6ad7097133d19c3200309bdf"
+                  },
+                  "recommended_action": "Review the underlying comments and create a new recurring theme if this pattern repeats."
                 }
               ]
             }
@@ -7259,17 +7289,17 @@
               "start": "2026-10-01",
               "end": "2026-10-31",
               "is_partial": true,
-              "review_count": 22,
-              "average_score": 3.59,
+              "review_count": 23,
+              "average_score": 3.61,
               "stars": {
                 "1": 6,
                 "2": 0,
                 "3": 3,
-                "4": 1,
+                "4": 2,
                 "5": 12
               },
               "low_star_count": 6,
-              "positive_count": 13,
+              "positive_count": 14,
               "complaint_themes": [
                 {
                   "theme": "returns_trial_policy_confusion",
@@ -7337,7 +7367,7 @@
                   "theme": "comfort_product_love",
                   "label": "Comfort and product feel",
                   "count": 5,
-                  "share": 38.5,
+                  "share": 35.7,
                   "previous_count": 16,
                   "delta_vs_previous": -11,
                   "example": {
@@ -7351,7 +7381,7 @@
                   "theme": "shipping_positive",
                   "label": "Fast or clear delivery",
                   "count": 4,
-                  "share": 30.8,
+                  "share": 28.6,
                   "previous_count": 10,
                   "delta_vs_previous": -6,
                   "example": {
@@ -7365,7 +7395,7 @@
                   "theme": "easy_setup_conversion",
                   "label": "Easy setup / quick transform",
                   "count": 2,
-                  "share": 15.4,
+                  "share": 14.3,
                   "previous_count": 7,
                   "delta_vs_previous": -5,
                   "example": {
@@ -7379,7 +7409,7 @@
                   "theme": "service_recovery",
                   "label": "Helpful service / recovery",
                   "count": 2,
-                  "share": 15.4,
+                  "share": 14.3,
                   "previous_count": 8,
                   "delta_vs_previous": -6,
                   "example": {
@@ -34936,12 +34966,12 @@
       "brand": "Lifely",
       "platform": "Trustpilot",
       "label": "Lifely Trustpilot",
-      "records": 304,
+      "records": 305,
       "first_review_at": "2026-03-30T03:09:17Z",
-      "last_review_at": "2026-10-19T02:32:49Z",
+      "last_review_at": "2026-10-20T08:25:53Z",
       "method": "AU-only derivative of the verified Watchtower review history",
       "limitation": "Only records with a defensible Australian country/state attribution are included; unknown and non-Australian records are excluded.",
-      "region_records": 304,
+      "region_records": 305,
       "region_unavailable_records": 0,
       "region_source": "Public reviewer country supplied by Trustpilot."
     },

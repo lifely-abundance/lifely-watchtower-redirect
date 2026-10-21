@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "analysis_type": "public_au_non5_review_analysis",
-  "generated_at": "2026-10-20T06:20:26+00:00",
+  "generated_at": "2026-10-21T06:04:32+00:00",
   "coverage": {
     "from": "2026-01-02",
-    "through": "2026-10-19",
+    "through": "2026-10-21",
     "partial_month": "2026-10",
     "profiles": [
       "lifely.com.au",
@@ -18,9 +18,9 @@
       "Reviewer country is source-provided and is not order destination.",
       "Records without a source-provided Australian country are excluded."
     ],
-    "latest_non5_review": "2026-10-19",
+    "latest_non5_review": "2026-10-21",
     "partial_period": "2026-10",
-    "source_checked_at": "2026-10-20T06:20:25Z"
+    "source_checked_at": "2026-10-21T06:04:31Z"
   },
   "category_labels": {
     "delivery_delay_preorder_stock": "Delivery delay / preorder / stock promise",
@@ -44,20 +44,20 @@
     "wrong_missing_incomplete_order"
   ],
   "totals": {
-    "reviews": 130,
+    "reviews": 131,
     "ratings": {
       "1": 66,
       "2": 18,
       "3": 19,
-      "4": 27
+      "4": 28
     },
     "profiles": {
-      "lifely.com.au": 120,
+      "lifely.com.au": 121,
       "littlelifely.com": 10
     },
     "categories": {
       "assembly_instructions_hardware": 3,
-      "comfort_design_fit_usability": 16,
+      "comfort_design_fit_usability": 17,
       "courier_tracking_delivery_handling": 28,
       "customer_service_communication": 6,
       "damaged_on_arrival": 4,
@@ -71,6 +71,19 @@
     }
   },
   "records": [
+    {
+      "region": "AU",
+      "profile": "lifely.com.au",
+      "month": "2026-10",
+      "quarter": "Q4 MTD",
+      "published_date": "2026-10-20",
+      "rating": 4,
+      "category": "comfort_design_fit_usability",
+      "delivery_related": false,
+      "title": "Bed is comfy as and actually feel like…",
+      "excerpt": "Bed is comfy as and actually feel like sleeping way better. Only issue was getting the cover on but that was more of a 20 minute frustration thing totally worth it",
+      "url": "https://www.trustpilot.com/reviews/6ad7097133d19c3200309bdf"
+    },
     {
       "region": "AU",
       "profile": "littlelifely.com",
