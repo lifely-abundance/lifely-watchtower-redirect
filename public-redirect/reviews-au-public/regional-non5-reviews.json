@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "analysis_type": "public_au_non5_review_analysis",
-  "generated_at": "2026-10-21T06:04:32+00:00",
+  "generated_at": "2026-10-23T06:06:13+00:00",
   "coverage": {
     "from": "2026-01-02",
-    "through": "2026-10-21",
+    "through": "2026-10-23",
     "partial_month": "2026-10",
     "profiles": [
       "lifely.com.au",
@@ -18,9 +18,9 @@
       "Reviewer country is source-provided and is not order destination.",
       "Records without a source-provided Australian country are excluded."
     ],
-    "latest_non5_review": "2026-10-21",
+    "latest_non5_review": "2026-10-22",
     "partial_period": "2026-10",
-    "source_checked_at": "2026-10-21T06:04:31Z"
+    "source_checked_at": "2026-10-23T06:06:13Z"
   },
   "category_labels": {
     "delivery_delay_preorder_stock": "Delivery delay / preorder / stock promise",
@@ -44,33 +44,72 @@
     "wrong_missing_incomplete_order"
   ],
   "totals": {
-    "reviews": 131,
+    "reviews": 134,
     "ratings": {
       "1": 66,
       "2": 18,
       "3": 19,
-      "4": 28
+      "4": 31
     },
     "profiles": {
-      "lifely.com.au": 121,
+      "lifely.com.au": 124,
       "littlelifely.com": 10
     },
     "categories": {
       "assembly_instructions_hardware": 3,
-      "comfort_design_fit_usability": 17,
+      "comfort_design_fit_usability": 18,
       "courier_tracking_delivery_handling": 28,
       "customer_service_communication": 6,
       "damaged_on_arrival": 4,
       "delivery_delay_preorder_stock": 22,
-      "no_explicit_complaint": 12,
+      "no_explicit_complaint": 13,
       "price_value_expectation": 1,
-      "product_quality_defect_durability": 11,
+      "product_quality_defect_durability": 12,
       "return_refund_cancellation_warranty": 10,
       "website_ordering_payment_promotion": 3,
       "wrong_missing_incomplete_order": 14
     }
   },
   "records": [
+    {
+      "region": "AU",
+      "profile": "lifely.com.au",
+      "month": "2026-10",
+      "quarter": "Q4 MTD",
+      "published_date": "2026-10-22",
+      "rating": 4,
+      "category": "no_explicit_complaint",
+      "delivery_related": false,
+      "title": "Cost effective",
+      "excerpt": "Cost effective, great! Very heavy and the handle on packaging broke after I was lifting up the stairs, causing it to fall down and damage my wall. Be careful with the handles :)",
+      "url": "https://www.trustpilot.com/reviews/6ad9b4801f996b0376e0ed65"
+    },
+    {
+      "region": "AU",
+      "profile": "lifely.com.au",
+      "month": "2026-10",
+      "quarter": "Q4 MTD",
+      "published_date": "2026-10-22",
+      "rating": 4,
+      "category": "comfort_design_fit_usability",
+      "delivery_related": false,
+      "title": "Radiant mattress double",
+      "excerpt": "I’ve had a seamless, prompt and friendly experience with Lifely. I’m not completely sold on the mattress for me personally, but their team was very helpful swapping the firmness inserts to help me find the right comfort level. I chose it because I wanted a latex mattress with non-toxic components. However, I didn’t realise the swappable top layers are foam rather than latex — I’d recommend making this clearer in the",
+      "url": "https://www.trustpilot.com/reviews/6ad9ad0115ffdbcf3ce9a254"
+    },
+    {
+      "region": "AU",
+      "profile": "lifely.com.au",
+      "month": "2026-10",
+      "quarter": "Q4 MTD",
+      "published_date": "2026-10-22",
+      "rating": 4,
+      "category": "product_quality_defect_durability",
+      "delivery_related": false,
+      "title": "Bought the Radiant Queen mattress from Lifely",
+      "excerpt": "Bought the Radiant Queen mattress with two FIRM toppers. The quality is very good, the firmness is as expected, the delivery took longer than expected (+3weeks) but the customer service has been helpful. Had an issue with the delivery which was easily resolved by the \"insurance\" included in the paid delivery service. Decided to try swapping the toppers for less firm ones and this seems to be an easy process although",
+      "url": "https://www.trustpilot.com/reviews/6ad93912f7ef86adf8d46800"
+    },
     {
       "region": "AU",
       "profile": "lifely.com.au",
