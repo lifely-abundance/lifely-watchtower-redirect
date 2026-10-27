@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "analysis_type": "public_au_non5_review_analysis",
-  "generated_at": "2026-10-23T06:06:13+00:00",
+  "generated_at": "2026-10-27T06:12:21+00:00",
   "coverage": {
     "from": "2026-01-02",
-    "through": "2026-10-23",
+    "through": "2026-10-27",
     "partial_month": "2026-10",
     "profiles": [
       "lifely.com.au",
@@ -18,9 +18,9 @@
       "Reviewer country is source-provided and is not order destination.",
       "Records without a source-provided Australian country are excluded."
     ],
-    "latest_non5_review": "2026-10-22",
+    "latest_non5_review": "2026-10-26",
     "partial_period": "2026-10",
-    "source_checked_at": "2026-10-23T06:06:13Z"
+    "source_checked_at": "2026-10-27T06:12:20Z"
   },
   "category_labels": {
     "delivery_delay_preorder_stock": "Delivery delay / preorder / stock promise",
@@ -44,21 +44,21 @@
     "wrong_missing_incomplete_order"
   ],
   "totals": {
-    "reviews": 134,
+    "reviews": 136,
     "ratings": {
       "1": 66,
       "2": 18,
-      "3": 19,
-      "4": 31
+      "3": 20,
+      "4": 32
     },
     "profiles": {
-      "lifely.com.au": 124,
-      "littlelifely.com": 10
+      "lifely.com.au": 125,
+      "littlelifely.com": 11
     },
     "categories": {
       "assembly_instructions_hardware": 3,
-      "comfort_design_fit_usability": 18,
-      "courier_tracking_delivery_handling": 28,
+      "comfort_design_fit_usability": 19,
+      "courier_tracking_delivery_handling": 29,
       "customer_service_communication": 6,
       "damaged_on_arrival": 4,
       "delivery_delay_preorder_stock": 22,
@@ -71,6 +71,32 @@
     }
   },
   "records": [
+    {
+      "region": "AU",
+      "profile": "littlelifely.com",
+      "month": "2026-10",
+      "quarter": "Q4 MTD",
+      "published_date": "2026-10-24",
+      "rating": 3,
+      "category": "comfort_design_fit_usability",
+      "delivery_related": false,
+      "title": "Cute bed, uncomfy mattress",
+      "excerpt": "The bed looks really cute and I love that it’s soft and practical for a small child. The mattress that came with the bed though is EXTREMELY uncomfortable, a total waste of the money it cost, I wish I’d have known as I’d have got one elsewhere. The bed took two adults to get the pieces into the cover",
+      "url": "https://www.trustpilot.com/reviews/6adbede61ca1c44a622e08d8"
+    },
+    {
+      "region": "AU",
+      "profile": "lifely.com.au",
+      "month": "2026-10",
+      "quarter": "Q4 MTD",
+      "published_date": "2026-10-23",
+      "rating": 4,
+      "category": "courier_tracking_delivery_handling",
+      "delivery_related": true,
+      "title": "Loved the discounts on my purchase",
+      "excerpt": "Loved the discounts on my purchase. Quick response when enquiring with customer support. Only downside was process of tracking items! Overall, great customer experience.",
+      "url": "https://www.trustpilot.com/reviews/6adb070063211f7e4d5f3cbb"
+    },
     {
       "region": "AU",
       "profile": "lifely.com.au",
