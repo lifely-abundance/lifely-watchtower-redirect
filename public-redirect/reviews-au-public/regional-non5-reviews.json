@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "analysis_type": "public_au_non5_review_analysis",
-  "generated_at": "2026-10-29T06:01:56+00:00",
+  "generated_at": "2026-10-31T06:13:33+00:00",
   "coverage": {
     "from": "2026-01-02",
-    "through": "2026-10-29",
+    "through": "2026-10-31",
     "partial_month": "2026-10",
     "profiles": [
       "lifely.com.au",
@@ -18,9 +18,9 @@
       "Reviewer country is source-provided and is not order destination.",
       "Records without a source-provided Australian country are excluded."
     ],
-    "latest_non5_review": "2026-10-29",
+    "latest_non5_review": "2026-10-31",
     "partial_period": "2026-10",
-    "source_checked_at": "2026-10-29T06:01:55Z"
+    "source_checked_at": "2026-10-31T06:13:33Z"
   },
   "category_labels": {
     "delivery_delay_preorder_stock": "Delivery delay / preorder / stock promise",
@@ -44,26 +44,26 @@
     "wrong_missing_incomplete_order"
   ],
   "totals": {
-    "reviews": 136,
+    "reviews": 139,
     "ratings": {
       "1": 66,
-      "2": 18,
+      "2": 19,
       "3": 20,
-      "4": 32
+      "4": 34
     },
     "profiles": {
-      "lifely.com.au": 125,
-      "littlelifely.com": 11
+      "lifely.com.au": 126,
+      "littlelifely.com": 13
     },
     "categories": {
       "assembly_instructions_hardware": 3,
-      "comfort_design_fit_usability": 19,
+      "comfort_design_fit_usability": 20,
       "courier_tracking_delivery_handling": 29,
       "customer_service_communication": 6,
       "damaged_on_arrival": 4,
       "delivery_delay_preorder_stock": 22,
-      "no_explicit_complaint": 13,
-      "price_value_expectation": 1,
+      "no_explicit_complaint": 14,
+      "price_value_expectation": 2,
       "product_quality_defect_durability": 12,
       "return_refund_cancellation_warranty": 10,
       "website_ordering_payment_promotion": 3,
@@ -71,6 +71,45 @@
     }
   },
   "records": [
+    {
+      "region": "AU",
+      "profile": "littlelifely.com",
+      "month": "2026-10",
+      "quarter": "Q4 MTD",
+      "published_date": "2026-10-31",
+      "rating": 2,
+      "category": "price_value_expectation",
+      "delivery_related": false,
+      "title": "Be careful buying from this company",
+      "excerpt": "The order was sent in two deliveries however they never explained this so when I received the first part I thought they had not sent the whole order. Now the phone number is impossible to get a response from and the email is a bot that responds to you. Eventually I did get a response from an actual person and the order was eventually sent. The bed is great and my son loves it he is 1 but just for the inability to con",
+      "url": "https://www.trustpilot.com/reviews/6ae560c74aaeb5df6f87dab4"
+    },
+    {
+      "region": "AU",
+      "profile": "lifely.com.au",
+      "month": "2026-10",
+      "quarter": "Q4 MTD",
+      "published_date": "2026-10-30",
+      "rating": 4,
+      "category": "no_explicit_complaint",
+      "delivery_related": false,
+      "title": "So far",
+      "excerpt": "So far, the experience has been good. Haven’t received the product yet",
+      "url": "https://www.trustpilot.com/reviews/6ae4433a68ad4ef8af8f60d9"
+    },
+    {
+      "region": "AU",
+      "profile": "littlelifely.com",
+      "month": "2026-10",
+      "quarter": "Q4 MTD",
+      "published_date": "2026-10-29",
+      "rating": 4,
+      "category": "comfort_design_fit_usability",
+      "delivery_related": false,
+      "title": "Had an issue with the zip from the bed…",
+      "excerpt": "Had an issue with the zip from the bed cover but the lifely team was very prompt at solving the issue. Great customer service from the sales rep (Jaja)",
+      "url": "https://www.trustpilot.com/reviews/6ae34281db4a9cecc2979ca0"
+    },
     {
       "region": "AU",
       "profile": "littlelifely.com",
