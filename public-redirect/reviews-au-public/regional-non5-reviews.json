@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "analysis_type": "public_au_non5_review_analysis",
-  "generated_at": "2026-10-31T06:13:33+00:00",
+  "generated_at": "2026-11-02T06:16:55+00:00",
   "coverage": {
     "from": "2026-01-02",
-    "through": "2026-10-31",
-    "partial_month": "2026-10",
+    "through": "2026-11-02",
+    "partial_month": "2026-11",
     "profiles": [
       "lifely.com.au",
       "littlelifely.com"
@@ -19,8 +19,8 @@
       "Records without a source-provided Australian country are excluded."
     ],
     "latest_non5_review": "2026-10-31",
-    "partial_period": "2026-10",
-    "source_checked_at": "2026-10-31T06:13:33Z"
+    "partial_period": "2026-11",
+    "source_checked_at": "2026-11-02T06:16:55Z"
   },
   "category_labels": {
     "delivery_delay_preorder_stock": "Delivery delay / preorder / stock promise",
@@ -44,15 +44,15 @@
     "wrong_missing_incomplete_order"
   ],
   "totals": {
-    "reviews": 139,
+    "reviews": 140,
     "ratings": {
-      "1": 66,
+      "1": 67,
       "2": 19,
       "3": 20,
       "4": 34
     },
     "profiles": {
-      "lifely.com.au": 126,
+      "lifely.com.au": 127,
       "littlelifely.com": 13
     },
     "categories": {
@@ -65,12 +65,25 @@
       "no_explicit_complaint": 14,
       "price_value_expectation": 2,
       "product_quality_defect_durability": 12,
-      "return_refund_cancellation_warranty": 10,
+      "return_refund_cancellation_warranty": 11,
       "website_ordering_payment_promotion": 3,
       "wrong_missing_incomplete_order": 14
     }
   },
   "records": [
+    {
+      "region": "AU",
+      "profile": "lifely.com.au",
+      "month": "2026-10",
+      "quarter": "Q4 MTD",
+      "published_date": "2026-10-31",
+      "rating": 1,
+      "category": "return_refund_cancellation_warranty",
+      "delivery_related": false,
+      "title": "1 box for bed frame not delivered",
+      "excerpt": "1 box for bed frame not delivered. No resolution offered from company. Absolutely appalling for the price paid. Devastated that I paid for a product that was not delivered in full. No replacement box has been sent and no refund offered. Price paid of nearly $1000…",
+      "url": "https://www.trustpilot.com/reviews/6ae64d0675d0469297cbf597"
+    },
     {
       "region": "AU",
       "profile": "littlelifely.com",
