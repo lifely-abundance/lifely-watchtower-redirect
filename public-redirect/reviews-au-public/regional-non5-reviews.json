@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "analysis_type": "public_au_non5_review_analysis",
-  "generated_at": "2026-11-02T06:16:55+00:00",
+  "generated_at": "2026-11-03T06:01:30+00:00",
   "coverage": {
     "from": "2026-01-02",
-    "through": "2026-11-02",
+    "through": "2026-11-03",
     "partial_month": "2026-11",
     "profiles": [
       "lifely.com.au",
@@ -20,7 +20,7 @@
     ],
     "latest_non5_review": "2026-10-31",
     "partial_period": "2026-11",
-    "source_checked_at": "2026-11-02T06:16:55Z"
+    "source_checked_at": "2026-11-03T06:01:30Z"
   },
   "category_labels": {
     "delivery_delay_preorder_stock": "Delivery delay / preorder / stock promise",
@@ -59,13 +59,13 @@
       "assembly_instructions_hardware": 3,
       "comfort_design_fit_usability": 20,
       "courier_tracking_delivery_handling": 29,
-      "customer_service_communication": 6,
+      "customer_service_communication": 7,
       "damaged_on_arrival": 4,
       "delivery_delay_preorder_stock": 22,
       "no_explicit_complaint": 14,
       "price_value_expectation": 2,
       "product_quality_defect_durability": 12,
-      "return_refund_cancellation_warranty": 11,
+      "return_refund_cancellation_warranty": 10,
       "website_ordering_payment_promotion": 3,
       "wrong_missing_incomplete_order": 14
     }
@@ -78,7 +78,7 @@
       "quarter": "Q4 MTD",
       "published_date": "2026-10-31",
       "rating": 1,
-      "category": "return_refund_cancellation_warranty",
+      "category": "customer_service_communication",
       "delivery_related": false,
       "title": "1 box for bed frame not delivered",
       "excerpt": "1 box for bed frame not delivered. No resolution offered from company. Absolutely appalling for the price paid. Devastated that I paid for a product that was not delivered in full. No replacement box has been sent and no refund offered. Price paid of nearly $1000…",
