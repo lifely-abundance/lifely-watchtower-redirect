@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "analysis_type": "public_au_non5_review_analysis",
-  "generated_at": "2026-11-04T06:17:27+00:00",
+  "generated_at": "2026-11-05T06:01:25+00:00",
   "coverage": {
     "from": "2026-01-02",
-    "through": "2026-11-04",
+    "through": "2026-11-05",
     "partial_month": "2026-11",
     "profiles": [
       "lifely.com.au",
@@ -18,9 +18,9 @@
       "Reviewer country is source-provided and is not order destination.",
       "Records without a source-provided Australian country are excluded."
     ],
-    "latest_non5_review": "2026-10-31",
+    "latest_non5_review": "2026-11-04",
     "partial_period": "2026-11",
-    "source_checked_at": "2026-11-04T06:17:27Z"
+    "source_checked_at": "2026-11-05T06:01:24Z"
   },
   "category_labels": {
     "delivery_delay_preorder_stock": "Delivery delay / preorder / stock promise",
@@ -44,21 +44,21 @@
     "wrong_missing_incomplete_order"
   ],
   "totals": {
-    "reviews": 140,
+    "reviews": 141,
     "ratings": {
       "1": 67,
       "2": 19,
-      "3": 20,
+      "3": 21,
       "4": 34
     },
     "profiles": {
       "lifely.com.au": 127,
-      "littlelifely.com": 13
+      "littlelifely.com": 14
     },
     "categories": {
       "assembly_instructions_hardware": 3,
       "comfort_design_fit_usability": 20,
-      "courier_tracking_delivery_handling": 29,
+      "courier_tracking_delivery_handling": 30,
       "customer_service_communication": 7,
       "damaged_on_arrival": 4,
       "delivery_delay_preorder_stock": 22,
@@ -71,6 +71,19 @@
     }
   },
   "records": [
+    {
+      "region": "AU",
+      "profile": "littlelifely.com",
+      "month": "2026-11",
+      "quarter": "Q4 MTD",
+      "published_date": "2026-11-04",
+      "rating": 3,
+      "category": "courier_tracking_delivery_handling",
+      "delivery_related": true,
+      "title": "Courier Company lets them down!",
+      "excerpt": "If it had been about just the bed I would have given 5 stars but unfortunately these people use THE worst courier company I’ve ever had the misfortune to use. Firstly back to the bed, I haven’t slept in it as I’ve got it for my grandson and he hasn’t used it yet but it all looks really good and comfortable. The bed was sent out in a reasonable time but I had to wait in numerous days where Hunter Express told me it wa",
+      "url": "https://www.trustpilot.com/reviews/6aeb1e3ed59ba88780c1e846"
+    },
     {
       "region": "AU",
       "profile": "lifely.com.au",
