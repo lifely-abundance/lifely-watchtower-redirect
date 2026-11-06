@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "analysis_type": "public_au_non5_review_analysis",
-  "generated_at": "2026-11-05T06:01:25+00:00",
+  "generated_at": "2026-11-06T06:01:25+00:00",
   "coverage": {
     "from": "2026-01-02",
-    "through": "2026-11-05",
+    "through": "2026-11-06",
     "partial_month": "2026-11",
     "profiles": [
       "lifely.com.au",
@@ -18,9 +18,9 @@
       "Reviewer country is source-provided and is not order destination.",
       "Records without a source-provided Australian country are excluded."
     ],
-    "latest_non5_review": "2026-11-04",
+    "latest_non5_review": "2026-11-06",
     "partial_period": "2026-11",
-    "source_checked_at": "2026-11-05T06:01:24Z"
+    "source_checked_at": "2026-11-06T06:01:24Z"
   },
   "category_labels": {
     "delivery_delay_preorder_stock": "Delivery delay / preorder / stock promise",
@@ -44,19 +44,19 @@
     "wrong_missing_incomplete_order"
   ],
   "totals": {
-    "reviews": 141,
+    "reviews": 142,
     "ratings": {
-      "1": 67,
+      "1": 68,
       "2": 19,
       "3": 21,
       "4": 34
     },
     "profiles": {
       "lifely.com.au": 127,
-      "littlelifely.com": 14
+      "littlelifely.com": 15
     },
     "categories": {
-      "assembly_instructions_hardware": 3,
+      "assembly_instructions_hardware": 4,
       "comfort_design_fit_usability": 20,
       "courier_tracking_delivery_handling": 30,
       "customer_service_communication": 7,
@@ -71,6 +71,19 @@
     }
   },
   "records": [
+    {
+      "region": "AU",
+      "profile": "littlelifely.com",
+      "month": "2026-11",
+      "quarter": "Q4 MTD",
+      "published_date": "2026-11-06",
+      "rating": 1,
+      "category": "assembly_instructions_hardware",
+      "delivery_related": false,
+      "title": "Very hard to assemble",
+      "excerpt": "Shipping took a long time to arrive and the bed is extremely difficult to put together specifically getting the cover on and the video and instructions do not assist. I had to pay someone to come assemble the bed. Better instructions and videos should be provided.",
+      "url": "https://www.trustpilot.com/reviews/6aed10d4125950ac466f4e12"
+    },
     {
       "region": "AU",
       "profile": "littlelifely.com",

@@ -5,7 +5,7 @@
     "label": "Australia only",
     "rule": "Includes only source-attributed Australian reviews. Unknown and non-Australian records are excluded."
   },
-  "last_updated": "2026-11-05T06:01:24Z",
+  "last_updated": "2026-11-06T06:01:25Z",
   "metric_definition": "Captured AU review history only. Scores are calculated from dated, source-attributed Australian reviews and are not global platform scores.",
   "sources": [
     {
@@ -36,19 +36,19 @@
       "platform": "Trustpilot",
       "label": "Little Lifely Trustpilot",
       "url": "https://www.trustpilot.com/review/littlelifely.com",
-      "score": 4.85,
-      "total_reviews": 162,
+      "score": 4.82,
+      "total_reviews": 165,
       "score_delta": null,
       "review_delta": null,
       "to_next_0_1_est_reviews": null,
       "source_note": "Captured Australian review history only.",
       "color": "#00a76f",
-      "history_records": 162,
+      "history_records": 165,
       "history_first_review_at": "2026-05-18T02:56:25Z",
-      "history_last_review_at": "2026-11-05T05:31:50Z",
+      "history_last_review_at": "2026-11-06T02:38:17Z",
       "history_method": "AU-only derivative of the verified Watchtower review history",
       "history_limitation": "Only records with a defensible Australian country/state attribution are included; unknown and non-Australian records are excluded.",
-      "region_records": 162,
+      "region_records": 165,
       "region_unavailable_records": 0,
       "region_source": "Public reviewer country supplied by Trustpilot."
     },
@@ -7785,12 +7785,12 @@
         "brand": "Little Lifely",
         "platform": "Trustpilot",
         "label": "Little Lifely Trustpilot",
-        "records": 162,
+        "records": 165,
         "first_review_at": "2026-05-18T02:56:25Z",
-        "last_review_at": "2026-11-05T05:31:50Z",
+        "last_review_at": "2026-11-06T02:38:17Z",
         "method": "AU-only derivative of the verified Watchtower review history",
         "limitation": "Only records with a defensible Australian country/state attribution are included; unknown and non-Australian records are excluded.",
-        "region_records": 162,
+        "region_records": 165,
         "region_unavailable_records": 0,
         "region_source": "Public reviewer country supplied by Trustpilot."
       },
@@ -8967,24 +8967,40 @@
           "start": "2026-11-02",
           "end": "2026-11-08",
           "is_partial": true,
-          "review_count": 17,
-          "average_score": 4.88,
+          "review_count": 20,
+          "average_score": 4.7,
           "stars": {
-            "1": 0,
+            "1": 1,
             "2": 0,
             "3": 1,
             "4": 0,
-            "5": 16
+            "5": 18
           },
-          "low_star_count": 0,
-          "positive_count": 16,
-          "complaint_themes": [],
+          "low_star_count": 1,
+          "positive_count": 18,
+          "complaint_themes": [
+            {
+              "theme": "assembly_setup_use",
+              "label": "Assembly / setup / everyday use",
+              "count": 1,
+              "share": 100.0,
+              "previous_count": 0,
+              "delta_vs_previous": 1,
+              "example": {
+                "rating": 1,
+                "date": "2026-11-06T01:27:16Z",
+                "text": "Very hard to assemble Shipping took a long time to arrive and the bed is extremely difficult to put together specifically getting the cover on and the video and instructions do not assist. I had to pay someone to come assemble the bed. Better instructions and videos should be provided.",
+                "url": "https://www.trustpilot.com/reviews/6aed10d4125950ac466f4e12"
+              },
+              "recommended_action": "Add clearer setup videos, unboxing steps, and troubleshooting for recurring mechanism or cover-fit friction."
+            }
+          ],
           "positive_themes": [
             {
               "theme": "service_recovery",
               "label": "Helpful service / recovery",
               "count": 5,
-              "share": 31.2,
+              "share": 27.8,
               "previous_count": 4,
               "delta_vs_previous": 1,
               "example": {
@@ -8995,10 +9011,24 @@
               }
             },
             {
+              "theme": "comfort_product_love",
+              "label": "Comfort and product feel",
+              "count": 5,
+              "share": 27.8,
+              "previous_count": 5,
+              "delta_vs_previous": 0,
+              "example": {
+                "rating": 5,
+                "date": "2026-11-03T12:10:41Z",
+                "text": "Absolutely love this bed Absolutely love this bed! We purchased the double for our toddler and couldn’t be happier. It’s incredibly stylish, super comfortable and amazing quality. The soft, high sides give us extra peace of mind as our little one is a very active sleeper. We love that you can custo…",
+                "url": "https://www.trustpilot.com/reviews/6ae9b32105d786efc2d175c9"
+              }
+            },
+            {
               "theme": "easy_setup_conversion",
               "label": "Easy setup / quick transform",
               "count": 4,
-              "share": 25.0,
+              "share": 22.2,
               "previous_count": 1,
               "delta_vs_previous": 3,
               "example": {
@@ -9012,7 +9042,7 @@
               "theme": "shipping_positive",
               "label": "Fast or clear delivery",
               "count": 4,
-              "share": 25.0,
+              "share": 22.2,
               "previous_count": 1,
               "delta_vs_previous": 3,
               "example": {
@@ -9020,20 +9050,6 @@
                 "date": "2026-11-03T04:10:42Z",
                 "text": "My order was actioned quickly and all… My order was actioned quickly and all appropriate confirmations received, which gave me a lot of confidence after making my purchase. A follow up email to Customer Care was promptly responded to indicating that support was readily available. We are now looking…",
                 "url": "https://www.trustpilot.com/reviews/6ae942a2b535cc766afea977"
-              }
-            },
-            {
-              "theme": "comfort_product_love",
-              "label": "Comfort and product feel",
-              "count": 3,
-              "share": 18.8,
-              "previous_count": 5,
-              "delta_vs_previous": -2,
-              "example": {
-                "rating": 5,
-                "date": "2026-11-03T12:10:41Z",
-                "text": "Absolutely love this bed Absolutely love this bed! We purchased the double for our toddler and couldn’t be happier. It’s incredibly stylish, super comfortable and amazing quality. The soft, high sides give us extra peace of mind as our little one is a very active sleeper. We love that you can custo…",
-                "url": "https://www.trustpilot.com/reviews/6ae9b32105d786efc2d175c9"
               }
             }
           ]
@@ -9488,24 +9504,54 @@
           "start": "2026-11-01",
           "end": "2026-11-30",
           "is_partial": true,
-          "review_count": 18,
-          "average_score": 4.89,
+          "review_count": 21,
+          "average_score": 4.71,
           "stars": {
-            "1": 0,
+            "1": 1,
             "2": 0,
             "3": 1,
             "4": 0,
-            "5": 17
+            "5": 19
           },
-          "low_star_count": 0,
-          "positive_count": 17,
-          "complaint_themes": [],
+          "low_star_count": 1,
+          "positive_count": 19,
+          "complaint_themes": [
+            {
+              "theme": "assembly_setup_use",
+              "label": "Assembly / setup / everyday use",
+              "count": 1,
+              "share": 100.0,
+              "previous_count": 0,
+              "delta_vs_previous": 1,
+              "example": {
+                "rating": 1,
+                "date": "2026-11-06T01:27:16Z",
+                "text": "Very hard to assemble Shipping took a long time to arrive and the bed is extremely difficult to put together specifically getting the cover on and the video and instructions do not assist. I had to pay someone to come assemble the bed. Better instructions and videos should be provided.",
+                "url": "https://www.trustpilot.com/reviews/6aed10d4125950ac466f4e12"
+              },
+              "recommended_action": "Add clearer setup videos, unboxing steps, and troubleshooting for recurring mechanism or cover-fit friction."
+            }
+          ],
           "positive_themes": [
+            {
+              "theme": "comfort_product_love",
+              "label": "Comfort and product feel",
+              "count": 6,
+              "share": 31.6,
+              "previous_count": 21,
+              "delta_vs_previous": -15,
+              "example": {
+                "rating": 5,
+                "date": "2026-11-01T01:50:02Z",
+                "text": "Absolutely love this bed! Absolutely love this bed!! Totally worth the wait. It took a little longer to arrive as it was a pre order but it was so worth it. Our daughter loves her bed so much, she plays on it multiple times a day and has been sleeping so much better overnight. Our family and friend…",
+                "url": "https://www.trustpilot.com/reviews/6ae67eaa9180e6043c5d5095"
+              }
+            },
             {
               "theme": "service_recovery",
               "label": "Helpful service / recovery",
               "count": 5,
-              "share": 29.4,
+              "share": 26.3,
               "previous_count": 6,
               "delta_vs_previous": -1,
               "example": {
@@ -9516,24 +9562,10 @@
               }
             },
             {
-              "theme": "comfort_product_love",
-              "label": "Comfort and product feel",
-              "count": 4,
-              "share": 23.5,
-              "previous_count": 21,
-              "delta_vs_previous": -17,
-              "example": {
-                "rating": 5,
-                "date": "2026-11-01T01:50:02Z",
-                "text": "Absolutely love this bed! Absolutely love this bed!! Totally worth the wait. It took a little longer to arrive as it was a pre order but it was so worth it. Our daughter loves her bed so much, she plays on it multiple times a day and has been sleeping so much better overnight. Our family and friend…",
-                "url": "https://www.trustpilot.com/reviews/6ae67eaa9180e6043c5d5095"
-              }
-            },
-            {
               "theme": "easy_setup_conversion",
               "label": "Easy setup / quick transform",
               "count": 4,
-              "share": 23.5,
+              "share": 21.1,
               "previous_count": 2,
               "delta_vs_previous": 2,
               "example": {
@@ -9547,7 +9579,7 @@
               "theme": "shipping_positive",
               "label": "Fast or clear delivery",
               "count": 4,
-              "share": 23.5,
+              "share": 21.1,
               "previous_count": 7,
               "delta_vs_previous": -3,
               "example": {
@@ -9564,7 +9596,7 @@
         {
           "key": "AU",
           "label": "Australia",
-          "records": 162,
+          "records": 165,
           "weekly": [
             {
               "key": "2026-05-18",
@@ -10738,24 +10770,40 @@
               "start": "2026-11-02",
               "end": "2026-11-08",
               "is_partial": true,
-              "review_count": 17,
-              "average_score": 4.88,
+              "review_count": 20,
+              "average_score": 4.7,
               "stars": {
-                "1": 0,
+                "1": 1,
                 "2": 0,
                 "3": 1,
                 "4": 0,
-                "5": 16
+                "5": 18
               },
-              "low_star_count": 0,
-              "positive_count": 16,
-              "complaint_themes": [],
+              "low_star_count": 1,
+              "positive_count": 18,
+              "complaint_themes": [
+                {
+                  "theme": "assembly_setup_use",
+                  "label": "Assembly / setup / everyday use",
+                  "count": 1,
+                  "share": 100.0,
+                  "previous_count": 0,
+                  "delta_vs_previous": 1,
+                  "example": {
+                    "rating": 1,
+                    "date": "2026-11-06T01:27:16Z",
+                    "text": "Very hard to assemble Shipping took a long time to arrive and the bed is extremely difficult to put together specifically getting the cover on and the video and instructions do not assist. I had to pay someone to come assemble the bed. Better instructions and videos should be provided.",
+                    "url": "https://www.trustpilot.com/reviews/6aed10d4125950ac466f4e12"
+                  },
+                  "recommended_action": "Add clearer setup videos, unboxing steps, and troubleshooting for recurring mechanism or cover-fit friction."
+                }
+              ],
               "positive_themes": [
                 {
                   "theme": "service_recovery",
                   "label": "Helpful service / recovery",
                   "count": 5,
-                  "share": 31.2,
+                  "share": 27.8,
                   "previous_count": 4,
                   "delta_vs_previous": 1,
                   "example": {
@@ -10766,10 +10814,24 @@
                   }
                 },
                 {
+                  "theme": "comfort_product_love",
+                  "label": "Comfort and product feel",
+                  "count": 5,
+                  "share": 27.8,
+                  "previous_count": 5,
+                  "delta_vs_previous": 0,
+                  "example": {
+                    "rating": 5,
+                    "date": "2026-11-03T12:10:41Z",
+                    "text": "Absolutely love this bed Absolutely love this bed! We purchased the double for our toddler and couldn’t be happier. It’s incredibly stylish, super comfortable and amazing quality. The soft, high sides give us extra peace of mind as our little one is a very active sleeper. We love that you can custo…",
+                    "url": "https://www.trustpilot.com/reviews/6ae9b32105d786efc2d175c9"
+                  }
+                },
+                {
                   "theme": "easy_setup_conversion",
                   "label": "Easy setup / quick transform",
                   "count": 4,
-                  "share": 25.0,
+                  "share": 22.2,
                   "previous_count": 1,
                   "delta_vs_previous": 3,
                   "example": {
@@ -10783,7 +10845,7 @@
                   "theme": "shipping_positive",
                   "label": "Fast or clear delivery",
                   "count": 4,
-                  "share": 25.0,
+                  "share": 22.2,
                   "previous_count": 1,
                   "delta_vs_previous": 3,
                   "example": {
@@ -10791,20 +10853,6 @@
                     "date": "2026-11-03T04:10:42Z",
                     "text": "My order was actioned quickly and all… My order was actioned quickly and all appropriate confirmations received, which gave me a lot of confidence after making my purchase. A follow up email to Customer Care was promptly responded to indicating that support was readily available. We are now looking…",
                     "url": "https://www.trustpilot.com/reviews/6ae942a2b535cc766afea977"
-                  }
-                },
-                {
-                  "theme": "comfort_product_love",
-                  "label": "Comfort and product feel",
-                  "count": 3,
-                  "share": 18.8,
-                  "previous_count": 5,
-                  "delta_vs_previous": -2,
-                  "example": {
-                    "rating": 5,
-                    "date": "2026-11-03T12:10:41Z",
-                    "text": "Absolutely love this bed Absolutely love this bed! We purchased the double for our toddler and couldn’t be happier. It’s incredibly stylish, super comfortable and amazing quality. The soft, high sides give us extra peace of mind as our little one is a very active sleeper. We love that you can custo…",
-                    "url": "https://www.trustpilot.com/reviews/6ae9b32105d786efc2d175c9"
                   }
                 }
               ]
@@ -11259,24 +11307,54 @@
               "start": "2026-11-01",
               "end": "2026-11-30",
               "is_partial": true,
-              "review_count": 18,
-              "average_score": 4.89,
+              "review_count": 21,
+              "average_score": 4.71,
               "stars": {
-                "1": 0,
+                "1": 1,
                 "2": 0,
                 "3": 1,
                 "4": 0,
-                "5": 17
+                "5": 19
               },
-              "low_star_count": 0,
-              "positive_count": 17,
-              "complaint_themes": [],
+              "low_star_count": 1,
+              "positive_count": 19,
+              "complaint_themes": [
+                {
+                  "theme": "assembly_setup_use",
+                  "label": "Assembly / setup / everyday use",
+                  "count": 1,
+                  "share": 100.0,
+                  "previous_count": 0,
+                  "delta_vs_previous": 1,
+                  "example": {
+                    "rating": 1,
+                    "date": "2026-11-06T01:27:16Z",
+                    "text": "Very hard to assemble Shipping took a long time to arrive and the bed is extremely difficult to put together specifically getting the cover on and the video and instructions do not assist. I had to pay someone to come assemble the bed. Better instructions and videos should be provided.",
+                    "url": "https://www.trustpilot.com/reviews/6aed10d4125950ac466f4e12"
+                  },
+                  "recommended_action": "Add clearer setup videos, unboxing steps, and troubleshooting for recurring mechanism or cover-fit friction."
+                }
+              ],
               "positive_themes": [
+                {
+                  "theme": "comfort_product_love",
+                  "label": "Comfort and product feel",
+                  "count": 6,
+                  "share": 31.6,
+                  "previous_count": 21,
+                  "delta_vs_previous": -15,
+                  "example": {
+                    "rating": 5,
+                    "date": "2026-11-01T01:50:02Z",
+                    "text": "Absolutely love this bed! Absolutely love this bed!! Totally worth the wait. It took a little longer to arrive as it was a pre order but it was so worth it. Our daughter loves her bed so much, she plays on it multiple times a day and has been sleeping so much better overnight. Our family and friend…",
+                    "url": "https://www.trustpilot.com/reviews/6ae67eaa9180e6043c5d5095"
+                  }
+                },
                 {
                   "theme": "service_recovery",
                   "label": "Helpful service / recovery",
                   "count": 5,
-                  "share": 29.4,
+                  "share": 26.3,
                   "previous_count": 6,
                   "delta_vs_previous": -1,
                   "example": {
@@ -11287,24 +11365,10 @@
                   }
                 },
                 {
-                  "theme": "comfort_product_love",
-                  "label": "Comfort and product feel",
-                  "count": 4,
-                  "share": 23.5,
-                  "previous_count": 21,
-                  "delta_vs_previous": -17,
-                  "example": {
-                    "rating": 5,
-                    "date": "2026-11-01T01:50:02Z",
-                    "text": "Absolutely love this bed! Absolutely love this bed!! Totally worth the wait. It took a little longer to arrive as it was a pre order but it was so worth it. Our daughter loves her bed so much, she plays on it multiple times a day and has been sleeping so much better overnight. Our family and friend…",
-                    "url": "https://www.trustpilot.com/reviews/6ae67eaa9180e6043c5d5095"
-                  }
-                },
-                {
                   "theme": "easy_setup_conversion",
                   "label": "Easy setup / quick transform",
                   "count": 4,
-                  "share": 23.5,
+                  "share": 21.1,
                   "previous_count": 2,
                   "delta_vs_previous": 2,
                   "example": {
@@ -11318,7 +11382,7 @@
                   "theme": "shipping_positive",
                   "label": "Fast or clear delivery",
                   "count": 4,
-                  "share": 23.5,
+                  "share": 21.1,
                   "previous_count": 7,
                   "delta_vs_previous": -3,
                   "example": {
@@ -36243,12 +36307,12 @@
       "brand": "Little Lifely",
       "platform": "Trustpilot",
       "label": "Little Lifely Trustpilot",
-      "records": 162,
+      "records": 165,
       "first_review_at": "2026-05-18T02:56:25Z",
-      "last_review_at": "2026-11-05T05:31:50Z",
+      "last_review_at": "2026-11-06T02:38:17Z",
       "method": "AU-only derivative of the verified Watchtower review history",
       "limitation": "Only records with a defensible Australian country/state attribution are included; unknown and non-Australian records are excluded.",
-      "region_records": 162,
+      "region_records": 165,
       "region_unavailable_records": 0,
       "region_source": "Public reviewer country supplied by Trustpilot."
     },
