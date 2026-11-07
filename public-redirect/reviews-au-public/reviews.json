@@ -5,7 +5,7 @@
     "label": "Australia only",
     "rule": "Includes only source-attributed Australian reviews. Unknown and non-Australian records are excluded."
   },
-  "last_updated": "2026-11-06T06:01:25Z",
+  "last_updated": "2026-11-07T06:01:34Z",
   "metric_definition": "Captured AU review history only. Scores are calculated from dated, source-attributed Australian reviews and are not global platform scores.",
   "sources": [
     {
@@ -36,19 +36,19 @@
       "platform": "Trustpilot",
       "label": "Little Lifely Trustpilot",
       "url": "https://www.trustpilot.com/review/littlelifely.com",
-      "score": 4.82,
-      "total_reviews": 165,
+      "score": 4.83,
+      "total_reviews": 168,
       "score_delta": null,
       "review_delta": null,
       "to_next_0_1_est_reviews": null,
       "source_note": "Captured Australian review history only.",
       "color": "#00a76f",
-      "history_records": 165,
+      "history_records": 168,
       "history_first_review_at": "2026-05-18T02:56:25Z",
-      "history_last_review_at": "2026-11-06T02:38:17Z",
+      "history_last_review_at": "2026-11-07T04:35:03Z",
       "history_method": "AU-only derivative of the verified Watchtower review history",
       "history_limitation": "Only records with a defensible Australian country/state attribution are included; unknown and non-Australian records are excluded.",
-      "region_records": 165,
+      "region_records": 168,
       "region_unavailable_records": 0,
       "region_source": "Public reviewer country supplied by Trustpilot."
     },
@@ -7785,12 +7785,12 @@
         "brand": "Little Lifely",
         "platform": "Trustpilot",
         "label": "Little Lifely Trustpilot",
-        "records": 165,
+        "records": 168,
         "first_review_at": "2026-05-18T02:56:25Z",
-        "last_review_at": "2026-11-06T02:38:17Z",
+        "last_review_at": "2026-11-07T04:35:03Z",
         "method": "AU-only derivative of the verified Watchtower review history",
         "limitation": "Only records with a defensible Australian country/state attribution are included; unknown and non-Australian records are excluded.",
-        "region_records": 165,
+        "region_records": 168,
         "region_unavailable_records": 0,
         "region_source": "Public reviewer country supplied by Trustpilot."
       },
@@ -8967,17 +8967,17 @@
           "start": "2026-11-02",
           "end": "2026-11-08",
           "is_partial": true,
-          "review_count": 20,
-          "average_score": 4.7,
+          "review_count": 23,
+          "average_score": 4.74,
           "stars": {
             "1": 1,
             "2": 0,
             "3": 1,
             "4": 0,
-            "5": 18
+            "5": 21
           },
           "low_star_count": 1,
-          "positive_count": 18,
+          "positive_count": 21,
           "complaint_themes": [
             {
               "theme": "assembly_setup_use",
@@ -8997,10 +8997,24 @@
           ],
           "positive_themes": [
             {
+              "theme": "comfort_product_love",
+              "label": "Comfort and product feel",
+              "count": 8,
+              "share": 38.1,
+              "previous_count": 5,
+              "delta_vs_previous": 3,
+              "example": {
+                "rating": 5,
+                "date": "2026-11-03T12:10:41Z",
+                "text": "Absolutely love this bed Absolutely love this bed! We purchased the double for our toddler and couldn’t be happier. It’s incredibly stylish, super comfortable and amazing quality. The soft, high sides give us extra peace of mind as our little one is a very active sleeper. We love that you can custo…",
+                "url": "https://www.trustpilot.com/reviews/6ae9b32105d786efc2d175c9"
+              }
+            },
+            {
               "theme": "service_recovery",
               "label": "Helpful service / recovery",
               "count": 5,
-              "share": 27.8,
+              "share": 23.8,
               "previous_count": 4,
               "delta_vs_previous": 1,
               "example": {
@@ -9011,24 +9025,10 @@
               }
             },
             {
-              "theme": "comfort_product_love",
-              "label": "Comfort and product feel",
-              "count": 5,
-              "share": 27.8,
-              "previous_count": 5,
-              "delta_vs_previous": 0,
-              "example": {
-                "rating": 5,
-                "date": "2026-11-03T12:10:41Z",
-                "text": "Absolutely love this bed Absolutely love this bed! We purchased the double for our toddler and couldn’t be happier. It’s incredibly stylish, super comfortable and amazing quality. The soft, high sides give us extra peace of mind as our little one is a very active sleeper. We love that you can custo…",
-                "url": "https://www.trustpilot.com/reviews/6ae9b32105d786efc2d175c9"
-              }
-            },
-            {
               "theme": "easy_setup_conversion",
               "label": "Easy setup / quick transform",
               "count": 4,
-              "share": 22.2,
+              "share": 19.0,
               "previous_count": 1,
               "delta_vs_previous": 3,
               "example": {
@@ -9042,7 +9042,7 @@
               "theme": "shipping_positive",
               "label": "Fast or clear delivery",
               "count": 4,
-              "share": 22.2,
+              "share": 19.0,
               "previous_count": 1,
               "delta_vs_previous": 3,
               "example": {
@@ -9504,17 +9504,17 @@
           "start": "2026-11-01",
           "end": "2026-11-30",
           "is_partial": true,
-          "review_count": 21,
-          "average_score": 4.71,
+          "review_count": 24,
+          "average_score": 4.75,
           "stars": {
             "1": 1,
             "2": 0,
             "3": 1,
             "4": 0,
-            "5": 19
+            "5": 22
           },
           "low_star_count": 1,
-          "positive_count": 19,
+          "positive_count": 22,
           "complaint_themes": [
             {
               "theme": "assembly_setup_use",
@@ -9536,10 +9536,10 @@
             {
               "theme": "comfort_product_love",
               "label": "Comfort and product feel",
-              "count": 6,
-              "share": 31.6,
+              "count": 9,
+              "share": 40.9,
               "previous_count": 21,
-              "delta_vs_previous": -15,
+              "delta_vs_previous": -12,
               "example": {
                 "rating": 5,
                 "date": "2026-11-01T01:50:02Z",
@@ -9551,7 +9551,7 @@
               "theme": "service_recovery",
               "label": "Helpful service / recovery",
               "count": 5,
-              "share": 26.3,
+              "share": 22.7,
               "previous_count": 6,
               "delta_vs_previous": -1,
               "example": {
@@ -9565,7 +9565,7 @@
               "theme": "easy_setup_conversion",
               "label": "Easy setup / quick transform",
               "count": 4,
-              "share": 21.1,
+              "share": 18.2,
               "previous_count": 2,
               "delta_vs_previous": 2,
               "example": {
@@ -9579,7 +9579,7 @@
               "theme": "shipping_positive",
               "label": "Fast or clear delivery",
               "count": 4,
-              "share": 21.1,
+              "share": 18.2,
               "previous_count": 7,
               "delta_vs_previous": -3,
               "example": {
@@ -9596,7 +9596,7 @@
         {
           "key": "AU",
           "label": "Australia",
-          "records": 165,
+          "records": 168,
           "weekly": [
             {
               "key": "2026-05-18",
@@ -10770,17 +10770,17 @@
               "start": "2026-11-02",
               "end": "2026-11-08",
               "is_partial": true,
-              "review_count": 20,
-              "average_score": 4.7,
+              "review_count": 23,
+              "average_score": 4.74,
               "stars": {
                 "1": 1,
                 "2": 0,
                 "3": 1,
                 "4": 0,
-                "5": 18
+                "5": 21
               },
               "low_star_count": 1,
-              "positive_count": 18,
+              "positive_count": 21,
               "complaint_themes": [
                 {
                   "theme": "assembly_setup_use",
@@ -10800,10 +10800,24 @@
               ],
               "positive_themes": [
                 {
+                  "theme": "comfort_product_love",
+                  "label": "Comfort and product feel",
+                  "count": 8,
+                  "share": 38.1,
+                  "previous_count": 5,
+                  "delta_vs_previous": 3,
+                  "example": {
+                    "rating": 5,
+                    "date": "2026-11-03T12:10:41Z",
+                    "text": "Absolutely love this bed Absolutely love this bed! We purchased the double for our toddler and couldn’t be happier. It’s incredibly stylish, super comfortable and amazing quality. The soft, high sides give us extra peace of mind as our little one is a very active sleeper. We love that you can custo…",
+                    "url": "https://www.trustpilot.com/reviews/6ae9b32105d786efc2d175c9"
+                  }
+                },
+                {
                   "theme": "service_recovery",
                   "label": "Helpful service / recovery",
                   "count": 5,
-                  "share": 27.8,
+                  "share": 23.8,
                   "previous_count": 4,
                   "delta_vs_previous": 1,
                   "example": {
@@ -10814,24 +10828,10 @@
                   }
                 },
                 {
-                  "theme": "comfort_product_love",
-                  "label": "Comfort and product feel",
-                  "count": 5,
-                  "share": 27.8,
-                  "previous_count": 5,
-                  "delta_vs_previous": 0,
-                  "example": {
-                    "rating": 5,
-                    "date": "2026-11-03T12:10:41Z",
-                    "text": "Absolutely love this bed Absolutely love this bed! We purchased the double for our toddler and couldn’t be happier. It’s incredibly stylish, super comfortable and amazing quality. The soft, high sides give us extra peace of mind as our little one is a very active sleeper. We love that you can custo…",
-                    "url": "https://www.trustpilot.com/reviews/6ae9b32105d786efc2d175c9"
-                  }
-                },
-                {
                   "theme": "easy_setup_conversion",
                   "label": "Easy setup / quick transform",
                   "count": 4,
-                  "share": 22.2,
+                  "share": 19.0,
                   "previous_count": 1,
                   "delta_vs_previous": 3,
                   "example": {
@@ -10845,7 +10845,7 @@
                   "theme": "shipping_positive",
                   "label": "Fast or clear delivery",
                   "count": 4,
-                  "share": 22.2,
+                  "share": 19.0,
                   "previous_count": 1,
                   "delta_vs_previous": 3,
                   "example": {
@@ -11307,17 +11307,17 @@
               "start": "2026-11-01",
               "end": "2026-11-30",
               "is_partial": true,
-              "review_count": 21,
-              "average_score": 4.71,
+              "review_count": 24,
+              "average_score": 4.75,
               "stars": {
                 "1": 1,
                 "2": 0,
                 "3": 1,
                 "4": 0,
-                "5": 19
+                "5": 22
               },
               "low_star_count": 1,
-              "positive_count": 19,
+              "positive_count": 22,
               "complaint_themes": [
                 {
                   "theme": "assembly_setup_use",
@@ -11339,10 +11339,10 @@
                 {
                   "theme": "comfort_product_love",
                   "label": "Comfort and product feel",
-                  "count": 6,
-                  "share": 31.6,
+                  "count": 9,
+                  "share": 40.9,
                   "previous_count": 21,
-                  "delta_vs_previous": -15,
+                  "delta_vs_previous": -12,
                   "example": {
                     "rating": 5,
                     "date": "2026-11-01T01:50:02Z",
@@ -11354,7 +11354,7 @@
                   "theme": "service_recovery",
                   "label": "Helpful service / recovery",
                   "count": 5,
-                  "share": 26.3,
+                  "share": 22.7,
                   "previous_count": 6,
                   "delta_vs_previous": -1,
                   "example": {
@@ -11368,7 +11368,7 @@
                   "theme": "easy_setup_conversion",
                   "label": "Easy setup / quick transform",
                   "count": 4,
-                  "share": 21.1,
+                  "share": 18.2,
                   "previous_count": 2,
                   "delta_vs_previous": 2,
                   "example": {
@@ -11382,7 +11382,7 @@
                   "theme": "shipping_positive",
                   "label": "Fast or clear delivery",
                   "count": 4,
-                  "share": 21.1,
+                  "share": 18.2,
                   "previous_count": 7,
                   "delta_vs_previous": -3,
                   "example": {
@@ -36307,12 +36307,12 @@
       "brand": "Little Lifely",
       "platform": "Trustpilot",
       "label": "Little Lifely Trustpilot",
-      "records": 165,
+      "records": 168,
       "first_review_at": "2026-05-18T02:56:25Z",
-      "last_review_at": "2026-11-06T02:38:17Z",
+      "last_review_at": "2026-11-07T04:35:03Z",
       "method": "AU-only derivative of the verified Watchtower review history",
       "limitation": "Only records with a defensible Australian country/state attribution are included; unknown and non-Australian records are excluded.",
-      "region_records": 165,
+      "region_records": 168,
       "region_unavailable_records": 0,
       "region_source": "Public reviewer country supplied by Trustpilot."
     },
