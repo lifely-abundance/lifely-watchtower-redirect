@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "analysis_type": "public_au_non5_review_analysis",
-  "generated_at": "2026-11-09T06:01:55+00:00",
+  "generated_at": "2026-11-10T06:15:07+00:00",
   "coverage": {
     "from": "2026-01-02",
-    "through": "2026-11-09",
+    "through": "2026-11-10",
     "partial_month": "2026-11",
     "profiles": [
       "lifely.com.au",
@@ -18,9 +18,9 @@
       "Reviewer country is source-provided and is not order destination.",
       "Records without a source-provided Australian country are excluded."
     ],
-    "latest_non5_review": "2026-11-08",
+    "latest_non5_review": "2026-11-09",
     "partial_period": "2026-11",
-    "source_checked_at": "2026-11-09T06:01:54Z"
+    "source_checked_at": "2026-11-10T06:15:07Z"
   },
   "category_labels": {
     "delivery_delay_preorder_stock": "Delivery delay / preorder / stock promise",
@@ -44,25 +44,25 @@
     "wrong_missing_incomplete_order"
   ],
   "totals": {
-    "reviews": 143,
+    "reviews": 146,
     "ratings": {
-      "1": 68,
+      "1": 69,
       "2": 19,
       "3": 21,
-      "4": 35
+      "4": 37
     },
     "profiles": {
       "lifely.com.au": 127,
-      "littlelifely.com": 16
+      "littlelifely.com": 19
     },
     "categories": {
-      "assembly_instructions_hardware": 4,
-      "comfort_design_fit_usability": 20,
+      "assembly_instructions_hardware": 5,
+      "comfort_design_fit_usability": 21,
       "courier_tracking_delivery_handling": 30,
       "customer_service_communication": 8,
       "damaged_on_arrival": 4,
       "delivery_delay_preorder_stock": 22,
-      "no_explicit_complaint": 14,
+      "no_explicit_complaint": 15,
       "price_value_expectation": 2,
       "product_quality_defect_durability": 12,
       "return_refund_cancellation_warranty": 10,
@@ -71,6 +71,45 @@
     }
   },
   "records": [
+    {
+      "region": "AU",
+      "profile": "littlelifely.com",
+      "month": "2026-11",
+      "quarter": "Q4 MTD",
+      "published_date": "2026-11-09",
+      "rating": 1,
+      "category": "no_explicit_complaint",
+      "delivery_related": false,
+      "title": "missed delivery 1 month ahead of needed",
+      "excerpt": "Terrible delivery service - We requested a delivery date 1 month from when needed. they DID NOT deliver on the window of dates in time for moving homes & staying for the very first nights..!! My family of 4 had to sleep on the FLOOR for 7 nights straight - WHAT A JOKE, their excuse was they thought delivery date required was the send date...OR they would only send it all as 1 dedlivery as it came from 2 warehouses &",
+      "url": "https://www.trustpilot.com/reviews/6af14aaf8776f721fdfb9a02"
+    },
+    {
+      "region": "AU",
+      "profile": "littlelifely.com",
+      "month": "2026-11",
+      "quarter": "Q4 MTD",
+      "published_date": "2026-11-09",
+      "rating": 4,
+      "category": "assembly_instructions_hardware",
+      "delivery_related": false,
+      "title": "Great floor bed for toddler transition",
+      "excerpt": "Great floor bed for toddler transition! The mattress is quite hard and springy, so I would’ve liked better quality for the price. The set up was easy in some ways and extremely difficult in others. Trying to place the fabric around the foam blocks was too hard by myself; as the last few zips were so tight and hard to lock in without a lot of pulling back and forward. Toddler enjoys it at 18 months but I feel it’s bes",
+      "url": "https://www.trustpilot.com/reviews/6af14aa3bc6767b1320b1bb0"
+    },
+    {
+      "region": "AU",
+      "profile": "littlelifely.com",
+      "month": "2026-11",
+      "quarter": "Q4 MTD",
+      "published_date": "2026-11-09",
+      "rating": 4,
+      "category": "comfort_design_fit_usability",
+      "delivery_related": true,
+      "title": "Recommend to any",
+      "excerpt": "I have received my purchase, and I’m thrilled to say it looks exactly like the bed I saw advertised on Instagram. That was one of my biggest concerns when ordering online, so it was a wonderful surprise to see it arrive looking just as beautiful as the photos. I’ll be honest, the zippers took a little patience to work out, but once everything came together, the result was fantastic. The craftsmanship and overall desi",
+      "url": "https://www.trustpilot.com/reviews/6af14a722afd40ca2f8fe9f3"
+    },
     {
       "region": "AU",
       "profile": "littlelifely.com",
