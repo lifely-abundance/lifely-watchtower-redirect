@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "analysis_type": "public_au_non5_review_analysis",
-  "generated_at": "2026-11-10T06:15:07+00:00",
+  "generated_at": "2026-11-11T06:22:24+00:00",
   "coverage": {
     "from": "2026-01-02",
-    "through": "2026-11-10",
+    "through": "2026-11-11",
     "partial_month": "2026-11",
     "profiles": [
       "lifely.com.au",
@@ -18,9 +18,9 @@
       "Reviewer country is source-provided and is not order destination.",
       "Records without a source-provided Australian country are excluded."
     ],
-    "latest_non5_review": "2026-11-09",
+    "latest_non5_review": "2026-11-11",
     "partial_period": "2026-11",
-    "source_checked_at": "2026-11-10T06:15:07Z"
+    "source_checked_at": "2026-11-11T06:22:24Z"
   },
   "category_labels": {
     "delivery_delay_preorder_stock": "Delivery delay / preorder / stock promise",
@@ -44,19 +44,19 @@
     "wrong_missing_incomplete_order"
   ],
   "totals": {
-    "reviews": 146,
+    "reviews": 147,
     "ratings": {
       "1": 69,
       "2": 19,
-      "3": 21,
+      "3": 22,
       "4": 37
     },
     "profiles": {
       "lifely.com.au": 127,
-      "littlelifely.com": 19
+      "littlelifely.com": 20
     },
     "categories": {
-      "assembly_instructions_hardware": 5,
+      "assembly_instructions_hardware": 6,
       "comfort_design_fit_usability": 21,
       "courier_tracking_delivery_handling": 30,
       "customer_service_communication": 8,
@@ -71,6 +71,19 @@
     }
   },
   "records": [
+    {
+      "region": "AU",
+      "profile": "littlelifely.com",
+      "month": "2026-11",
+      "quarter": "Q4 MTD",
+      "published_date": "2026-11-11",
+      "rating": 3,
+      "category": "assembly_instructions_hardware",
+      "delivery_related": false,
+      "title": "Once our bed finally arrived after…",
+      "excerpt": "Once our bed finally arrived after multiple issues in the postage phase we have been able to put it together and try it out. So far so good. If you’re willing to wait ages for it to be delivered the bed is worth the money. Our little one loves it",
+      "url": "https://www.trustpilot.com/reviews/6af3a15f3cf2dc7cbe8b6a99"
+    },
     {
       "region": "AU",
       "profile": "littlelifely.com",
