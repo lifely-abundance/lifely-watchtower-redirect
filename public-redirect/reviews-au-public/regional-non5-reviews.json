@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "analysis_type": "public_au_non5_review_analysis",
-  "generated_at": "2026-11-11T06:22:24+00:00",
+  "generated_at": "2026-11-13T06:19:01+00:00",
   "coverage": {
     "from": "2026-01-02",
-    "through": "2026-11-11",
+    "through": "2026-11-13",
     "partial_month": "2026-11",
     "profiles": [
       "lifely.com.au",
@@ -18,9 +18,9 @@
       "Reviewer country is source-provided and is not order destination.",
       "Records without a source-provided Australian country are excluded."
     ],
-    "latest_non5_review": "2026-11-11",
+    "latest_non5_review": "2026-11-12",
     "partial_period": "2026-11",
-    "source_checked_at": "2026-11-11T06:22:24Z"
+    "source_checked_at": "2026-11-13T06:19:00Z"
   },
   "category_labels": {
     "delivery_delay_preorder_stock": "Delivery delay / preorder / stock promise",
@@ -44,22 +44,22 @@
     "wrong_missing_incomplete_order"
   ],
   "totals": {
-    "reviews": 147,
+    "reviews": 148,
     "ratings": {
       "1": 69,
       "2": 19,
       "3": 22,
-      "4": 37
+      "4": 38
     },
     "profiles": {
       "lifely.com.au": 127,
-      "littlelifely.com": 20
+      "littlelifely.com": 21
     },
     "categories": {
       "assembly_instructions_hardware": 6,
       "comfort_design_fit_usability": 21,
       "courier_tracking_delivery_handling": 30,
-      "customer_service_communication": 8,
+      "customer_service_communication": 9,
       "damaged_on_arrival": 4,
       "delivery_delay_preorder_stock": 22,
       "no_explicit_complaint": 15,
@@ -71,6 +71,19 @@
     }
   },
   "records": [
+    {
+      "region": "AU",
+      "profile": "littlelifely.com",
+      "month": "2026-11",
+      "quarter": "Q4 MTD",
+      "published_date": "2026-11-12",
+      "rating": 4,
+      "category": "customer_service_communication",
+      "delivery_related": false,
+      "title": "Cocoon Bed & Cushie 2 Seater sofa",
+      "excerpt": "Opted to go for the cocoon bed as toddler beds don’t come in a queen but it’s okay as both are floor beds. had some trouble ordering the flow vents for underneath but contacted customer service and Marianne was extremely helpful and has provided ongoing support through the process. i am excited to received the bed and also the cushie two seater sofa for my child’s playroom.",
+      "url": "https://www.trustpilot.com/reviews/6af5ac1539709a2b6c14704d"
+    },
     {
       "region": "AU",
       "profile": "littlelifely.com",

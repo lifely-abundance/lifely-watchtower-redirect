@@ -5,7 +5,7 @@
     "label": "Australia only",
     "rule": "Includes only source-attributed Australian reviews. Unknown and non-Australian records are excluded."
   },
-  "last_updated": "2026-11-11T06:22:24Z",
+  "last_updated": "2026-11-13T06:19:01Z",
   "metric_definition": "Captured AU review history only. Scores are calculated from dated, source-attributed Australian reviews and are not global platform scores.",
   "sources": [
     {
@@ -15,18 +15,18 @@
       "label": "Lifely Trustpilot",
       "url": "https://www.trustpilot.com/review/lifely.com.au",
       "score": 4.02,
-      "total_reviews": 319,
+      "total_reviews": 320,
       "score_delta": null,
       "review_delta": null,
       "to_next_0_1_est_reviews": null,
       "source_note": "Captured Australian review history only.",
       "color": "#00a76f",
-      "history_records": 319,
+      "history_records": 320,
       "history_first_review_at": "2026-03-30T03:09:17Z",
-      "history_last_review_at": "2026-11-09T22:26:58Z",
+      "history_last_review_at": "2026-11-12T07:56:43Z",
       "history_method": "AU-only derivative of the verified Watchtower review history",
       "history_limitation": "Only records with a defensible Australian country/state attribution are included; unknown and non-Australian records are excluded.",
-      "region_records": 319,
+      "region_records": 320,
       "region_unavailable_records": 0,
       "region_source": "Public reviewer country supplied by Trustpilot."
     },
@@ -36,19 +36,19 @@
       "platform": "Trustpilot",
       "label": "Little Lifely Trustpilot",
       "url": "https://www.trustpilot.com/review/littlelifely.com",
-      "score": 4.79,
-      "total_reviews": 184,
+      "score": 4.8,
+      "total_reviews": 193,
       "score_delta": null,
       "review_delta": null,
       "to_next_0_1_est_reviews": null,
       "source_note": "Captured Australian review history only.",
       "color": "#00a76f",
-      "history_records": 184,
+      "history_records": 193,
       "history_first_review_at": "2026-05-18T02:56:25Z",
-      "history_last_review_at": "2026-11-11T00:57:35Z",
+      "history_last_review_at": "2026-11-13T03:14:41Z",
       "history_method": "AU-only derivative of the verified Watchtower review history",
       "history_limitation": "Only records with a defensible Australian country/state attribution are included; unknown and non-Australian records are excluded.",
-      "region_records": 184,
+      "region_records": 193,
       "region_unavailable_records": 0,
       "region_source": "Public reviewer country supplied by Trustpilot."
     },
@@ -128,12 +128,12 @@
         "brand": "Lifely",
         "platform": "Trustpilot",
         "label": "Lifely Trustpilot",
-        "records": 319,
+        "records": 320,
         "first_review_at": "2026-03-30T03:09:17Z",
-        "last_review_at": "2026-11-09T22:26:58Z",
+        "last_review_at": "2026-11-12T07:56:43Z",
         "method": "AU-only derivative of the verified Watchtower review history",
         "limitation": "Only records with a defensible Australian country/state attribution are included; unknown and non-Australian records are excluded.",
-        "region_records": 319,
+        "region_records": 320,
         "region_unavailable_records": 0,
         "region_source": "Public reviewer country supplied by Trustpilot."
       },
@@ -2980,26 +2980,26 @@
           "start": "2026-11-09",
           "end": "2026-11-15",
           "is_partial": true,
-          "review_count": 3,
+          "review_count": 4,
           "average_score": 5.0,
           "stars": {
             "1": 0,
             "2": 0,
             "3": 0,
             "4": 0,
-            "5": 3
+            "5": 4
           },
           "low_star_count": 0,
-          "positive_count": 3,
+          "positive_count": 4,
           "complaint_themes": [],
           "positive_themes": [
             {
               "theme": "service_recovery",
               "label": "Helpful service / recovery",
-              "count": 2,
-              "share": 66.7,
+              "count": 3,
+              "share": 75.0,
               "previous_count": 1,
-              "delta_vs_previous": 1,
+              "delta_vs_previous": 2,
               "example": {
                 "rating": 5,
                 "date": "2026-11-09T11:51:48Z",
@@ -3011,7 +3011,7 @@
               "theme": "easy_setup_conversion",
               "label": "Easy setup / quick transform",
               "count": 1,
-              "share": 33.3,
+              "share": 25.0,
               "previous_count": 0,
               "delta_vs_previous": 1,
               "example": {
@@ -3986,26 +3986,26 @@
           "start": "2026-11-01",
           "end": "2026-11-30",
           "is_partial": true,
-          "review_count": 5,
+          "review_count": 6,
           "average_score": 5.0,
           "stars": {
             "1": 0,
             "2": 0,
             "3": 0,
             "4": 0,
-            "5": 5
+            "5": 6
           },
           "low_star_count": 0,
-          "positive_count": 5,
+          "positive_count": 6,
           "complaint_themes": [],
           "positive_themes": [
             {
               "theme": "service_recovery",
               "label": "Helpful service / recovery",
-              "count": 3,
-              "share": 60.0,
+              "count": 4,
+              "share": 66.7,
               "previous_count": 5,
-              "delta_vs_previous": -2,
+              "delta_vs_previous": -1,
               "example": {
                 "rating": 5,
                 "date": "2026-11-08T13:18:18Z",
@@ -4017,7 +4017,7 @@
               "theme": "shipping_positive",
               "label": "Fast or clear delivery",
               "count": 1,
-              "share": 20.0,
+              "share": 16.7,
               "previous_count": 6,
               "delta_vs_previous": -5,
               "example": {
@@ -4031,7 +4031,7 @@
               "theme": "easy_setup_conversion",
               "label": "Easy setup / quick transform",
               "count": 1,
-              "share": 20.0,
+              "share": 16.7,
               "previous_count": 3,
               "delta_vs_previous": -2,
               "example": {
@@ -4048,7 +4048,7 @@
         {
           "key": "AU",
           "label": "Australia",
-          "records": 319,
+          "records": 320,
           "weekly": [
             {
               "key": "2026-03-30",
@@ -6892,26 +6892,26 @@
               "start": "2026-11-09",
               "end": "2026-11-15",
               "is_partial": true,
-              "review_count": 3,
+              "review_count": 4,
               "average_score": 5.0,
               "stars": {
                 "1": 0,
                 "2": 0,
                 "3": 0,
                 "4": 0,
-                "5": 3
+                "5": 4
               },
               "low_star_count": 0,
-              "positive_count": 3,
+              "positive_count": 4,
               "complaint_themes": [],
               "positive_themes": [
                 {
                   "theme": "service_recovery",
                   "label": "Helpful service / recovery",
-                  "count": 2,
-                  "share": 66.7,
+                  "count": 3,
+                  "share": 75.0,
                   "previous_count": 1,
-                  "delta_vs_previous": 1,
+                  "delta_vs_previous": 2,
                   "example": {
                     "rating": 5,
                     "date": "2026-11-09T11:51:48Z",
@@ -6923,7 +6923,7 @@
                   "theme": "easy_setup_conversion",
                   "label": "Easy setup / quick transform",
                   "count": 1,
-                  "share": 33.3,
+                  "share": 25.0,
                   "previous_count": 0,
                   "delta_vs_previous": 1,
                   "example": {
@@ -7898,26 +7898,26 @@
               "start": "2026-11-01",
               "end": "2026-11-30",
               "is_partial": true,
-              "review_count": 5,
+              "review_count": 6,
               "average_score": 5.0,
               "stars": {
                 "1": 0,
                 "2": 0,
                 "3": 0,
                 "4": 0,
-                "5": 5
+                "5": 6
               },
               "low_star_count": 0,
-              "positive_count": 5,
+              "positive_count": 6,
               "complaint_themes": [],
               "positive_themes": [
                 {
                   "theme": "service_recovery",
                   "label": "Helpful service / recovery",
-                  "count": 3,
-                  "share": 60.0,
+                  "count": 4,
+                  "share": 66.7,
                   "previous_count": 5,
-                  "delta_vs_previous": -2,
+                  "delta_vs_previous": -1,
                   "example": {
                     "rating": 5,
                     "date": "2026-11-08T13:18:18Z",
@@ -7929,7 +7929,7 @@
                   "theme": "shipping_positive",
                   "label": "Fast or clear delivery",
                   "count": 1,
-                  "share": 20.0,
+                  "share": 16.7,
                   "previous_count": 6,
                   "delta_vs_previous": -5,
                   "example": {
@@ -7943,7 +7943,7 @@
                   "theme": "easy_setup_conversion",
                   "label": "Easy setup / quick transform",
                   "count": 1,
-                  "share": 20.0,
+                  "share": 16.7,
                   "previous_count": 3,
                   "delta_vs_previous": -2,
                   "example": {
@@ -7967,12 +7967,12 @@
         "brand": "Little Lifely",
         "platform": "Trustpilot",
         "label": "Little Lifely Trustpilot",
-        "records": 184,
+        "records": 193,
         "first_review_at": "2026-05-18T02:56:25Z",
-        "last_review_at": "2026-11-11T00:57:35Z",
+        "last_review_at": "2026-11-13T03:14:41Z",
         "method": "AU-only derivative of the verified Watchtower review history",
         "limitation": "Only records with a defensible Australian country/state attribution are included; unknown and non-Australian records are excluded.",
-        "region_records": 184,
+        "region_records": 193,
         "region_unavailable_records": 0,
         "region_source": "Public reviewer country supplied by Trustpilot."
       },
@@ -9242,17 +9242,17 @@
           "start": "2026-11-09",
           "end": "2026-11-15",
           "is_partial": true,
-          "review_count": 11,
-          "average_score": 4.27,
+          "review_count": 20,
+          "average_score": 4.55,
           "stars": {
             "1": 1,
             "2": 0,
             "3": 1,
-            "4": 2,
-            "5": 7
+            "4": 3,
+            "5": 15
           },
           "low_star_count": 1,
-          "positive_count": 9,
+          "positive_count": 18,
           "complaint_themes": [
             {
               "theme": "delivery_delay_tracking",
@@ -9274,10 +9274,10 @@
             {
               "theme": "service_recovery",
               "label": "Helpful service / recovery",
-              "count": 5,
+              "count": 10,
               "share": 55.6,
               "previous_count": 6,
-              "delta_vs_previous": -1,
+              "delta_vs_previous": 4,
               "example": {
                 "rating": 5,
                 "date": "2026-11-09T03:54:22Z",
@@ -9288,10 +9288,10 @@
             {
               "theme": "comfort_product_love",
               "label": "Comfort and product feel",
-              "count": 3,
+              "count": 6,
               "share": 33.3,
               "previous_count": 9,
-              "delta_vs_previous": -6,
+              "delta_vs_previous": -3,
               "example": {
                 "rating": 4,
                 "date": "2026-11-09T06:22:10Z",
@@ -9302,10 +9302,10 @@
             {
               "theme": "shipping_positive",
               "label": "Fast or clear delivery",
-              "count": 1,
+              "count": 2,
               "share": 11.1,
               "previous_count": 5,
-              "delta_vs_previous": -4,
+              "delta_vs_previous": -3,
               "example": {
                 "rating": 5,
                 "date": "2026-11-10T02:09:45Z",
@@ -9765,17 +9765,17 @@
           "start": "2026-11-01",
           "end": "2026-11-30",
           "is_partial": true,
-          "review_count": 40,
-          "average_score": 4.62,
+          "review_count": 49,
+          "average_score": 4.67,
           "stars": {
             "1": 2,
             "2": 0,
             "3": 2,
-            "4": 3,
-            "5": 33
+            "4": 4,
+            "5": 41
           },
           "low_star_count": 2,
-          "positive_count": 36,
+          "positive_count": 45,
           "complaint_themes": [
             {
               "theme": "assembly_setup_use",
@@ -9812,10 +9812,10 @@
             {
               "theme": "comfort_product_love",
               "label": "Comfort and product feel",
-              "count": 13,
-              "share": 36.1,
+              "count": 16,
+              "share": 35.6,
               "previous_count": 21,
-              "delta_vs_previous": -8,
+              "delta_vs_previous": -5,
               "example": {
                 "rating": 5,
                 "date": "2026-11-01T01:50:02Z",
@@ -9826,10 +9826,10 @@
             {
               "theme": "service_recovery",
               "label": "Helpful service / recovery",
-              "count": 11,
-              "share": 30.6,
+              "count": 16,
+              "share": 35.6,
               "previous_count": 6,
-              "delta_vs_previous": 5,
+              "delta_vs_previous": 10,
               "example": {
                 "rating": 5,
                 "date": "2026-11-03T03:19:21Z",
@@ -9838,10 +9838,24 @@
               }
             },
             {
+              "theme": "shipping_positive",
+              "label": "Fast or clear delivery",
+              "count": 7,
+              "share": 15.6,
+              "previous_count": 7,
+              "delta_vs_previous": 0,
+              "example": {
+                "rating": 5,
+                "date": "2026-11-03T04:10:42Z",
+                "text": "My order was actioned quickly and all… My order was actioned quickly and all appropriate confirmations received, which gave me a lot of confidence after making my purchase. A follow up email to Customer Care was promptly responded to indicating that support was readily available. We are now looking…",
+                "url": "https://www.trustpilot.com/reviews/6ae942a2b535cc766afea977"
+              }
+            },
+            {
               "theme": "easy_setup_conversion",
               "label": "Easy setup / quick transform",
               "count": 6,
-              "share": 16.7,
+              "share": 13.3,
               "previous_count": 2,
               "delta_vs_previous": 4,
               "example": {
@@ -9849,20 +9863,6 @@
                 "date": "2026-11-02T04:50:17Z",
                 "text": "Was easy to assemble Was easy to assemble, and my son loves his big boy bed",
                 "url": "https://www.trustpilot.com/reviews/6ae7fa69d7da341fc96794ee"
-              }
-            },
-            {
-              "theme": "shipping_positive",
-              "label": "Fast or clear delivery",
-              "count": 6,
-              "share": 16.7,
-              "previous_count": 7,
-              "delta_vs_previous": -1,
-              "example": {
-                "rating": 5,
-                "date": "2026-11-03T04:10:42Z",
-                "text": "My order was actioned quickly and all… My order was actioned quickly and all appropriate confirmations received, which gave me a lot of confidence after making my purchase. A follow up email to Customer Care was promptly responded to indicating that support was readily available. We are now looking…",
-                "url": "https://www.trustpilot.com/reviews/6ae942a2b535cc766afea977"
               }
             }
           ]
@@ -9872,7 +9872,7 @@
         {
           "key": "AU",
           "label": "Australia",
-          "records": 184,
+          "records": 193,
           "weekly": [
             {
               "key": "2026-05-18",
@@ -11139,17 +11139,17 @@
               "start": "2026-11-09",
               "end": "2026-11-15",
               "is_partial": true,
-              "review_count": 11,
-              "average_score": 4.27,
+              "review_count": 20,
+              "average_score": 4.55,
               "stars": {
                 "1": 1,
                 "2": 0,
                 "3": 1,
-                "4": 2,
-                "5": 7
+                "4": 3,
+                "5": 15
               },
               "low_star_count": 1,
-              "positive_count": 9,
+              "positive_count": 18,
               "complaint_themes": [
                 {
                   "theme": "delivery_delay_tracking",
@@ -11171,10 +11171,10 @@
                 {
                   "theme": "service_recovery",
                   "label": "Helpful service / recovery",
-                  "count": 5,
+                  "count": 10,
                   "share": 55.6,
                   "previous_count": 6,
-                  "delta_vs_previous": -1,
+                  "delta_vs_previous": 4,
                   "example": {
                     "rating": 5,
                     "date": "2026-11-09T03:54:22Z",
@@ -11185,10 +11185,10 @@
                 {
                   "theme": "comfort_product_love",
                   "label": "Comfort and product feel",
-                  "count": 3,
+                  "count": 6,
                   "share": 33.3,
                   "previous_count": 9,
-                  "delta_vs_previous": -6,
+                  "delta_vs_previous": -3,
                   "example": {
                     "rating": 4,
                     "date": "2026-11-09T06:22:10Z",
@@ -11199,10 +11199,10 @@
                 {
                   "theme": "shipping_positive",
                   "label": "Fast or clear delivery",
-                  "count": 1,
+                  "count": 2,
                   "share": 11.1,
                   "previous_count": 5,
-                  "delta_vs_previous": -4,
+                  "delta_vs_previous": -3,
                   "example": {
                     "rating": 5,
                     "date": "2026-11-10T02:09:45Z",
@@ -11662,17 +11662,17 @@
               "start": "2026-11-01",
               "end": "2026-11-30",
               "is_partial": true,
-              "review_count": 40,
-              "average_score": 4.62,
+              "review_count": 49,
+              "average_score": 4.67,
               "stars": {
                 "1": 2,
                 "2": 0,
                 "3": 2,
-                "4": 3,
-                "5": 33
+                "4": 4,
+                "5": 41
               },
               "low_star_count": 2,
-              "positive_count": 36,
+              "positive_count": 45,
               "complaint_themes": [
                 {
                   "theme": "assembly_setup_use",
@@ -11709,10 +11709,10 @@
                 {
                   "theme": "comfort_product_love",
                   "label": "Comfort and product feel",
-                  "count": 13,
-                  "share": 36.1,
+                  "count": 16,
+                  "share": 35.6,
                   "previous_count": 21,
-                  "delta_vs_previous": -8,
+                  "delta_vs_previous": -5,
                   "example": {
                     "rating": 5,
                     "date": "2026-11-01T01:50:02Z",
@@ -11723,10 +11723,10 @@
                 {
                   "theme": "service_recovery",
                   "label": "Helpful service / recovery",
-                  "count": 11,
-                  "share": 30.6,
+                  "count": 16,
+                  "share": 35.6,
                   "previous_count": 6,
-                  "delta_vs_previous": 5,
+                  "delta_vs_previous": 10,
                   "example": {
                     "rating": 5,
                     "date": "2026-11-03T03:19:21Z",
@@ -11735,10 +11735,24 @@
                   }
                 },
                 {
+                  "theme": "shipping_positive",
+                  "label": "Fast or clear delivery",
+                  "count": 7,
+                  "share": 15.6,
+                  "previous_count": 7,
+                  "delta_vs_previous": 0,
+                  "example": {
+                    "rating": 5,
+                    "date": "2026-11-03T04:10:42Z",
+                    "text": "My order was actioned quickly and all… My order was actioned quickly and all appropriate confirmations received, which gave me a lot of confidence after making my purchase. A follow up email to Customer Care was promptly responded to indicating that support was readily available. We are now looking…",
+                    "url": "https://www.trustpilot.com/reviews/6ae942a2b535cc766afea977"
+                  }
+                },
+                {
                   "theme": "easy_setup_conversion",
                   "label": "Easy setup / quick transform",
                   "count": 6,
-                  "share": 16.7,
+                  "share": 13.3,
                   "previous_count": 2,
                   "delta_vs_previous": 4,
                   "example": {
@@ -11746,20 +11760,6 @@
                     "date": "2026-11-02T04:50:17Z",
                     "text": "Was easy to assemble Was easy to assemble, and my son loves his big boy bed",
                     "url": "https://www.trustpilot.com/reviews/6ae7fa69d7da341fc96794ee"
-                  }
-                },
-                {
-                  "theme": "shipping_positive",
-                  "label": "Fast or clear delivery",
-                  "count": 6,
-                  "share": 16.7,
-                  "previous_count": 7,
-                  "delta_vs_previous": -1,
-                  "example": {
-                    "rating": 5,
-                    "date": "2026-11-03T04:10:42Z",
-                    "text": "My order was actioned quickly and all… My order was actioned quickly and all appropriate confirmations received, which gave me a lot of confidence after making my purchase. A follow up email to Customer Care was promptly responded to indicating that support was readily available. We are now looking…",
-                    "url": "https://www.trustpilot.com/reviews/6ae942a2b535cc766afea977"
                   }
                 }
               ]
@@ -36842,12 +36842,12 @@
       "brand": "Lifely",
       "platform": "Trustpilot",
       "label": "Lifely Trustpilot",
-      "records": 319,
+      "records": 320,
       "first_review_at": "2026-03-30T03:09:17Z",
-      "last_review_at": "2026-11-09T22:26:58Z",
+      "last_review_at": "2026-11-12T07:56:43Z",
       "method": "AU-only derivative of the verified Watchtower review history",
       "limitation": "Only records with a defensible Australian country/state attribution are included; unknown and non-Australian records are excluded.",
-      "region_records": 319,
+      "region_records": 320,
       "region_unavailable_records": 0,
       "region_source": "Public reviewer country supplied by Trustpilot."
     },
@@ -36855,12 +36855,12 @@
       "brand": "Little Lifely",
       "platform": "Trustpilot",
       "label": "Little Lifely Trustpilot",
-      "records": 184,
+      "records": 193,
       "first_review_at": "2026-05-18T02:56:25Z",
-      "last_review_at": "2026-11-11T00:57:35Z",
+      "last_review_at": "2026-11-13T03:14:41Z",
       "method": "AU-only derivative of the verified Watchtower review history",
       "limitation": "Only records with a defensible Australian country/state attribution are included; unknown and non-Australian records are excluded.",
-      "region_records": 184,
+      "region_records": 193,
       "region_unavailable_records": 0,
       "region_source": "Public reviewer country supplied by Trustpilot."
     },
