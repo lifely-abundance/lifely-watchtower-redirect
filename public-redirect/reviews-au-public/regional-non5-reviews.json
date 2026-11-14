@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "analysis_type": "public_au_non5_review_analysis",
-  "generated_at": "2026-11-13T06:19:01+00:00",
+  "generated_at": "2026-11-14T06:23:07+00:00",
   "coverage": {
     "from": "2026-01-02",
-    "through": "2026-11-13",
+    "through": "2026-11-14",
     "partial_month": "2026-11",
     "profiles": [
       "lifely.com.au",
@@ -20,7 +20,7 @@
     ],
     "latest_non5_review": "2026-11-12",
     "partial_period": "2026-11",
-    "source_checked_at": "2026-11-13T06:19:00Z"
+    "source_checked_at": "2026-11-14T06:23:07Z"
   },
   "category_labels": {
     "delivery_delay_preorder_stock": "Delivery delay / preorder / stock promise",
