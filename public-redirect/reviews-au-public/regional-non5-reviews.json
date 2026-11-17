@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "analysis_type": "public_au_non5_review_analysis",
-  "generated_at": "2026-11-16T06:01:56+00:00",
+  "generated_at": "2026-11-17T06:15:43+00:00",
   "coverage": {
     "from": "2026-01-02",
-    "through": "2026-11-16",
+    "through": "2026-11-17",
     "partial_month": "2026-11",
     "profiles": [
       "lifely.com.au",
@@ -20,7 +20,7 @@
     ],
     "latest_non5_review": "2026-11-16",
     "partial_period": "2026-11",
-    "source_checked_at": "2026-11-16T06:01:55Z"
+    "source_checked_at": "2026-11-17T06:15:42Z"
   },
   "category_labels": {
     "delivery_delay_preorder_stock": "Delivery delay / preorder / stock promise",
@@ -44,19 +44,19 @@
     "wrong_missing_incomplete_order"
   ],
   "totals": {
-    "reviews": 152,
+    "reviews": 153,
     "ratings": {
       "1": 70,
       "2": 20,
       "3": 22,
-      "4": 40
+      "4": 41
     },
     "profiles": {
       "lifely.com.au": 128,
-      "littlelifely.com": 24
+      "littlelifely.com": 25
     },
     "categories": {
-      "assembly_instructions_hardware": 6,
+      "assembly_instructions_hardware": 7,
       "comfort_design_fit_usability": 22,
       "courier_tracking_delivery_handling": 31,
       "customer_service_communication": 9,
@@ -71,6 +71,19 @@
     }
   },
   "records": [
+    {
+      "region": "AU",
+      "profile": "littlelifely.com",
+      "month": "2026-11",
+      "quarter": "Q4 MTD",
+      "published_date": "2026-11-16",
+      "rating": 4,
+      "category": "assembly_instructions_hardware",
+      "delivery_related": false,
+      "title": "Double bed",
+      "excerpt": "We have been loving our double bed, but enough for me and my toddler to cuddle. Soft and safe her to her jump on without worrying she will get hurt. It took some time to assemble but otherwise going great.",
+      "url": "https://www.trustpilot.com/reviews/6afaa1e100e6b4343b54c18e"
+    },
     {
       "region": "AU",
       "profile": "littlelifely.com",
