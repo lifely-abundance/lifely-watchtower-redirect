@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "analysis_type": "public_au_non5_review_analysis",
-  "generated_at": "2026-11-18T06:01:25+00:00",
+  "generated_at": "2026-11-19T06:26:28+00:00",
   "coverage": {
     "from": "2026-01-02",
-    "through": "2026-11-18",
+    "through": "2026-11-19",
     "partial_month": "2026-11",
     "profiles": [
       "lifely.com.au",
@@ -18,9 +18,9 @@
       "Reviewer country is source-provided and is not order destination.",
       "Records without a source-provided Australian country are excluded."
     ],
-    "latest_non5_review": "2026-11-17",
+    "latest_non5_review": "2026-11-18",
     "partial_period": "2026-11",
-    "source_checked_at": "2026-11-18T06:01:24Z"
+    "source_checked_at": "2026-11-19T06:26:27Z"
   },
   "category_labels": {
     "delivery_delay_preorder_stock": "Delivery delay / preorder / stock promise",
@@ -44,20 +44,20 @@
     "wrong_missing_incomplete_order"
   ],
   "totals": {
-    "reviews": 153,
+    "reviews": 154,
     "ratings": {
       "1": 70,
       "2": 20,
       "3": 22,
-      "4": 41
+      "4": 42
     },
     "profiles": {
       "lifely.com.au": 128,
-      "littlelifely.com": 25
+      "littlelifely.com": 26
     },
     "categories": {
       "assembly_instructions_hardware": 7,
-      "comfort_design_fit_usability": 22,
+      "comfort_design_fit_usability": 23,
       "courier_tracking_delivery_handling": 31,
       "customer_service_communication": 9,
       "damaged_on_arrival": 4,
@@ -71,6 +71,19 @@
     }
   },
   "records": [
+    {
+      "region": "AU",
+      "profile": "littlelifely.com",
+      "month": "2026-11",
+      "quarter": "Q4 MTD",
+      "published_date": "2026-11-18",
+      "rating": 4,
+      "category": "comfort_design_fit_usability",
+      "delivery_related": false,
+      "title": "Looks great, will have for years",
+      "excerpt": "Really great product. I bought this bed because I wanted a safe floor bed for our 2 year old son - double bed size so we could snuggle with him if he wanted. The primary reason for purchasing was the soft corners around the edges as opposed to buying one of those Montessori wooden cage beds! This was a much better option and I can see him having this for years to come. A normal mattress height comes right up to the p",
+      "url": "https://www.trustpilot.com/reviews/6afd4bcb6edce7d0cfe2697b"
+    },
     {
       "region": "AU",
       "profile": "littlelifely.com",
