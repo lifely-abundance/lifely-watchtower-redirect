@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "analysis_type": "public_au_non5_review_analysis",
-  "generated_at": "2026-11-24T06:01:26+00:00",
+  "generated_at": "2026-11-25T06:01:47+00:00",
   "coverage": {
     "from": "2026-01-02",
-    "through": "2026-11-23",
+    "through": "2026-11-25",
     "partial_month": "2026-11",
     "profiles": [
       "lifely.com.au",
@@ -18,9 +18,9 @@
       "Reviewer country is source-provided and is not order destination.",
       "Records without a source-provided Australian country are excluded."
     ],
-    "latest_non5_review": "2026-11-19",
+    "latest_non5_review": "2026-11-24",
     "partial_period": "2026-11",
-    "source_checked_at": "2026-11-24T06:01:25Z"
+    "source_checked_at": "2026-11-25T06:01:47Z"
   },
   "category_labels": {
     "delivery_delay_preorder_stock": "Delivery delay / preorder / stock promise",
@@ -44,20 +44,20 @@
     "wrong_missing_incomplete_order"
   ],
   "totals": {
-    "reviews": 155,
+    "reviews": 156,
     "ratings": {
       "1": 70,
       "2": 20,
       "3": 22,
-      "4": 43
+      "4": 44
     },
     "profiles": {
       "lifely.com.au": 129,
-      "littlelifely.com": 26
+      "littlelifely.com": 27
     },
     "categories": {
       "assembly_instructions_hardware": 7,
-      "comfort_design_fit_usability": 23,
+      "comfort_design_fit_usability": 24,
       "courier_tracking_delivery_handling": 31,
       "customer_service_communication": 9,
       "damaged_on_arrival": 4,
@@ -71,6 +71,19 @@
     }
   },
   "records": [
+    {
+      "region": "AU",
+      "profile": "littlelifely.com",
+      "month": "2026-11",
+      "quarter": "Q4 MTD",
+      "published_date": "2026-11-24",
+      "rating": 4,
+      "category": "comfort_design_fit_usability",
+      "delivery_related": false,
+      "title": "Great bed and great sales experience",
+      "excerpt": "Great bed and great sales experience, loosing one star as the mattress is not the best and is uncomfortable. Wish I had upgraded to the next mattress, maybe that wouldve been better quality and comfort.",
+      "url": "https://www.trustpilot.com/reviews/6b05304055b9063c3a66b661"
+    },
     {
       "region": "AU",
       "profile": "lifely.com.au",
